@@ -1,0 +1,17 @@
+{
+  "16": {
+    "weighted_slip_norm": 5.786906220512728e-06,
+    "max_slip": 0.00027992518890354844,
+    "nonzero_slip_fraction": 0.0008680555555555555
+  },
+  "24": {
+    "weighted_slip_norm": 0.0,
+    "max_slip": 0.0,
+    "nonzero_slip_fraction": 0.0
+  },
+  "32": {
+    "weighted_slip_norm": 0.0,
+    "max_slip": 0.0,
+    "nonzero_slip_fraction": 0.0
+  }
+}

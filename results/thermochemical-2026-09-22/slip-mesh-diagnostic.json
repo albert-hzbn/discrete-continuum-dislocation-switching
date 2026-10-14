@@ -1,0 +1,14 @@
+{
+  "initial_Piola": {
+    "relative_error": 0.14030744990279695,
+    "top_20_percent_fraction_of_squared_error": 0.8767586229880374
+  },
+  "final_Piola": {
+    "relative_error": 0.14552760631828057,
+    "top_20_percent_fraction_of_squared_error": 0.8942532471732099
+  },
+  "final_slip": {
+    "relative_error": 0.15414398892531994,
+    "top_20_percent_fraction_of_squared_error": 0.7965956045704747
+  }
+}

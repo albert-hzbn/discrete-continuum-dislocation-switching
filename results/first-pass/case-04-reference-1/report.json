@@ -1,0 +1,50 @@
+{
+  "case": 4,
+  "name": "Coherent precipitate with aligned anisotropy",
+  "variant": "reference",
+  "metrics": {
+    "steps": 400,
+    "end_time": 7.999999999999917,
+    "volume_constraint_drift": 2.2737367544323206e-13,
+    "max_recorded_energy_increase": 0.0,
+    "elastic_equilibrium_residual": 1.7623342608577206e-16,
+    "structural_force_rms": 0.005559992654410215,
+    "transient_y_over_x_aspect": 1.0989568695284109,
+    "two_precipitate_elastic_interaction": 0.1117783355484715,
+    "final_elastic_energy": 2.510834263336636,
+    "final_dofs": 4225,
+    "stored_array_bytes": 273536,
+    "peak_rss_bytes": 66666496
+  },
+  "checks": {
+    "elastic_equilibrium": true,
+    "volume_constraint": true,
+    "energy_decay": true
+  },
+  "limitations": [
+    "Shape is a finite-time state; equilibrium shape and mesh convergence are not certified.",
+    "Homogeneous plane-strain elasticity, aligned anisotropy and fixed mean strain only.",
+    "Adaptive elastic discretization and full misfit calibration remain open."
+  ],
+  "timings": {
+    "initialization_s": 0.001272666995646432,
+    "solver_s": 0.2778051163768396,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.28089733299566433,
+    "array_io_s": 0.0031922089983709157
+  },
+  "status": "partial",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

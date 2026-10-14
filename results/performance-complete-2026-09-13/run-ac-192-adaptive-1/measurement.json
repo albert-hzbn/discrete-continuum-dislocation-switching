@@ -1,0 +1,31 @@
+{
+  "config": {
+    "kind": "ac",
+    "variant": "adaptive",
+    "n": 192,
+    "dt": 0.035555555555555556
+  },
+  "categories": {
+    "initialization_s": 0.0003826249158009887,
+    "solver_s": 0.042100867605768144,
+    "adaptation_s": 0.0037504169158637524,
+    "diagnostics_s": 0.001035044202581048,
+    "compilation_s": 0.0,
+    "other_experiment_s": 0.00029675441328436136,
+    "array_output_s": 0.00146100006531924,
+    "report_output_s": 0.00013979105278849602
+  },
+  "experiment_s": 0.047565708053298295,
+  "numerical_peak_rss_bytes": 85458944,
+  "post_output_peak_rss_bytes": 85491712,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 14,
+    "numerical_threads": 1
+  }
+}

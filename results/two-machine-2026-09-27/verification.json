@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "M1_field": true,
+  "M2_declared_model": false
+ },
+ "best_seconds_per_step": 0.06807153415982611,
+ "declared_model": {
+  "prediction": 0.13335531415815544,
+  "relative_error": 0.9590466970385685
+ },
+ "post_hoc_overlap_model": {
+  "formula": "T = max(c_slow, c_fast + 2 t_msg)",
+  "prediction": 0.07329564332806816,
+  "relative_error": 0.07674440179321199
+ },
+ "field_check": {
+  "relative_Linf": 1.11e-16,
+  "bitwise": false,
+  "cells_differing": 4,
+  "serial_reference": "Mac serial, 110 steps"
+ },
+ "remote_footprint": "C:<home>/AppData/Local/Temp/bmvr (4 source files and one script, no installs); left in place under the no-permanent-delete rule.",
+ "document": "NETWORK_STRIPS_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

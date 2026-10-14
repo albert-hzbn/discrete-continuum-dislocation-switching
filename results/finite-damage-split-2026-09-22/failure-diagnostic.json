@@ -1,0 +1,34 @@
+{
+  "relative_slip_error": 0.19449798801374069,
+  "absolute_weighted_slip_error": 0.0004094944594771497,
+  "squared_error_fractions": {
+    "notch": 0.7006953466301643,
+    "bottom_pin": 0.00026159242908991334,
+    "top_strip": 0.005955886849753886,
+    "left_strip": 0.0028415174337048455
+  },
+  "peak_error_cell_center": [
+    0.35416666666666663,
+    0.5208333333333334
+  ],
+  "initial_damage_activation": {
+    "low_initial_damage_cutoff": 0.0001,
+    "low_damage_area_fraction": 0.69140625,
+    "positive_rate_fraction_within_low_damage": 1.0,
+    "mean_damage_rate_within_low_damage": 0.14561418536952747,
+    "max_damage_rate_within_low_damage": 0.19632121465607572
+  },
+  "slip_norms_and_pin_reactions": {
+    "24": {
+      "weighted_slip_norm": 0.0017478437238901076,
+      "pin_horizontal_reaction": -0.001212202976980032,
+      "net_horizontal_internal_force": -3.469446951953614e-18
+    },
+    "32": {
+      "weighted_slip_norm": 0.0021084345321145596,
+      "pin_horizontal_reaction": -0.0011569799733856239,
+      "net_horizontal_internal_force": -6.938893903907228e-18
+    }
+  },
+  "interpretation": "AT2 has no finite damage-initiation threshold at d=0 when positive elastic driving is present. Regional error fractions localize numerical discrepancy; they do not establish its cause. Region masks can overlap."
+}

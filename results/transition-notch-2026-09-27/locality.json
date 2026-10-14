@@ -1,0 +1,20 @@
+{
+ "locality": {
+  "64": {
+   "eroded": 0,
+   "broken_edge_cells": 58,
+   "fraction": 0.0
+  },
+  "96": {
+   "eroded": 0,
+   "broken_edge_cells": 88,
+   "fraction": 0.0
+  },
+  "128": {
+   "eroded": 0,
+   "broken_edge_cells": 116,
+   "fraction": 0.0
+  }
+ },
+ "D4": true
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-13",
+  "rows": [
+    {
+      "seed": 11,
+      "coarse_report": "<repo>/results/microstructure-2026-09-13/grains-long-11/report.json",
+      "fine_report": "<repo>/results/grain-mesh-2026-09-13/n128-seed11/report.json",
+      "initial_area_l1_over_domain": 0.00040512950147885904,
+      "max_late_area_l1_over_domain": 0.1059512404872654,
+      "final_area_relative_l2": 0.12219408734190992,
+      "final_grain_counts": [
+        18,
+        17
+      ],
+      "max_count_difference": 3,
+      "final_mean_areas": [
+        227.55555555555554,
+        240.94117647058823
+      ],
+      "final_mean_area_relative_change": 0.055555555555555594,
+      "growth_slopes": [
+        0.8194377062705857,
+        0.8953889581290778
+      ],
+      "von_neumann_errors": [
+        0.20004215929709232,
+        0.23478379030374677
+      ],
+      "fine_checks": {
+        "simplex": true,
+        "energy": true,
+        "grain_elimination": true,
+        "finite_time_growth": true,
+        "von_neumann_25_percent": true
+      },
+      "same_physical_seed_coordinates": true,
+      "same_observation_times": true
+    },
+    {
+      "seed": 29,
+      "coarse_report": "<repo>/results/microstructure-2026-09-13/grains-long-29/report.json",
+      "fine_report": "<repo>/results/grain-mesh-2026-09-13/n128-seed29/report.json",
+      "initial_area_l1_over_domain": 0.00036049495696951,
+      "max_late_area_l1_over_domain": 0.11933743004361498,
+      "final_area_relative_l2": 0.10810046596707472,
+      "final_grain_counts": [
+        22,
+        20
+      ],
+      "max_count_difference": 3,
+      "final_mean_areas": [
+        186.1818181818182,
+        204.8
+      ],
+      "final_mean_area_relative_change": 0.09090909090909094,
+      "growth_slopes": [
+        0.46867887824872245,
+        0.549806147739307
+      ],
+      "von_neumann_errors": [
+        0.14888603526447167,
+        0.15362538545129337
+      ],
+      "fine_checks": {
+        "simplex": true,
+        "energy": true,
+        "grain_elimination": true,
+        "finite_time_growth": true,
+        "von_neumann_25_percent": true
+      },
+      "same_physical_seed_coordinates": true,
+      "same_observation_times": true
+    },
+    {
+      "seed": 47,
+      "coarse_report": "<repo>/results/microstructure-2026-09-13/grains-long-47/report.json",
+      "fine_report": "<repo>/results/grain-mesh-2026-09-13/n128-seed47/report.json",
+      "initial_area_l1_over_domain": 0.0005096175614643893,
+      "max_late_area_l1_over_domain": 0.10367674987864514,
+      "final_area_relative_l2": 0.1376064456059928,
+      "final_grain_counts": [
+        21,
+        21
+      ],
+      "max_count_difference": 4,
+      "final_mean_areas": [
+        195.04761904761904,
+        195.04761904761904
+      ],
+      "final_mean_area_relative_change": 0.0,
+      "growth_slopes": [
+        0.5491130671734132,
+        0.5887995387134511
+      ],
+      "von_neumann_errors": [
+        0.23825505826043333,
+        0.23849814182825887
+      ],
+      "fine_checks": {
+        "simplex": true,
+        "energy": true,
+        "grain_elimination": true,
+        "finite_time_growth": true,
+        "von_neumann_25_percent": true
+      },
+      "same_physical_seed_coordinates": true,
+      "same_observation_times": true
+    }
+  ],
+  "ensemble": {
+    "final_mean_area": {
+      "means": [
+        202.9283309283309,
+        213.59626517273577
+      ],
+      "seed_sd": [
+        21.783611979601613,
+        24.178200180651487
+      ],
+      "relative_change": 0.04994438566506626
+    },
+    "growth_slope": {
+      "means": [
+        0.6124098838975738,
+        0.677998214860612
+      ],
+      "seed_sd": [
+        0.1837465757895279,
+        0.18927274653004755
+      ],
+      "relative_change": 0.09673820597967552
+    }
+  },
+  "distribution": {
+    "counts": [
+      61,
+      58
+    ],
+    "ecdf_distance": 0.07490107405313735,
+    "wasserstein_distance": 0.046111541165439626,
+    "interpretation": "Descriptive distances between normalized areas; correlated grains, no independent-sample significance claim."
+  },
+  "comparison_checks": {
+    "seed_coordinates_11": true,
+    "observation_times_11": true,
+    "fixed_steps_11": true,
+    "per_seed_final_area_11": true,
+    "seed_coordinates_29": true,
+    "observation_times_29": true,
+    "fixed_steps_29": true,
+    "per_seed_final_area_29": true,
+    "seed_coordinates_47": true,
+    "observation_times_47": true,
+    "fixed_steps_47": true,
+    "per_seed_final_area_47": true,
+    "ensemble_final_mean_area": true,
+    "ensemble_growth_slope": true
+  },
+  "fine_checks_passed": 15,
+  "fine_checks_total": 15,
+  "comparison_checks_passed": 14,
+  "comparison_checks_total": 14,
+  "all_comparison_checks_pass": true,
+  "limits": [
+    "Two grids and three paired seeds; no asymptotic mesh-convergence order or universal growth-law claim.",
+    "The same finite-width model, dt=0.05, t=160 and physical observation interval are used."
+  ]
+}

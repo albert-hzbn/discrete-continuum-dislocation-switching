@@ -1,0 +1,15 @@
+{
+  "native_gradient_reconstruction_error": 1.4432899320127035e-15,
+  "16": {
+    "relative_Piola_error_against_48": 0.12210448617002907,
+    "top_fifth_squared_error_fraction": 0.9111568425924624
+  },
+  "24": {
+    "relative_Piola_error_against_48": 0.07519479567648843,
+    "top_fifth_squared_error_fraction": 0.9103230455004305
+  },
+  "32": {
+    "relative_Piola_error_against_48": 0.0696609192986523,
+    "top_fifth_squared_error_fraction": 0.9021034160573963
+  }
+}

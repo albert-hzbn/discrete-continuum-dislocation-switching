@@ -1,0 +1,70 @@
+{
+  "case": 6,
+  "name": "Regularized screw dislocation motion and reactions",
+  "variant": "reference",
+  "metrics": {
+    "dt": 0.05,
+    "end_time": 40.0,
+    "steps_per_pair": 800,
+    "far_field_relative_error": 0.009900990099009858,
+    "fixed_core_energy_quadrature": [
+      {
+        "radial_cells": 256,
+        "relative_error": 1.6413101079092882e-06
+      },
+      {
+        "radial_cells": 512,
+        "relative_error": 2.695787770022071e-08
+      },
+      {
+        "radial_cells": 1024,
+        "relative_error": 1.6611196084489136e-08
+      }
+    ],
+    "same_sign_final_separation": 6.398703863676963,
+    "annihilation_events": [
+      {
+        "step": 545,
+        "occurred": true,
+        "released_energy": 0.054769551065620314,
+        "burgers_error": 0.0
+      }
+    ],
+    "max_recorded_energy_increase": 0.0,
+    "peak_rss_bytes": 62521344
+  },
+  "checks": {
+    "far_field_stress": true,
+    "same_sign_repulsion": true,
+    "opposite_sign_annihilation": true,
+    "burgers_balance": true,
+    "pair_energy_decay": true,
+    "core_quadrature_convergence": true
+  },
+  "limitations": [
+    "Straight screw sections and a softened pair closure; curved-line dynamics are not implemented.",
+    "Isolated stress energy and pair energy have distinct near-core closures.",
+    "A material-calibrated velocity-stress curve remains open."
+  ],
+  "timings": {
+    "initialization_s": 0.0,
+    "solver_s": 0.027382500004023314,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.02771887500421144,
+    "array_io_s": 0.0014399590145330876
+  },
+  "status": "partial",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

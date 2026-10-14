@@ -1,0 +1,66 @@
+[
+  {
+    "run": "energy-low",
+    "W": 0.5,
+    "gradient": [
+      0.5,
+      0.5,
+      0.7
+    ],
+    "phase_mobility": 1.0,
+    "rms_differences": {
+      "phase": 0.006309177578697184,
+      "population": 9.92624068950401e-05,
+      "nodes": 1.0143128163827518e-06,
+      "stress": 0.00017843075562505917
+    }
+  },
+  {
+    "run": "energy-high",
+    "W": 2.0,
+    "gradient": [
+      2.0,
+      2.0,
+      2.8
+    ],
+    "phase_mobility": 1.0,
+    "rms_differences": {
+      "phase": 0.009569268474280225,
+      "population": 0.00015051559327955964,
+      "nodes": 1.7046402992053186e-06,
+      "stress": 0.00027063115742457795
+    }
+  },
+  {
+    "run": "mobility-low",
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.0,
+      1.4
+    ],
+    "phase_mobility": 0.5,
+    "rms_differences": {
+      "phase": 0.006246104027857324,
+      "population": 9.8881742519856e-05,
+      "nodes": 1.0383121439555734e-06,
+      "stress": 0.00018115688206173192
+    }
+  },
+  {
+    "run": "mobility-high",
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.0,
+      1.4
+    ],
+    "phase_mobility": 2.0,
+    "rms_differences": {
+      "phase": 0.009486997784469322,
+      "population": 0.00014980199376997912,
+      "nodes": 1.7118912224076935e-06,
+      "stress": 0.00027862194104943087
+    }
+  }
+]

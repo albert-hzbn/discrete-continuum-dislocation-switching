@@ -1,0 +1,23 @@
+{
+  "completed_loads": 24,
+  "total_loads": 24,
+  "latest": {
+    "load": 0.0,
+    "reaction": 1.5109853094385708e-28,
+    "energy": 0.0011653197141671394,
+    "elastic_energy": 3.525698396412809e-54,
+    "fracture_energy": 0.0011653197141671394,
+    "work_trapezoid": 0.0010217254130325548,
+    "work_minus_energy_change": 0.00020281311583212925,
+    "centerline_front": 1.0,
+    "minimum_damage_increment": 0.0,
+    "damage_min": 0.007174483420808508,
+    "damage_max": 1.0,
+    "max_fixed_load_energy_increase": 0.0,
+    "mechanical_residual": 2.2205020216539152e-15,
+    "damage_residual": 0.0,
+    "alternate_iterations": 1,
+    "mechanical_iterations": 2,
+    "damage_iterations": 0
+  }
+}

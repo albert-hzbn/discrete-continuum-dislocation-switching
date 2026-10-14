@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Discrete-continuum dislocation switching: code and data for error-controlled switching between discrete and continuum dislocations in a unified defect framework"
+authors:
+  - family-names: Linda
+    given-names: Albert
+    affiliation: "Department of Materials Science and Engineering, Indian Institute of Technology Kanpur"
+    email: albert.hzbn@gmail.com
+version: 0.1.0
+date-released: 2026-10-14
+repository-code: "https://github.com/albert-hzbn/discrete-continuum-dislocation-switching"
+license: MIT
+keywords:
+  - phase field
+  - dislocation dynamics
+  - adaptive refinement
+  - multiscale coupling
+  - representation switching

@@ -1,0 +1,14 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "85",
+ "declared_gates": {
+  "M3_full_law_cnt": false
+ },
+ "section_76_gate_for_comparison": {
+  "N1_cnt_vs_bd": false
+ },
+ "document": "BARRIER_DATA_RESULTS.md",
+ "notes": "Rates computed in log space; M3 misses only at n* = 19.2 (700 K, S = 1e4, ratio 2.93)."
+}

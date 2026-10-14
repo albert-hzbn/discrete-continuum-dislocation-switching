@@ -1,0 +1,7 @@
+{
+  "error": "Invalid bounded nodal damage state.",
+  "step": 1240,
+  "n": 24,
+  "dt": 0.00025,
+  "variant": "nodal-tensile"
+}

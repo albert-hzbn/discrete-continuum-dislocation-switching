@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-13",
+  "algebra_checks_passed": 13,
+  "algebra_checks_total": 13,
+  "source_sha256": {
+    "benchmarks/thermomechanical_algebra.py": "dd4d9550d19d4f6fae909afd7fd21f73313d54f8b3ab52569eac78ce50052377",
+    "unified_multiscale_defect_framework.md": "8254fb45500a444cb2335ab569f9ca69d7a61a7bb6e8e1adab37f9a90fa2688c",
+    "THEORY_REVIEW.md": "108158fed38a25a0b7bf87c9c7940c6fa69d5e90e72e9d67adee12f72ce5bf85",
+    "THERMOMECHANICAL_THEORY_RESULTS.md": "de844bcf390afee70fa6194ad6d043b1bee7a8983ae632893c0ecaa84b497061"
+  },
+  "spatial_thermomechanical_solver_verified": false,
+  "full_original_objective_complete": false
+}

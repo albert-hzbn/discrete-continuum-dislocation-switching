@@ -1,0 +1,172 @@
+{
+  "model": "3D phase/population/FCC slip with a moving Gaussian-core dislocation loop",
+  "grid": {
+    "n": 25,
+    "length": 16.0,
+    "h": 0.64
+  },
+  "end": 0.4,
+  "dt": 0.02,
+  "pinned": false,
+  "parameters": {
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.0,
+      1.4
+    ],
+    "susceptibility": 1.0,
+    "binding": 0.15,
+    "reference_population": 0.2,
+    "phase_misfit": 0.08,
+    "solute_expansion": 0.02,
+    "hardening": 0.2,
+    "yield_stress": 0.015,
+    "slip_drag": 1.0,
+    "phase_mobility": 1.0,
+    "diffusion_mobility": 1.0
+  },
+  "mean_strain": [
+    [
+      0.0,
+      0.04,
+      -0.08
+    ],
+    [
+      0.04,
+      0.0,
+      0.0
+    ],
+    [
+      -0.08,
+      0.0,
+      0.0
+    ]
+  ],
+  "final_loops": [
+    {
+      "nodes": [
+        [
+          3.5082807749286293,
+          7.412683138337343e-07,
+          0.0
+        ],
+        [
+          3.105279472139044,
+          1.5041653814808054,
+          0.0
+        ],
+        [
+          2.0041878540402345,
+          2.6053384677344735,
+          0.0
+        ],
+        [
+          0.5000009143165978,
+          3.008403746166015,
+          0.0
+        ],
+        [
+          -1.0041783716665005,
+          2.6053240980169172,
+          0.0
+        ],
+        [
+          -2.1052616791300496,
+          1.5041546604627805,
+          0.0
+        ],
+        [
+          -2.5082705550858035,
+          -5.915499395130184e-07,
+          0.0
+        ],
+        [
+          -2.10526961297982,
+          -1.5041596021987385,
+          0.0
+        ],
+        [
+          -1.0041824923169618,
+          -2.605329809418032,
+          0.0
+        ],
+        [
+          0.49999925204643036,
+          -3.0083966050250415,
+          0.0
+        ],
+        [
+          2.0041763937669925,
+          -2.605319834596516,
+          0.0
+        ],
+        [
+          3.1052656995443235,
+          -1.5041558858643813,
+          0.0
+        ]
+      ],
+      "burgers": [
+        0.2,
+        0.0,
+        0.0
+      ],
+      "core": 0.8,
+      "core_tension": 0.01,
+      "mobility": 1.0,
+      "glide_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "metrics": {
+    "steps": 20,
+    "trial_evaluations": 20,
+    "minimum_dt": 0.019999999999999962,
+    "initial_energy": 280.356453288728,
+    "final_energy": 218.93645432078048,
+    "max_energy_increase": 0.0,
+    "inventory_drift": 0.0,
+    "maximum_node_displacement": 0.008403746215753361,
+    "maximum_equilibrium_rms": 1.9338260900663583e-16,
+    "source_divergence_max": 7.869049163098062e-16,
+    "slip_rms": 0.014663247602953887,
+    "primary_field_dofs": 218750,
+    "line_coordinate_dofs": 36
+  },
+  "checks": {
+    "energy": true,
+    "inventory": true,
+    "mechanical_equilibrium": true,
+    "source_charge": true,
+    "glide_plane": true,
+    "motion": true,
+    "slip_active": true
+  },
+  "timings": {
+    "initialization_s": 0.051044207997620106,
+    "solver_s": 0.8651895838556811,
+    "diagnostics_s": 0.00029545812867581844,
+    "unclassified_s": 3.1542032957077026e-05,
+    "experiment_s": 0.9165607920149341,
+    "compilation_s": 0.0,
+    "adaptation_s": 0.0,
+    "array_io_s": 0.10290891607291996
+  },
+  "limits": [
+    "Uniform 3D mechanics and field grid; no adaptive speedup claim.",
+    "The explicit loop and continuum slips represent distinct populations.",
+    "Loop motion and field feedback are active; interface reactions and network junctions are not yet included."
+  ],
+  "peak_rss_before_io_bytes": 100040704,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  }
+}

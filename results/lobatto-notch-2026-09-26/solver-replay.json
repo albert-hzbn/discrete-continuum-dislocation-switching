@@ -1,0 +1,16 @@
+{
+ "step": "GLL n64 step 1234 from last-accepted state t=0.30825",
+ "preconditioned_true": {
+  "outcome": "not converged in 40 iterations",
+  "residual": 1.229e-09,
+  "note": "velocity residual alternating, contraction about 0.65 per iteration; obstacle active set unchanged"
+ },
+ "full_frozen_initial_tangent": {
+  "iterations": 30,
+  "residual": 6.59e-13
+ },
+ "full_tangent_at_first_iterate": {
+  "iterations": 6,
+  "residual": 2.49e-13
+ }
+}

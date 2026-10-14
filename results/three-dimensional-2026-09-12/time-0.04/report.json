@@ -1,0 +1,115 @@
+{
+  "model": "3D periodic small-strain FCC crystal slip with phase and population fields",
+  "grid": {
+    "length": 16.0,
+    "n": 25,
+    "h": 0.64,
+    "profile_scale": 1.4142135623730951
+  },
+  "parameters": {
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.0,
+      1.4
+    ],
+    "susceptibility": 1.0,
+    "binding": 0.15,
+    "reference_population": 0.2,
+    "phase_misfit": 0.08,
+    "solute_expansion": 0.02,
+    "hardening": 0.2,
+    "yield_stress": 0.015,
+    "slip_drag": 1.0,
+    "phase_mobility": 1.0,
+    "diffusion_mobility": 1.0
+  },
+  "mean_strain": [
+    [
+      0.0,
+      0.06,
+      0.0
+    ],
+    [
+      0.06,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "dt_requested": 0.04,
+  "end": 0.4,
+  "frozen_slip": false,
+  "metrics": {
+    "inventory_drift": 2.2737367544323206e-13,
+    "max_energy_increase": 0.0,
+    "equilibrium_rms_max": 1.67979826540108e-16,
+    "plastic_trace_error": 1.3877787807814457e-17,
+    "initial_energy": 244.90551494214287,
+    "final_energy": 202.7781871182158,
+    "slip_rms": 0.009411507333951725,
+    "slip_spatial_std": 0.0039884562694965705,
+    "steps": 10,
+    "trial_evaluations": 10,
+    "minimum_dt": 0.04,
+    "final_population_range": [
+      0.17088122816853812,
+      0.25296832255424007
+    ],
+    "mean_stress": [
+      [
+        -0.047834658701138295,
+        0.08590162910250579,
+        -1.7924464931216866e-07
+      ],
+      [
+        0.08590162910250579,
+        -0.04783542251670528,
+        -3.883024203215779e-08
+      ],
+      [
+        -1.7924464931216866e-07,
+        -3.883024203215779e-08,
+        -0.04780627240779046
+      ]
+    ],
+    "field_dofs": 218750,
+    "persistent_primary_field_bytes": 1750000
+  },
+  "checks": {
+    "inventory": true,
+    "energy": true,
+    "equilibrium": true,
+    "isochoric_slip": true,
+    "population_bounds": true,
+    "slip_response": true
+  },
+  "peak_rss_before_io_bytes": 107577344,
+  "timings": {
+    "initialization_s": 0.010720832971855998,
+    "solver_s": 0.07702441711444408,
+    "diagnostics_s": 0.0013463750947266817,
+    "adaptation_s": 0.0,
+    "compilation_s": 0.0,
+    "plotting_s": 0.0,
+    "experiment_s": 0.08910350000951439,
+    "unclassified_s": 1.1874828487634659e-05,
+    "array_io_s": 0.1189185839612037
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "limits": [
+    "Uniform field-grid reference; no adaptive speedup is claimed.",
+    "Small strain, fixed orientation, homogeneous isotropic elasticity.",
+    "No explicit dislocation lines, topology reactions, or temperature evolution."
+  ]
+}

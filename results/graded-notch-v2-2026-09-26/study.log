@@ -1,0 +1,23 @@
+graded-notch-32-0.00025 checks True drift 1.9203412559592607e-07 damage 0.09569342402429201 solver 184.93301708670333
+Traceback (most recent call last):
+  File "<repo>/benchmarks/graded_notch.py", line 122, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "<repo>/benchmarks/graded_notch.py", line 100, in main
+    runs=[run(n,.00025,'graded-notch',out,builder=make_model,end_time=.4) for n in (32,48,64)]
+          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/benchmarks/thermofracture.py", line 46, in run
+    try:state,d=model.step(state,dt)
+                ~~~~~~~~~~^^^^^^^^^^
+  File "<repo>/src/bmvr/nodal_damage.py", line 102, in step
+    mid=self.rate(middle,limit);following=self._advance(state,mid,.5*dt)
+  File "<repo>/src/bmvr/nodal_damage.py", line 72, in rate
+    rate=ThermalChemical2D.rate(self,state);extra=rate['additional_energy'];m=self.mechanics.mesh
+  File "<repo>/src/bmvr/thermochemical.py", line 113, in rate
+    rate=super().rate(state);m=self.mechanics.mesh;p=self.mechanics.p;ch=self.chemistry;V=self.V;a=self.edge_a
+  File "<repo>/src/bmvr/thermoplastic.py", line 123, in rate
+    mechanical = model.evaluate(state.u); local = mechanical['local']; F = mechanical['F']
+  File "<repo>/src/bmvr/finite_elasticity.py", line 173, in evaluate
+    if bound<=0:raise ValueError('Element orientation not certified by Bernstein bound.')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Element orientation not certified by Bernstein bound.

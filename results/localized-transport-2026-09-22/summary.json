@@ -1,0 +1,5486 @@
+{
+  "reports": {
+    "field-13": {
+      "n": 13,
+      "kind": "field",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 135.2978847313521,
+      "final_energy": 75.58582618211992,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 0.0,
+      "equilibrium_rms": 6.882078431054644e-17,
+      "divergence_relative": 4.1751104853911185e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        2197,
+        2197,
+        2197
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        true
+      ],
+      "maximum_used_residuals": null,
+      "events": [],
+      "persistent_array_bytes": 632848,
+      "timings": {
+        "initialization_s": 0.004242500057443976,
+        "online_s": 0.06029850011691451,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0003284576814621687,
+        "tensor_validation_s": 0.0034648750443011522,
+        "array_io_s": 0.007104957941919565,
+        "report_io_s": 0.0002950839698314667
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "peak_rss_bytes": 81985536,
+      "launch_to_exit_s": 0.5314907911233604
+    },
+    "field-21": {
+      "n": 21,
+      "kind": "field",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22517533366987,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "direct_force_max_error": 0.0,
+      "equilibrium_rms": 1.3418006652783743e-16,
+      "divergence_relative": 8.186340664611151e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        9261
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        true
+      ],
+      "maximum_used_residuals": null,
+      "events": [],
+      "persistent_array_bytes": 2667280,
+      "timings": {
+        "initialization_s": 0.01101462496444583,
+        "online_s": 0.12634583027102053,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.000811960780993104,
+        "tensor_validation_s": 0.008129958063364029,
+        "array_io_s": 0.032005874905735254,
+        "report_io_s": 0.00029170792549848557
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "peak_rss_bytes": 99270656,
+      "launch_to_exit_s": 0.6704190829768777
+    },
+    "field-21-halfdt": {
+      "n": 21,
+      "kind": "field",
+      "dt": 0.005,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 200,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22124757941455,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 0.0,
+      "equilibrium_rms": 1.1534768807626497e-16,
+      "divergence_relative": 8.473441850708539e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        9261
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        true
+      ],
+      "maximum_used_residuals": null,
+      "events": [],
+      "persistent_array_bytes": 2667280,
+      "timings": {
+        "initialization_s": 0.0111587920691818,
+        "online_s": 0.22192484117113054,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0008505748119205236,
+        "tensor_validation_s": 0.007391792023554444,
+        "array_io_s": 0.028453541919589043,
+        "report_io_s": 0.00036587496288120747
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "peak_rss_bytes": 107905024,
+      "launch_to_exit_s": 0.5847579999826849
+    },
+    "field-29": {
+      "n": 29,
+      "kind": "field",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.7171915689152,
+      "final_energy": 75.11730583173596,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "direct_force_max_error": 0.0,
+      "equilibrium_rms": 1.8522715349193483e-16,
+      "divergence_relative": 1.0652379367578356e-15,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        24389,
+        24389,
+        24389
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        true
+      ],
+      "maximum_used_residuals": null,
+      "events": [],
+      "persistent_array_bytes": 7024144,
+      "timings": {
+        "initialization_s": 0.02732025017030537,
+        "online_s": 0.4282274169381708,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0007377080619335175,
+        "tensor_validation_s": 0.03222991689108312,
+        "array_io_s": 0.0749443331733346,
+        "report_io_s": 0.0002837090287357569
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "peak_rss_bytes": 145293312,
+      "launch_to_exit_s": 0.8833997908513993
+    },
+    "localized-13": {
+      "n": 13,
+      "kind": "localized",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 135.2978847313521,
+      "final_energy": 75.85193362198646,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 6.591816382897901e-17,
+      "divergence_relative": 4.0855325444855197e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        2197,
+        2197,
+        11
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        false
+      ],
+      "maximum_used_residuals": [
+        0.04981626986481737,
+        0.04909588092535339,
+        0.049701672108001346
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8812131013155324
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8812131013155324,
+          "residual_after": 0.7842555211935625
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7842555211935625,
+          "residual_after": 0.67348579611592
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.67348579611592,
+          "residual_after": 0.5779791534890704
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5779791534890704,
+          "residual_after": 0.46870787921222096
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.46870787921222096,
+          "residual_after": 0.3707430493433983
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.3707430493433983,
+          "residual_after": 0.2351575081235986
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.2351575081235986,
+          "residual_after": 4.571857597644783e-16
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8592482985300156
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8592482985300156,
+          "residual_after": 0.7477472094430107
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7477472094430107,
+          "residual_after": 0.6496529025089882
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6496529025089882,
+          "residual_after": 0.5510413823164692
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5510413823164692,
+          "residual_after": 0.4658673256474818
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4658673256474818,
+          "residual_after": 0.36199413199471436
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.36199413199471436,
+          "residual_after": 0.2607864948897335
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.2607864948897335,
+          "residual_after": 0.189223300315797
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.189223300315797,
+          "residual_after": 0.15898965000428977
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.15898965000428977,
+          "residual_after": 0.12719999414786173
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.12719999414786173,
+          "residual_after": 0.09952042573266877
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.09952042573266877,
+          "residual_after": 0.07098924657696642
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.07098924657696642,
+          "residual_after": 0.05868730957868785
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.05868730957868785,
+          "residual_after": 0.0476599806921852
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.835077293338707
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.835077293338707,
+          "residual_after": 0.6937472845710936
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6937472845710936,
+          "residual_after": 0.5481487403758731
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5481487403758731,
+          "residual_after": 0.41600995945260977
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.41600995945260977,
+          "residual_after": 0.3330704020836486
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.3330704020836486,
+          "residual_after": 0.25507080125430914
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.25507080125430914,
+          "residual_after": 0.16679496404683716
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.16679496404683716,
+          "residual_after": 3.275404699202603e-16
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.01,
+          "energy_jump": 0.0,
+          "residual_before": 0.052745626245334985,
+          "residual_after": 0.04317593902909597
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.05181491704933065,
+          "residual_after": 0.04010114851257346
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.051578990316993874,
+          "residual_after": 0.04252111141597114
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.05361575602043166,
+          "residual_after": 0.043717830412118415
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.05494618295847499,
+          "residual_after": 0.04590785352301839
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05720311195593547,
+          "residual_after": 0.04803608727625863
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.05877269318140789,
+          "residual_after": 0.04839958878024113
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.08,
+          "energy_jump": 0.0,
+          "residual_before": 0.05776709289520506,
+          "residual_after": 0.04646117880643318
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.05507107817641933,
+          "residual_after": 0.039890053750626896
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.09999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05046244140387157,
+          "residual_after": 0.044703521949632063
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.0535678503762048,
+          "residual_after": 0.04286092717108378
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.11999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.053875162539788364,
+          "residual_after": 0.04730183924158537
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05148840207989922,
+          "residual_after": 0.046170568157646565
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05476654168676731,
+          "residual_after": 0.040632804570264795
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.13999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05004834628015228,
+          "residual_after": 0.04355734331411879
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.052460080652240934,
+          "residual_after": 0.04204436745023107
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.16,
+          "energy_jump": 0.0,
+          "residual_before": 0.050720885243258296,
+          "residual_after": 0.04242848749153729
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.17,
+          "energy_jump": 0.0,
+          "residual_before": 0.05333430956775211,
+          "residual_after": 0.043868941423900736
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.19000000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05220451894191169,
+          "residual_after": 0.04005277820865118
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.19000000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05467032160577039,
+          "residual_after": 0.04119795154490015
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.21000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.050744742194108364,
+          "residual_after": 0.04194847100559767
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.23000000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.05223534041037742,
+          "residual_after": 0.037845504509675214
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.23000000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.050659288699544926,
+          "residual_after": 0.040371690102967275
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.26000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.053355346681966,
+          "residual_after": 0.043776730193321615
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.2800000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05301535180626723,
+          "residual_after": 0.03324209634997605
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.2800000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05292514793773774,
+          "residual_after": 0.04414317044902346
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.3000000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.052841226196840244
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.34000000000000014,
+          "energy_jump": 0.0,
+          "residual_before": 0.052338009465916206,
+          "residual_after": 0.04161462677053446
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.37000000000000016,
+          "energy_jump": 0.0,
+          "residual_before": 0.05111744863651965,
+          "residual_after": 0.044321871911276844
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.3900000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05057671835130266,
+          "residual_after": 0.04214816360911352
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.4200000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05136639515150287,
+          "residual_after": 0.04187911417414172
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.4200000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05723014748969912,
+          "residual_after": 0.0402865588815878
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.4300000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.0684095976843057,
+          "residual_after": 0.022078439457581586
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.45000000000000023,
+          "energy_jump": 0.0,
+          "residual_before": 0.051829136591970096,
+          "residual_after": 0.04400626560488628
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.47000000000000025,
+          "energy_jump": 0.0,
+          "residual_before": 0.050414957220923234,
+          "residual_after": 0.041405133540097866
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.5000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05137584129460943,
+          "residual_after": 0.04055718427069365
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.5300000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05121401170308868,
+          "residual_after": 0.038109903970455994
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.5700000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05062485423583145,
+          "residual_after": 0.03941340976851432
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.6100000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05274955338556933,
+          "residual_after": 0.042907648469608324
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.6400000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05285471386163203,
+          "residual_after": 0.04088804326822174
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.6700000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.05054878915118585,
+          "residual_after": 0.03814342247372782
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.7100000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.0510539428842902,
+          "residual_after": 0.039493240929614065
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.7500000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.0516476302288799,
+          "residual_after": 0.04334894654714198
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.7800000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05241359965667561,
+          "residual_after": 0.041484352884912264
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.8200000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05225971200342646,
+          "residual_after": 0.03615927993868096
+        },
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.8800000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05242388053610874
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.9300000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05024404507996432,
+          "residual_after": 0.03340382455404316
+        }
+      ],
+      "persistent_array_bytes": 6379608,
+      "timings": {
+        "initialization_s": 0.004454958951100707,
+        "online_s": 0.2032458302564919,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00032987771555781364,
+        "tensor_validation_s": 0.003523500170558691,
+        "array_io_s": 0.01584491692483425,
+        "report_io_s": 0.00042458297684788704
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [
+          7,
+          5,
+          3,
+          6,
+          1,
+          4,
+          2,
+          0,
+          7,
+          6,
+          5,
+          3,
+          4,
+          2,
+          1,
+          0,
+          7,
+          5,
+          3,
+          6,
+          1,
+          4,
+          2,
+          7,
+          0,
+          5,
+          3,
+          6,
+          1,
+          4,
+          7,
+          2
+        ],
+        [
+          7,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          7,
+          1,
+          2,
+          4,
+          1,
+          6,
+          3,
+          5,
+          7,
+          2,
+          4,
+          1,
+          3,
+          6,
+          5,
+          7,
+          0,
+          3,
+          6,
+          5,
+          7,
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          7,
+          1,
+          5,
+          6,
+          2,
+          4,
+          0,
+          3,
+          1,
+          7
+        ]
+      ],
+      "stored_basis_modes": [
+        32,
+        32,
+        11
+      ],
+      "basis_support_fraction": [
+        [
+          0.1561219845243514,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.09831588529813381,
+          0.1561219845243514,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.09831588529813381,
+          0.1561219845243514,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.1561219845243514,
+          0.09831588529813381,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.1561219845243514,
+          0.11470186618115612
+        ],
+        [
+          0.22303140646335912,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.14747382794720074,
+          0.22303140646335912,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.22303140646335912,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.22303140646335912,
+          0.14747382794720074,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.1943559399180701,
+          0.22303140646335912,
+          0.16932180245789713,
+          0.16932180245789713,
+          0.16932180245789713
+        ],
+        [
+          0.1338188438780155,
+          0.1561219845243514,
+          0.11470186618115612,
+          0.1338188438780155,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.11470186618115612,
+          0.09831588529813381,
+          0.1338188438780155,
+          0.11470186618115612,
+          0.1561219845243514
+        ]
+      ],
+      "peak_rss_bytes": 92241920,
+      "launch_to_exit_s": 0.5797225411515683
+    },
+    "localized-21": {
+      "n": 21,
+      "kind": "localized",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.37068588630864,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 1.1642201516620494e-16,
+      "divergence_relative": 7.976443849568514e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        11
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        false
+      ],
+      "maximum_used_residuals": [
+        0.0494378006339798,
+        0.04924009174544091,
+        0.0499303836595709
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.9008330931736559
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.9008330931736559,
+          "residual_after": 0.811034178471762
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.811034178471762,
+          "residual_after": 0.7100054839464817
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7100054839464817,
+          "residual_after": 0.6160636461838618
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6160636461838618,
+          "residual_after": 0.5116324408614273
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5116324408614273,
+          "residual_after": 0.4097515055067145
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4097515055067145,
+          "residual_after": 0.27222396150465356
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.27222396150465356,
+          "residual_after": 1.3953770393045264e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8708902899440206
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8708902899440206,
+          "residual_after": 0.7400632236430854
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7400632236430854,
+          "residual_after": 0.6305896190601654
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6305896190601654,
+          "residual_after": 0.5398453873182658
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5398453873182658,
+          "residual_after": 0.4545581499935996
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4545581499935996,
+          "residual_after": 0.37945341891099005
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.37945341891099005,
+          "residual_after": 0.305241526240197
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.305241526240197,
+          "residual_after": 0.20753532190152957
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.20753532190152957,
+          "residual_after": 0.1717865198060434
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.1717865198060434,
+          "residual_after": 0.13575955251774183
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.13575955251774183,
+          "residual_after": 0.10178208291854829
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.10178208291854829,
+          "residual_after": 0.060502238304329714
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.060502238304329714,
+          "residual_after": 0.03940856657766561
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8638102214914994
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8638102214914994,
+          "residual_after": 0.750387729960428
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.750387729960428,
+          "residual_after": 0.638556735364253
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.638556735364253,
+          "residual_after": 0.5410565944051721
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5410565944051721,
+          "residual_after": 0.4547928761635911
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4547928761635911,
+          "residual_after": 0.35178619781632847
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.35178619781632847,
+          "residual_after": 0.24871293075089065
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.24871293075089065,
+          "residual_after": 1.0495881016037082e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.06271837866015284,
+          "residual_after": 0.05208908770503935
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.05208908770503935,
+          "residual_after": 0.041590487091342325
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.054887798438566233,
+          "residual_after": 0.04711477952887077
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.060326954773317024,
+          "residual_after": 0.05111727989210005
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.05111727989210005,
+          "residual_after": 0.043247433340520336
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.05148648468401393,
+          "residual_after": 0.04465256688293771
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.05440316852221616,
+          "residual_after": 0.043119282663152916
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05361581232971747,
+          "residual_after": 0.04662494317106651
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.0534951801266195,
+          "residual_after": 0.04287828869574051
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.05430624592683146,
+          "residual_after": 0.04453280323347756
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.05282348640456373,
+          "residual_after": 0.03817530867159583
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.08,
+          "energy_jump": 0.0,
+          "residual_before": 0.0506886597325476,
+          "residual_after": 0.04038832400129277
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.05849861733541737,
+          "residual_after": 0.04480365663391263
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.09999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05437378257199121,
+          "residual_after": 0.04233064917961367
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05380686854252955,
+          "residual_after": 0.04229723068054062
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05133330980948865,
+          "residual_after": 0.04294848973880955
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.11999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05133883249931331,
+          "residual_after": 0.04259499676608694
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05099494883236902,
+          "residual_after": 0.04206310537486575
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.050337024234486896,
+          "residual_after": 0.04428576257550035
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.13999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05209078145720635,
+          "residual_after": 0.04569409605616495
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.05064740985317753,
+          "residual_after": 0.03821529163925584
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.05339135149871283,
+          "residual_after": 0.044429691435904396
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.16,
+          "energy_jump": 0.0,
+          "residual_before": 0.051423626535891775,
+          "residual_after": 0.042024257638999626
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.18000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.051385568707867375,
+          "residual_after": 0.0363074664257854
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.18000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05531374273684245,
+          "residual_after": 0.04262686719472232
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.20000000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.056482904626171566,
+          "residual_after": 0.045709387354326274
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.21000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05259925866005601,
+          "residual_after": 0.04330028769403875
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.22000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.053005551820750084,
+          "residual_after": 0.04672324757627003
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.22000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05014767531751666
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.23000000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.051049030988321385,
+          "residual_after": 0.043682765007578186
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.25000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05178519473723331,
+          "residual_after": 0.044813835218846625
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.2700000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.053137742987213944,
+          "residual_after": 0.04454392167466731
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.2900000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.053245259848455385,
+          "residual_after": 0.044944639564148466
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.3100000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.053442751360342454,
+          "residual_after": 0.04366955514888791
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.3300000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05211786770264381,
+          "residual_after": 0.040531844144887516
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.36000000000000015,
+          "energy_jump": 0.0,
+          "residual_before": 0.053674989838797864,
+          "residual_after": 0.04282380899681937
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.38000000000000017,
+          "energy_jump": 0.0,
+          "residual_before": 0.0511866827785507,
+          "residual_after": 0.039457321820456547
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.4100000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.052140695411585086,
+          "residual_after": 0.04297346536680323
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.4300000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05204147157618213,
+          "residual_after": 0.04650876484438709
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.4400000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05112657039902921,
+          "residual_after": 0.04476198760735165
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.46000000000000024,
+          "energy_jump": 0.0,
+          "residual_before": 0.05422010040991883,
+          "residual_after": 0.04713035933223262
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.47000000000000025,
+          "energy_jump": 0.0,
+          "residual_before": 0.05181594327296571,
+          "residual_after": 0.04382718691221469
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.49000000000000027,
+          "energy_jump": 0.0,
+          "residual_before": 0.053309998072165625,
+          "residual_after": 0.04398990482242492
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.5100000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05369240573526163,
+          "residual_after": 0.043453756638648804
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.5200000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.0508916277774441,
+          "residual_after": 0.03870159108443373
+        },
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.5300000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.053262580141802206
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.6800000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.050431582102378636,
+          "residual_after": 0.039061430743376445
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.8700000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05018220735597458,
+          "residual_after": 0.041393903750852896
+        }
+      ],
+      "persistent_array_bytes": 26836952,
+      "timings": {
+        "initialization_s": 0.011725667165592313,
+        "online_s": 0.7433896691072732,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0006543307099491358,
+        "tensor_validation_s": 0.007786459056660533,
+        "array_io_s": 0.06760941701941192,
+        "report_io_s": 0.0004059160128235817
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [
+          7,
+          5,
+          3,
+          1,
+          6,
+          4,
+          2,
+          0,
+          6,
+          2,
+          4,
+          0,
+          7,
+          5,
+          3,
+          1,
+          6,
+          7,
+          2,
+          4,
+          0,
+          5,
+          3,
+          1,
+          7,
+          6,
+          2,
+          4,
+          5,
+          3,
+          0,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          0,
+          7,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          7,
+          0,
+          7,
+          1,
+          6,
+          3,
+          5,
+          2,
+          4,
+          7,
+          1,
+          2,
+          4,
+          3,
+          0,
+          7,
+          5,
+          6,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          7,
+          5,
+          2,
+          6,
+          4,
+          0,
+          3,
+          1,
+          7
+        ]
+      ],
+      "stored_basis_modes": [
+        32,
+        32,
+        11
+      ],
+      "basis_support_fraction": [
+        [
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.14372098045567433,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.10797969981643452,
+          0.14372098045567433
+        ],
+        [
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.153331173739337,
+          0.153331173739337,
+          0.18291761148904007,
+          0.153331173739337,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.153331173739337,
+          0.153331173739337
+        ],
+        [
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433
+        ]
+      ],
+      "peak_rss_bytes": 198033408,
+      "launch_to_exit_s": 1.1714241250883788
+    },
+    "localized-21-halfdt": {
+      "n": 21,
+      "kind": "localized",
+      "dt": 0.005,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 200,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.36761665258881,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 1.1995922495117414e-16,
+      "divergence_relative": 8.342780343347871e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        11
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        false
+      ],
+      "maximum_used_residuals": [
+        0.04993854167721352,
+        0.0499590670352904,
+        0.049925077865041696
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.9008330931736559
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.9008330931736559,
+          "residual_after": 0.811034178471762
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.811034178471762,
+          "residual_after": 0.7100054839464817
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7100054839464817,
+          "residual_after": 0.6160636461838618
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6160636461838618,
+          "residual_after": 0.5116324408614273
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5116324408614273,
+          "residual_after": 0.4097515055067145
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4097515055067145,
+          "residual_after": 0.27222396150465356
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.27222396150465356,
+          "residual_after": 1.3953770393045264e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8708902899440206
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8708902899440206,
+          "residual_after": 0.7400632236430854
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7400632236430854,
+          "residual_after": 0.6305896190601654
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6305896190601654,
+          "residual_after": 0.5398453873182658
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5398453873182658,
+          "residual_after": 0.4545581499935996
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4545581499935996,
+          "residual_after": 0.37945341891099005
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.37945341891099005,
+          "residual_after": 0.305241526240197
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.305241526240197,
+          "residual_after": 0.20753532190152957
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.20753532190152957,
+          "residual_after": 0.1717865198060434
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.1717865198060434,
+          "residual_after": 0.13575955251774183
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.13575955251774183,
+          "residual_after": 0.10178208291854829
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.10178208291854829,
+          "residual_after": 0.060502238304329714
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.060502238304329714,
+          "residual_after": 0.03940856657766561
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8638102214914994
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8638102214914994,
+          "residual_after": 0.750387729960428
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.750387729960428,
+          "residual_after": 0.638556735364253
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.638556735364253,
+          "residual_after": 0.5410565944051721
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5410565944051721,
+          "residual_after": 0.4547928761635911
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4547928761635911,
+          "residual_after": 0.35178619781632847
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.35178619781632847,
+          "residual_after": 0.24871293075089065
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.24871293075089065,
+          "residual_after": 1.0495881016037082e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.015,
+          "energy_jump": 0.0,
+          "residual_before": 0.055385686325845215,
+          "residual_after": 0.044850396776495445
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.052077030686235475,
+          "residual_after": 0.041560906149071083
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.030000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05513830248248617,
+          "residual_after": 0.04716585610336127
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.035,
+          "energy_jump": 0.0,
+          "residual_before": 0.0536795472501521,
+          "residual_after": 0.04533199021753537
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.05148468809233726,
+          "residual_after": 0.04365345938926714
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.049999999999999996,
+          "energy_jump": 0.0,
+          "residual_before": 0.05144748121388802,
+          "residual_after": 0.044623258485934195
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.049999999999999996,
+          "energy_jump": 0.0,
+          "residual_before": 0.055066248791663365,
+          "residual_after": 0.04391421681069939
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.05999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.053583135320913904,
+          "residual_after": 0.04659531003945361
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.05999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.05451731405741727,
+          "residual_after": 0.04370276529879178
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.06499999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.0504263928522912,
+          "residual_after": 0.04142076996966838
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.06999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.053710594108927825,
+          "residual_after": 0.03897266738856109
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.08,
+          "energy_jump": 0.0,
+          "residual_before": 0.0506558814648059,
+          "residual_after": 0.040263810079805465
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.085,
+          "energy_jump": 0.0,
+          "residual_before": 0.0540082811355979,
+          "residual_after": 0.041233211023118554
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.09500000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05043295465056269,
+          "residual_after": 0.03989279464037836
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.10500000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05143654247793805,
+          "residual_after": 0.0403893379109832
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.11000000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.053265482152321623,
+          "residual_after": 0.04568701139037582
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.11500000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05000631881066016,
+          "residual_after": 0.041965626875147266
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.13000000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.051203592281912375,
+          "residual_after": 0.0423010862024099
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.13000000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05420871321998269,
+          "residual_after": 0.045246568641805374
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.14000000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.05312222529175917,
+          "residual_after": 0.044972808838671205
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.15000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05084469105360026,
+          "residual_after": 0.03842500745948998
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.15000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.052282644086916484,
+          "residual_after": 0.04443813910969683
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.16000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05144583982132038,
+          "residual_after": 0.04228661882138192
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.17500000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.05211703016318251,
+          "residual_after": 0.040737591437809154
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.18000000000000008,
+          "energy_jump": 0.0,
+          "residual_before": 0.05151065629930641,
+          "residual_after": 0.03650444544998961
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.19000000000000009,
+          "energy_jump": 0.0,
+          "residual_before": 0.05052137567494973,
+          "residual_after": 0.04099646284171645
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.2050000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.051039294918492954,
+          "residual_after": 0.04161081748067851
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.2150000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05091857537773021,
+          "residual_after": 0.04480208954576523
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.2200000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05198545484066864
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.23000000000000012,
+          "energy_jump": 0.0,
+          "residual_before": 0.05123558956998929,
+          "residual_after": 0.04372360114870443
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.2500000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05179816049342754,
+          "residual_after": 0.044791185565633725
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.2650000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05097750089487733,
+          "residual_after": 0.042444615055986915
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.28500000000000014,
+          "energy_jump": 0.0,
+          "residual_before": 0.05106272162036894,
+          "residual_after": 0.042826322726434704
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.30500000000000016,
+          "energy_jump": 0.0,
+          "residual_before": 0.051273758754523835,
+          "residual_after": 0.04187671426691487
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.3250000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05026296820657504,
+          "residual_after": 0.038970279758648474
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.3550000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05196602679193034,
+          "residual_after": 0.0414015458362541
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.3800000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05181193537126918,
+          "residual_after": 0.04020247526624242
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.40500000000000025,
+          "energy_jump": 0.0,
+          "residual_before": 0.05063835043360536,
+          "residual_after": 0.04161024963094419
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.42500000000000027,
+          "energy_jump": 0.0,
+          "residual_before": 0.05055963582065809,
+          "residual_after": 0.045161932903082166
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.4400000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05204971782694322,
+          "residual_after": 0.04579800795694506
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.4500000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05045884157102291,
+          "residual_after": 0.04364933565763871
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.4650000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.050600037048525504,
+          "residual_after": 0.042648305913208694
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.4850000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.052077065544191274,
+          "residual_after": 0.04276099200856994
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.5050000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05240681954438429,
+          "residual_after": 0.042628193420182765
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.5150000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05040580932168958,
+          "residual_after": 0.038331632639113385
+        },
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.5250000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.05231929279434667
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.6750000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.050064176451392155,
+          "residual_after": 0.03877526184923504
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.8700000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.050191626864826075,
+          "residual_after": 0.04140588470493924
+        }
+      ],
+      "persistent_array_bytes": 26836952,
+      "timings": {
+        "initialization_s": 0.01087429211474955,
+        "online_s": 0.6689630481414497,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0009251188021153212,
+        "tensor_validation_s": 0.0063255829736590385,
+        "array_io_s": 0.0646991659887135,
+        "report_io_s": 0.0003572087734937668
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [
+          7,
+          5,
+          3,
+          1,
+          6,
+          4,
+          2,
+          0,
+          6,
+          2,
+          4,
+          0,
+          7,
+          5,
+          3,
+          1,
+          6,
+          7,
+          2,
+          4,
+          0,
+          5,
+          3,
+          1,
+          7,
+          6,
+          2,
+          4,
+          5,
+          3,
+          0,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          0,
+          7,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          7,
+          0,
+          7,
+          1,
+          6,
+          3,
+          5,
+          2,
+          4,
+          7,
+          1,
+          0,
+          2,
+          4,
+          7,
+          3,
+          5,
+          6,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          7,
+          5,
+          2,
+          6,
+          4,
+          0,
+          3,
+          1,
+          7
+        ]
+      ],
+      "stored_basis_modes": [
+        32,
+        32,
+        11
+      ],
+      "basis_support_fraction": [
+        [
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.14372098045567433,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.10797969981643452,
+          0.14372098045567433
+        ],
+        [
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.153331173739337,
+          0.153331173739337,
+          0.18291761148904007,
+          0.153331173739337,
+          0.14037360976136487,
+          0.153331173739337,
+          0.153331173739337,
+          0.18291761148904007,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.153331173739337,
+          0.153331173739337
+        ],
+        [
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433
+        ]
+      ],
+      "peak_rss_bytes": 184696832,
+      "launch_to_exit_s": 1.0699469579849392
+    },
+    "localized-21-tight": {
+      "n": 21,
+      "kind": "localized",
+      "dt": 0.01,
+      "budget": 0.025,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.27192384738099,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 1.1851108401488875e-16,
+      "divergence_relative": 8.273231131918643e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        15
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        false
+      ],
+      "maximum_used_residuals": [
+        0.024922208114245493,
+        0.02484878946991401,
+        0.0248454094211059
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.9008330931736559
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.9008330931736559,
+          "residual_after": 0.811034178471762
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.811034178471762,
+          "residual_after": 0.7100054839464817
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7100054839464817,
+          "residual_after": 0.6160636461838618
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6160636461838618,
+          "residual_after": 0.5116324408614273
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5116324408614273,
+          "residual_after": 0.4097515055067145
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4097515055067145,
+          "residual_after": 0.27222396150465356
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.27222396150465356,
+          "residual_after": 1.3953770393045264e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8708902899440206
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8708902899440206,
+          "residual_after": 0.7400632236430854
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7400632236430854,
+          "residual_after": 0.6305896190601654
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6305896190601654,
+          "residual_after": 0.5398453873182658
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5398453873182658,
+          "residual_after": 0.4545581499935996
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4545581499935996,
+          "residual_after": 0.37945341891099005
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.37945341891099005,
+          "residual_after": 0.305241526240197
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.305241526240197,
+          "residual_after": 0.20753532190152957
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.20753532190152957,
+          "residual_after": 0.1717865198060434
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.1717865198060434,
+          "residual_after": 0.13575955251774183
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.13575955251774183,
+          "residual_after": 0.10178208291854829
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.10178208291854829,
+          "residual_after": 0.060502238304329714
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.060502238304329714,
+          "residual_after": 0.03940856657766561
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.03940856657766561,
+          "residual_after": 0.02875985260607904
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.02875985260607904,
+          "residual_after": 0.021591146310084835
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8638102214914994
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8638102214914994,
+          "residual_after": 0.750387729960428
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.750387729960428,
+          "residual_after": 0.638556735364253
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.638556735364253,
+          "residual_after": 0.5410565944051721
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5410565944051721,
+          "residual_after": 0.4547928761635911
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.4547928761635911,
+          "residual_after": 0.35178619781632847
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.35178619781632847,
+          "residual_after": 0.24871293075089065
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.24871293075089065,
+          "residual_after": 1.0495881016037082e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.01,
+          "energy_jump": 0.0,
+          "residual_before": 0.03158160639198851,
+          "residual_after": 0.02648235147406372
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.01,
+          "energy_jump": 0.0,
+          "residual_before": 0.02648235147406372,
+          "residual_after": 0.021859141357411113
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.03452305369288946,
+          "residual_after": 0.030139438580572022
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.030139438580572022,
+          "residual_after": 0.025448757634689415
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.025448757634689415,
+          "residual_after": 0.021275668763203918
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.030930295773261063,
+          "residual_after": 0.026819111464972234
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.026819111464972234,
+          "residual_after": 0.023383751635736135
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.03145338301018104,
+          "residual_after": 0.02484878946991401
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.031104209515236646,
+          "residual_after": 0.02561151715579074
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.02561151715579074,
+          "residual_after": 0.020710666165546704
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.034222177451611324,
+          "residual_after": 0.028016804871436332
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.028016804871436332,
+          "residual_after": 0.02038182951605687
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.025346710035540194,
+          "residual_after": 0.0196593010445312
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.028223290089742305,
+          "residual_after": 0.022715425080982357
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.030100279632006507,
+          "residual_after": 0.02431300827745261
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.027457044719868786,
+          "residual_after": 0.02214566019418641
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.03147093630335562,
+          "residual_after": 0.025582749279473176
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.025582749279473176,
+          "residual_after": 0.019135210119094675
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.08,
+          "energy_jump": 0.0,
+          "residual_before": 0.025704656866456083,
+          "residual_after": 0.018053338180216177
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.03056248596076074,
+          "residual_after": 0.025995899854741662
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.025995899854741662,
+          "residual_after": 0.020647055565548966
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.09999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.025837099378776405,
+          "residual_after": 0.022071685064991804
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.028370503164881322,
+          "residual_after": 0.017371930190203663
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.027248009571925445,
+          "residual_after": 0.02207415451821347
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.11999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.02716312948767711,
+          "residual_after": 0.02287093489300546
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.02780303037245755
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.13999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.027719515129104894,
+          "residual_after": 0.02428335355048784
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.027631434640588,
+          "residual_after": 0.023778206862274644
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.16,
+          "energy_jump": 0.0,
+          "residual_before": 0.027086342266975084,
+          "residual_after": 0.023679501752817654
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.17,
+          "energy_jump": 0.0,
+          "residual_before": 0.02691714913874758,
+          "residual_after": 0.022736525634426057
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.18000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.025933257896729827,
+          "residual_after": 0.021697790224396784
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.20000000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.027811070322188665,
+          "residual_after": 0.022168757822160174
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.21000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.025133166609419395,
+          "residual_after": 0.01772413951841978
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.24000000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.026654307960107416,
+          "residual_after": 0.019621144610876315
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.26000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.025318288804100152,
+          "residual_after": 0.01904969863854567
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.26000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.025642291795793408,
+          "residual_after": 0.01949980343888421
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.2900000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.02747380274419879,
+          "residual_after": 0.022895033911416392
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.3000000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.02579254570855792,
+          "residual_after": 0.02286048027806418
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.3100000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.025733583339766608,
+          "residual_after": 0.022667822100027595
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.3200000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.02558091815085251,
+          "residual_after": 0.021915562743109785
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.34000000000000014,
+          "energy_jump": 0.0,
+          "residual_before": 0.02804604407298562,
+          "residual_after": 0.023463636026145724
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.34000000000000014,
+          "energy_jump": 0.0,
+          "residual_before": 0.025421840884054945,
+          "residual_after": 0.01956613631900309
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.35000000000000014,
+          "energy_jump": 0.0,
+          "residual_before": 0.026516117329333018,
+          "residual_after": 0.022028688377980072
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.36000000000000015,
+          "energy_jump": 0.0,
+          "residual_before": 0.025031462749674816,
+          "residual_after": 0.019972426730673103
+        },
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.38000000000000017,
+          "energy_jump": 0.0,
+          "residual_before": 0.025806128301660194
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.4400000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.025320753493554556,
+          "residual_after": 0.020810403759375897
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.5300000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.02512726723322934,
+          "residual_after": 0.020797651590405156
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.6400000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.025255771016790003,
+          "residual_after": 0.0195988127667116
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.8000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.027854344304238162,
+          "residual_after": 0.023404680017378304
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.8300000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.03284202415592764,
+          "residual_after": 0.019957238590535022
+        }
+      ],
+      "persistent_array_bytes": 28318744,
+      "timings": {
+        "initialization_s": 0.0109203748870641,
+        "online_s": 0.541621292475611,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0006186654791235924,
+        "tensor_validation_s": 0.007887874962761998,
+        "array_io_s": 0.06610299996100366,
+        "report_io_s": 0.00040091690607368946
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [
+          7,
+          5,
+          3,
+          1,
+          6,
+          4,
+          2,
+          0,
+          6,
+          2,
+          4,
+          0,
+          7,
+          5,
+          3,
+          1,
+          7,
+          6,
+          2,
+          4,
+          5,
+          0,
+          3,
+          1,
+          7,
+          6,
+          5,
+          4,
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          5,
+          6,
+          0,
+          7,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          7,
+          0,
+          7,
+          1,
+          6,
+          3,
+          5,
+          0,
+          7,
+          2,
+          4,
+          1,
+          6,
+          5,
+          3,
+          7,
+          0,
+          2,
+          4,
+          3
+        ],
+        [
+          3,
+          1,
+          7,
+          5,
+          2,
+          6,
+          4,
+          0,
+          3,
+          1,
+          7,
+          5,
+          2,
+          0,
+          3
+        ]
+      ],
+      "stored_basis_modes": [
+        32,
+        32,
+        15
+      ],
+      "basis_support_fraction": [
+        [
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.10797969981643452,
+          0.11877766979807797
+        ],
+        [
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.14037360976136487,
+          0.18291761148904007,
+          0.153331173739337,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.16747651441528993,
+          0.18291761148904007,
+          0.14037360976136487,
+          0.153331173739337,
+          0.153331173739337,
+          0.16747651441528993
+        ],
+        [
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.14372098045567433,
+          0.13065543677788577,
+          0.11877766979807797,
+          0.10797969981643452,
+          0.13065543677788577
+        ]
+      ],
+      "peak_rss_bytes": 184483840,
+      "launch_to_exit_s": 0.9792945419903845
+    },
+    "localized-29": {
+      "n": 29,
+      "kind": "localized",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 32,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.7171915689152,
+      "final_energy": 75.18053021159409,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 0.0,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 1.7356362566847907e-16,
+      "divergence_relative": 1.0178116600990888e-15,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        24389,
+        24389,
+        12
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        false
+      ],
+      "maximum_used_residuals": [
+        0.0498642051855894,
+        0.04956064312163164,
+        0.04968602792324492
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.9090595418329458
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.9090595418329458,
+          "residual_after": 0.8227550563483652
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8227550563483652,
+          "residual_after": 0.7263173554532476
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7263173554532476,
+          "residual_after": 0.6317793582213681
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6317793582213681,
+          "residual_after": 0.5312595705399051
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5312595705399051,
+          "residual_after": 0.42776892119189736
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.42776892119189736,
+          "residual_after": 0.28950740276085374
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.28950740276085374,
+          "residual_after": 1.4762775363210662e-15
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.871995370829064
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.871995370829064,
+          "residual_after": 0.7427825320014337
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7427825320014337,
+          "residual_after": 0.6354932091358129
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6354932091358129,
+          "residual_after": 0.5363761271244603
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5363761271244603,
+          "residual_after": 0.45937802955744345
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.45937802955744345,
+          "residual_after": 0.3847334927641563
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.3847334927641563,
+          "residual_after": 0.3116965925022335
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.3116965925022335,
+          "residual_after": 0.21673500705988683
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.21673500705988683,
+          "residual_after": 0.1792608642387274
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.1792608642387274,
+          "residual_after": 0.141068897382591
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.141068897382591,
+          "residual_after": 0.10471619105763362
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.10471619105763362,
+          "residual_after": 0.05334629136032952
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.05334629136032952,
+          "residual_after": 0.03529508625681927
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0,
+          "residual_after": 0.8774663906360977
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.8774663906360977,
+          "residual_after": 0.7673386843989874
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.7673386843989874,
+          "residual_after": 0.6753689032152413
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.6753689032152413,
+          "residual_after": 0.5904244912558362
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.5904244912558362,
+          "residual_after": 0.49491888219330815
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.49491888219330815,
+          "residual_after": 0.3933810084371645
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.3933810084371645,
+          "residual_after": 0.2708662553072461
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 0.2708662553072461,
+          "residual_after": 2.1051861595221594e-15
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.05085746974132957,
+          "residual_after": 0.04476188862903282
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.06558278693791854,
+          "residual_after": 0.05557024115851525
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.02,
+          "energy_jump": 0.0,
+          "residual_before": 0.05557024115851525,
+          "residual_after": 0.0459742230178612
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.0669480890631278,
+          "residual_after": 0.05847567884809921
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.05847567884809921,
+          "residual_after": 0.04855107845171237
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.06221862964246823,
+          "residual_after": 0.054253553212741744
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.03,
+          "energy_jump": 0.0,
+          "residual_before": 0.054253553212741744,
+          "residual_after": 0.04662978594398083
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.06324523125338864,
+          "residual_after": 0.049633202496409984
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.06071913608657187,
+          "residual_after": 0.051604828643171105
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.04,
+          "energy_jump": 0.0,
+          "residual_before": 0.051604828643171105,
+          "residual_after": 0.04117187997351228
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.05912079169482388,
+          "residual_after": 0.04742191133970826
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.05,
+          "energy_jump": 0.0,
+          "residual_before": 0.052822685213153225,
+          "residual_after": 0.04309276325837822
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05569793253363471,
+          "residual_after": 0.04577034265308004
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.060000000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.05611574056096748,
+          "residual_after": 0.043513625998173454
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.05363651504184937,
+          "residual_after": 0.03967670414457963
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.07,
+          "energy_jump": 0.0,
+          "residual_before": 0.057931062330468894,
+          "residual_after": 0.046119818580589694
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.08,
+          "energy_jump": 0.0,
+          "residual_before": 0.06002816308069489,
+          "residual_after": 0.048839450823544524
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.05533071847706486,
+          "residual_after": 0.03652255394440593
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.06214079080935871,
+          "residual_after": 0.0544027546724287
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.09,
+          "energy_jump": 0.0,
+          "residual_before": 0.0544027546724287,
+          "residual_after": 0.04711733832733999
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.09999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.058697932786496244,
+          "residual_after": 0.049171856995166144
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.051085180783940885,
+          "residual_after": 0.04469159797512661
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.10999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.06009427271733943,
+          "residual_after": 0.047646826039236916
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.11999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.051509642562837424,
+          "residual_after": 0.04513079462301418
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.11999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05921334309373813,
+          "residual_after": 0.04956064312163164
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.05199400876622121,
+          "residual_after": 0.04536402363925358
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.061184511681587166,
+          "residual_after": 0.050376136185880854
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.12999999999999998,
+          "energy_jump": 0.0,
+          "residual_before": 0.050376136185880854,
+          "residual_after": 0.03864660197458398
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.13999999999999999,
+          "energy_jump": 0.0,
+          "residual_before": 0.051960980144738884,
+          "residual_after": 0.04386523915113887
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.05029785938099138,
+          "residual_after": 0.04126452694862634
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.15,
+          "energy_jump": 0.0,
+          "residual_before": 0.06051961478081571,
+          "residual_after": 0.04860425780790717
+        },
+        {
+          "block": "population",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.16,
+          "energy_jump": 0.0,
+          "residual_before": 0.0602555497183099,
+          "residual_after": 0.052312558207777894
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.16,
+          "energy_jump": 0.0,
+          "residual_before": 0.052312558207777894
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.17,
+          "energy_jump": 0.0,
+          "residual_before": 0.053172290605462115,
+          "residual_after": 0.044395997671204925
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.18000000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.05032476271014778,
+          "residual_after": 0.039986282741938474
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.20000000000000004,
+          "energy_jump": 0.0,
+          "residual_before": 0.052538610463600255,
+          "residual_after": 0.042247768000181894
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.22000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05394135842836998,
+          "residual_after": 0.03942741975840488
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 6,
+          "time": 0.24000000000000007,
+          "energy_jump": 0.0,
+          "residual_before": 0.050701911636445295,
+          "residual_after": 0.045522574347876654
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.25000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05139207641958441,
+          "residual_after": 0.04599054403697994
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 4,
+          "time": 0.26000000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.05174430317108352,
+          "residual_after": 0.04558632818462133
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 0,
+          "time": 0.2700000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05135912448685997,
+          "residual_after": 0.04433594420949039
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 5,
+          "time": 0.2900000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05560776400075628,
+          "residual_after": 0.04797651568945661
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.3000000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.053715851109398506,
+          "residual_after": 0.045225489039844635
+        },
+        {
+          "block": "phase",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.3100000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.051270099675668125,
+          "residual_after": 0.04041409729326305
+        },
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.3300000000000001,
+          "energy_jump": 0.0,
+          "residual_before": 0.05319958242988263
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 3,
+          "time": 0.5100000000000002,
+          "energy_jump": 0.0,
+          "residual_before": 0.0500489168826431,
+          "residual_after": 0.03997111471418456
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 1,
+          "time": 0.6400000000000003,
+          "energy_jump": 0.0,
+          "residual_before": 0.05001756787122376,
+          "residual_after": 0.03966885174397846
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 2,
+          "time": 0.8100000000000005,
+          "energy_jump": 0.0,
+          "residual_before": 0.0503181895071078,
+          "residual_after": 0.04397337802565588
+        },
+        {
+          "block": "gamma",
+          "action": "activate",
+          "patch": 7,
+          "time": 0.9200000000000006,
+          "energy_jump": 0.0,
+          "residual_before": 0.050145167199577664,
+          "residual_after": 0.04176888988343019
+        }
+      ],
+      "persistent_array_bytes": 71623208,
+      "timings": {
+        "initialization_s": 0.030032582813873887,
+        "online_s": 2.298892874736339,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0010201253462582827,
+        "tensor_validation_s": 0.041234249947592616,
+        "array_io_s": 0.17049266584217548,
+        "report_io_s": 0.00048758299089968204
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [
+          7,
+          5,
+          3,
+          1,
+          6,
+          4,
+          2,
+          0,
+          6,
+          2,
+          4,
+          0,
+          7,
+          5,
+          3,
+          1,
+          7,
+          6,
+          2,
+          4,
+          0,
+          5,
+          3,
+          1,
+          7,
+          6,
+          2,
+          4,
+          0,
+          5,
+          3,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          0,
+          7,
+          1,
+          2,
+          4,
+          3,
+          5,
+          6,
+          0,
+          7,
+          0,
+          7,
+          1,
+          6,
+          3,
+          5,
+          2,
+          4,
+          7,
+          1,
+          0,
+          3,
+          5,
+          6,
+          2,
+          7,
+          4,
+          1,
+          2
+        ],
+        [
+          3,
+          1,
+          7,
+          5,
+          2,
+          6,
+          0,
+          4,
+          3,
+          1,
+          2,
+          7
+        ]
+      ],
+      "stored_basis_modes": [
+        32,
+        32,
+        12
+      ],
+      "basis_support_fraction": [
+        [
+          0.13838205748493174,
+          0.1291565869859363,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.12054614785354054,
+          0.11250973799663783,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.12054614785354054,
+          0.11250973799663783,
+          0.13838205748493174,
+          0.1291565869859363,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.13838205748493174,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.12054614785354054,
+          0.11250973799663783,
+          0.1291565869859363,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.13838205748493174,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.12054614785354054,
+          0.11250973799663783,
+          0.1291565869859363,
+          0.1291565869859363,
+          0.13838205748493174
+        ],
+        [
+          0.15560293574972323,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.13661896756734593,
+          0.1660584689819181,
+          0.14580343597523474,
+          0.14580343597523474,
+          0.14580343597523474,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.13661896756734593,
+          0.1660584689819181,
+          0.13661896756734593,
+          0.1660584689819181,
+          0.14580343597523474,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.14580343597523474,
+          0.14580343597523474,
+          0.1660584689819181,
+          0.14580343597523474,
+          0.13661896756734593,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.15560293574972323,
+          0.14580343597523474,
+          0.1660584689819181,
+          0.14580343597523474,
+          0.14580343597523474,
+          0.14580343597523474
+        ],
+        [
+          0.1291565869859363,
+          0.12054614785354054,
+          0.13838205748493174,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.1291565869859363,
+          0.11250973799663783,
+          0.12054614785354054,
+          0.1291565869859363,
+          0.12054614785354054,
+          0.12054614785354054,
+          0.13838205748493174
+        ]
+      ],
+      "peak_rss_bytes": 367624192,
+      "launch_to_exit_s": 2.8842923750635237
+    },
+    "zero-cap-21": {
+      "n": 21,
+      "kind": "localized",
+      "dt": 0.01,
+      "budget": 0.05,
+      "cap": 0,
+      "end_time": 1.0,
+      "steps": 100,
+      "backtracks": 0,
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22517533366987,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "direct_force_max_error": 1.1102230246251565e-16,
+      "equilibrium_rms": 1.3212503961769678e-16,
+      "divergence_relative": 8.278369978734168e-16,
+      "plastic_trace": 0.0,
+      "final_coordinates": [
+        9261,
+        9261,
+        9261
+      ],
+      "final_full_blocks": [
+        true,
+        true,
+        true
+      ],
+      "maximum_used_residuals": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "events": [
+        {
+          "block": "phase",
+          "action": "promote",
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0
+        },
+        {
+          "block": "population",
+          "action": "promote",
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0
+        },
+        {
+          "block": "gamma",
+          "action": "promote",
+          "time": 0.0,
+          "energy_jump": 0.0,
+          "residual_before": 1.0
+        }
+      ],
+      "persistent_array_bytes": 4000864,
+      "timings": {
+        "initialization_s": 0.01016720780171454,
+        "online_s": 0.2683101291768253,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00045387097634375095,
+        "tensor_validation_s": 0.0066904169507324696,
+        "array_io_s": 0.03619399992749095,
+        "report_io_s": 0.0002619579900056124
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "epsilon_xz": 0.06
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "direct_coupled_forces": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "all_block_budgets": true,
+        "activation_transfer_energy": true
+      },
+      "patch_history": [
+        [],
+        [],
+        []
+      ],
+      "stored_basis_modes": [
+        0,
+        0,
+        0
+      ],
+      "basis_support_fraction": [
+        [],
+        [],
+        []
+      ],
+      "peak_rss_bytes": 100499456,
+      "launch_to_exit_s": 0.6583847079891711
+    }
+  },
+  "matched": [
+    {
+      "run": "localized-13",
+      "reference": "field-13",
+      "errors": {
+        "phase": {
+          "l1": 0.0006268457054389744,
+          "l2": 0.001509150853819026,
+          "linf": 0.01568887746771877,
+          "relative_l2": 0.005873117804988526
+        },
+        "population": {
+          "l1": 8.77227182184015e-05,
+          "l2": 0.00015754234026733418,
+          "linf": 0.0014853116610080985,
+          "relative_l2": 0.009870664329800034
+        },
+        "gamma": {
+          "l1": 4.5671693168527895e-06,
+          "l2": 3.257510412186309e-05,
+          "linf": 0.000985082431557309,
+          "relative_l2": 0.0010023204317881353
+        },
+        "alpha": {
+          "l1": 5.317244596477217e-07,
+          "l2": 5.65960229087084e-06,
+          "linf": 0.00028192769732734296,
+          "relative_l2": 0.0027460920821707883
+        },
+        "stress": {
+          "l1": 4.734894784950254e-05,
+          "l2": 0.00011288248512520559,
+          "linf": 0.0018879389137010927,
+          "relative_l2": 0.0017992280383624182
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.003520599738175534,
+      "online_ratio_reference_over_run": 0.2966776737353927,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": false
+      }
+    },
+    {
+      "run": "localized-21",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 0.0003347679232893422,
+          "l2": 0.0006370136197429815,
+          "linf": 0.003355471523831366,
+          "relative_l2": 0.0025067701700294525
+        },
+        "population": {
+          "l1": 5.555191009172195e-05,
+          "l2": 9.57258021236987e-05,
+          "linf": 0.0007780052215632105,
+          "relative_l2": 0.005955292299318508
+        },
+        "gamma": {
+          "l1": 5.518602280879817e-06,
+          "l2": 3.375556850507092e-05,
+          "linf": 0.0007163048332998155,
+          "relative_l2": 0.0010384053473223116
+        },
+        "alpha": {
+          "l1": 5.202126976650373e-07,
+          "l2": 6.289014935069374e-06,
+          "linf": 0.0002783319142353677,
+          "relative_l2": 0.003050660762434078
+        },
+        "stress": {
+          "l1": 3.130577450298779e-05,
+          "l2": 5.913366233956435e-05,
+          "linf": 0.0004946534598779528,
+          "relative_l2": 0.0009439479991632314
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.0019343331802597064,
+      "online_ratio_reference_over_run": 0.16995908810886162,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": false
+      }
+    },
+    {
+      "run": "localized-29",
+      "reference": "field-29",
+      "errors": {
+        "phase": {
+          "l1": 0.0001468263810673359,
+          "l2": 0.00025419375650398657,
+          "linf": 0.0009343560037069487,
+          "relative_l2": 0.0010035810425522804
+        },
+        "population": {
+          "l1": 3.34719035698626e-05,
+          "l2": 5.633791952268612e-05,
+          "linf": 0.00038901004414615414,
+          "relative_l2": 0.0034984270049332527
+        },
+        "gamma": {
+          "l1": 5.53367527586816e-06,
+          "l2": 3.493922749287362e-05,
+          "linf": 0.0008265908100179124,
+          "relative_l2": 0.0010748174132706725
+        },
+        "alpha": {
+          "l1": 4.858627726000015e-07,
+          "l2": 6.6568045381151055e-06,
+          "linf": 0.0004148026083506118,
+          "relative_l2": 0.003229063152017179
+        },
+        "stress": {
+          "l1": 1.623201954177805e-05,
+          "l2": 2.9223079487523088e-05,
+          "linf": 0.0001805414365264879,
+          "relative_l2": 0.00046669112373684204
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.0008416752858488863,
+      "online_ratio_reference_over_run": 0.18627549880386854,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": true
+      }
+    },
+    {
+      "run": "localized-21-tight",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 0.0001051987213225298,
+          "l2": 0.00019872779815691225,
+          "linf": 0.0008913956539377543,
+          "relative_l2": 0.0007820318136626
+        },
+        "population": {
+          "l1": 1.917703253067616e-05,
+          "l2": 3.2418060025740895e-05,
+          "linf": 0.00023711577129906236,
+          "relative_l2": 0.0020167919092562467
+        },
+        "gamma": {
+          "l1": 2.369397766676427e-06,
+          "l2": 1.5727506168958232e-05,
+          "linf": 0.00031321638677200836,
+          "relative_l2": 0.00048381725532003626
+        },
+        "alpha": {
+          "l1": 2.3659043523738214e-07,
+          "l2": 3.00369937936213e-06,
+          "linf": 0.0001424473963724665,
+          "relative_l2": 0.0014570275207442423
+        },
+        "stress": {
+          "l1": 1.023850538187537e-05,
+          "l2": 1.920089858467055e-05,
+          "linf": 0.00015385361950137622,
+          "relative_l2": 0.0003065030827459724
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.0006214477201782476,
+      "online_ratio_reference_over_run": 0.2332733812836759,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": true
+      }
+    },
+    {
+      "run": "localized-21-halfdt",
+      "reference": "field-21-halfdt",
+      "errors": {
+        "phase": {
+          "l1": 0.0003344246343405324,
+          "l2": 0.0006378110720839582,
+          "linf": 0.0033679097413157333,
+          "relative_l2": 0.002510169170504865
+        },
+        "population": {
+          "l1": 5.603859435014778e-05,
+          "l2": 9.73352596342047e-05,
+          "linf": 0.0008018095431055472,
+          "relative_l2": 0.006065440714567505
+        },
+        "gamma": {
+          "l1": 5.52852867721283e-06,
+          "l2": 3.382739778794218e-05,
+          "linf": 0.0007200774488661209,
+          "relative_l2": 0.0010406161664870573
+        },
+        "alpha": {
+          "l1": 5.212758696548447e-07,
+          "l2": 6.301230368476882e-06,
+          "linf": 0.00027613415326307317,
+          "relative_l2": 0.00305660079288246
+        },
+        "stress": {
+          "l1": 3.136687281403105e-05,
+          "l2": 5.922462733350794e-05,
+          "linf": 0.0004943031443326029,
+          "relative_l2": 0.0009454022489570178
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.0019458474551319327,
+      "online_ratio_reference_over_run": 0.33174454371985784,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": false
+      }
+    },
+    {
+      "run": "zero-cap-21",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 1.8105860186580084e-18,
+          "l2": 1.4927744607872034e-17,
+          "linf": 2.220446049250313e-16,
+          "relative_l2": 5.874352404573358e-17
+        },
+        "population": {
+          "l1": 4.3876646907764525e-18,
+          "l2": 1.1384265693576277e-17,
+          "linf": 5.551115123125783e-17,
+          "relative_l2": 7.082377824397083e-16
+        },
+        "gamma": {
+          "l1": 5.417489642124785e-21,
+          "l2": 1.8392942264859928e-19,
+          "linf": 1.3877787807814457e-17,
+          "relative_l2": 5.65812707256046e-18
+        },
+        "alpha": {
+          "l1": 9.31319737430599e-20,
+          "l2": 3.9424290937883535e-19,
+          "linf": 1.3877787807814457e-17,
+          "relative_l2": 1.9123843510106084e-16
+        },
+        "stress": {
+          "l1": 4.463806845970455e-18,
+          "l2": 8.659199103346114e-18,
+          "linf": 1.1102230246251565e-16,
+          "relative_l2": 1.3822640683106773e-16
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.0,
+      "online_ratio_reference_over_run": 0.47089474653323443,
+      "gates": {
+        "phase": true,
+        "population": true,
+        "alpha": true,
+        "energy": true
+      }
+    }
+  ],
+  "time": [
+    {
+      "run": "field-21",
+      "reference": "field-21-halfdt",
+      "errors": {
+        "phase": {
+          "l1": 3.275476486192188e-05,
+          "l2": 6.946596174133073e-05,
+          "linf": 0.0005447528667330559,
+          "relative_l2": 0.000273390229794577
+        },
+        "population": {
+          "l1": 2.394115896702241e-05,
+          "l2": 4.259951463891716e-05,
+          "linf": 0.0004495143764729481,
+          "relative_l2": 0.0026545861333574054
+        },
+        "gamma": {
+          "l1": 4.4402406405381716e-08,
+          "l2": 2.8314623077200115e-07,
+          "linf": 6.308533392229698e-06,
+          "relative_l2": 8.710292972232306e-06
+        },
+        "alpha": {
+          "l1": 3.761634962755194e-09,
+          "l2": 5.322396709062983e-08,
+          "linf": 2.910743803194449e-06,
+          "relative_l2": 2.581788166695655e-05
+        },
+        "stress": {
+          "l1": 2.1983086087691433e-06,
+          "l2": 4.296605983433418e-06,
+          "linf": 4.1624097518344616e-05,
+          "relative_l2": 6.858668669615983e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 5.2216021160456094e-05,
+      "online_ratio_reference_over_run": 1.75648725957229
+    },
+    {
+      "run": "localized-21",
+      "reference": "localized-21-halfdt",
+      "errors": {
+        "phase": {
+          "l1": 3.427001761038171e-05,
+          "l2": 7.021864324780043e-05,
+          "linf": 0.000542330095910315,
+          "relative_l2": 0.00027581221439079327
+        },
+        "population": {
+          "l1": 2.4061970573143328e-05,
+          "l2": 4.1749134624501586e-05,
+          "linf": 0.0004332242374568418,
+          "relative_l2": 0.0026056281803435457
+        },
+        "gamma": {
+          "l1": 3.6849436038518335e-08,
+          "l2": 3.7028963994224435e-07,
+          "linf": 1.10739133006299e-05,
+          "relative_l2": 1.1387878245000703e-05
+        },
+        "alpha": {
+          "l1": 3.441105306870438e-09,
+          "l2": 7.231493728068415e-08,
+          "linf": 5.00059581678286e-06,
+          "relative_l2": 3.505413178295618e-05
+        },
+        "stress": {
+          "l1": 2.350500575550553e-06,
+          "l2": 4.4783191537671e-06,
+          "linf": 4.2633330248037504e-05,
+          "relative_l2": 7.146295011282818e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 4.0723507736428743e-05,
+      "online_ratio_reference_over_run": 0.8998820886827745
+    }
+  ],
+  "source_sha256": {
+    "benchmarks/localized_transport.py": "d24f10a1d251c9e8bad8b2070f55fddf9e58acb51aacf528ce5af631d3683e09",
+    "src/bmvr/localized_transport.py": "d52e771ce0a1ba14876fe52d49f5b94446c39f074d8915e7c8bf49c8e56827af",
+    "src/bmvr/coupled_transport.py": "d95f842a868aa69d7eb37e62f10d65297f364e8c13377b51bf8f4fc2a2ff6ce1",
+    "src/bmvr/continuum3d.py": "ebd85323316d3c91159799869c7fb1227fb814039cd7712b67173a9eb178a1c1",
+    "src/bmvr/response_cache.py": "e9844473d591268195d3e684679c977e2037ac9cb1dc81ac618625a1aaf0903a",
+    "unified_multiscale_defect_framework.md": "4fdaaf15373da13e2250992845c2c59acbef7f10aabf1e813370164d0092b4c6"
+  },
+  "scope": "Localized trial modes for all blocks. Full-grid quadrature and dense response storage remain. Timings are single runs."
+}

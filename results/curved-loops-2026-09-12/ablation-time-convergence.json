@@ -1,0 +1,27 @@
+{
+  "phase": {
+    "coarse_rms": 2.150752763488052e-07,
+    "fine_rms": 2.1638458576628876e-07,
+    "relative_change": 0.007940687542185765,
+    "within_predeclared_10_percent": true
+  },
+  "population": {
+    "coarse_rms": 1.8184001622192885e-07,
+    "fine_rms": 1.817921233774149e-07,
+    "relative_change": 0.005927664464954016,
+    "within_predeclared_10_percent": true
+  },
+  "slip": {
+    "coarse_rms": 1.4268440864473256e-06,
+    "fine_rms": 1.4415379429615724e-06,
+    "relative_change": 0.01153984267286985,
+    "within_predeclared_10_percent": true
+  },
+  "stress": {
+    "coarse_rms": 1.057158062421672e-05,
+    "fine_rms": 1.0488905777561976e-05,
+    "relative_change": 0.007956961068603281,
+    "within_predeclared_10_percent": true
+  },
+  "node_position_linf_change": 3.296902670468782e-05
+}

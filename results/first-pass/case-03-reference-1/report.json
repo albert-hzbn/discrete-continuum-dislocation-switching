@@ -1,0 +1,71 @@
+{
+  "case": 3,
+  "name": "Symmetric multiphase grain growth",
+  "variant": "reference",
+  "metrics": {
+    "steps": 800,
+    "end_time": 19.999999999999932,
+    "phase_sum_error": 4.440892098500626e-16,
+    "max_recorded_energy_increase": 0.0,
+    "junction_sector_degrees": [
+      124.0,
+      118.0,
+      118.0,
+      123.5,
+      130.0,
+      106.5,
+      114.0,
+      123.0,
+      123.0,
+      123.0,
+      124.5,
+      112.5,
+      122.0,
+      117.0,
+      121.0,
+      119.5,
+      123.5,
+      117.0,
+      113.0,
+      129.5,
+      117.5
+    ],
+    "junction_mean_abs_error_degrees": 4.476190476190476,
+    "initial_grains": 8,
+    "remaining_grains": 8,
+    "mean_abs_area_change": 13.722402503316683,
+    "final_dofs": 32768,
+    "stored_array_bytes": 363536,
+    "peak_rss_bytes": 67321856
+  },
+  "checks": {
+    "phase_simplex": true,
+    "energy_decay": true,
+    "grain_migration": true
+  },
+  "limitations": [
+    "Finite-ring angles are transient estimates, not converged equilibrium validation.",
+    "Statistical grain-growth scaling, mesh convergence and an adaptive comparison remain open."
+  ],
+  "timings": {
+    "initialization_s": 0.0008617500134278089,
+    "solver_s": 0.6380266244232189,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.6447613749769516,
+    "array_io_s": 0.0066600830177776515
+  },
+  "status": "partial",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

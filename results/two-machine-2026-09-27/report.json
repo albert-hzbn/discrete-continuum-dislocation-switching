@@ -1,0 +1,47 @@
+{
+ "scope": "Section 70.4: two ranks on two machines (Mac arm64 rank 0, remote-vm x86-64 rank 1) over an SSH port forward across the tailnet.",
+ "compute_seconds_per_step": {
+  "rank0_mac": 0.009073102800175547,
+  "rank1_vm": 0.07329564332806816
+ },
+ "one_way_message_seconds": 0.030029835415043636,
+ "halo_bytes": 8192,
+ "two_machine_seconds_per_step": [
+  0.0786495583402575,
+  0.06807153415982611,
+  0.07167974042007699
+ ],
+ "best": 0.06807153415982611,
+ "field_check": {
+  "relative_Linf": 1.11e-16,
+  "bitwise": false,
+  "cells_differing": 4,
+  "serial_reference": "Mac serial, 110 steps"
+ },
+ "declared_model": {
+  "prediction": 0.13335531415815544,
+  "relative_error": 0.9590466970385685
+ },
+ "post_hoc_overlap_model": {
+  "formula": "T = max(c_slow, c_fast + 2 t_msg)",
+  "prediction": 0.07329564332806816,
+  "relative_error": 0.07674440179321199
+ },
+ "gates": {
+  "M1_field": true,
+  "M2_declared_model": false
+ },
+ "first_attempt": {
+  "runs": [
+   "EOFError",
+   "{\"rank0_seconds_per_step\": 0.07166563292004867, \"rank1\": {\"rank\": 1, \"seconds_per_step\": 0.07153671799926087, \"platform\": \"Windows-2025Server-10.0.26100-SP0\", \"numpy\": \"2.5.2\"}}",
+   "{\"rank0_seconds_per_step\": 0.10713931708974997, \"rank1\": {\"rank\": 1, \"seconds_per_step\": 0.10717793899821118, \"platform\": \"Windows-2025Server-10.0.26100-SP0\", \"numpy\": \"2.5.2\"}}"
+  ],
+  "note": "run 1 failed with EOFError: the SSH forward accepted before the far listener existed; connect_tcp now retries on EOFError. Runs 2-3 of that attempt: 71.7 and 107 ms/step."
+ },
+ "environment": {
+  "rank0": "macOS-27.0-arm64, numpy 2.3.3",
+  "rank1": "Windows-2025Server-10.0.26100-SP0, numpy 2.5.2"
+ },
+ "remote_footprint": "C:<home>/AppData/Local/Temp/bmvr (4 source files and one script, no installs); left in place under the no-permanent-delete rule."
+}

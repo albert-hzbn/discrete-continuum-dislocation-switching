@@ -1,0 +1,94 @@
+{
+  "case": 9,
+  "name": "Coupled defect population, screw dipole and diffuse inclusion",
+  "variant": "adaptive",
+  "metrics": {
+    "end_time": 7.999999999999917,
+    "steps": 400,
+    "h": 0.5,
+    "physical_profile_scale": 1.4142135623730951,
+    "inventory_drift": 1.1368683772161603e-13,
+    "burgers_content": 0.0,
+    "final_plastic_shear": 0.000825291743532801,
+    "initial_stress": 0.15,
+    "final_stress": 0.1491747082564672,
+    "dislocation_displacement": 2.3903002145149443,
+    "concentration_range": 0.04557037128506505,
+    "max_recorded_energy_increase": 0.0,
+    "initial_dofs": 21634,
+    "final_dofs": 12170,
+    "stored_array_bytes": 247168,
+    "accepted_transfers": 3,
+    "peak_rss_bytes": 69419008
+  },
+  "checks": {
+    "mass_conservation": true,
+    "burgers_conservation": true,
+    "energy_decay": true,
+    "reciprocal_coupling_evolves": true,
+    "plastic_relaxation": true
+  },
+  "limitations": [
+    "0D defects are populations, lines are straight sections, and plasticity is one analytical mean-shear mode.",
+    "No local 3D crystal plasticity, curved-line topology, disclinations or crystallographic transmission.",
+    "The reference uses the same sparse lines with uniform fields; it is a uniform-field hybrid reference, not an all-field dislocation PF model.",
+    "The full residual-per-cost allocation policy is not implemented."
+  ],
+  "timings": {
+    "initialization_s": 0.0008821660012472421,
+    "solver_s": 0.16671901691006497,
+    "adaptation_s": 0.010265499964589253,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.17813608300639316,
+    "array_io_s": 0.0023543749994132668
+  },
+  "status": "partial",
+  "transfers": [
+    {
+      "changed": true,
+      "reason": "accepted",
+      "relative_l2": 1.7485212411502456e-05,
+      "energy_jump": -2.982770297421666e-08,
+      "common_grid_energy_jump": -1.707371666270774e-08,
+      "mass_error": 1.1368683772161603e-13,
+      "old_cells": 10816,
+      "proposed_cells": 6400
+    },
+    {
+      "changed": false,
+      "reason": "same_grid"
+    },
+    {
+      "changed": true,
+      "reason": "accepted",
+      "relative_l2": 4.009638605577943e-07,
+      "energy_jump": -1.9430359543548548e-09,
+      "common_grid_energy_jump": 5.963613602943951e-09,
+      "mass_error": 1.1368683772161603e-13,
+      "old_cells": 6400,
+      "proposed_cells": 6240
+    },
+    {
+      "changed": true,
+      "reason": "accepted",
+      "relative_l2": 1.4841653217439533e-05,
+      "energy_jump": -1.9653839444799814e-08,
+      "common_grid_energy_jump": -1.3107779750498594e-08,
+      "mass_error": 4.547473508864641e-13,
+      "old_cells": 6240,
+      "proposed_cells": 6084
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

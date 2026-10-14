@@ -1,0 +1,162 @@
+{
+ "scope": "Section 61.1 quadtree AMR baseline, case 1 physics (R0=14, side 128, finest h=0.5, dt=0.02, t=12); median of three single-thread runs.",
+ "runs": {
+  "uniform": [
+   {
+    "solver_s": 0.34569396733422764,
+    "adaptation_s": 0.0,
+    "initialization_s": 0.0012671249860432,
+    "final_cells": 65536,
+    "mean_cells": 65536.0,
+    "max_energy_increase": 0.0
+   },
+   {
+    "solver_s": 0.3424121221178211,
+    "adaptation_s": 0.0,
+    "initialization_s": 0.0006720829987898469,
+    "final_cells": 65536,
+    "mean_cells": 65536.0,
+    "max_energy_increase": 0.0
+   },
+   {
+    "solver_s": 0.3394908399495762,
+    "adaptation_s": 0.0,
+    "initialization_s": 0.0007276249816641212,
+    "final_cells": 65536,
+    "mean_cells": 65536.0,
+    "max_energy_increase": 0.0
+   }
+  ],
+  "focused": [
+   {
+    "solver_s": 0.11344267992535606,
+    "adaptation_s": 0.005631042004097253,
+    "initialization_s": 0.00041083298856392503,
+    "final_cells": 16900,
+    "mean_cells": 17332.0,
+    "max_energy_increase": 0.0
+   },
+   {
+    "solver_s": 0.11309738509589806,
+    "adaptation_s": 0.005710917001124471,
+    "initialization_s": 0.00041708399658091366,
+    "final_cells": 16900,
+    "mean_cells": 17332.0,
+    "max_energy_increase": 0.0
+   },
+   {
+    "solver_s": 0.11044519700226374,
+    "adaptation_s": 0.005347124999389052,
+    "initialization_s": 0.00032108399318531156,
+    "final_cells": 16900,
+    "mean_cells": 17332.0,
+    "max_energy_increase": 0.0
+   }
+  ],
+  "amr": [
+   {
+    "solver_s": 0.13138068187981844,
+    "adaptation_s": 0.07916399894747883,
+    "initialization_s": 0.006290666991844773,
+    "final_cells": 25600,
+    "mean_cells": 25600.0,
+    "leaf_levels": [
+     0,
+     4,
+     32,
+     64
+    ],
+    "max_energy_increase": 0.0,
+    "blocks": 100
+   },
+   {
+    "solver_s": 0.13229759194655344,
+    "adaptation_s": 0.08020587405189872,
+    "initialization_s": 0.006553874991368502,
+    "final_cells": 25600,
+    "mean_cells": 25600.0,
+    "leaf_levels": [
+     0,
+     4,
+     32,
+     64
+    ],
+    "max_energy_increase": 0.0,
+    "blocks": 100
+   },
+   {
+    "solver_s": 0.13122918157023378,
+    "adaptation_s": 0.08141716400859877,
+    "initialization_s": 0.00607695899088867,
+    "final_cells": 25600,
+    "mean_cells": 25600.0,
+    "leaf_levels": [
+     0,
+     4,
+     32,
+     64
+    ],
+    "max_energy_increase": 0.0,
+    "blocks": 100
+   }
+  ]
+ },
+ "cost": {
+  "uniform": {
+   "solver_plus_adaptation_s": 0.3424121221178211,
+   "solver_s": 0.3424121221178211,
+   "adaptation_s": 0.0,
+   "mean_cells": 65536.0,
+   "final_cells": 65536
+  },
+  "focused": {
+   "solver_plus_adaptation_s": 0.11880830209702253,
+   "solver_s": 0.11309738509589806,
+   "adaptation_s": 0.005631042004097253,
+   "mean_cells": 17332.0,
+   "final_cells": 16900
+  },
+  "amr": {
+   "solver_plus_adaptation_s": 0.21250346599845216,
+   "solver_s": 0.13138068187981844,
+   "adaptation_s": 0.08020587405189872,
+   "mean_cells": 25600.0,
+   "final_cells": 25600
+  }
+ },
+ "speedups": {
+  "uniform_over_amr": 1.6113248812624787,
+  "uniform_over_focused": 2.8820555135801604,
+  "focused_over_amr": 0.559088773158589
+ },
+ "accuracy_vs_uniform": {
+  "focused": {
+   "relative_l2": 4.154668627394253e-07,
+   "radius_difference": 5.297824401395701e-10
+  },
+  "amr": {
+   "relative_l2": 4.26209918181243e-13,
+   "radius_difference": 1.3535839116229909e-12
+  }
+ },
+ "amr_structure": {
+  "leaf_levels": [
+   0,
+   4,
+   32,
+   64
+  ],
+  "blocks": 100
+ },
+ "gates": {
+  "A1_accuracy": true,
+  "A2_prediction_fewer_cells": false,
+  "A2_prediction_slower": true
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "threads": 1
+ }
+}

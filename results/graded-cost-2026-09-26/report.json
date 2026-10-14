@@ -1,0 +1,453 @@
+{
+  "scope": "Section 48 equal-accuracy cost of static graded versus uniform notch meshes at t<=0.2, Gauss rule; conventional technique.",
+  "claims": {
+    "0.1": {
+      "claimed": true,
+      "spread": 0.4310905575884946,
+      "ratio": 1.7373119938206103,
+      "repeats": 3
+    },
+    "0.05": {
+      "claimed": true,
+      "spread": 0.4310905575884946,
+      "ratio": 4.781163280937374,
+      "repeats": 3
+    },
+    "0.025": {
+      "claimed": true,
+      "spread": 0.30399765440917753,
+      "ratio": 2.563154594352999,
+      "repeats": 3
+    }
+  },
+  "interpretation": "At 10%: ratio 1.74 versus repeat spread 43% over 3 processes; claimed. At 5%: ratio 4.78 versus repeat spread 43% over 3 processes; claimed. At 2.5%: ratio 2.56 versus repeat spread 30% over 3 processes; claimed.",
+  "reference": {
+    "name": "cost-uniform-128-0.00025",
+    "solver_seconds": 2891.5590248255176,
+    "checks": {
+      "positive_T": true,
+      "positive_J": true,
+      "positive_capacity": true,
+      "plastic_volume": true,
+      "entropy_production": true,
+      "entropy_increase": true,
+      "energy_drift": true,
+      "conductive_balance": true,
+      "midpoint_converged": true,
+      "fixed_boundary": true,
+      "composition_inventory": true,
+      "composition_bounds": true,
+      "phase_bounds": true,
+      "chemical_energy_transfer": true,
+      "microstress_transfer": true,
+      "damage_bounds": true,
+      "damage_irreversibility": true,
+      "damage_dissipation": true
+    },
+    "uniform96_vs_reference": {
+      "c": 0.0001651469880107005,
+      "eta": 0.0005501446480645414,
+      "T": 0.00017547050213747613,
+      "slip": 0.014135197590582538,
+      "damage": 0.005761043285955022
+    }
+  },
+  "candidates": {
+    "graded-32": {
+      "family": "graded",
+      "n": 32,
+      "cells": 1024,
+      "errors": {
+        "t0.1": {
+          "c": 0.0015190565141514492,
+          "eta": 0.0015300698734578408,
+          "T": 0.0008724017127664113,
+          "slip": 0.08481965756473299,
+          "damage": 0.01766382033385259
+        },
+        "t0.15": {
+          "c": 0.0018506083891371337,
+          "eta": 0.002031280305791602,
+          "T": 0.001173876569327276,
+          "slip": 0.08979739492787729,
+          "damage": 0.02561777225594593
+        },
+        "t0.2": {
+          "c": 0.002135345956777242,
+          "eta": 0.0024926871697011107,
+          "T": 0.001273940187871362,
+          "slip": 0.10428326321021206,
+          "damage": 0.029788706515654628
+        }
+      },
+      "solver_seconds": 183.49004214353045,
+      "initialization_seconds": 3.172503958980087,
+      "output_seconds": 0.171321290981723,
+      "wall_seconds": 187.7833228330128,
+      "peak_rss_bytes": 183975936,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 6,
+      "repeat_solver_seconds": [],
+      "repeat_wall_seconds": []
+    },
+    "graded-48": {
+      "family": "graded",
+      "n": 48,
+      "cells": 2304,
+      "errors": {
+        "t0.1": {
+          "c": 0.0007124898771928512,
+          "eta": 0.0009129448920660723,
+          "T": 0.0004083115945435783,
+          "slip": 0.03100693986578156,
+          "damage": 0.0074678701126410976
+        },
+        "t0.15": {
+          "c": 0.0008665239146711783,
+          "eta": 0.0011259337477581642,
+          "T": 0.0005270358841946106,
+          "slip": 0.032903160884659645,
+          "damage": 0.011664199910881646
+        },
+        "t0.2": {
+          "c": 0.0009917415905841755,
+          "eta": 0.0013253325944356732,
+          "T": 0.0006200692199946085,
+          "slip": 0.038927902645171056,
+          "damage": 0.013981009362280668
+        }
+      },
+      "solver_seconds": 353.2296536535432,
+      "initialization_seconds": 7.153876000025775,
+      "output_seconds": 0.21325458300998434,
+      "wall_seconds": 361.6588930830185,
+      "peak_rss_bytes": 338313216,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 7,
+      "repeat_solver_seconds": [
+        504.18050921161193,
+        505.7231029983959
+      ],
+      "repeat_wall_seconds": [
+        516.1570147090242,
+        517.5666269590147
+      ]
+    },
+    "graded-64": {
+      "family": "graded",
+      "n": 64,
+      "cells": 4096,
+      "errors": {
+        "t0.1": {
+          "c": 0.00040410937564569314,
+          "eta": 0.0007519887574995645,
+          "T": 0.00026647318717467575,
+          "slip": 0.01251200187350824,
+          "damage": 0.002873545721577002
+        },
+        "t0.15": {
+          "c": 0.000485718621613434,
+          "eta": 0.0008554053093288461,
+          "T": 0.0003212817939132037,
+          "slip": 0.012785332408071717,
+          "damage": 0.004435383420363833
+        },
+        "t0.2": {
+          "c": 0.0005524085620593599,
+          "eta": 0.0009541074348410339,
+          "T": 0.00037606742321501176,
+          "slip": 0.014719682491167216,
+          "damage": 0.005770876550332061
+        }
+      },
+      "solver_seconds": 659.5687217293016,
+      "initialization_seconds": 13.646714750007959,
+      "output_seconds": 0.359823291975772,
+      "wall_seconds": 674.6179975419946,
+      "peak_rss_bytes": 521502720,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 7,
+      "repeat_solver_seconds": [
+        855.8529847618775,
+        859.9328732066497
+      ],
+      "repeat_wall_seconds": [
+        875.570713041001,
+        879.7002864169772
+      ]
+    },
+    "uniform-48": {
+      "family": "uniform",
+      "n": 48,
+      "cells": 2304,
+      "errors": {
+        "t0.1": {
+          "c": 0.00022616874249804713,
+          "eta": 0.0006804609298992029,
+          "T": 0.0004231560173424891,
+          "slip": 0.08137143353109777,
+          "damage": 0.01761168165770493
+        },
+        "t0.15": {
+          "c": 0.0003460646252256575,
+          "eta": 0.0007394560028867204,
+          "T": 0.0006712139313202807,
+          "slip": 0.08684807836142097,
+          "damage": 0.025568908164277263
+        },
+        "t0.2": {
+          "c": 0.0005220158025629748,
+          "eta": 0.0007936759205727155,
+          "T": 0.0005732051074527432,
+          "slip": 0.10207974705687338,
+          "damage": 0.029744965519090116
+        }
+      },
+      "solver_seconds": 353.1110468499828,
+      "initialization_seconds": 7.297038624994457,
+      "output_seconds": 0.24062329201842658,
+      "wall_seconds": 361.53141333401436,
+      "peak_rss_bytes": 343588864,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 6,
+      "repeat_solver_seconds": [],
+      "repeat_wall_seconds": []
+    },
+    "uniform-64": {
+      "family": "uniform",
+      "n": 64,
+      "cells": 4096,
+      "errors": {
+        "t0.1": {
+          "c": 0.00017428319223676417,
+          "eta": 0.0008057822954691286,
+          "T": 0.0002655299091734739,
+          "slip": 0.041362209697884234,
+          "damage": 0.010624870623820525
+        },
+        "t0.15": {
+          "c": 0.00023406664118040988,
+          "eta": 0.0008248973944614397,
+          "T": 0.00038030607034640574,
+          "slip": 0.044066257317783256,
+          "damage": 0.016082495573645668
+        },
+        "t0.2": {
+          "c": 0.000326465981267268,
+          "eta": 0.0008421091804994225,
+          "T": 0.00041504844096730456,
+          "slip": 0.05238469986333792,
+          "damage": 0.019038706115047356
+        }
+      },
+      "solver_seconds": 613.3742561684339,
+      "initialization_seconds": 13.639578125003027,
+      "output_seconds": 0.2642967510037124,
+      "wall_seconds": 628.3143326250138,
+      "peak_rss_bytes": 506232832,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 7,
+      "repeat_solver_seconds": [],
+      "repeat_wall_seconds": []
+    },
+    "uniform-96": {
+      "family": "uniform",
+      "n": 96,
+      "cells": 9216,
+      "errors": {
+        "t0.1": {
+          "c": 0.00012488277454882185,
+          "eta": 0.000551773058132734,
+          "T": 0.00012450814009021887,
+          "slip": 0.011578183600144072,
+          "damage": 0.0028590718855517976
+        },
+        "t0.15": {
+          "c": 0.00014197455623392473,
+          "eta": 0.000550979210559353,
+          "T": 0.00014359150114139093,
+          "slip": 0.011994613120481652,
+          "damage": 0.004422360176850958
+        },
+        "t0.2": {
+          "c": 0.0001651469880107005,
+          "eta": 0.0005501446480645414,
+          "T": 0.00017547050213747613,
+          "slip": 0.014135197590582538,
+          "damage": 0.005761043285955022
+        }
+      },
+      "solver_seconds": 1695.2802249338129,
+      "initialization_seconds": 31.885788291983772,
+      "output_seconds": 0.5632292500231415,
+      "wall_seconds": 1729.1502198329836,
+      "peak_rss_bytes": 976863232,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "max_midpoint_iterations": 8,
+      "repeat_solver_seconds": [],
+      "repeat_wall_seconds": []
+    }
+  },
+  "cheapest": {
+    "0.1": {
+      "graded": "graded-48",
+      "uniform": "uniform-64"
+    },
+    "0.05": {
+      "graded": "graded-48",
+      "uniform": "uniform-96"
+    },
+    "0.025": {
+      "graded": "graded-64",
+      "uniform": "uniform-96"
+    }
+  },
+  "ratios": {
+    "0.1": {
+      "kind": "ratio",
+      "wall": 1.7373119938206103,
+      "solver": 1.7364744149426574
+    },
+    "0.05": {
+      "kind": "ratio",
+      "wall": 4.781163280937374,
+      "solver": 4.799371194912723
+    },
+    "0.025": {
+      "kind": "ratio",
+      "wall": 2.563154594352999,
+      "solver": 2.5702859597238223
+    }
+  },
+  "targets": [
+    0.1,
+    0.05,
+    0.025
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    },
+    "concurrency": "Six candidates ran concurrently (one per performance core); the reference ran alongside, and the graded n48/n64 repeats ran later under different load."
+  }
+}

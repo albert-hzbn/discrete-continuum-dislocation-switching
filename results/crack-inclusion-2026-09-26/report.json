@@ -1,0 +1,177 @@
+{
+ "scope": "Section 62: tough inclusion ahead of a seeded notch, Section 36 AT2 model; declared gates.",
+ "center": [
+  0.6,
+  0.5
+ ],
+ "radius": 0.12,
+ "matrix_toughness": 0.001,
+ "ell": 0.06,
+ "runs": {
+  "k1-n64": {
+   "name": "k1-n64",
+   "kappa": 1.0,
+   "n": 64,
+   "failure": null,
+   "checks": {
+    "irreversibility": true,
+    "bounds": true,
+    "descent": true,
+    "stationarity": true
+   },
+   "seconds": 326.51023954199627
+  },
+  "k1.25-n64": {
+   "name": "k1.25-n64",
+   "kappa": 1.25,
+   "n": 64,
+   "failure": null,
+   "checks": {
+    "irreversibility": true,
+    "bounds": true,
+    "descent": true,
+    "stationarity": true
+   },
+   "seconds": 342.9860403329949
+  },
+  "k4-n64": {
+   "name": "k4-n64",
+   "kappa": 4.0,
+   "n": 64,
+   "failure": null,
+   "checks": {
+    "irreversibility": true,
+    "bounds": true,
+    "descent": true,
+    "stationarity": true
+   },
+   "seconds": 414.9840542500024
+  },
+  "k4-n96": {
+   "name": "k4-n96",
+   "kappa": 4.0,
+   "n": 96,
+   "failure": null,
+   "checks": {
+    "irreversibility": true,
+    "bounds": true,
+    "descent": true,
+    "stationarity": true
+   },
+   "seconds": 1127.646499333001
+  }
+ },
+ "final": {
+  "k1-n64": {
+   "load": 0.12,
+   "reaction": 0.0030033718977051497,
+   "energy": 0.0013496434240486612,
+   "fracture_energy": 0.0011694411947377914,
+   "min_increment": 0.0,
+   "q_min": 0.002868008402094042,
+   "q_max": 1.0,
+   "max_fixed_load_increase": 0.0,
+   "mechanical_residual": 5.976807874716494e-07,
+   "damage_residual": 3.016050553750205e-08,
+   "iterations": 11,
+   "tip": 1.0,
+   "inside_mean": 0.5625301196603067,
+   "branches_at_center": 1,
+   "centerline_front": 1.0,
+   "centerline_through_inclusion": true
+  },
+  "k1.25-n64": {
+   "load": 0.12,
+   "reaction": 0.0030030156368442444,
+   "energy": 0.001430452555427513,
+   "fracture_energy": 0.00125027171212474,
+   "min_increment": 0.0,
+   "q_min": 0.0028688979269845634,
+   "q_max": 1.0,
+   "max_fixed_load_increase": 9.324138683375338e-18,
+   "mechanical_residual": 6.183546571692467e-07,
+   "damage_residual": 3.6526411673065695e-08,
+   "iterations": 11,
+   "tip": 1.0,
+   "inside_mean": 0.5771130631254605,
+   "branches_at_center": 1,
+   "centerline_front": 1.0,
+   "centerline_through_inclusion": true
+  },
+  "k4-n64": {
+   "load": 0.12,
+   "reaction": 0.0029427145472458167,
+   "energy": 0.0015074867813389512,
+   "fracture_energy": 0.0013309239132144534,
+   "min_increment": 0.0,
+   "q_min": 0.002980801782559629,
+   "q_max": 1.0,
+   "max_fixed_load_increase": 0.0,
+   "mechanical_residual": 9.716119366253221e-07,
+   "damage_residual": 6.720647882652031e-08,
+   "iterations": 10,
+   "tip": 1.0,
+   "inside_mean": 0.13245642349231282,
+   "branches_at_center": 1,
+   "centerline_front": 0.4375,
+   "centerline_through_inclusion": false
+  },
+  "k4-n96": {
+   "load": 0.12,
+   "reaction": 0.0042896502721440875,
+   "energy": 0.0015311588039444851,
+   "fracture_energy": 0.0012737799526174108,
+   "min_increment": 0.0,
+   "q_min": 0.002597440117390254,
+   "q_max": 1.0,
+   "max_fixed_load_increase": 2.6020852139652106e-18,
+   "mechanical_residual": 4.427983874930891e-07,
+   "damage_residual": 9.45037920141445e-08,
+   "iterations": 9,
+   "tip": 1.0,
+   "inside_mean": 0.13167729356465474,
+   "branches_at_center": 1,
+   "centerline_front": 0.44791666666666663,
+   "centerline_through_inclusion": false
+  }
+ },
+ "arrest": {
+  "k1-n64": {
+   "arrival_load": 0.03,
+   "leave_load": 0.03,
+   "interval_fraction": 0.0,
+   "reaction_rises": false
+  },
+  "k1.25-n64": {
+   "arrival_load": 0.0325,
+   "leave_load": 0.0325,
+   "interval_fraction": 0.0,
+   "reaction_rises": false
+  },
+  "k4-n64": {
+   "arrival_load": 0.035,
+   "leave_load": 0.04,
+   "interval_fraction": 0.14285714285714277,
+   "reaction_rises": true
+  },
+  "k4-n96": {
+   "arrival_load": 0.035,
+   "leave_load": 0.04,
+   "interval_fraction": 0.14285714285714277,
+   "reaction_rises": true
+  }
+ },
+ "gates": {
+  "B1_control": true,
+  "B2_arrest": true,
+  "B3_deflection": true,
+  "B4_penetration": true,
+  "B5_numerics": true
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "threads": 1
+ }
+}

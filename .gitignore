@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Manuscript: only the figure scripts are published until the paper appears
+/manuscript/*
+!/manuscript/figures/
+/manuscript/figures/*
+!/manuscript/figures/*.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

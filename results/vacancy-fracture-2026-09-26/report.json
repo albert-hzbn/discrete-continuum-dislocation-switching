@@ -1,0 +1,502 @@
+{
+  "scope": "Section 50 reactive vacancies: synthetic nondimensional coefficients; no material calibration.",
+  "homogeneous": {
+    "sink_relaxation": {
+      "exact": 0.07124896053235096,
+      "x0": 0.08,
+      "runs": {
+        "0.04": {
+          "error": 2.4558390515627693e-08,
+          "energy_drift": 3.9291523160067676e-11,
+          "heat_released": -7.710487025008178e-05
+        },
+        "0.02": {
+          "error": 6.13957748529792e-09,
+          "energy_drift": 9.820068369581492e-12,
+          "heat_released": -7.710473145391365e-05
+        },
+        "0.01": {
+          "error": 1.5348934900849542e-09,
+          "energy_drift": 2.4659553912731447e-12,
+          "heat_released": -7.710469675499976e-05
+        }
+      },
+      "observed_orders": [
+        2.0000047333936593,
+        2.000000828304724
+      ],
+      "linearized_rate": 0.21052631578947367
+    },
+    "generation_backstress": {
+      "control": {
+        "final_slip": 0.04111452845838919,
+        "final_vac": 0.05,
+        "final_mu": 0.0,
+        "stored_power_last": 0.0,
+        "plastic_power_last": 0.0006969963287523969,
+        "energy_drift": 3.040096993589536e-11,
+        "min_entropy_production": 0.0006967188574873397
+      },
+      "generation": {
+        "final_slip": 0.012070635179627209,
+        "final_vac": 0.10593281106436944,
+        "final_mu": 0.01622926173327783,
+        "stored_power_last": 0.00011979840428889124,
+        "plastic_power_last": 3.108664105333234e-05,
+        "energy_drift": 2.3974730917544762e-08,
+        "min_entropy_production": 0.0001627659369725847
+      },
+      "slip_reduction": 0.706414359297747
+    }
+  },
+  "notch": {
+    "runs": {
+      "32": {
+        "name": "vacancy-notch-32-0.00025",
+        "n": 32,
+        "degree": 2,
+        "dt": 0.00025,
+        "steps": 800,
+        "variant": "vacancy-notch",
+        "failure": null,
+        "energy_scale": 0.06139329144774867,
+        "relative_energy_drift": 3.0295249160410777e-09,
+        "mass_error": 5.551115123125783e-17,
+        "min_damage_increment": 0.0,
+        "entropy_integral": 0.007248928316233445,
+        "entropy_integration_error": 7.001382112958865e-12,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        },
+        "initialization_seconds": 6.32131387499976,
+        "solver_seconds": 249.31597747013438,
+        "diagnostics_output_seconds": 0.18901766699855216,
+        "evolving_array_bytes": 987688,
+        "evolving_stored_scalars": 123461,
+        "parameters": {
+          "mechanical": {
+            "lam": 2.0,
+            "mu": 1.0,
+            "cv": 10.0,
+            "alpha_c": 0.02,
+            "alpha_eta": 0.015,
+            "alpha_T": 0.005,
+            "c0": 0.2,
+            "T0": 1.0
+          },
+          "transport": {
+            "density": 1.0,
+            "conductivity": 0.4,
+            "hardening": [
+              0.2,
+              0.3
+            ],
+            "yield_stress": [
+              0.015,
+              0.025
+            ],
+            "drag": [
+              1.0,
+              1.7
+            ]
+          },
+          "chemistry": {
+            "mobility": 0.02,
+            "phase_mobility": 0.5,
+            "kappa_c": 0.002,
+            "kappa_eta": 0.0032,
+            "partition": -0.15,
+            "mobility_kind": "availability"
+          },
+          "fracture": {
+            "toughness": 0.002,
+            "ell": 0.08,
+            "residual": 0.0001,
+            "mobility": 5.0,
+            "phase_resistance": 0.004,
+            "elastic_split": "volumetric-deviatoric",
+            "crack_density": "AT2"
+          }
+        }
+      },
+      "48": {
+        "name": "vacancy-notch-48-0.00025",
+        "n": 48,
+        "degree": 2,
+        "dt": 0.00025,
+        "steps": 800,
+        "variant": "vacancy-notch",
+        "failure": null,
+        "energy_scale": 0.061420207254354944,
+        "relative_energy_drift": 5.939800460870551e-09,
+        "mass_error": 5.551115123125783e-17,
+        "min_damage_increment": 0.0,
+        "entropy_integral": 0.007276994770570626,
+        "entropy_integration_error": 1.0284944770844184e-11,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        },
+        "initialization_seconds": 11.127019791019848,
+        "solver_seconds": 386.5439139637747,
+        "diagnostics_output_seconds": 0.16926179200527258,
+        "evolving_array_bytes": 2218792,
+        "evolving_stored_scalars": 277349,
+        "parameters": {
+          "mechanical": {
+            "lam": 2.0,
+            "mu": 1.0,
+            "cv": 10.0,
+            "alpha_c": 0.02,
+            "alpha_eta": 0.015,
+            "alpha_T": 0.005,
+            "c0": 0.2,
+            "T0": 1.0
+          },
+          "transport": {
+            "density": 1.0,
+            "conductivity": 0.4,
+            "hardening": [
+              0.2,
+              0.3
+            ],
+            "yield_stress": [
+              0.015,
+              0.025
+            ],
+            "drag": [
+              1.0,
+              1.7
+            ]
+          },
+          "chemistry": {
+            "mobility": 0.02,
+            "phase_mobility": 0.5,
+            "kappa_c": 0.002,
+            "kappa_eta": 0.0032,
+            "partition": -0.15,
+            "mobility_kind": "availability"
+          },
+          "fracture": {
+            "toughness": 0.002,
+            "ell": 0.08,
+            "residual": 0.0001,
+            "mobility": 5.0,
+            "phase_resistance": 0.004,
+            "elastic_split": "volumetric-deviatoric",
+            "crack_density": "AT2"
+          }
+        }
+      },
+      "64": {
+        "name": "vacancy-notch-64-0.00025",
+        "n": 64,
+        "degree": 2,
+        "dt": 0.00025,
+        "steps": 800,
+        "variant": "vacancy-notch",
+        "failure": null,
+        "energy_scale": 0.06143018486346345,
+        "relative_energy_drift": 7.650691940479645e-09,
+        "mass_error": 5.551115123125783e-17,
+        "min_damage_increment": 0.0,
+        "entropy_integral": 0.007279076815759279,
+        "entropy_integration_error": 1.1981442747666105e-11,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        },
+        "initialization_seconds": 17.612665041000582,
+        "solver_seconds": 775.8029211698158,
+        "diagnostics_output_seconds": 0.35119483299786225,
+        "evolving_array_bytes": 3941416,
+        "evolving_stored_scalars": 492677,
+        "parameters": {
+          "mechanical": {
+            "lam": 2.0,
+            "mu": 1.0,
+            "cv": 10.0,
+            "alpha_c": 0.02,
+            "alpha_eta": 0.015,
+            "alpha_T": 0.005,
+            "c0": 0.2,
+            "T0": 1.0
+          },
+          "transport": {
+            "density": 1.0,
+            "conductivity": 0.4,
+            "hardening": [
+              0.2,
+              0.3
+            ],
+            "yield_stress": [
+              0.015,
+              0.025
+            ],
+            "drag": [
+              1.0,
+              1.7
+            ]
+          },
+          "chemistry": {
+            "mobility": 0.02,
+            "phase_mobility": 0.5,
+            "kappa_c": 0.002,
+            "kappa_eta": 0.0032,
+            "partition": -0.15,
+            "mobility_kind": "availability"
+          },
+          "fracture": {
+            "toughness": 0.002,
+            "ell": 0.08,
+            "residual": 0.0001,
+            "mobility": 5.0,
+            "phase_resistance": 0.004,
+            "elastic_split": "volumetric-deviatoric",
+            "crack_density": "AT2"
+          }
+        }
+      }
+    },
+    "pairs": {
+      "32_48": {
+        "t0.1": {
+          "c": 0.0026377836857781074,
+          "eta": 0.00886444024906114,
+          "T": 0.002698297842381973,
+          "vac": 0.05300261058420132,
+          "slip": 0.07973748320376202,
+          "damage": 0.011280837348396414
+        },
+        "t0.15": {
+          "c": 0.0028257585350648755,
+          "eta": 0.00899075164413458,
+          "T": 0.00281853284983006,
+          "vac": 0.06152057648566664,
+          "slip": 0.08902324743358102,
+          "damage": 0.015472440471506409
+        },
+        "t0.2": {
+          "c": 0.0030430581677313236,
+          "eta": 0.009111013741707894,
+          "T": 0.0029050409666203044,
+          "vac": 0.07907844472543679,
+          "slip": 0.09604445783625534,
+          "damage": 0.01798441211344742
+        }
+      },
+      "48_64": {
+        "t0.1": {
+          "c": 0.0014760796729651026,
+          "eta": 0.0048995458156765506,
+          "T": 0.0014158928943976013,
+          "vac": 0.01905001877672746,
+          "slip": 0.04762859548357032,
+          "damage": 0.0046678427857514415
+        },
+        "t0.15": {
+          "c": 0.0015795167714175687,
+          "eta": 0.00492094010911597,
+          "T": 0.0014555526746332242,
+          "vac": 0.022958120433257755,
+          "slip": 0.05449112416358592,
+          "damage": 0.006913216369485273
+        },
+        "t0.2": {
+          "c": 0.0016840267389376137,
+          "eta": 0.004940824222701367,
+          "T": 0.0014900868518848253,
+          "vac": 0.030422076166513306,
+          "slip": 0.056572474744840714,
+          "damage": 0.008554656379032957
+        }
+      }
+    },
+    "gates_48_64": {
+      "c": true,
+      "eta": true,
+      "T": true,
+      "vac": true,
+      "slip": false,
+      "damage": true
+    },
+    "effects": {
+      "32": {
+        "damage_relative_change": 0.0002244091811937388,
+        "slip_L1_change": -0.2963087922207771,
+        "max_supersaturation": 0.11716398379748427,
+        "band_mean_enrichment": 0.03645579593068127,
+        "outside_band_mean": 0.010504438631652402,
+        "tip_event_vacancy": 0.16561299845034774,
+        "tip_event_control": 0.16567423461208514,
+        "generated": 0.0002771413010102618,
+        "absorbed": 1.3545650067817296e-05,
+        "inventory_change": 0.0002906867483927142,
+        "ledger_residual": -2.0268536491610133e-10,
+        "plastic_power_ratio": 0.5285348014696726,
+        "min_vacancy_mu": -0.0012751919292029353,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        }
+      },
+      "48": {
+        "damage_relative_change": 0.000222164667638092,
+        "slip_L1_change": -0.3028760657636359,
+        "max_supersaturation": 0.1251192441816109,
+        "band_mean_enrichment": 0.03813250400142065,
+        "outside_band_mean": 0.011353348256849971,
+        "tip_event_vacancy": 0.15320200096435205,
+        "tip_event_control": 0.15324902997021955,
+        "generated": 0.00029810486735225473,
+        "absorbed": 1.3733174626271951e-05,
+        "inventory_change": 0.00031183780252587445,
+        "ledger_residual": -2.394526522322884e-10,
+        "plastic_power_ratio": 0.5266184157191177,
+        "min_vacancy_mu": -0.0013317322669442041,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        }
+      },
+      "64": {
+        "damage_relative_change": 0.00022224915358732858,
+        "slip_L1_change": -0.3049275923423779,
+        "max_supersaturation": 0.1281477618280742,
+        "band_mean_enrichment": 0.03612264957676259,
+        "outside_band_mean": 0.01167756723360136,
+        "tip_event_vacancy": 0.14846262761977175,
+        "tip_event_control": 0.14850522086719886,
+        "generated": 0.00030620630812852915,
+        "absorbed": 1.378007267253012e-05,
+        "inventory_change": 0.00031998612518206737,
+        "ledger_residual": -2.55618991898838e-10,
+        "plastic_power_ratio": 0.5267743843334068,
+        "min_vacancy_mu": -0.0013566587401162107,
+        "checks": {
+          "positive_T": true,
+          "positive_J": true,
+          "positive_capacity": true,
+          "plastic_volume": true,
+          "entropy_production": true,
+          "entropy_increase": true,
+          "energy_drift": true,
+          "conductive_balance": true,
+          "midpoint_converged": true,
+          "fixed_boundary": true,
+          "composition_inventory": true,
+          "composition_bounds": true,
+          "phase_bounds": true,
+          "chemical_energy_transfer": true,
+          "microstress_transfer": true,
+          "damage_bounds": true,
+          "damage_irreversibility": true,
+          "damage_dissipation": true
+        }
+      }
+    },
+    "control": "results/graded-notch-v3-2026-09-26",
+    "parameters": {
+      "theta": 0.02,
+      "equilibrium": 0.05,
+      "binding": 0.003,
+      "sink": 0.5,
+      "damage_sink": 5.0,
+      "mobility": 0.25,
+      "generation": 4.0
+    }
+  },
+  "study_seconds": 2.1651485830079764,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    }
+  }
+}

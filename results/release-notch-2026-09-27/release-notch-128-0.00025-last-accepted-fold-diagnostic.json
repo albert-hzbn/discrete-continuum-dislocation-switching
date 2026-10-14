@@ -1,0 +1,24 @@
+{
+ "checkpoint": "results/release-notch-2026-09-27/release-notch-128-0.00025-last-accepted.npz",
+ "time": 0.29500000000000004,
+ "released": 102,
+ "retries": {
+  "6": "Constrained nodal midpoint did not converge: 3.540e-02.",
+  "12": "Constrained nodal midpoint did not converge: 3.540e-02."
+ },
+ "last_accepted_dense_min_J": {
+  "value": 0.6870133346272311,
+  "cell": 447,
+  "centre": [
+   0.019149386621148665,
+   0.4973958331833276
+  ]
+ },
+ "bypassed_step": {
+  "error": "Constrained nodal midpoint did not converge: 3.540e-02."
+ },
+ "smaller_steps": {
+  "0.5": "accepted",
+  "0.25": "accepted"
+ }
+}

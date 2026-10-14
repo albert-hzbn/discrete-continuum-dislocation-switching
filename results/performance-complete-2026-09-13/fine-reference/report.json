@@ -1,0 +1,43 @@
+{
+  "case": 1,
+  "name": "Allen-Cahn circular inclusion",
+  "variant": "reference",
+  "metrics": {
+    "steps": 4800,
+    "dt": 0.0025,
+    "end_time": 12.0,
+    "h": 0.25,
+    "length": 128.0,
+    "physical_profile_scale": 1.4142135623730951,
+    "initial_radius": 14.058624899481707,
+    "final_radius": 13.177170708911513,
+    "radius_squared_slope": -2.000657881447538,
+    "curvature_slope_relative_error": 0.000328940723768989,
+    "profile_ansatz_rms": 0.02954493467522056,
+    "max_recorded_energy_increase": 0.0,
+    "initial_dofs": 262144,
+    "final_dofs": 262144,
+    "mean_dofs": 262144.0,
+    "uniform_dofs": 262144,
+    "stored_array_bytes": 8413200,
+    "accepted_transfers": 0
+  },
+  "checks": {
+    "energy_decay": true,
+    "curvature_slope": true,
+    "finite_values": true
+  },
+  "limitations": [
+    "The profile ansatz and curvature law have finite-width errors.",
+    "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+  ],
+  "timings": {
+    "initialization_s": 0.004717124975286424,
+    "solver_s": 10.919306343072094,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.20480541803408414,
+    "compilation_s": 0.0
+  },
+  "status": "partial",
+  "transfers": []
+}

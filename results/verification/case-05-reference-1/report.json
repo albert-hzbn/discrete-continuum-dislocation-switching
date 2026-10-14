@@ -1,0 +1,74 @@
+{
+  "case": 5,
+  "name": "Point-defect diffusion to an absorbing planar sink",
+  "variant": "reference",
+  "metrics": {
+    "spatial_convergence": [
+      {
+        "n": 64,
+        "h": 0.015625,
+        "relative_l2": 2.470963968452255e-05,
+        "balance_error": 1.1657341758564144e-14,
+        "captured_inventory": 0.24796127867149964,
+        "solver_s": 0.002447708015097305,
+        "steps": 400
+      },
+      {
+        "n": 128,
+        "h": 0.0078125,
+        "relative_l2": 6.130502906164236e-06,
+        "balance_error": 3.8968828164342995e-14,
+        "captured_inventory": 0.24796383179238468,
+        "solver_s": 0.002062916988506913,
+        "steps": 400
+      },
+      {
+        "n": 256,
+        "h": 0.00390625,
+        "relative_l2": 1.4856844615523249e-06,
+        "balance_error": 3.0164759579065503e-13,
+        "captured_inventory": 0.24796447006230457,
+        "solver_s": 0.002648459019837901,
+        "steps": 400
+      }
+    ],
+    "observed_orders": [
+      2.0109966403675554,
+      2.0448776876794414
+    ],
+    "final_relative_l2": 1.4856844615523249e-06,
+    "mass_plus_sink_balance_error": 3.0164759579065503e-13,
+    "peak_rss_bytes": 79937536
+  },
+  "checks": {
+    "analytical_profile": true,
+    "sink_balance": true,
+    "spatial_convergence": true
+  },
+  "limitations": [
+    "Planar absorbing-sink reduction; dislocation and pore sink-strength calibration remain open."
+  ],
+  "timings": {
+    "initialization_s": 0.0,
+    "solver_s": 0.007159084023442119,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.012638874992262572,
+    "unclassified_s": 0.005479790968820453,
+    "array_io_s": 0.000931332993786782
+  },
+  "status": "partial",
+  "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

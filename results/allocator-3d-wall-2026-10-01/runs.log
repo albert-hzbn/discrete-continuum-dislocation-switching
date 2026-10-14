@@ -1,0 +1,98 @@
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Reading mobility field file /mnt/d/Work/unified-defect-framework/results/allocator-3d-wall-2026-10-01/friction_H_s1_a0.1.dat
+ MobilityField: 32 x 32 x 32 points
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.683022 sec
+H_s1_a0.1 wall 1.5 steps 239 Ep_zz 2.778807025425715e-05 channel 1.3844740996027853e-05 wallreg 1.3946625276028423e-05 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Reading mobility field file /mnt/d/Work/unified-defect-framework/results/allocator-3d-wall-2026-10-01/friction_H_s1_a0.2.dat
+ MobilityField: 32 x 32 x 32 points
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.536577 sec
+H_s1_a0.2 wall 1.3 steps 221 Ep_zz 2.1587139649809025e-05 channel 1.2378430713619566e-05 wallreg 9.208488444842934e-06 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Reading mobility field file /mnt/d/Work/unified-defect-framework/results/allocator-3d-wall-2026-10-01/friction_H_s1_a0.3.dat
+ MobilityField: 32 x 32 x 32 points
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.433821 sec
+H_s1_a0.3 wall 1.2 steps 209 Ep_zz 1.7248356059664905e-05 channel 1.0926670151788514e-05 wallreg 6.3194388552899496e-06 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Reading mobility field file /mnt/d/Work/unified-defect-framework/results/allocator-3d-wall-2026-10-01/friction_H_s1_a0.5.dat
+ MobilityField: 32 x 32 x 32 points
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.315980 sec
+H_s1_a0.5 wall 1.1 steps 195 Ep_zz 1.1641040942706015e-05 channel 7.97275529176487e-06 wallreg 3.6677133753091983e-06 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Reading mobility field file /mnt/d/Work/unified-defect-framework/results/allocator-3d-wall-2026-10-01/friction_H_s1_a1.dat
+ MobilityField: 32 x 32 x 32 points
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.114745 sec
+H_s1_a1 wall 1.0 steps 171 Ep_zz 3.3483345051545758e-06 channel 2.3214044587027335e-06 wallreg 1.0266507143213598e-06 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.694669 sec
+0_s1 wall 1.5 steps 233 Ep_zz 3.5143255519386376e-05 channel 1.664711149011102e-05 wallreg 1.8504093411793106e-05 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 3.092575 sec
+0_s2 wall 2.7 steps 427 Ep_zz 3.671280105123257e-05 channel 2.23186882997679e-05 wallreg 1.4396323220588204e-05 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 1.699738 sec
+0_s3 wall 1.5 steps 241 Ep_zz 3.7421863600028925e-05 channel 1.5966581622335623e-05 wallreg 2.147278217407023e-05 segs 454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 4795.091273 sec
+D_s1 wall 4717.8 steps 2180 Ep_zz 3.1051326510554215e-05 channel 1.0389404551908266e-05 wallreg 2.065668998377394e-05 segs 12454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 7915.694351 sec
+D_s2 wall 7787.8 steps 3707 Ep_zz 3.1736228607323124e-05 channel 1.2299758460206054e-05 wallreg 1.9504049984440376e-05 segs 12454
+Host Parallel Execution Space:
+  KOKKOS_ENABLE_OPENMP: yes
+
+OpenMP Runtime Configuration:
+Kokkos::OpenMP thread_pool_topology[ 1 x 16 x 1 ]
+Warning: Burgers vector is not conserved for 12 node(s)
+RUN TIME: 9186.677225 sec
+D_s3 wall 9038.5 steps 4289 Ep_zz 2.77478615470932e-05 channel 8.133299205967777e-06 wallreg 1.9611573343114483e-05 segs 12454

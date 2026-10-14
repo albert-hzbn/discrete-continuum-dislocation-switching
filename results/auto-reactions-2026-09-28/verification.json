@@ -1,0 +1,12 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "78",
+ "declared_gates": {
+  "D1_geometry": false,
+  "D2_classification_and_execution": true
+ },
+ "document": "AUTO_REACTIONS_RESULTS.md",
+ "notes": "D1 failed on its own coarse brute-force reference; a finer reference agrees to 4.7e-5 (post hoc)."
+}

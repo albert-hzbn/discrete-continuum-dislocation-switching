@@ -1,0 +1,5 @@
+80 t=0.050 tip=0.175 {'0.4': 0, '0.5': 0, '0.6': 0, '0.7': 0} off=5.33e-34 drift=2.4e-09 1571s
+80 t=0.100 tip=0.213 {'0.4': 0, '0.5': 0, '0.6': 0, '0.7': 0} off=5.33e-34 drift=2.8e-08 3106s
+80 t=0.150 tip=0.263 {'0.4': 0, '0.5': 0, '0.6': 0, '0.7': 0} off=5.33e-34 drift=2.1e-07 5124s
+80 t=0.200 tip=0.300 {'0.4': 0, '0.5': 0, '0.6': 0, '0.7': 0} off=5.33e-34 drift=3.7e-07 7457s
+80 done {'n': 80, 'steps': 1241, 'end_time': 0.24820000000000506, 'failure': {'time': 0.24820000000000506, 'error': 'Element corner inversion.'}, 'halvings': 1241, 'energy_drift': 5.920845139577594e-07, 'checks': {'positive_T': True, 'positive_J': True, 'damage_bounds': True, 'irreversible': True, 'midpoint': True}, 'H2_off_line_max': 5.333749535914387e-34, 'first_branch': None, 'max_speed': 0.937500000000003, 'seconds': 9546.545944213867}

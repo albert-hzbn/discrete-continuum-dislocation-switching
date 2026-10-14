@@ -1,0 +1,7 @@
+0.0 sustained False start 0.9 end 0.87868 prediction returns True checks True
+25.0 sustained False start 0.81568 end 0.7998 prediction returns True checks True
+60.0 sustained False start 0.45 end 0.44821 prediction departs False checks True
+75.0 sustained True start 0.23294 end 0.23319 prediction None None checks True
+sequence events [(0.1, 'cross_reflected')] checks {'charge': True, 'continuous_energy': np.True_, 'ledger': np.True_, 'restart': True}
+forced recoil events [(0.1, 'reflected'), (15.67, 'reflected')] checks {'charge': True, 'continuous_energy': np.True_, 'ledger': np.True_, 'restart': True}
+ensemble counts [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2] multi fraction 0.15625 checks True

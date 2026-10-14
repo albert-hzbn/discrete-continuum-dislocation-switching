@@ -1,0 +1,65 @@
+{
+  "case": 8,
+  "name": "Vacancy-coupled pore growth and shrinkage",
+  "variant": "reference",
+  "metrics": {
+    "runs": [
+      {
+        "supersaturation": 0.005,
+        "steps": 1000,
+        "initial_pore_area": 118.26439719360228,
+        "final_pore_area": 107.16140307143382,
+        "area_change": -11.102994122168454,
+        "inventory_drift": 1.4210854715202004e-14,
+        "max_energy_increase": 0.0,
+        "minimum_inventory_density": 0.005020019566310243
+      },
+      {
+        "supersaturation": 0.15,
+        "steps": 1000,
+        "initial_pore_area": 118.26439719360228,
+        "final_pore_area": 153.3790575717795,
+        "area_change": 35.11466037817722,
+        "inventory_drift": 5.684341886080802e-14,
+        "max_energy_increase": 0.0,
+        "minimum_inventory_density": 0.06217892075891109
+      }
+    ],
+    "end_time": 20.0,
+    "physical_profile_scale": 1.4142135623730951,
+    "peak_rss_bytes": 80117760
+  },
+  "checks": {
+    "inventory_conservation": true,
+    "energy_decay": true,
+    "low_supersaturation_shrinks": true,
+    "high_supersaturation_grows": true
+  },
+  "limitations": [
+    "Two-dimensional closed-inventory analogue; no gas, elasticity, nucleation or fracture.",
+    "Quantitative Gibbs-Thomson and growth-law convergence, and an adaptive comparison remain open."
+  ],
+  "timings": {
+    "initialization_s": 0.0,
+    "solver_s": 0.4752396979602054,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.4767978750169277,
+    "unclassified_s": 0.001558177056722343,
+    "array_io_s": 0.0021313329925760627
+  },
+  "status": "partial",
+  "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

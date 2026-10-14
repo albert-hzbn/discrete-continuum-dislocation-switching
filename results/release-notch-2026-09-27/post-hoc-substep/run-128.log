@@ -1,0 +1,3 @@
+128 t=0.3000 deleted=0 split=102 iters=14
+128 t=0.3100 deleted=0 split=104 iters=17
+128 done {'error': 'Element orientation not certified by Bernstein bound.', 'step': 477, 'last_accepted_time': 0.31900000000000006} {'energy_drift': True, 'positive_T': True, 'composition_inventory': True, 'damage_bounds': True, 'damage_irreversibility': True, 'entropy_production': True, 'midpoint_converged': True, 'deletion_ledger': True}

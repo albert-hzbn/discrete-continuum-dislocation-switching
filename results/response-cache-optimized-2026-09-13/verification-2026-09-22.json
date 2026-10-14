@@ -1,0 +1,34 @@
+{
+  "verified_at": "2026-09-22",
+  "measurements_directory_date": "2026-09-13",
+  "checks": {
+    "source_hashes_match": true,
+    "complete_matrix": true,
+    "all_numerical_checks": true,
+    "all_accuracy_gates": true,
+    "nonnegative_timing_categories": true,
+    "timing_closure": true,
+    "deterministic_repetitions": true,
+    "gram_svd_trajectory_agreement": true,
+    "full_suite_pass": true
+  },
+  "pytest_passed": 115,
+  "numerical_checks_passed": 126,
+  "numerical_checks_total": 126,
+  "maximum_gram_svd_gamma_difference": 1.1102230246251565e-16,
+  "plot_pairs_visually_inspected": 2,
+  "scope": "Homogeneous fixed-background planar transport; equally optimized full and affine paths.",
+  "general_topology_verified": false,
+  "memory_advantage_verified": false,
+  "full_original_objective_complete": false,
+  "artifact_sha256": {
+    "RESPONSE_CACHE_RESULTS.md": "bb109857cfc9ffe895873bff5b40afcc246300a08f9b48dca95a4c110beed3f9",
+    "README.md": "a417a9c992ad34719b36c3c52c8edd9758de5f281c8a95cd39eade4fbbba819c",
+    "CURRENT_RESULTS.md": "ed08c268530ad86ed44d2fc29290295d84112cc33f2b7e689bbb407111afa49d",
+    "COMPLETION_AUDIT.md": "9f7fb96857289a8c60c33dfa77ca3b0f52e04ba09411f7195d56e7f1b08f7610",
+    "PLAN.md": "3d16a6010dd46ae99735fa9f549ee3631843cdb0711b0df7ba55d7d5a1a9daf8",
+    "PARAMETER_REGISTRY.md": "40a353889b81c9c63f1d103427583714ee198b621333b81e14e125f15a7e01b8",
+    "benchmarks/response_cache_report.py": "c6e5e05efcf04007e1b196fbd100253a3f6bc03c14dc4b93d4e4af29cb4c2575",
+    "tests/test_response_cache.py": "2a5cdc7301de15fb8d8abaa51b0d7e59c342e7b0d0837f7c4d1497e0bbcfb14f"
+  }
+}

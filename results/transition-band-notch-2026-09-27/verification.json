@@ -1,0 +1,54 @@
+{
+ "date": "2026-09-27",
+ "post_hoc": "theory 71.4, declared before running",
+ "gates": {
+  "D1": true,
+  "D2": true,
+  "D3": false,
+  "D4": true,
+  "D5": true
+ },
+ "final_pairs": {
+  "64_96": {
+   "c": 0.0011042108383439977,
+   "eta": 0.0023736699069049514,
+   "T": 0.0009205668853929441,
+   "slip": 0.09297506714978893,
+   "damage": 0.00790266702571115
+  },
+  "96_128": {
+   "c": 0.0007560997405319747,
+   "eta": 0.001209921624344754,
+   "T": 0.000492425761877121,
+   "slip": 0.08367558915376636,
+   "damage": 0.003527275382161619
+  }
+ },
+ "band_half_width": {
+  "64": 0.0104,
+  "96": 0.0139,
+  "128": 0.0104
+ },
+ "slip_split": {
+  "64_96": {
+   "total": 0.09297506714978893,
+   "outside": 0.040622257805594114,
+   "inside": 0.4838193265923576,
+   "share_of_squared_error_inside": 0.8148490764603997,
+   "share_of_reference_inside": 0.03009149423315444
+  },
+  "96_128": {
+   "total": 0.08367558915376636,
+   "outside": 0.016524822813237028,
+   "inside": 0.6745710098667085,
+   "share_of_squared_error_inside": 0.9615760056853614,
+   "share_of_reference_inside": 0.014795369960134438
+  }
+ },
+ "figures": [
+  "results/transition-band-notch-2026-09-27/figures/transition-notch.png"
+ ],
+ "document": "TRANSITION_BAND_NOTCH_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

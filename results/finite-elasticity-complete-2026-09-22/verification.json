@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 169,
+  "numerical_checks_passed": 54,
+  "accuracy_gates_passed": 8,
+  "accuracy_gates_failed": 0,
+  "saved_state_readback": {
+    "baseline-12-10-final.npz": true,
+    "baseline-12-10-peak.npz": true,
+    "baseline-24-10-final.npz": true,
+    "baseline-24-10-peak.npz": true,
+    "baseline-24-20-final.npz": true,
+    "baseline-24-20-peak.npz": true,
+    "baseline-48-10-final.npz": true,
+    "baseline-48-10-peak.npz": true,
+    "manufactured-16.npz": true,
+    "manufactured-32.npz": true,
+    "manufactured-64.npz": true,
+    "manufactured-8.npz": true,
+    "no-growth-24-10-final.npz": true,
+    "no-growth-24-10-peak.npz": true,
+    "no-plastic-map-24-10-final.npz": true,
+    "no-plastic-map-24-10-peak.npz": true
+  },
+  "source_sha256": {
+    "src/bmvr/finite_elasticity.py": "fd2582f652ea0a34e1d2c282dc7b38839e232e3436824231acf296d657e39252",
+    "tests/test_finite_elasticity.py": "4186d44f18279b4fd93aa18bee20766f025d6f16f1f42bccab3e68af5062783f",
+    "benchmarks/finite_elasticity.py": "0e5bdbce3337d2541c26fa468c7df544e6dbced4d3be92a4b4e99e7361bcc083",
+    "benchmarks/finite_elasticity_report.py": "ed53b2a212b5e8bc66e4799edcec1c1072ed6a5037ce472c4e65d0a528316e25",
+    "unified_multiscale_defect_framework.md": "6e884c00057e60ea5b98419afb3e01362f16bf8abccc27053adab6af81127959",
+    "THEORY_REVIEW.md": "40a1c67656f0b0e401c8dd54821e95ca1bb0e785ca6c5dc6e47b4f8c464df510"
+  },
+  "visually_inspected_figures": [
+    "figures/finite-verification.png",
+    "figures/finite-fields.png"
+  ],
+  "goal_complete": false
+}

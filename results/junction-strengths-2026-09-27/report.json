@@ -1,0 +1,71 @@
+{
+ "scope": "Section 73: copper junction strengths from published DDD coefficients; Frank-criterion ranking test (J1).",
+ "a_ij": {
+  "self": 0.122,
+  "coplanar": 0.122,
+  "Hirth": 0.07,
+  "Lomer": 0.122,
+  "glissile": 0.137,
+  "collinear": 0.625
+ },
+ "copper_DDD_parameters": {
+  "mu": 54600000000.0,
+  "nu": 0.324,
+  "b": 2.55e-10,
+  "drag": 1.56e-05
+ },
+ "frank_gain_a2": {
+  "collinear": 1.0,
+  "Lomer": 0.5,
+  "glissile": 0.5,
+  "Hirth": 0.0
+ },
+ "junction_burgers_a": {
+  "collinear": 0.0,
+  "Lomer": 0.7071067811865476,
+  "glissile": 0.7071067811865476,
+  "Hirth": 1.0
+ },
+ "ranking_model": [
+  "collinear",
+  "Lomer",
+  "glissile",
+  "Hirth"
+ ],
+ "ranking_DDD": [
+  "collinear",
+  "glissile",
+  "Lomer",
+  "Hirth"
+ ],
+ "gates": {
+  "J1_ranking": true
+ },
+ "taylor_MPa_by_forest_density": {
+  "1e+10": {
+   "self": 0.4863094831277713,
+   "coplanar": 0.4863094831277713,
+   "Hirth": 0.36836795503952297,
+   "Lomer": 0.4863094831277713,
+   "glissile": 0.5153391143024173,
+   "collinear": 1.1007097965631085
+  },
+  "1e+12": {
+   "self": 4.863094831277712,
+   "coplanar": 4.863094831277712,
+   "Hirth": 3.68367955039523,
+   "Lomer": 4.863094831277712,
+   "glissile": 5.153391143024175,
+   "collinear": 11.007097965631086
+  },
+  "1e+14": {
+   "self": 48.63094831277712,
+   "coplanar": 48.63094831277712,
+   "Hirth": 36.836795503952295,
+   "Lomer": 48.63094831277712,
+   "glissile": 51.533911430241744,
+   "collinear": 110.07097965631085
+  }
+ },
+ "mapping": "junction closure: tau_i = mu b sqrt(sum_j a_ij rho_j); the Section 54 event energy per length is kappa*G with kappa the core coefficient"
+}

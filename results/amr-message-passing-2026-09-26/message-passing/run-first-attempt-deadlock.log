@@ -1,0 +1,3 @@
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/multiprocessing/resource_tracker.py:301: UserWarning: resource_tracker: There appear to be 7 leaked semaphore objects to clean up at shutdown: {'/mp-lnvpdld2', '/mp-ip7hhbyk', '/mp-im9o9k51', '/mp-x2vcux1y', '/mp-jib9hvvq', '/mp-9ra4wt4n', '/mp-527rin4n'}
+  warnings.warn(
+First run hung at P=2 on 1024-cell rows: both ranks blocked in os.write (send-first ordering; 8 KB rows exceed the macOS socketpair buffer). Stopped by PID after 30 min without progress; stacks sampled with macOS sample.

@@ -1,0 +1,23 @@
+{
+ "note": "Post hoc block-size sensitivity of the quadtree AMR baseline (same physics, finest h=0.5, median of three).",
+ "rows": {
+  "8": {
+   "solver_plus_adaptation_s": 0.19038503165938891,
+   "mean_cells": 13312.0,
+   "blocks": 208,
+   "relative_l2": 2.2676013936248378e-08
+  },
+  "16": {
+   "solver_plus_adaptation_s": 0.2098886409366969,
+   "mean_cells": 25600.0,
+   "blocks": 100,
+   "relative_l2": 4.26209918181243e-13
+  },
+  "32": {
+   "solver_plus_adaptation_s": 0.2927054534375202,
+   "mean_cells": 53248.0,
+   "blocks": 52,
+   "relative_l2": 1.4261264510700226e-16
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "79",
+ "declared_gates": {
+  "X1_order": true,
+  "X2_exponent_stability": true,
+  "X3_energy_one_third": true
+ },
+ "document": "COARSENING_SBDF2_RESULTS.md",
+ "seeds": 16
+}

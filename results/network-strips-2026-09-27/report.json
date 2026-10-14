@@ -1,0 +1,268 @@
+{
+ "scope": "Section 70: TCP strips measured on one machine (loopback), message-cost model validated there, multi-node projection with stated interconnect assumptions; no second machine used.",
+ "serial_ns_per_cell": 8.77825021561307,
+ "rows": {
+  "uniform": [
+   {
+    "parts": 1,
+    "transport": "pipe",
+    "seconds_per_step": 0.00849587243104067,
+    "bitwise": true
+   },
+   {
+    "parts": 1,
+    "transport": "tcp",
+    "seconds_per_step": 0.008371497446205467,
+    "bitwise": true
+   },
+   {
+    "parts": 2,
+    "transport": "pipe",
+    "seconds_per_step": 0.004575943269390756,
+    "bitwise": true
+   },
+   {
+    "parts": 2,
+    "transport": "tcp",
+    "seconds_per_step": 0.004378599361650861,
+    "bitwise": true
+   },
+   {
+    "parts": 4,
+    "transport": "pipe",
+    "seconds_per_step": 0.0024182725960809667,
+    "bitwise": true
+   },
+   {
+    "parts": 4,
+    "transport": "tcp",
+    "seconds_per_step": 0.0024879575307400394,
+    "bitwise": true
+   },
+   {
+    "parts": 8,
+    "transport": "pipe",
+    "seconds_per_step": 0.00162327199230943,
+    "bitwise": true
+   },
+   {
+    "parts": 8,
+    "transport": "tcp",
+    "seconds_per_step": 0.001659044464493721,
+    "bitwise": true
+   }
+  ],
+  "adaptive": [
+   {
+    "parts": 1,
+    "transport": "pipe",
+    "seconds_per_step": 0.0018356332661501403,
+    "bitwise": true
+   },
+   {
+    "parts": 1,
+    "transport": "tcp",
+    "seconds_per_step": 0.0023214312499828427,
+    "bitwise": true
+   },
+   {
+    "parts": 2,
+    "transport": "pipe",
+    "seconds_per_step": 0.0010889944895039192,
+    "bitwise": true
+   },
+   {
+    "parts": 2,
+    "transport": "tcp",
+    "seconds_per_step": 0.001066361659679622,
+    "bitwise": true
+   },
+   {
+    "parts": 4,
+    "transport": "pipe",
+    "seconds_per_step": 0.0011211475133032147,
+    "bitwise": true
+   },
+   {
+    "parts": 4,
+    "transport": "tcp",
+    "seconds_per_step": 0.0015026460012098053,
+    "bitwise": true
+   },
+   {
+    "parts": 8,
+    "transport": "pipe",
+    "seconds_per_step": 0.0015637080729814649,
+    "bitwise": true
+   },
+   {
+    "parts": 8,
+    "transport": "tcp",
+    "seconds_per_step": 0.0012371705981891982,
+    "bitwise": true
+   }
+  ]
+ },
+ "halo_bytes": 8192,
+ "one_way_message_seconds": {
+  "pipe": 2.2002554733741195e-05,
+  "tcp": 3.83757674985406e-05
+ },
+ "predicted_tcp": {
+  "2": 0.004608689694920355,
+  "4": 0.0024510190216105654,
+  "8": 0.0016560184178390288
+ },
+ "model_relative_error": {
+  "2": 0.052548843651852924,
+  "4": 0.014846921088113094,
+  "8": 0.0018239695918069562
+ },
+ "gates": {
+  "N1_bitwise": true,
+  "N2_tcp_overhead": false,
+  "N3_message_model": true
+ },
+ "networks": {
+  "1GbE": {
+   "alpha": 5e-05,
+   "beta": 117000000.0
+  },
+  "10GbE": {
+   "alpha": 1.5e-05,
+   "beta": 1100000000.0
+  }
+ },
+ "projection": {
+  "uniform": {
+   "1GbE": {
+    "1": {
+     "seconds_per_step": 0.00849587243104067,
+     "efficiency": 1.0
+    },
+    "2": {
+     "seconds_per_step": 0.004564721938551604,
+     "efficiency": 0.9306013099383253
+    },
+    "4": {
+     "seconds_per_step": 0.002440753830791437,
+     "efficiency": 0.8702098839158439
+    },
+    "8": {
+     "seconds_per_step": 0.001378769776911353,
+     "efficiency": 0.7702403052807585
+    },
+    "16": {
+     "seconds_per_step": 0.000847777749971311,
+     "efficiency": 0.6263339972746521
+    },
+    "32": {
+     "seconds_per_step": 0.0005822817365012901,
+     "efficiency": 0.45595799563504374
+    },
+    "64": {
+     "seconds_per_step": 0.0004495337297662797,
+     "efficiency": 0.29530154901619604
+    }
+   },
+   "10GbE": {
+    "1": {
+     "seconds_per_step": 0.00849587243104067,
+     "efficiency": 1.0
+    },
+    "2": {
+     "seconds_per_step": 0.004369582295971962,
+     "efficiency": 0.9721607073143435
+    },
+    "4": {
+     "seconds_per_step": 0.002245614188211794,
+     "efficiency": 0.9458294834926677
+    },
+    "8": {
+     "seconds_per_step": 0.0011836301343317104,
+     "efficiency": 0.8972262728674872
+    },
+    "16": {
+     "seconds_per_step": 0.0006526381073916686,
+     "efficiency": 0.8136086767323517
+    },
+    "32": {
+     "seconds_per_step": 0.0003871420939216476,
+     "efficiency": 0.6857844125928445
+    },
+    "64": {
+     "seconds_per_step": 0.0002543940871866371,
+     "efficiency": 0.5218203308224669
+    }
+   }
+  },
+  "adaptive": {
+   "1GbE": {
+    "1": {
+     "seconds_per_step": 0.0018356332661501403,
+     "efficiency": 1.0
+    },
+    "2": {
+     "seconds_per_step": 0.0011399698774738607,
+     "efficiency": 0.8051235837116367
+    },
+    "4": {
+     "seconds_per_step": 0.0006810615609363257,
+     "efficiency": 0.6738132686663837
+    },
+    "8": {
+     "seconds_per_step": 0.0004516074026675581,
+     "efficiency": 0.5080832530942272
+    },
+    "16": {
+     "seconds_per_step": 0.00033688032353317433,
+     "efficiency": 0.340557376373708
+    },
+    "32": {
+     "seconds_per_step": 0.00027951678396598246,
+     "efficiency": 0.2052239538294527
+    },
+    "64": {
+     "seconds_per_step": 0.00025083501418238653,
+     "efficiency": 0.11434515981385647
+    }
+   },
+   "10GbE": {
+    "1": {
+     "seconds_per_step": 0.0018356332661501403,
+     "efficiency": 1.0
+    },
+    "2": {
+     "seconds_per_step": 0.0010293972589812423,
+     "efficiency": 0.891605864565251
+    },
+    "4": {
+     "seconds_per_step": 0.0005704889424437071,
+     "efficiency": 0.804412289871539
+    },
+    "8": {
+     "seconds_per_step": 0.00034103478417493965,
+     "efficiency": 0.6728174629572832
+    },
+    "16": {
+     "seconds_per_step": 0.00022630770504055586,
+     "efficiency": 0.5069517147629768
+    },
+    "32": {
+     "seconds_per_step": 0.000168944165473364,
+     "efficiency": 0.3395414065141889
+    },
+    "64": {
+     "seconds_per_step": 0.00014026239568976805,
+     "efficiency": 0.20448652429289882
+    }
+   }
+  }
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "cpu_count": 14
+ }
+}

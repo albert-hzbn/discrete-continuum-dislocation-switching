@@ -1,0 +1,18 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "75",
+ "declared_gates": {
+  "G1_entropy_barrier": true,
+  "G1_control_fails": true,
+  "G1c_linear": true,
+  "G2_laplace": false
+ },
+ "document": "PORE_ENTROPY_GAS_RESULTS.md",
+ "post_hoc": [
+  "post-hoc.json",
+  "gas-size-post-hoc.json"
+ ],
+ "notes": "G2 runs unequilibrated; equilibrated residual 37%, 3.1%, 1.2% at R = 6, 14, 28 (post hoc)."
+}

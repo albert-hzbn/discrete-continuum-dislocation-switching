@@ -1,0 +1,80 @@
+{
+  "n": 33,
+  "kind": "affine",
+  "steps": 200,
+  "end_time": 4.0,
+  "final_mode": "affine",
+  "final_coordinates": 3,
+  "parameters": {
+    "length": 12.0,
+    "initial_core": 0.8,
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "dt": 0.02,
+    "budget": 0.05,
+    "mode_cap": 3
+  },
+  "initial_energy": 1.5847064980488952,
+  "final_energy": 1.583058718013303,
+  "max_energy_increase": 0.0,
+  "tensor_energy_absolute_error": 2.220446049250313e-16,
+  "tensor_conjugate_max_error": 8.500145032286355e-17,
+  "source_change_relative": 0.0583168325056118,
+  "divergence_relative": 1.39536748332135e-15,
+  "plastic_trace": 0.0,
+  "maximum_used_residual": 0.04945760647267576,
+  "persistent_array_bytes": 16963192,
+  "maximum_cache_bytes": 4600032,
+  "response_calls": 4,
+  "events": [
+    {
+      "time": 0.0,
+      "initial_residual": 1.0,
+      "final_residual": 5.001224464836833e-17,
+      "added_modes": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false
+    },
+    {
+      "time": 0.9200000000000005,
+      "initial_residual": 0.0505487306590391,
+      "final_residual": 7.772357881452461e-15,
+      "added_modes": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false
+    },
+    {
+      "time": 3.5800000000000027,
+      "initial_residual": 0.050017336304434494,
+      "final_residual": 9.170218781917794e-15,
+      "added_modes": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false
+    }
+  ],
+  "timings": {
+    "initialization_s": 0.09243675007019192,
+    "online_s": 0.12540670589078218,
+    "compilation_s": 0.0,
+    "other_evolution_s": 8.971104398369789e-05,
+    "full_tensor_validation_s": 0.03195850003976375,
+    "array_io_s": 0.060119041008874774
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "burgers_closure": true,
+    "glide_volume": true,
+    "full_tensor_energy": true,
+    "full_tensor_force": true,
+    "kinetic_budget": true,
+    "activation_preserves_state_energy": true
+  },
+  "peak_rss_bytes": 174260224
+}

@@ -1,0 +1,25 @@
+{
+ "date": "2026-09-28",
+ "theory": "92",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "declared_gates": {
+  "E1_monotone": false,
+  "E2_transfer": true,
+  "E3_between": true
+ },
+ "chosen_n_c": {
+  "0.02": 8,
+  "0.01": 32,
+  "0.005": 256
+ },
+ "post_hoc": {
+  "wall_time_min_of_3": "timing-post-hoc.json (load-dominated)",
+  "cpu_time": "cpu-time-post-hoc.json",
+  "E1_cost_on_cpu_time": true
+ },
+ "document": "ALLOCATOR_CONTROL_RESULTS.md",
+ "figures": [
+  "figures/allocator-control.png"
+ ]
+}

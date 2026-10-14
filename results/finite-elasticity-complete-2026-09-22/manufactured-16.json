@@ -1,0 +1,31 @@
+{
+  "n": 16,
+  "errors": {
+    "displacement": 0.0059349245922310995,
+    "gradient": 0.0557909823485031,
+    "piola": 0.04887090105725381
+  },
+  "status": {
+    "iterations": 4,
+    "relative_residual": 5.1169839576587506e-14,
+    "potential": [
+      -0.04454233528042184,
+      -0.07936988154500658,
+      -0.07958827932934529,
+      -0.07958830761030063,
+      -0.0795883076103023
+    ]
+  },
+  "min_corner_J": 0.86818423361393,
+  "initialization_seconds": 0.003425249829888344,
+  "solver_seconds": 0.04400425008498132,
+  "diagnostics_output_seconds": 0.0065849157981574535,
+  "persistent_model_bytes": 175520,
+  "displacement_bytes": 4624,
+  "unknowns": 578,
+  "checks": {
+    "converged": true,
+    "admissible": true,
+    "energy_search": true
+  }
+}

@@ -1,0 +1,742 @@
+{
+ "model": "B",
+ "S": 0.02,
+ "n": 64,
+ "failed": false,
+ "t_f": null,
+ "steps": 319407,
+ "cpu_s": 20.5,
+ "ledger_max": 0.0,
+ "max_damage": 0.006791791386641155,
+ "history": [
+  {
+   "t": 0.0,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.020001183758728516,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 0.25002629820026073,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 0.5000525964005231,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 0.7500162784477464,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 1.0000425766477872,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 1.2500062586950105,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 1.5000325568950512,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 1.750058855095092,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 2.0000225371423155,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 2.2500488353423562,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 2.5000125173895795,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 2.7500388155896203,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 3.0000024976368436,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 3.2500287958368843,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 3.500055094036925,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 3.7500187760841484,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 4.0000450742841895,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 4.250008756331413,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 4.500035054531454,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 4.750061352731494,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 5.000025034778718,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 5.250051332978758,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 5.500015015025982,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 5.750041313226022,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 6.000004995273246,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 6.2500312934732865,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 6.500057591673327,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 6.7500212737205505,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 7.000047571920591,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 7.2500112539678145,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 7.500037552167855,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 7.750001234215079,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 8.00002753241512,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 8.25005383061516,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 8.500017512662383,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 8.750043810862424,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 9.000007492909647,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 9.250033791109688,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 9.500060089309729,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 9.750023771356952,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 10.000050069556993,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 10.250013751604216,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 10.500040049804257,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 10.75000373185148,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 11.000030030051521,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 11.250056328251562,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 11.500020010298785,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 11.750046308498826,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 12.000009990546049,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 12.25003628874609,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 12.50006258694613,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 12.750026268993354,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 13.000052567193395,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 13.250016249240618,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 13.500042547440659,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 13.750006229487882,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 14.000032527687923,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 14.250058825887963,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 14.500022507935187,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 14.750048806135228,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 15.00001248818245,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 15.250038786382492,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 15.500002468429715,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 15.750028766629756,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 16.000055064829798,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 16.25001874687702,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 16.500045045077062,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 16.750008727124285,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 17.000035025324326,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 17.250061323524367,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 17.50002500557159,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 17.75005130377163,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 18.000014985818854,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 18.250041284018895,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 18.50000496606612,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 18.75003126426616,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 19.0000575624662,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 19.250021244513423,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 19.500047542713464,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 19.750011224760687,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  },
+  {
+   "t": 20.000037522960728,
+   "pore_area": 0.0,
+   "radius": 0.0,
+   "max_damage": 0.006791791386641155,
+   "max_sigma_n_gb": 0.02000118746021428,
+   "broken_fraction_gb": 0.0,
+   "ledger": 0.0
+  }
+ ]
+}

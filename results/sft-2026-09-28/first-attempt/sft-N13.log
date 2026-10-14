@@ -1,0 +1,5 @@
+13 {'N': 13, 'n': 91, 'cell': 16384, 'E_void': 44.23471552463161, 'E_frank': 39.18975890811271, 'frank_fault_atoms': 0, 'frank_families': [0, 0, 0, 0]}
+<repo>/benchmarks/sft.py:67: DeprecationWarning: Use thermalize_momenta
+  hot=loop.copy();hot.calc=SetflEAM(POT);MaxwellBoltzmannDistribution(hot,temperature_K=800.,rng=np.random.default_rng(87));dyn=Langevin(hot,2*units.fs,temperature_K=800.,friction=.01/units.fs,rng=np.random.default_rng(870))
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/ase/md/langevin.py:102: FutureWarning: The implementation of `fixcm=True` in `Langevin` does not strictly sample the correct NVT distributions. The deviations are typically small for large systems but can be more pronounced for small systems. Use `fixcm=False` together with `ase.constraints.FixCom`. `fixcm` is deprecated since ASE 3.28.0 and will be removed in a future release.
+  warnings.warn(msg, FutureWarning)

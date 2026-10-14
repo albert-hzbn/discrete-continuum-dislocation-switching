@@ -1,0 +1,18 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "77",
+ "declared_gates": {
+  "F1_declared": false,
+  "F2_foreman_log": true
+ },
+ "post_hoc_gates": {
+  "F1_exact_post_hoc": true
+ },
+ "document": "FRANK_READ_ELASTIC_RESULTS.md",
+ "figures": [
+  "figures/frank-read-elastic.png"
+ ],
+ "notes": "F1 reference was the infinite singular force; exact finite-segment force matched to 2e-13."
+}

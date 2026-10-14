@@ -1,0 +1,7 @@
+Q1 {'rel_error': np.float64(2.9681603763600973e-11)}
+<repo>/benchmarks/disclination_dynamics.py:22: RuntimeWarning: divide by zero encountered in scalar divide
+  rows.append(dict(x=x,y=y,r=float(np.hypot(x,y)),force=float(got),edge=float(ref),rel=float(abs(got-ref)/abs(ref))))
+Q2 [(16.0, 0.0487), (25.298221281347036, 0.0216), (35.77708763999664, 0.0313), (32.31098884280702, 0.0095), (44.721359549995796, 0.0503), (50.99019513592785, 0.0472), (42.42640687119285, inf), (49.24428900898052, 0.0489)]
+Q3 {'steps': 951, 'final_separation': 0.9800000000172986, 'W_start': 8.246079342565515, 'W_end': 0.030666358480388203, 'monotone': True, 'worst_identity_error': np.float64(0.00984262748948419), 'seconds': 36.92570185661316}
+Q4 {'steps': 39999, 'dx': 19.99999999999872, 'h': 20.0, 'rel': 6.394884621840902e-14, 'seconds': 2043.8469817638397}
+{'Q1_variational': np.True_, 'Q2_edge_far_field': False, 'Q3_annihilation': np.True_, 'Q4_dipole_45': True}

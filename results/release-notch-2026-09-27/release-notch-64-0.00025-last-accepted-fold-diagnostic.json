@@ -1,0 +1,57 @@
+{
+ "checkpoint": "results/release-notch-2026-09-27/release-notch-64-0.00025-last-accepted.npz",
+ "time": 0.35850000000000004,
+ "released": 56,
+ "retries": {
+  "6": "Element orientation not certified by Bernstein bound.",
+  "12": "Element orientation not certified by Bernstein bound."
+ },
+ "last_accepted_dense_min_J": {
+  "value": 0.005001550496157947,
+  "cell": 31,
+  "centre": [
+   0.005471942984856453,
+   0.49479166634173155
+  ]
+ },
+ "flagged": [
+  {
+   "cell": 31,
+   "centre": [
+    0.005471942984856453,
+    0.49479166634173155
+   ],
+   "dense_min_J": -0.005034735632635306,
+   "corner_J": [
+    2.0916214158185165,
+    1.1513509307852277,
+    2.77500574289568,
+    1.5814389445677384
+   ]
+  },
+  {
+   "cell": 32,
+   "centre": [
+    0.005471942984856453,
+    0.5052083336582653
+   ],
+   "dense_min_J": -0.001270485652846523,
+   "corner_J": [
+    1.1195339831150322,
+    1.898370484987991,
+    1.4550529736530757,
+    2.8814118782609874
+   ]
+  }
+ ],
+ "bypassed_step": {
+  "iterations": 11,
+  "dense_min_J": -0.015070169647055959,
+  "cell": 31,
+  "centre": [
+   0.005471942984856453,
+   0.49479166634173155
+  ]
+ },
+ "genuine_fold": true
+}

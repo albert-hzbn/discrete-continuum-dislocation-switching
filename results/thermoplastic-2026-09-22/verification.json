@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 179,
+  "trajectory_checks_passed": 130,
+  "trajectory_checks_failed": 0,
+  "accuracy_gates_passed": 11,
+  "accuracy_gates_failed": 0,
+  "saved_state_readback": {
+    "results/thermoplastic-2026-09-22/heat-8-0.002-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/heat-8-0.002-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/heat-16-0.002-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/heat-16-0.002-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/heat-32-0.002-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/heat-32-0.002-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-8-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-8-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-24-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-24-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.002-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.002-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/coupled-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-expansion-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-expansion-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-slip-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-slip-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-conduction-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-2026-09-22/no-conduction-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-nonaffine-2026-09-22/nonaffine-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-nonaffine-2026-09-22/nonaffine-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-nonaffine-2026-09-22/nonaffine-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermoplastic-nonaffine-2026-09-22/nonaffine-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "source_sha256": {
+    "src/bmvr/thermoplastic.py": "00e94b9e0407283db826de2af325629f8a6fe4c802dd9d3cd0ffbe711e704aaf",
+    "tests/test_thermoplastic.py": "dc99864c50d12eea02721f09d56d9a703280ef6cd61aa068eeff329fa6ffd69b",
+    "benchmarks/thermoplastic.py": "d562d6dc8488ae173b242396a8fe379b36aa2f3b5861e0f7a94a40cc1aa900d4",
+    "benchmarks/thermoplastic_nonaffine.py": "abea02d2fcf7a84f670a189a061c3e9578034643dde11f7035afa389a1a058cf",
+    "benchmarks/thermoplastic_report.py": "08b8a6c94df852e3d15020221c9a9a7d146910e24aab7560a053478fb7bb6d29",
+    "unified_multiscale_defect_framework.md": "cd3bb0915d6474768a7ceca686e2be98f370a01414748573648896c77b7a4e71",
+    "THEORY_REVIEW.md": "182260af4637240d695be23018f6e9a723c4272cf55fed7484e51808185135ed"
+  },
+  "visually_inspected_figures": [
+    "figures/thermoplastic-verification.png",
+    "figures/thermoplastic-spatial.png"
+  ],
+  "goal_complete": false
+}

@@ -1,0 +1,21 @@
+64 t=0.2100 deleted=0 split=0 iters=9
+64 t=0.2200 deleted=0 split=19 iters=10
+64 t=0.2300 deleted=0 split=29 iters=10
+64 t=0.2400 deleted=0 split=35 iters=11
+64 t=0.2500 deleted=0 split=39 iters=11
+64 t=0.2600 deleted=0 split=43 iters=12
+64 t=0.2700 deleted=0 split=48 iters=11
+64 t=0.2800 deleted=0 split=48 iters=11
+64 t=0.2900 deleted=0 split=50 iters=11
+64 t=0.3000 deleted=0 split=50 iters=11
+64 t=0.3100 deleted=0 split=52 iters=14
+64 t=0.3200 deleted=0 split=52 iters=11
+64 t=0.3300 deleted=0 split=54 iters=11
+64 t=0.3400 deleted=0 split=54 iters=11
+64 t=0.3500 deleted=0 split=54 iters=11
+64 t=0.3600 deleted=2 split=56 iters=14
+64 t=0.3700 deleted=2 split=56 iters=11
+64 t=0.3800 deleted=2 split=56 iters=13
+64 t=0.3900 deleted=2 split=58 iters=13
+64 t=0.4000 deleted=2 split=58 iters=14
+64 done None {'energy_drift': True, 'positive_T': True, 'composition_inventory': True, 'damage_bounds': True, 'damage_irreversibility': True, 'entropy_production': True, 'midpoint_converged': True, 'deletion_ledger': True}

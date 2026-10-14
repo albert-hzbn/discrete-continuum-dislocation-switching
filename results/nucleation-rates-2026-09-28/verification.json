@@ -1,0 +1,12 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "76",
+ "declared_gates": {
+  "N1_cnt_vs_bd": false
+ },
+ "document": "NUCLEATION_RATES_RESULTS.md",
+ "notes": "Full-law CNT within 1.33x of Becker-Doring for n* >= 19 (post hoc).",
+ "regenerated": "2026-09-28: the full-law post hoc output is now produced by the script (reproduces the earlier saved values to 0.07%); rates computed in log space"
+}

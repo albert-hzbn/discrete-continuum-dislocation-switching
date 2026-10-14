@@ -1,0 +1,29 @@
+C_20_48 failed True 23.849999999989766 hours 373.682765253642 wall 14 ledger 1.3201549073077475e-12
+C_30_48 failed True 14.95000000000678 hours 234.23720505437646 wall 9 ledger 9.63356283711059e-13
+C_45_48 failed True 9.600000000000241 hours 150.41318852983616 wall 6 ledger 6.243975912942049e-13
+C_60_48 failed True 7.099999999998785 hours 111.24308735016949 wall 4 ledger 6.422375224740393e-13
+A_60_48 failed True 8.909999999999398 hours 139.60224060424125 wall 2215 ledger 1.1417555955094033e-12
+A_30_48 failed True 22.159999999993705 hours 347.2037768562644 wall 2653 ledger 1.5699139438254295e-12
+A_30_48_g0.8 failed True 21.309999999995686 hours 333.88594245521654 wall 3046 ledger 1.7304733244439392e-12
+A_20_48 failed False None hours None wall 1735 ledger 1.9623924297817868e-12
+Traceback (most recent call last):
+  File "D:\Work\unified-defect-framework\benchmarks\creep_cavitation3d.py", line 120, in <module>
+    run(sys.argv[2], float(sys.argv[3]), int(sys.argv[4]), float(sys.argv[5]) if len(sys.argv) > 5 else 1.)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\unified-defect-framework\benchmarks\creep_cavitation3d.py", line 49, in run
+    res = sim.run(T_MAX, frames=np.arange(1., T_MAX + 1e-9, 1.), callback=grab)
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 328, in run
+    self.mechanics(); self.history.append(self.snapshot())
+                                          ~~~~~~~~~~~~~^^
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 320, in snapshot
+    area_fraction=self.area_fraction(), ledger=self.ledger_error(),
+                                               ~~~~~~~~~~~~~~~~~^^
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 218, in ledger_error
+    return abs(self.inventory() - self.inventory0 - self.created)/self.inventory0
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+A_45_48 failed True 13.200000000004641 hours 206.81813422859227 wall 2477 ledger 1.4807142879262574e-12
+A_30_48_g1.2 failed True 22.98999999999177 hours 360.2082504478759 wall 2230 ledger 1.4450344255665885e-12
+A0_30_48 failed True 15.200000000007085 hours 238.1542151723456 wall 707 ledger 2.0783519824507105e-12
+A0_60_48 failed True 7.049999999998812 hours 110.45968532657704 wall 397 ledger 1.5431540470556777e-12
+A_30_64 failed True 21.919999999994264 hours 343.44344714302736 wall 1707 ledger 8.563166966320524e-13

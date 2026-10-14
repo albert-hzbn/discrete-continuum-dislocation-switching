@@ -1,0 +1,11 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "J1_ranking": true
+ },
+ "figures": [],
+ "figures_inspected": false,
+ "document": "BARRIER_DATA_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

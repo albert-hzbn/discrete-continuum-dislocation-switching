@@ -1,0 +1,42 @@
+{
+  "profiles": [
+    {
+      "n": 16,
+      "h_over_ell": 0.625,
+      "profile_rms": 0.0036895040444260645,
+      "energy": 0.0010160678806164294,
+      "analytical_energy": 0.0009999092042625951,
+      "energy_relative_error": 0.016160143625991497,
+      "projected_residual": 3.3306690738754696e-16
+    },
+    {
+      "n": 32,
+      "h_over_ell": 0.3125,
+      "profile_rms": 0.0009170341115320703,
+      "energy": 0.0010039732755039664,
+      "analytical_energy": 0.0009999092042625951,
+      "energy_relative_error": 0.004064440275223236,
+      "projected_residual": 7.771561172376096e-16
+    },
+    {
+      "n": 64,
+      "h_over_ell": 0.15625,
+      "profile_rms": 0.0002295827845363124,
+      "energy": 0.0010009267700293346,
+      "analytical_energy": 0.0009999092042625951,
+      "energy_relative_error": 0.0010176581657630468,
+      "projected_residual": 1.2212453270876722e-15
+    }
+  ],
+  "compression": {
+    "max_damage": 0.0,
+    "mechanical_residual": 4.359623040030058e-15,
+    "damage_residual": 0.0
+  },
+  "checks": {
+    "profile_refinement": true,
+    "energy_refinement": true,
+    "finest_energy_below_one_percent": true,
+    "all_compressive_no_damage": true
+  }
+}

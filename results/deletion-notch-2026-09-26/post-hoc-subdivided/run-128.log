@@ -1,0 +1,5 @@
+128 t=0.2800 deleted=98 iters=14
+128 t=0.2900 deleted=100 iters=14
+128 t=0.3000 deleted=102 iters=14
+128 done {'error': 'Constrained nodal midpoint did not converge: 4.920e-07.', 'step': 416, 'last_accepted_time': 0.3037500000000001} {'energy_drift': True, 'positive_T': True, 'composition_inventory': True, 'damage_bounds': True, 'damage_irreversibility': True, 'entropy_production': True, 'midpoint_converged': True, 'deletion_ledger': True}
+EXIT 0

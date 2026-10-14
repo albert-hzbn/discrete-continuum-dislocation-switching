@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "86",
+ "declared_gates": {
+  "L1_collapse": true,
+  "L2_loop_lower": false
+ },
+ "post_hoc": [
+  "post-hoc-core-radius.json"
+ ],
+ "document": "VACANCY_LOOP_RESULTS.md",
+ "figures": [
+  "figures/vacancy-loop.png"
+ ]
+}

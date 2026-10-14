@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 204,
+  "numerical_checks_passed": 105,
+  "accuracy_gates_passed": 30,
+  "accuracy_qualified": true,
+  "saved_state_readback": {
+    "results/thermochemical-cost-2026-09-22/reference-q2-48/q2-coupled-48-0.00025-initial.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/reference-q2-48/q2-coupled-48-0.00025-final.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-1/coupled-48-0.00025-initial.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-1/coupled-48-0.00025-final.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-1/q2-coupled-24-0.00025-initial.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-1/q2-coupled-24-0.00025-final.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-2/q2-coupled-24-0.00025-initial.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-2/q2-coupled-24-0.00025-final.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-2/coupled-48-0.00025-initial.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-2/coupled-48-0.00025-final.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-3/coupled-48-0.00025-initial.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-3/coupled-48-0.00025-final.npz": {
+      "degree": 1,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-3/q2-coupled-24-0.00025-initial.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-3/q2-coupled-24-0.00025-final.npz": {
+      "degree": 2,
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800
+    }
+  },
+  "cost_ledger": {
+    "results/thermochemical-cost-2026-09-22/reference-q2-48": {
+      "timed_parts_seconds": 168.38611765764654,
+      "startup_other_exit_seconds": 0.35359080135822296,
+      "launch_to_exit_seconds": 168.73970845900476
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-1": {
+      "timed_parts_seconds": 53.15712900785729,
+      "startup_other_exit_seconds": 0.5440742422360927,
+      "launch_to_exit_seconds": 53.701203250093386
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-1": {
+      "timed_parts_seconds": 39.52332916087471,
+      "startup_other_exit_seconds": 0.47938083903864026,
+      "launch_to_exit_seconds": 40.00270999991335
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-2": {
+      "timed_parts_seconds": 36.99574663373642,
+      "startup_other_exit_seconds": 0.4332025742623955,
+      "launch_to_exit_seconds": 37.42894920799881
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-2": {
+      "timed_parts_seconds": 49.32873136573471,
+      "startup_other_exit_seconds": 0.34148921840824187,
+      "launch_to_exit_seconds": 49.67022058414295
+    },
+    "results/thermochemical-cost-2026-09-22/q1-repeat-3": {
+      "timed_parts_seconds": 49.613007651641965,
+      "startup_other_exit_seconds": 0.35268026520498097,
+      "launch_to_exit_seconds": 49.965687916846946
+    },
+    "results/thermochemical-cost-2026-09-22/q2-repeat-3": {
+      "timed_parts_seconds": 37.560152638936415,
+      "startup_other_exit_seconds": 0.35861444496549666,
+      "launch_to_exit_seconds": 37.91876708390191
+    }
+  },
+  "same_physics_dt_steps_threads": true,
+  "source_hashes_match": true,
+  "preserved_baseline_hashes_match": true,
+  "inventory_modules": 33,
+  "inventory_declarations": 282,
+  "reproducibility": {
+    "q1": {
+      "max_absolute_difference": 0.0,
+      "passed": true
+    },
+    "q2": {
+      "max_absolute_difference": 0.0,
+      "passed": true
+    }
+  },
+  "visually_inspected_figures": [
+    "figures/thermochemical-cost.png"
+  ],
+  "goal_complete": false
+}

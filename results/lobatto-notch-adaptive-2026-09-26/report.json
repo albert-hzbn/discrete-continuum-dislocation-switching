@@ -1,0 +1,528 @@
+{
+  "scope": "Section 47 corner-sampling (Gauss-Lobatto) quadrature on the Section 46.5 graded notch family; same physics. Not dynamic adaptivity or a speedup claim.",
+  "bands": {
+    "x": [
+      -0.1,
+      0.55
+    ],
+    "y": [
+      0.25,
+      0.75
+    ],
+    "ratio": 3.0,
+    "width": 0.03
+  },
+  "checkpoints": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35
+  ],
+  "comparisons": {
+    "48_64": {
+      "t0.1": {
+        "c": 0.0014760619807746946,
+        "eta": 0.004899543140624915,
+        "T": 0.0014159649385805445,
+        "slip": 0.026294021639873696,
+        "damage": 0.005293628883605434
+      },
+      "t0.15": {
+        "c": 0.0015795392248364791,
+        "eta": 0.004920936346919992,
+        "T": 0.001455990782064717,
+        "slip": 0.02538176475679016,
+        "damage": 0.007449733467913298
+      },
+      "t0.2": {
+        "c": 0.0016841695760561072,
+        "eta": 0.004940820113090135,
+        "T": 0.0014897406254269566,
+        "slip": 0.027438450862886862,
+        "damage": 0.009726256859938722
+      },
+      "t0.25": {
+        "c": 0.0018088435768375515,
+        "eta": 0.004959111043463467,
+        "T": 0.0015429088472358405,
+        "slip": 0.033884804092605005,
+        "damage": 0.012974984376743767
+      },
+      "t0.3": {
+        "c": 0.0019081324132849654,
+        "eta": 0.004976168461810135,
+        "T": 0.001611919637351718,
+        "slip": 0.04628696758863642,
+        "damage": 0.01693495796968228
+      }
+    },
+    "64_96": {
+      "t0.1": {
+        "c": 0.0006709786750598339,
+        "eta": 0.0022039364658783585,
+        "T": 0.0006746022606102306,
+        "slip": 0.015705201430417294,
+        "damage": 0.0038482240740234574
+      },
+      "t0.15": {
+        "c": 0.0007204884040519076,
+        "eta": 0.0022380972123757586,
+        "T": 0.0007055774607232655,
+        "slip": 0.01608618533378939,
+        "damage": 0.006204112694853826
+      },
+      "t0.2": {
+        "c": 0.0007725885771690806,
+        "eta": 0.0022694846466475515,
+        "T": 0.0007433116435789726,
+        "slip": 0.018645116376999536,
+        "damage": 0.007978756240272299
+      },
+      "t0.25": {
+        "c": 0.0009130601289595327,
+        "eta": 0.002298290174929362,
+        "T": 0.0008375655295326891,
+        "slip": 0.02512009485111119,
+        "damage": 0.010639880210716365
+      }
+    },
+    "96_128": {
+      "t0.1": {
+        "c": 0.0003616913601934304,
+        "eta": 0.001184931400181696,
+        "T": 0.00035127804567591043,
+        "slip": 0.00641875582728279,
+        "damage": 0.001643960630038934
+      },
+      "t0.15": {
+        "c": 0.00038482365026961367,
+        "eta": 0.001190242517365379,
+        "T": 0.0003608077654535335,
+        "slip": 0.006264619895593944,
+        "damage": 0.0024474847462498837
+      },
+      "t0.2": {
+        "c": 0.0004077982214827034,
+        "eta": 0.0011949187075516112,
+        "T": 0.00037917048264439344,
+        "slip": 0.006965525168668063,
+        "damage": 0.0032288984243496995
+      },
+      "t0.25": {
+        "c": 0.0005926099597045522,
+        "eta": 0.001199024816244272,
+        "T": 0.00040157928182350675,
+        "slip": 0.00950301548273712,
+        "damage": 0.004669339082966812
+      }
+    }
+  },
+  "gates_64_96_final": "unevaluated: a trajectory did not reach t=0.4",
+  "qualification_96_128": {
+    "t0.1": {
+      "below_5_percent": true,
+      "decreasing_slip_damage": true
+    },
+    "t0.15": {
+      "below_5_percent": true,
+      "decreasing_slip_damage": true
+    },
+    "t0.2": {
+      "below_5_percent": true,
+      "decreasing_slip_damage": true
+    },
+    "t0.25": {
+      "below_5_percent": true,
+      "decreasing_slip_damage": true
+    }
+  },
+  "quadrature_sensitivity_vs_gauss_96": {
+    "t0.1": {
+      "c": 8.142511399788364e-08,
+      "eta": 2.935745066477304e-09,
+      "T": 1.523397849097488e-07,
+      "slip": 0.0022673609464940645,
+      "damage": 3.2137855287129752e-06
+    },
+    "t0.15": {
+      "c": 4.781056696670309e-07,
+      "eta": 1.5144209643953314e-08,
+      "T": 1.0061440369867195e-06,
+      "slip": 0.0015038334501695084,
+      "damage": 2.4411536654278027e-05
+    },
+    "t0.2": {
+      "c": 2.6795458635098617e-06,
+      "eta": 7.830767880393415e-08,
+      "T": 1.2216953861630082e-06,
+      "slip": 0.0010071063509195807,
+      "damage": 0.0001128480863736898
+    },
+    "t0.25": {
+      "c": 9.762112138530416e-05,
+      "eta": 1.228135365371731e-06,
+      "T": 3.4604004803911374e-05,
+      "slip": 0.0008651959329546507,
+      "damage": 0.0005207544146855921
+    }
+  },
+  "gauss_n64_96_reference_discrepancy": "see results/graded-notch-v3-2026-09-26/report.json qualification.comparison_64_96",
+  "per_mesh": {
+    "48": {
+      "cells": 2304,
+      "fine_ell_over_h": [
+        5.4858139547862095,
+        5.759999611006104
+      ],
+      "events": {
+        "distributed_damage_plus_001": 0.059789806164274185,
+        "tip_max_damage_09": 0.15345446488186143,
+        "first_saturation": 0.21675,
+        "final_kinetic_energy": 0.0013534128175477723,
+        "max_midpoint_iterations": 35
+      },
+      "complete": true,
+      "failure": null,
+      "reached": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35
+      ],
+      "solver_seconds": 546.8670563508058,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "relative_energy_drift": 6.402029552205356e-07,
+      "folder": "results/lobatto-notch-2026-09-26",
+      "preconditioned": true,
+      "fronts": {
+        "0": {
+          "process": 0.38114044303617756,
+          "broken": null
+        },
+        "0.1": {
+          "process": 0.3893344485087839,
+          "broken": null
+        },
+        "0.15": {
+          "process": 0.3931791705746693,
+          "broken": null
+        },
+        "0.2": {
+          "process": 0.3969928163667701,
+          "broken": 0.2556945915234559
+        },
+        "0.25": {
+          "process": 0.40085071997296295,
+          "broken": 0.29024770330268795
+        },
+        "0.3": {
+          "process": 0.40477881993982195,
+          "broken": 0.3103569626749949
+        },
+        "0.35": {
+          "process": 0.4088518592871557,
+          "broken": 0.3256418159583919
+        },
+        "0.4": {
+          "process": 0.41357195442343736,
+          "broken": 0.33860789575412403
+        }
+      },
+      "slip_final": {
+        "L1": 0.0010148807621170504,
+        "L2": 0.002320640918397318,
+        "max": 0.011647129954825192
+      },
+      "geometry_final": {
+        "initial_front": 0.38114044303617756,
+        "final_front": 0.41357195442343736,
+        "advance": 0.032431511387259804,
+        "top_fraction": 0.13902880249685146,
+        "notch_fraction": 0.3391731766367703
+      }
+    },
+    "64": {
+      "cells": 4096,
+      "fine_ell_over_h": [
+        7.314418606452802,
+        7.679999520866284
+      ],
+      "events": {
+        "distributed_damage_plus_001": 0.059787733467025136,
+        "tip_max_damage_09": 0.14854760032600167,
+        "first_saturation": 0.2115,
+        "final_kinetic_energy": 0.0011700956428823525,
+        "max_midpoint_iterations": 15
+      },
+      "complete": false,
+      "failure": {
+        "error": "Element orientation not certified by Bernstein bound.",
+        "step": 1295,
+        "n": 64,
+        "dt": 0.00025,
+        "variant": "lobatto-notch",
+        "last_accepted_time": 0.3235
+      },
+      "reached": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3
+      ],
+      "solver_seconds": 1661.196384462004,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "relative_energy_drift": 9.780964033729704e-07,
+      "folder": "results/lobatto-notch-adaptive-2026-09-26",
+      "preconditioned": "adaptive",
+      "fronts": {
+        "0": {
+          "process": 0.381150341531143,
+          "broken": null
+        },
+        "0.1": {
+          "process": 0.3894228220651028,
+          "broken": null
+        },
+        "0.15": {
+          "process": 0.39327448326155445,
+          "broken": null
+        },
+        "0.2": {
+          "process": 0.39709628380796586,
+          "broken": 0.2634883149370664
+        },
+        "0.25": {
+          "process": 0.4009474658407379,
+          "broken": 0.2952081229661474
+        },
+        "0.3": {
+          "process": 0.40485638379732636,
+          "broken": 0.3142800546813081
+        }
+      }
+    },
+    "96": {
+      "cells": 9216,
+      "fine_ell_over_h": [
+        10.97162790967142,
+        11.51999932232631
+      ],
+      "events": {
+        "distributed_damage_plus_001": 0.05978692895237454,
+        "tip_max_damage_09": 0.1450200025939925,
+        "first_saturation": 0.2135,
+        "final_kinetic_energy": 0.0010484485719833474,
+        "max_midpoint_iterations": 15
+      },
+      "complete": false,
+      "failure": {
+        "error": "Element orientation not certified by Bernstein bound.",
+        "step": 1142,
+        "n": 96,
+        "dt": 0.00025,
+        "variant": "lobatto-notch",
+        "last_accepted_time": 0.28525
+      },
+      "reached": [
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "solver_seconds": 3725.922744020645,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "relative_energy_drift": 1.6513115919635559e-06,
+      "folder": "results/lobatto-notch-adaptive-2026-09-26",
+      "preconditioned": "adaptive",
+      "fronts": {
+        "0": {
+          "process": 0.38117088460587867,
+          "broken": null
+        },
+        "0.1": {
+          "process": 0.3894876207082499,
+          "broken": null
+        },
+        "0.15": {
+          "process": 0.39334422266535823,
+          "broken": null
+        },
+        "0.2": {
+          "process": 0.3971692463444717,
+          "broken": 0.26889067714079096
+        },
+        "0.25": {
+          "process": 0.40100679438473585,
+          "broken": 0.29883187101579595
+        }
+      }
+    },
+    "128": {
+      "cells": 16384,
+      "fine_ell_over_h": [
+        14.628837212977883,
+        15.359999115239804
+      ],
+      "events": {
+        "distributed_damage_plus_001": 0.05978679323893197,
+        "tip_max_damage_09": 0.14376766572769056,
+        "first_saturation": 0.22175,
+        "final_kinetic_energy": 0.0010551340710078009,
+        "max_midpoint_iterations": 17
+      },
+      "complete": false,
+      "failure": {
+        "error": "Element orientation not certified by Bernstein bound.",
+        "step": 1124,
+        "n": 128,
+        "dt": 0.00025,
+        "variant": "lobatto-notch",
+        "last_accepted_time": 0.28075
+      },
+      "reached": [
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "solver_seconds": 6182.987732664711,
+      "checks": {
+        "positive_T": true,
+        "positive_J": true,
+        "positive_capacity": true,
+        "plastic_volume": true,
+        "entropy_production": true,
+        "entropy_increase": true,
+        "energy_drift": true,
+        "conductive_balance": true,
+        "midpoint_converged": true,
+        "fixed_boundary": true,
+        "composition_inventory": true,
+        "composition_bounds": true,
+        "phase_bounds": true,
+        "chemical_energy_transfer": true,
+        "microstress_transfer": true,
+        "damage_bounds": true,
+        "damage_irreversibility": true,
+        "damage_dissipation": true
+      },
+      "relative_energy_drift": 1.880333633713787e-06,
+      "folder": "results/lobatto-notch-adaptive-2026-09-26",
+      "preconditioned": "adaptive",
+      "fronts": {
+        "0": {
+          "process": 0.3811811607967377,
+          "broken": null
+        },
+        "0.1": {
+          "process": 0.38951092238387197,
+          "broken": null
+        },
+        "0.15": {
+          "process": 0.39336896975838737,
+          "broken": null
+        },
+        "0.2": {
+          "process": 0.3971936507488319,
+          "broken": 0.27080133804232553
+        },
+        "0.25": {
+          "process": 0.4010566075524026,
+          "broken": 0.3001473172545251
+        }
+      }
+    }
+  },
+  "all_checks": true,
+  "tip_timing_estimate": {
+    "tip_spacing": [
+      0.010937301281803008,
+      0.007291534187873844,
+      0.005468650640874484
+    ],
+    "tip_times": [
+      0.14854760032600167,
+      0.1450200025939925,
+      0.14376766572769056
+    ],
+    "observed_order": 1.960491826753465,
+    "extrapolated_tip_time": 0.14211482227816005,
+    "finest_relative_timing_error": 0.011630338222535406,
+    "caution": "Three-point estimate on the finest three graded meshes; not an established asymptotic rate."
+  },
+  "study_seconds": 6.852550707990304,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    },
+    "concurrency": "GLL trajectories ran concurrently with other single-thread studies; solver seconds are not a cost comparison."
+  }
+}

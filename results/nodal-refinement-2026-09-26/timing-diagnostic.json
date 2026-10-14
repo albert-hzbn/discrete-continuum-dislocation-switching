@@ -1,0 +1,89 @@
+{
+  "slip_location": {
+    "relative_slip_24_32": 0.22052185143856487,
+    "squared_error_fraction_active_set_mismatch": 0.0012526673275365875,
+    "squared_error_fraction_notch": 0.6735602595517188,
+    "squared_error_fraction_damage_0_0.05": 0.22601810363245595,
+    "squared_error_fraction_damage_0.05_0.3": 0.6112017079801869,
+    "squared_error_fraction_damage_0.3_0.7": 0.15947147953884402,
+    "squared_error_fraction_damage_0.7_1.01": 0.003308708848512878
+  },
+  "timing": {
+    "16": {
+      "distributed_damage_plus_0005": 0.029831956793378862,
+      "distributed_damage_plus_001": 0.06008243563987251,
+      "tip_max_damage_09": 0.30147112310230617,
+      "tip_max_damage_099": null,
+      "kinetic_energy_2e4": 0.30745839922823137,
+      "first_saturation": null,
+      "final_kinetic_energy": 0.00035861852130631463,
+      "final_max_slip": 0.0055423212853413645
+    },
+    "24": {
+      "distributed_damage_plus_0005": 0.029720574137755928,
+      "distributed_damage_plus_001": 0.059919082012076935,
+      "tip_max_damage_09": 0.2236090523276637,
+      "tip_max_damage_099": 0.2995333882132843,
+      "kinetic_energy_2e4": 0.2272523772426757,
+      "first_saturation": 0.31,
+      "final_kinetic_energy": 0.0007129501373418242,
+      "final_max_slip": 0.007546870512324662
+    },
+    "32": {
+      "distributed_damage_plus_0005": 0.02966811730674013,
+      "distributed_damage_plus_001": 0.059851406854270595,
+      "tip_max_damage_09": 0.19106169667460182,
+      "tip_max_damage_099": 0.2555831342597649,
+      "kinetic_energy_2e4": 0.19531405345869163,
+      "first_saturation": 0.265,
+      "final_kinetic_energy": 0.0009369101305536557,
+      "final_max_slip": 0.009031262939496323
+    },
+    "48": {
+      "distributed_damage_plus_0005": 0.029625939247320158,
+      "distributed_damage_plus_001": 0.05980638460475815,
+      "tip_max_damage_09": 0.16565173095243416,
+      "tip_max_damage_099": 0.21987178384372957,
+      "kinetic_energy_2e4": 0.16941179309104884,
+      "first_saturation": 0.22875,
+      "final_kinetic_energy": 0.0011973111590439277,
+      "final_max_slip": 0.010614940645649325
+    }
+  },
+  "tip_timing_estimate": {
+    "observed_order": 1.734,
+    "extrapolated_tip_time": 0.14073896309668427,
+    "n48_relative_timing_error": 0.1770140074048678,
+    "caution": "Three-point Richardson estimate from successive differences; not an established asymptotic rate."
+  },
+  "slip_measures": {
+    "16": {
+      "L1": 0.0002745920041148708,
+      "L2": 0.0008084850878896348,
+      "max": 0.0055423212853413645,
+      "active_fraction": 0.21788194444444445,
+      "ell_over_h": 1.28
+    },
+    "24": {
+      "L1": 0.0005256692012866094,
+      "L2": 0.0013403134964428257,
+      "max": 0.007546870512324662,
+      "active_fraction": 0.2527006172839506,
+      "ell_over_h": 1.9200000000000002
+    },
+    "32": {
+      "L1": 0.0007000460549661456,
+      "L2": 0.0016912206054970525,
+      "max": 0.009031262939496323,
+      "active_fraction": 0.2717013888888889,
+      "ell_over_h": 2.56
+    },
+    "48": {
+      "L1": 0.0008935696717411918,
+      "L2": 0.0020810960102776947,
+      "max": 0.010614940645649325,
+      "active_fraction": 0.3000096450617284,
+      "ell_over_h": 3.8400000000000003
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 216,
+  "numerical_checks_passed": 180,
+  "accuracy_gates_passed": 19,
+  "accuracy_gates_failed": 0,
+  "saved_state_readback": {
+    "results/thermofracture-2026-09-22/homogeneous-2-0.01-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/homogeneous-2-0.01-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 100,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/homogeneous-2-0.005-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/homogeneous-2-0.005-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 200,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/homogeneous-2-0.0025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/homogeneous-2-0.0025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 400,
+      "degree": 1
+    },
+    "results/thermofracture-2026-09-22/coupled-8-0.00025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-8-0.00025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.00025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.00025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-24-0.00025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-24-0.00025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.001-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.001-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 200,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.0005-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/coupled-16-0.0005-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 400,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/frozen-damage-16-0.00025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/frozen-damage-16-0.00025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/no-phase-resistance-16-0.00025-initial.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 0,
+      "degree": 2
+    },
+    "results/thermofracture-2026-09-22/no-phase-resistance-16-0.00025-final.npz": {
+      "diagnostic_max_absolute_difference": 0.0,
+      "step": 800,
+      "degree": 2
+    }
+  },
+  "source_sha256": {
+    "src/bmvr/representation3d.py": "615494dfa8c8a8130bef1c7e648385229eb61313830a996b106135b42f413b7f",
+    "src/bmvr/finite_elasticity.py": "c6b45b16bde782ef1ca7bdefc36a1e0a301c88bef17267624303b4d7b15ffcea",
+    "src/bmvr/grid.py": "fe18ea23695c543b1cbf547151da1aea96cb7ba45babfed345832863b7b800d7",
+    "src/bmvr/response_cache.py": "e9844473d591268195d3e684679c977e2037ac9cb1dc81ac618625a1aaf0903a",
+    "src/bmvr/transport_metric.py": "28b553f6e1b8a342c71d4198a8186ceaf18662f857d4010be409f8349a5bbdf3",
+    "src/bmvr/checkpoint.py": "59c67c9738248eae6628eb4b1e370756731a4f1c38e2c2e7ad53e412b9e41c5e",
+    "src/bmvr/adaptivity.py": "f9094869bd5be4c8cb9b36edc12f9eaa0427aff3ebb10ba35c5fcd0e6ba2fd81",
+    "src/bmvr/reactions.py": "04fdaf957a30da9a6542fd66de947c83bed4ad44b8e8f0d5842f39e879846ae5",
+    "src/bmvr/loops3d.py": "cddea42f3f7d909c3a45434e31647ad2d8d40164e1d367936bd6ea200ab56ac8",
+    "src/bmvr/diagnostics.py": "a63e0516c1489ff0c0e583621e677a7d35e6b217d552fbcb25dbc551d2461113",
+    "src/bmvr/thermofracture.py": "511518ce09bdc5c3fe02daf4dc45b8b7f18829d9c6949f18d9976da7b209ab82",
+    "src/bmvr/defects.py": "101fb267bd85249a039c6901d5c645108cbd7a2b654439ad3c92cb6d2932b6d0",
+    "src/bmvr/trajectory_control.py": "30524f9650584c94b95f733f462d6be17b27957a259411573e92a658e2284bbd",
+    "src/bmvr/__init__.py": "0a40bd476b08e4af8868c9fb192f70ed9b07a814c4b4cd75f1b509cf9aaf0893",
+    "src/bmvr/coarsening.py": "f0f1643718ae244fde763184d79abfe6f0e5edd7b11183f04d585eea10e7c3c1",
+    "src/bmvr/solvers.py": "481218fce87910a5b57b05086a6285422fde7f9553ab82531706a73074ee82d8",
+    "src/bmvr/transport_checkpoint.py": "53ed12539aa61f1381db7b13132fb9c6642a7b573fd3623533942d94e5bad346",
+    "src/bmvr/energy.py": "97ea95ea6f16615be603e5372327a4f743480b1188983d9cea2291c4750b795e",
+    "src/bmvr/experiments.py": "095ab32bebdd6d9afaf829fcba5be37a5321af9a993c2c57c3e079652512c74e",
+    "src/bmvr/thermoplastic.py": "94bb6e0ac13b8159d11d3a628281301501cda9feb12f06d8dd8a50b24eb51473",
+    "src/bmvr/graphs3d.py": "0563885056ffcd69348f74ecb634b492e5f1b1ad54cdfe4b0b508e77a4875610",
+    "src/bmvr/allocation.py": "9ed8ffc0827d8c0506dbb8efc08e0185d5e696776ece586b274f48bc721be381",
+    "src/bmvr/microstructure.py": "2fbb4e3eeda122fa8d54778f1236a9c712ea9d0ad148e121f19201076b113622",
+    "src/bmvr/small_matrix.py": "f5e32fda842dacc2eae902b64460cd350b0f0a02e6ba3dff60db8e55e41b91c3",
+    "src/bmvr/elasticity.py": "894e2df41b8a371e11b94467cba7f3a9a3660c7e9314991cfc65b0398695ce4c",
+    "src/bmvr/quadratic_mesh.py": "670c636969d6c080512ca470dd1b63895a16d88f7346f88954259cbf4e82903a",
+    "src/bmvr/coupled_transport.py": "d95f842a868aa69d7eb37e62f10d65297f364e8c13377b51bf8f4fc2a2ff6ce1",
+    "src/bmvr/spherical_sink.py": "51c68594051f38b5c598a6677697a2a9c402753ec16744d5d8cb738209b28a92",
+    "src/bmvr/localized_transport.py": "8a80b3b0b1838346d5c2d7f2681f1b050aa0832178b973cdfc55415383e7342e",
+    "src/bmvr/fracture2d.py": "942c92b488b7631eee1c803c8c8108741560e7c056848f2c1dd2195797250862",
+    "src/bmvr/interface_reactions.py": "47912fb6ce1aba4898627eb5d3807a62c299cfca950fcd702926528a9570f84d",
+    "src/bmvr/continuum3d.py": "ebd85323316d3c91159799869c7fb1227fb814039cd7712b67173a9eb178a1c1",
+    "src/bmvr/thermochemical.py": "a9b7723f96f9bbfd77ffb2afa6edd211a42761069018f99c6201e0205791a716",
+    "src/bmvr/precipitate_interaction.py": "9985881a835f1435a6f328e885d48db9f38b8b9879f4814b52701bcb5afdcebd",
+    "benchmarks/thermochemical.py": "937914e38340175c6370430c6b1775c33d1752c63ecaf243a45f2860ee40fef9",
+    "benchmarks/thermofracture.py": "54e18c0ba67809d107c03d727c4d62d9d6a642f5aa1d9c692ddae7459fd045f8",
+    "benchmarks/thermofracture_report.py": "0a30690d2b188339958e4b9386b47e420b35df03cd81b6815b92206b9d4377d8",
+    "tests/test_thermofracture.py": "731aeb5c3bd45288c2b6a92d46fa336221a155991fd4e30f38c4ba11683a5616",
+    "unified_multiscale_defect_framework.md": "0ec664ab22d42e341d068f5a4ab20ded4256ab58391dbe5461be34d5bc348567",
+    "THEORY_REVIEW.md": "30da35fa0e21e37eebbd97e118f75f0a7cc2d0f49a8600e0b309adc350eb8385"
+  },
+  "inventory_modules": 34,
+  "inventory_declarations": 293,
+  "visually_inspected_figures": [
+    "figures/thermofracture-verification.png",
+    "figures/thermofracture-fields.png"
+  ],
+  "physical_limitation": "Isotropic damage degrades compression; upper-grip damage contributes 56.94% of the increment. Not an isolated crack-tip propagation certificate.",
+  "goal_complete": false
+}

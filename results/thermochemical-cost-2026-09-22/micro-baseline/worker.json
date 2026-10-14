@@ -1,0 +1,36 @@
+{
+  "mode": "micro",
+  "warmup_calls": 5,
+  "batch_calls": 30,
+  "batch_seconds": [
+    0.4459744170308113,
+    0.4444013328757137,
+    0.4443543329834938,
+    0.4461807501502335,
+    0.44292133301496506
+  ],
+  "batch_median_seconds": 0.4444013328757137,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 14,
+    "load_average": [
+      8.52880859375,
+      9.0439453125,
+      10.97412109375
+    ],
+    "implementation_file": "<repo>/results/thermochemical-cost-2026-09-22/baseline-src/bmvr/thermochemical.py",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "worker_elapsed_seconds": 3.02599591598846,
+  "peak_rss_bytes": 101957632,
+  "launch_to_exit_seconds": 3.0812451250385493,
+  "startup_exit_residual_seconds": 0.05524920905008912
+}

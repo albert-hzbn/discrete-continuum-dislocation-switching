@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 153,
+  "trajectory_checks_passed": 63,
+  "profile_compression_checks_passed": 4,
+  "work_audit_checks_passed": 14,
+  "refinement_gates_passed": 4,
+  "refinement_gates_failed": 4,
+  "retained_solver_failure": "results/spatial-fracture-2026-09-22/mesh-48/failure.json",
+  "source_hash_matches": {
+    "benchmarks/spatial_fracture.py": true,
+    "src/bmvr/fracture2d.py": true,
+    "unified_multiscale_defect_framework.md": true,
+    "benchmarks/fracture_work_audit.py": true
+  },
+  "saved_array_readback": {
+    "heterogeneous": true,
+    "load-halfstep": true,
+    "mesh-24": true,
+    "mesh-32": true,
+    "mesh-48": true,
+    "mesh-64": true,
+    "residual-small": true
+  },
+  "visually_inspected_figures": [
+    "figures/fracture-verification.png",
+    "figures/fracture-propagation.png"
+  ],
+  "scope": "Spatial plane-strain fracture reference; no general multiphysics or accelerated fracture claim.",
+  "goal_complete": false
+}

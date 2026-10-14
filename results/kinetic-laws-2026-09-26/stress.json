@@ -1,0 +1,79 @@
+{
+ "taus": [
+  -0.02,
+  -0.01,
+  0.0,
+  0.01,
+  0.02
+ ],
+ "rows": {
+  "12": {
+   "velocities": [
+    -0.0015652623488923226,
+    -0.0034971140014704544,
+    -0.0054289656540485905,
+    -0.007360817306626717,
+    -0.00929266895920486
+   ],
+   "slope": -0.19318516525781335,
+   "intercept": -0.005428965654048589,
+   "predicted_slope": 0.19318516525781368,
+   "slope_relative_error": 1.9999999999999982,
+   "residual": 6.071532165918825e-18,
+   "deviation_from_Mb": 1.9659258262890666,
+   "equilibrium_stress": -0.028102394129504802,
+   "corrected_slope_relative_error": 1.7763568394002505e-15,
+   "corrected_deviation_from_Mb": 0.03407417371093335
+  },
+  "24": {
+   "velocities": [
+    -0.0015071451590073146,
+    -0.003490034881754936,
+    -0.005472924604502556,
+    -0.007455814327250181,
+    -0.009438704049997797
+   ],
+   "slope": -0.19828897227476205,
+   "intercept": -0.005472924604502557,
+   "predicted_slope": 0.19828897227476208,
+   "slope_relative_error": 2.0,
+   "residual": 2.6020852139652106e-18,
+   "deviation_from_Mb": 1.9914448613738103,
+   "equilibrium_stress": -0.027600751275864793,
+   "corrected_slope_relative_error": 1.1102230246251565e-16,
+   "corrected_deviation_from_Mb": 0.008555138626189729
+  },
+  "48": {
+   "velocities": [
+    -0.0014922407447869115,
+    -0.0034879585912641186,
+    -0.005483676437741322,
+    -0.007479394284218535,
+    -0.009475112130695745
+   ],
+   "slope": -0.1995717846477208,
+   "intercept": -0.005483676437741326,
+   "predicted_slope": 0.1995717846477207,
+   "slope_relative_error": 2.0000000000000004,
+   "residual": 3.469446951953614e-18,
+   "deviation_from_Mb": 1.997858923238604,
+   "equilibrium_stress": -0.027477213010952305,
+   "corrected_slope_relative_error": 4.440892098500626e-16,
+   "corrected_deviation_from_Mb": 0.002141076761396077
+  }
+ },
+ "gates": {
+  "S1_slope": false,
+  "S2_linear": true,
+  "S3_order": false
+ },
+ "sign_corrected_post_hoc": {
+  "S1_slope": true,
+  "S3_order": true,
+  "order_ratios": [
+   3.982889722747747,
+   3.9957178464780494
+  ]
+ },
+ "seconds": 1.3076077500008978
+}

@@ -1,0 +1,51 @@
+a0 3.6149603346199335 Ec 3.5399948410627062 elastic {'C11': np.float64(169.62746529540559), 'C12': np.float64(122.13596503059492), 'C44': np.float64(75.74314986879843), 'B': np.float64(137.96646511886513), 'mu': np.float64(54.94418997424119), 'nu': np.float64(0.3242136875921951)} SFE 23.826886887733522
+<repo>/benchmarks/screw_core.py:63: RuntimeWarning: Mean of empty slice.
+  prof=lambda m:np.array([uz[m&(abs(x-xx)<window)].mean() for xx in xs])
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{
+ "potential": "zjw",
+ "a0": 3.6149603346199335,
+ "cohesive_eV": 3.5399948410627062,
+ "elastic_GPa": {
+  "C11": 169.62746529540559,
+  "C12": 122.13596503059492,
+  "C44": 75.74314986879843,
+  "B": 137.96646511886513,
+  "mu": 54.94418997424119,
+  "nu": 0.3242136875921951
+ },
+ "sfe_mJ_m2": 23.826886887733522,
+ "measured": {
+  "a0": 3.615,
+  "Ec": 3.49,
+  "B": 138.0,
+  "C44": 75.4,
+  "sfe": [
+   41.0,
+   58.0
+  ]
+ },
+ "gates": {
+  "P1_lattice": true,
+  "P2_cohesive": true,
+  "P3_elastic": 1.0,
+  "P4_positive_fault": 1.0,
+  "C1_separation": false
+ },
+ "screw": {
+  "atoms": 4896,
+  "b": 2.5561629663301457,
+  "b_partial": 1.4758013767032623,
+  "relax_seconds": 37.63935399055481,
+  "fire_steps": 70,
+  "x_partials": [
+   24.161898307347748,
+   41.504549164982365
+  ],
+  "separation_A": 17.342650857634617,
+  "isotropic_prediction_A": 30.379683617692592,
+  "ratio": 0.5708634453169408,
+  "plateau_mean": 0.49559153509757264
+ }
+}

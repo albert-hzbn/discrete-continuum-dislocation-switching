@@ -1,0 +1,2 @@
+sh: line 1:  3297 Done                    cat <tmp>/remaining.txt
+      3298 Terminated: 15          | xargs -P 3 -L 1 sh -c 'python3 benchmarks/coarsening_conditioning.py --output results/coarsening-conditioning-2026-09-26 --member $0 $1 > results/coarsening-conditioning-2026-09-26/member-$0-$1.log 2>&1'

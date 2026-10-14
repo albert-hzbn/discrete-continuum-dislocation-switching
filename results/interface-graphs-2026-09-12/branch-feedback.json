@@ -1,0 +1,34 @@
+[
+  {
+    "branch": "transmitted",
+    "rms_difference_from_incident_control": {
+      "phase": 8.100071974576117e-06,
+      "population": 4.000220173393126e-06,
+      "stress": 0.00024274172355749713
+    }
+  },
+  {
+    "branch": "absorbed",
+    "rms_difference_from_incident_control": {
+      "phase": 4.0808238966544365e-06,
+      "population": 2.069770969939623e-06,
+      "stress": 0.00012331828879062472
+    }
+  },
+  {
+    "branch": "reflected",
+    "rms_difference_from_incident_control": {
+      "phase": 7.534264877101675e-06,
+      "population": 3.2600612848450124e-06,
+      "stress": 0.0001981714230997303
+    }
+  },
+  {
+    "branch": "sampled",
+    "rms_difference_from_incident_control": {
+      "phase": 8.100071974576117e-06,
+      "population": 4.000220173393126e-06,
+      "stress": 0.00024274172355749713
+    }
+  }
+]

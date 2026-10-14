@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-28",
+ "theory": "87",
+ "pytest_record": "results/test-results.xml",
+ "declared_gates": {
+  "T1_sft_four_families": true,
+  "T1_static_single_family": false,
+  "T2_lowest_energy": false
+ },
+ "document": "SFT_RESULTS.md",
+ "figures": [
+  "figures/sft.png"
+ ],
+ "first_attempt": "first-attempt/ (CSP window 0.5-5, stopped after the static stage)",
+ "notes": "SFT forms athermally for n >= 45; SFT < void < Frank loop.",
+ "pytest_passed": 364
+}

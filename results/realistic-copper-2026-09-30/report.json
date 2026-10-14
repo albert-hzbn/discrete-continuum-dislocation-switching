@@ -1,0 +1,95 @@
+{
+ "section": 94,
+ "material": {
+  "mu_Pa": 48000000000.0,
+  "nu": 0.324,
+  "b_m": 2.556e-10,
+  "drag_Pa_s": 5e-05,
+  "tau_Pa": 30000000.0
+ },
+ "microstructure": {
+  "L_m": 5e-05,
+  "walls": 10,
+  "wall_spacing_m": 5e-06,
+  "wall_thickness_m": 5e-07,
+  "rho_wall_m2": 2000000000000000.0,
+  "rho_interior_m2": 1000000000000.0,
+  "n_wall": 500000,
+  "n_interior": 2250,
+  "n_total": 502250,
+  "wall_positive_fraction": 0.52,
+  "seed": 94
+ },
+ "numerics": {
+  "grid": 256,
+  "h_m": 1.953125e-07,
+  "smoothing_m": 2.9296875000000003e-07,
+  "block": 4,
+  "n_c": 64,
+  "steps": 1000,
+  "dt_s": 1.6374163728344003e-11,
+  "t0_s": 1.0416666666666667e-15,
+  "simulated_time_s": 1.6374163728344005e-08,
+  "v_max_m_s": 2982.022520971715,
+  "initial_max_internal_stress_Pa": 553337738.8442322
+ },
+ "cpu_per_step_s": {
+  "D": 0.20396875,
+  "C": 0.005171875,
+  "H": 0.0054375,
+  "DDD_direct_extrapolated": 5905.009189703525
+ },
+ "direct_sum_samples_s": {
+  "1000": 0.015625,
+  "2000": 0.09375,
+  "4000": 0.375
+ },
+ "direct_sum_coefficient_s": 2.3408882783882783e-08,
+ "simulated_time_per_cpu_hour_s": {
+  "D": 2.8900010134904693e-07,
+  "C": 1.1397605205469664e-05,
+  "H": 1.0840825640834651e-05,
+  "DDD_direct_extrapolated": 9.982539828189157e-12
+ },
+ "errors_vs_D": {
+  "C": {
+   "block": 0.001298354340349681,
+   "interior": 0.14119554713337637,
+   "mean": 0.0008442750613045384
+  },
+  "H": {
+   "block": 0.00128975791529146,
+   "interior": 0.022357446113957333,
+   "mean": 0.000864871544153878
+  }
+ },
+ "mean_gamma": {
+  "D": 0.12864135041939717,
+  "C": 0.1287499591034088,
+  "H": 0.12875260866277644
+ },
+ "conversions": {
+  "events": 51,
+  "max_relative_error": 0.0
+ },
+ "final": {
+  "H_particles": 1958,
+  "H_continuum_blocks": 1024
+ },
+ "environment": {
+  "python": "3.14.2",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "cpu_count": 24,
+  "threads": "one numerical thread",
+  "timer": "time.process_time"
+ },
+ "gates": {
+  "R1_conservation": 1.0,
+  "R2_accuracy": false,
+  "R3_cost": true,
+  "R4_H_better_than_C": true
+ }
+}

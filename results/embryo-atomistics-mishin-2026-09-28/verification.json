@@ -1,0 +1,20 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "85",
+ "declared_gates": {
+  "M1_fidelity": true,
+  "M2_capillarity": false
+ },
+ "section_72_gates_for_comparison": {
+  "A1_fidelity": true,
+  "A2_capillarity": false,
+  "A3_cnt_adequate": false
+ },
+ "potential": "data/potentials/Cu01.eam.alloy (Mishin 2001, NIST, sha256 5e374260448eea5c26de59432d75e702c1778cc6999d2527a789e5387ce9dc9e)",
+ "document": "BARRIER_DATA_RESULTS.md",
+ "figures": [
+  "figures/embryo-emt-mishin.png"
+ ]
+}

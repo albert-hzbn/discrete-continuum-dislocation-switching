@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "gates": {
+  "Z1_isotherm": true,
+  "Z2_conservation": true,
+  "Z3_gibbs": false,
+  "Z4_monotone_and_limit": true,
+  "Z5_resolution": true
+ },
+ "post_hoc_close_pairs": [
+  8.264184061190782e-06,
+  8.127648907896301e-06,
+  7.876718477128897e-06
+ ]
+}

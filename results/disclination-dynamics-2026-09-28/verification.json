@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-28",
+ "pytest_record": "results/test-results.xml",
+ "theory": "88",
+ "declared_gates": {
+  "Q1_variational": 1.0,
+  "Q2_edge_far_field": false,
+  "Q3_annihilation": 1.0,
+  "Q4_dipole_45": true
+ },
+ "document": "DISCLINATION_DYNAMICS_RESULTS.md",
+ "figures": [
+  "figures/disclination-dynamics.png"
+ ],
+ "notes": "Q2 failed on a zero-force test point and one point at 5.03%; within 4.9% of the local force scale (post hoc).",
+ "pytest_passed": 364
+}

@@ -1,0 +1,21 @@
+{
+  "original_snapshot_hashes_match": true,
+  "numerical_checks_passed": 18,
+  "failed_accuracy": [
+    "slip",
+    "damage"
+  ],
+  "current_AT2_default_readback": {
+    "results/notch-refinement-2026-09-22/tensile-split-48-0.00025-initial.npz": {
+      "max_absolute_diagnostic_difference": 0.0,
+      "crack_density": "AT2",
+      "step": 0
+    },
+    "results/notch-refinement-2026-09-22/tensile-split-48-0.00025-final.npz": {
+      "max_absolute_diagnostic_difference": 0.0,
+      "crack_density": "AT2",
+      "step": 1600
+    }
+  },
+  "goal_complete": false
+}

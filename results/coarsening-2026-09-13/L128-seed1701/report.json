@@ -1,0 +1,105 @@
+{
+  "parameters": {
+    "length": 128,
+    "n": 128,
+    "h": 1.0,
+    "dt": 1.0,
+    "seed": 1701,
+    "W": 1.0,
+    "kappa": 1.0,
+    "mobility": 1.0,
+    "stabilization": 2.0,
+    "initial_cutoff": 1.2,
+    "initial_rms": 0.04,
+    "interface_tanh_scale": 1.4142135623730951
+  },
+  "metrics": {
+    "max_mean_drift": 3.8819858785843486e-16,
+    "max_sampled_energy_increase": 0.0,
+    "max_amplitude_every_step": 1.03313135105983,
+    "final_spectral_length": 34.500926904584695,
+    "final_energy_length": 21.347646450634038,
+    "final_degrees_of_freedom": 16384,
+    "steps": 4096,
+    "end": 4096.0
+  },
+  "windows": [
+    {
+      "start": 256,
+      "end": 512,
+      "samples": 17,
+      "max_length_over_box": 0.1568882093504862,
+      "min_length_over_interface_scale": 11.504542938206395,
+      "spectral_exponent": 0.30450376776320554,
+      "spectral_r_squared": 0.9994368541856989,
+      "energy_exponent": 0.3582377993313402,
+      "energy_r_squared": 0.9982319763927437,
+      "scale_separated": true
+    },
+    {
+      "start": 512,
+      "end": 1024,
+      "samples": 33,
+      "max_length_over_box": 0.1895528280827067,
+      "min_length_over_interface_scale": 14.199899740152768,
+      "spectral_exponent": 0.2690325983635956,
+      "spectral_r_squared": 0.9965327638670105,
+      "energy_exponent": 0.3468512104675234,
+      "energy_r_squared": 0.9951629910812472,
+      "scale_separated": true
+    },
+    {
+      "start": 1024,
+      "end": 2048,
+      "samples": 65,
+      "max_length_over_box": 0.22038249808375707,
+      "min_length_over_interface_scale": 17.156363536687326,
+      "spectral_exponent": 0.2147180208408119,
+      "spectral_r_squared": 0.9992492302269873,
+      "energy_exponent": 0.2727831918114738,
+      "energy_r_squared": 0.9990471348512404,
+      "scale_separated": false
+    },
+    {
+      "start": 2048,
+      "end": 4096,
+      "samples": 129,
+      "max_length_over_box": 0.26953849144206793,
+      "min_length_over_interface_scale": 19.94674673278156,
+      "spectral_exponent": 0.29318252116298416,
+      "spectral_r_squared": 0.9949267900239877,
+      "energy_exponent": 0.35558506250804206,
+      "energy_r_squared": 0.9953877374075841,
+      "scale_separated": false
+    }
+  ],
+  "checks": {
+    "mean_conservation": true,
+    "recorded_energy_decay": true,
+    "sufficient_energy_stability_bound": true,
+    "phase_separation": true,
+    "net_length_growth": true
+  },
+  "all_checks_pass": true,
+  "peak_rss_before_io_bytes": 108068864,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "timings": {
+    "initialization_s": 0.0007164999842643738,
+    "solver_s": 1.7027067570015788,
+    "diagnostics_s": 0.140852868440561,
+    "compilation_s": 0.0,
+    "unclassified_pre_io_s": 0.016132665565237403,
+    "array_io_s": 0.032612834009341896
+  },
+  "limits": [
+    "Uniform PF coarsening study; no adaptive performance claim.",
+    "Sampled energy plus an every-step sufficient amplitude bound.",
+    "Finite-window and finite-ensemble exponent assessment; scale-separation failures retained."
+  ]
+}

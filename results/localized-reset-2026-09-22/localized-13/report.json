@@ -1,0 +1,1676 @@
+{
+  "n": 13,
+  "kind": "localized",
+  "dt": 0.01,
+  "budget": 0.05,
+  "cap": 32,
+  "reset_at_cap": true,
+  "end_time": 1.0,
+  "steps": 100,
+  "backtracks": 0,
+  "initial_energy": 135.2978847313521,
+  "final_energy": 75.86673846928721,
+  "max_energy_increase": 0.0,
+  "inventory_max_absolute_error": 5.684341886080802e-14,
+  "tensor_energy_absolute_error": 1.4210854715202004e-14,
+  "direct_force_max_error": 1.1102230246251565e-16,
+  "equilibrium_rms": 7.307185716763427e-17,
+  "divergence_relative": 4.427461830164963e-16,
+  "plastic_trace": 0.0,
+  "final_coordinates": [
+    10,
+    15,
+    11
+  ],
+  "final_full_blocks": [
+    false,
+    false,
+    false
+  ],
+  "maximum_used_residuals": [
+    0.04981626986481737,
+    0.049876070222565794,
+    0.04969261588422098
+  ],
+  "events": [
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.8812131013155324
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.8812131013155324,
+      "residual_after": 0.7842555211935625
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.7842555211935625,
+      "residual_after": 0.67348579611592
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.67348579611592,
+      "residual_after": 0.5779791534890704
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.5779791534890704,
+      "residual_after": 0.46870787921222096
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.46870787921222096,
+      "residual_after": 0.3707430493433983
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.3707430493433983,
+      "residual_after": 0.2351575081235986
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.2351575081235986,
+      "residual_after": 4.571857597644783e-16
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.8592482985300156
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.8592482985300156,
+      "residual_after": 0.7477472094430107
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.7477472094430107,
+      "residual_after": 0.6496529025089882
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.6496529025089882,
+      "residual_after": 0.5510413823164692
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.5510413823164692,
+      "residual_after": 0.4658673256474818
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.4658673256474818,
+      "residual_after": 0.36199413199471436
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.36199413199471436,
+      "residual_after": 0.2607864948897335
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.2607864948897335,
+      "residual_after": 0.189223300315797
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.189223300315797,
+      "residual_after": 0.15898965000428977
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.15898965000428977,
+      "residual_after": 0.12719999414786173
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.12719999414786173,
+      "residual_after": 0.09952042573266877
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.09952042573266877,
+      "residual_after": 0.07098924657696642
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.07098924657696642,
+      "residual_after": 0.05868730957868785
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.05868730957868785,
+      "residual_after": 0.0476599806921852
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.835077293338707
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.835077293338707,
+      "residual_after": 0.6937472845710936
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.6937472845710936,
+      "residual_after": 0.5481487403758731
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.5481487403758731,
+      "residual_after": 0.41600995945260977
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.41600995945260977,
+      "residual_after": 0.3330704020836486
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.3330704020836486,
+      "residual_after": 0.25507080125430914
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.25507080125430914,
+      "residual_after": 0.16679496404683716
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.0,
+      "energy_jump": 0.0,
+      "residual_before": 0.16679496404683716,
+      "residual_after": 3.275404699202603e-16
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.01,
+      "energy_jump": 0.0,
+      "residual_before": 0.052745626245334985,
+      "residual_after": 0.04317593902909597
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.02,
+      "energy_jump": 0.0,
+      "residual_before": 0.05181491704933065,
+      "residual_after": 0.04010114851257346
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.03,
+      "energy_jump": 0.0,
+      "residual_before": 0.051578990316993874,
+      "residual_after": 0.04252111141597114
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.04,
+      "energy_jump": 0.0,
+      "residual_before": 0.05361575602043166,
+      "residual_after": 0.043717830412118415
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.05,
+      "energy_jump": 0.0,
+      "residual_before": 0.05494618295847499,
+      "residual_after": 0.04590785352301839
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.060000000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05720311195593547,
+      "residual_after": 0.04803608727625863
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.07,
+      "energy_jump": 0.0,
+      "residual_before": 0.05877269318140789,
+      "residual_after": 0.04839958878024113
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.08,
+      "energy_jump": 0.0,
+      "residual_before": 0.05776709289520506,
+      "residual_after": 0.04646117880643318
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.09,
+      "energy_jump": 0.0,
+      "residual_before": 0.05507107817641933,
+      "residual_after": 0.039890053750626896
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.09999999999999999,
+      "energy_jump": 0.0,
+      "residual_before": 0.05046244140387157,
+      "residual_after": 0.044703521949632063
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.10999999999999999,
+      "energy_jump": 0.0,
+      "residual_before": 0.0535678503762048,
+      "residual_after": 0.04286092717108378
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.11999999999999998,
+      "energy_jump": 0.0,
+      "residual_before": 0.053875162539788364,
+      "residual_after": 0.04730183924158537
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.12999999999999998,
+      "energy_jump": 0.0,
+      "residual_before": 0.05148840207989922,
+      "residual_after": 0.046170568157646565
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.12999999999999998,
+      "energy_jump": 0.0,
+      "residual_before": 0.05476654168676731,
+      "residual_after": 0.040632804570264795
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.13999999999999999,
+      "energy_jump": 0.0,
+      "residual_before": 0.05004834628015228,
+      "residual_after": 0.04355734331411879
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.15,
+      "energy_jump": 0.0,
+      "residual_before": 0.052460080652240934,
+      "residual_after": 0.04204436745023107
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.16,
+      "energy_jump": 0.0,
+      "residual_before": 0.050720885243258296,
+      "residual_after": 0.04242848749153729
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.17,
+      "energy_jump": 0.0,
+      "residual_before": 0.05333430956775211,
+      "residual_after": 0.043868941423900736
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.19000000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05220451894191169,
+      "residual_after": 0.04005277820865118
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.19000000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05467032160577039,
+      "residual_after": 0.04119795154490015
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.21000000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.050744742194108364,
+      "residual_after": 0.04194847100559767
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.23000000000000007,
+      "energy_jump": 0.0,
+      "residual_before": 0.05223534041037742,
+      "residual_after": 0.037845504509675214
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.23000000000000007,
+      "energy_jump": 0.0,
+      "residual_before": 0.050659288699544926,
+      "residual_after": 0.040371690102967275
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.26000000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.053355346681966,
+      "residual_after": 0.043776730193321615
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.2800000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.05301535180626723,
+      "residual_after": 0.03324209634997605
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.2800000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.05292514793773774,
+      "residual_after": 0.04414317044902346
+    },
+    {
+      "block": "population",
+      "action": "reset",
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.052841226196840244,
+      "state_jump_max": 0.0
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.8402782333762051
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.8402782333762051,
+      "residual_after": 0.6943447358850604
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.6943447358850604,
+      "residual_after": 0.5785541576324176
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.5785541576324176,
+      "residual_after": 0.5006828301306134
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.5006828301306134,
+      "residual_after": 0.4200567994733539
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.4200567994733539,
+      "residual_after": 0.3565735479985887
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.3565735479985887,
+      "residual_after": 0.294775971495444
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.294775971495444,
+      "residual_after": 0.22111881638415087
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.22111881638415087,
+      "residual_after": 0.17564870365138233
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.17564870365138233,
+      "residual_after": 0.13551880283679382
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.13551880283679382,
+      "residual_after": 0.09997791642279767
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.09997791642279767,
+      "residual_after": 0.07454649549841397
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.07454649549841397,
+      "residual_after": 0.057890462064558335
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.3000000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.057890462064558335,
+      "residual_after": 0.043424995076109585
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.3100000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.05102299057880389,
+      "residual_after": 0.0389561891518934
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.3300000000000001,
+      "energy_jump": 0.0,
+      "residual_before": 0.060395459487309865,
+      "residual_after": 0.04830359909515114
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.34000000000000014,
+      "energy_jump": 0.0,
+      "residual_before": 0.052338241897813116,
+      "residual_after": 0.041614600819057115
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.34000000000000014,
+      "energy_jump": 0.0,
+      "residual_before": 0.059779343514920515,
+      "residual_after": 0.048605079169960305
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.35000000000000014,
+      "energy_jump": 0.0,
+      "residual_before": 0.05997986509196619,
+      "residual_after": 0.048502167084647795
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.36000000000000015,
+      "energy_jump": 0.0,
+      "residual_before": 0.057608884895466984,
+      "residual_after": 0.04693843487430917
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.37000000000000016,
+      "energy_jump": 0.0,
+      "residual_before": 0.051115343990476146,
+      "residual_after": 0.04431756701729438
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.37000000000000016,
+      "energy_jump": 0.0,
+      "residual_before": 0.05528948703969559,
+      "residual_after": 0.044916314849420526
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.38000000000000017,
+      "energy_jump": 0.0,
+      "residual_before": 0.05292239353518262,
+      "residual_after": 0.04320505261955513
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.3900000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.050572544772846416,
+      "residual_after": 0.042145691675652956
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.3900000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05098055844982675,
+      "residual_after": 0.03870902026093225
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.4100000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05207633120391565,
+      "residual_after": 0.04035992214378244
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.4200000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.051368141821159057,
+      "residual_after": 0.04187785183030011
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.4200000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05722371458599785,
+      "residual_after": 0.0402794012638132
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.4300000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.0521169635516111,
+      "residual_after": 0.0424099456551536
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.4300000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.06840158014618776,
+      "residual_after": 0.0220728055139803
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.45000000000000023,
+      "energy_jump": 0.0,
+      "residual_before": 0.05183119466547511,
+      "residual_after": 0.04400831619768529
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.45000000000000023,
+      "energy_jump": 0.0,
+      "residual_before": 0.05409226629831544,
+      "residual_after": 0.03980018333402271
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.47000000000000025,
+      "energy_jump": 0.0,
+      "residual_before": 0.05041932413171483,
+      "residual_after": 0.04140908464198963
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.47000000000000025,
+      "energy_jump": 0.0,
+      "residual_before": 0.05001952051150857,
+      "residual_after": 0.04112433718830277
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.49000000000000027,
+      "energy_jump": 0.0,
+      "residual_before": 0.05114033704234657,
+      "residual_after": 0.03996354381773959
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.5000000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05138216555275312,
+      "residual_after": 0.04055756520223881
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.5200000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05440573299385198,
+      "residual_after": 0.04484499753780914
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.5300000000000002,
+      "energy_jump": 0.0,
+      "residual_before": 0.05121348142422413,
+      "residual_after": 0.03810188289743769
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.5400000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05376428794115999,
+      "residual_after": 0.04397544221288048
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.5600000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05199434242335604,
+      "residual_after": 0.040849968829176055
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.5700000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.050612654927622396,
+      "residual_after": 0.03939864568904503
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.5900000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05251283826792205,
+      "residual_after": 0.037541639821350746
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.6100000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.052727291637807046,
+      "residual_after": 0.04289705271478855
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.6300000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05371686298265469,
+      "residual_after": 0.0447521685808593
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.6400000000000003,
+      "energy_jump": 0.0,
+      "residual_before": 0.05284232962583293,
+      "residual_after": 0.0408926995737436
+    },
+    {
+      "block": "population",
+      "action": "reset",
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.053157093393365426,
+      "state_jump_max": 0.0
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.7854628412975146
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.7854628412975146,
+      "residual_after": 0.6467989813783452
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.6467989813783452,
+      "residual_after": 0.5452067132239776
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.5452067132239776,
+      "residual_after": 0.45981135058570216
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.45981135058570216,
+      "residual_after": 0.3937079980151473
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.3937079980151473,
+      "residual_after": 0.32494899960305684
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.32494899960305684,
+      "residual_after": 0.2693394170308575
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.2693394170308575,
+      "residual_after": 0.22349466416768296
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.22349466416768296,
+      "residual_after": 0.18579087961585036
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.18579087961585036,
+      "residual_after": 0.14152389502606064
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.14152389502606064,
+      "residual_after": 0.10750370452410513
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.10750370452410513,
+      "residual_after": 0.07812409471325264
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.07812409471325264,
+      "residual_after": 0.06376229265406502
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.06376229265406502,
+      "residual_after": 0.05196855590677705
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.6500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05196855590677705,
+      "residual_after": 0.0434237672279447
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.6700000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05055158441171917,
+      "residual_after": 0.03815093910069125
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.6700000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.056443015544622006,
+      "residual_after": 0.04670824349654495
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.6800000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.056589964511519895,
+      "residual_after": 0.0440304597076441
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.6900000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05402749767868618,
+      "residual_after": 0.04097871834161123
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.7100000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05106761176760781,
+      "residual_after": 0.03951156946483233
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.7100000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05931602621679564,
+      "residual_after": 0.04881644789350804
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.7200000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.057411281591599236,
+      "residual_after": 0.04893753931962624
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.7300000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05715878391139083,
+      "residual_after": 0.049214282846990164
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.7400000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05718827363432702,
+      "residual_after": 0.04663981308667588
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.7500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.051677438167669336,
+      "residual_after": 0.043373640703659996
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.7500000000000004,
+      "energy_jump": 0.0,
+      "residual_before": 0.05293129936795663,
+      "residual_after": 0.04247477658671881
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.7700000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.054709748798393715,
+      "residual_after": 0.04445386298643708
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.7800000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.0524433681495056,
+      "residual_after": 0.04151912897519093
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.7900000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05564748895442226,
+      "residual_after": 0.041549742516731714
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.8100000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05091108722560375,
+      "residual_after": 0.03852893737979169
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.8200000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05230079797082803,
+      "residual_after": 0.03619085708386911
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.8400000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05352539786705745,
+      "residual_after": 0.04213505085879091
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.8600000000000005,
+      "energy_jump": 0.0,
+      "residual_before": 0.05169139503151377,
+      "residual_after": 0.04117930321845514
+    },
+    {
+      "block": "phase",
+      "action": "reset",
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.052476809820928005,
+      "state_jump_max": 0.0
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.8754416085418987
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.8754416085418987,
+      "residual_after": 0.7764392477253073
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.7764392477253073,
+      "residual_after": 0.6628358190528968
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.6628358190528968,
+      "residual_after": 0.5658697715726856
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.5658697715726856,
+      "residual_after": 0.4586320889190124
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.4586320889190124,
+      "residual_after": 0.3616901993594065
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.3616901993594065,
+      "residual_after": 0.22738266071332816
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.8800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.22738266071332816,
+      "residual_after": 4.3169459631415824e-16
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.8900000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.053986836310573244,
+      "residual_after": 0.04359377026431356
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.9100000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.0517216801994361,
+      "residual_after": 0.04277087011170046
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.9300000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.05183284148169503,
+      "residual_after": 0.04231789373298414
+    },
+    {
+      "block": "gamma",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.9300000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.0502348459624579,
+      "residual_after": 0.03340037901329365
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.9500000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.051425018784085966,
+      "residual_after": 0.03986999819328591
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.05200060388598817,
+      "residual_after": 0.046037137126646456
+    },
+    {
+      "block": "population",
+      "action": "reset",
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.05340806532893548,
+      "state_jump_max": 0.0
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 1.0,
+      "residual_after": 0.7231710105477517
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.7231710105477517,
+      "residual_after": 0.5919650762110338
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.5919650762110338,
+      "residual_after": 0.5014166593020397
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.5014166593020397,
+      "residual_after": 0.42221337927918423
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.42221337927918423,
+      "residual_after": 0.3599178360811696
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.3599178360811696,
+      "residual_after": 0.2950879567375979
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.2950879567375979,
+      "residual_after": 0.24033247531468419
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 4,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.24033247531468419,
+      "residual_after": 0.1913730485598883
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 0,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.1913730485598883,
+      "residual_after": 0.16722177279502937
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 1,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.16722177279502937,
+      "residual_after": 0.12603705948558896
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 2,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.12603705948558896,
+      "residual_after": 0.092307160449203
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.092307160449203,
+      "residual_after": 0.07692199381591135
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 6,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.07692199381591135,
+      "residual_after": 0.06292192968885782
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 3,
+      "time": 0.9800000000000006,
+      "energy_jump": 0.0,
+      "residual_before": 0.06292192968885782,
+      "residual_after": 0.048380572232473856
+    },
+    {
+      "block": "phase",
+      "action": "activate",
+      "patch": 5,
+      "time": 0.9900000000000007,
+      "energy_jump": 0.0,
+      "residual_before": 0.05104440623604086,
+      "residual_after": 0.043817486303772725
+    },
+    {
+      "block": "population",
+      "action": "activate",
+      "patch": 7,
+      "time": 0.9900000000000007,
+      "energy_jump": 0.0,
+      "residual_before": 0.05066709223617565,
+      "residual_after": 0.04024934631032561
+    }
+  ],
+  "persistent_array_bytes": 3658808,
+  "timings": {
+    "initialization_s": 0.004306124988943338,
+    "online_s": 0.6937559596262872,
+    "compilation_s": 0.0,
+    "other_evolution_s": 0.00035279057919979095,
+    "tensor_validation_s": 0.011793791083618999,
+    "array_io_s": 0.010813208064064384
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "parameters": {
+    "length": 12.0,
+    "initial_core": 0.8,
+    "profile_scale": 1.4142135623730951,
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "epsilon_xz": 0.06
+  },
+  "checks": {
+    "energy_descent": true,
+    "inventory": true,
+    "positive_population": true,
+    "full_tensor_energy": true,
+    "direct_coupled_forces": true,
+    "mechanical_equilibrium": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "all_block_budgets": true,
+    "activation_transfer_energy": true,
+    "reset_preserves_state": true
+  },
+  "patch_history": [
+    [
+      7,
+      3,
+      5,
+      6,
+      1,
+      2,
+      4,
+      0,
+      7,
+      5
+    ],
+    [
+      7,
+      1,
+      2,
+      5,
+      3,
+      6,
+      7,
+      4,
+      0,
+      1,
+      2,
+      5,
+      6,
+      3,
+      7
+    ],
+    [
+      3,
+      7,
+      1,
+      5,
+      6,
+      2,
+      4,
+      0,
+      3,
+      1,
+      7
+    ]
+  ],
+  "stored_basis_modes": [
+    10,
+    15,
+    11
+  ],
+  "basis_support_fraction": [
+    [
+      0.1561219845243514,
+      0.1338188438780155,
+      0.1338188438780155,
+      0.1338188438780155,
+      0.11470186618115612,
+      0.11470186618115612,
+      0.11470186618115612,
+      0.09831588529813381,
+      0.1561219845243514,
+      0.1338188438780155
+    ],
+    [
+      0.22303140646335912,
+      0.16932180245789713,
+      0.16932180245789713,
+      0.1943559399180701,
+      0.1943559399180701,
+      0.1943559399180701,
+      0.22303140646335912,
+      0.16932180245789713,
+      0.14747382794720074,
+      0.16932180245789713,
+      0.16932180245789713,
+      0.1943559399180701,
+      0.1943559399180701,
+      0.1943559399180701,
+      0.22303140646335912
+    ],
+    [
+      0.1338188438780155,
+      0.1561219845243514,
+      0.11470186618115612,
+      0.1338188438780155,
+      0.1338188438780155,
+      0.11470186618115612,
+      0.11470186618115612,
+      0.09831588529813381,
+      0.1338188438780155,
+      0.11470186618115612,
+      0.1561219845243514
+    ]
+  ],
+  "peak_rss_bytes": 97337344
+}

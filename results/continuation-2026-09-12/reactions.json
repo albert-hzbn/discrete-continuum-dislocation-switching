@@ -1,0 +1,428 @@
+{
+  "scope": "synthetic orientation-resolved reaction closure; prescribed finite-width approach",
+  "state_names": [
+    "incident",
+    "transmitted",
+    "absorbed",
+    "reflected"
+  ],
+  "scenarios": [
+    {
+      "name": "transmission_favored",
+      "parameters": {
+        "angle_degrees": 10,
+        "core_coefficient": 1.0,
+        "residual_stiffness": 2.0,
+        "binding_energy": 0.4,
+        "drive_work": 0.8,
+        "thermal_energy": 0.2,
+        "attempt_rate": 1.0,
+        "transmission_barrier": 0.15,
+        "absorption_barrier": 0.5,
+        "reflection_barrier": 0.3,
+        "misalignment_barrier": 0.4
+      },
+      "state_energies": [
+        0.9999999999999998,
+        0.2425382915658173,
+        0.5999999999999998,
+        1.7999999999999998
+      ],
+      "rates": [
+        [
+          0.0,
+          0.44917932469070576,
+          0.0820849986238988,
+          0.004086771438464071
+        ],
+        [
+          0.010176830864416524,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.011108996538242306,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.22313016014843004,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "stationary": [
+        0.019031372443267892,
+        0.8399961771885548,
+        0.1406238786229493,
+        0.0003485717452279014
+      ],
+      "first_event_probabilities": [
+        0.0,
+        0.8390369032455053,
+        0.15332928134154766,
+        0.007633815412947086
+      ],
+      "sampled_probabilities": [
+        0.0,
+        0.83755,
+        0.15515,
+        0.0073
+      ],
+      "dominant_first_event": "transmitted",
+      "maximum_burgers_error": 0.0,
+      "minimum_probability": 0.0,
+      "maximum_probability_sum_error": 1.7763568394002505e-15,
+      "maximum_ensemble_energy_increase": 0.0,
+      "detailed_balance_error": 3.469446951953614e-18,
+      "stationary_generator_residual": 3.469446951953614e-18,
+      "events": [
+        {
+          "from": "incident",
+          "to": "transmitted",
+          "mobile_burgers": [
+            0.0,
+            0.8191520442889917,
+            -0.573576436351046
+          ],
+          "residual_burgers": [
+            0.0,
+            -0.11204526310244423,
+            -0.1335303448355014
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": 1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": -0.7574617084341825
+        },
+        {
+          "from": "incident",
+          "to": "absorbed",
+          "mobile_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "residual_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "mobile_count": 0,
+          "normal_travel_direction": 0,
+          "burgers_error": 0.0,
+          "configuration_energy_change": -0.4
+        },
+        {
+          "from": "incident",
+          "to": "reflected",
+          "mobile_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "residual_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": -1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": 0.8
+        }
+      ],
+      "sampling_within_5se": true,
+      "checks": {
+        "burgers": true,
+        "probability": true,
+        "ensemble_dissipation": true,
+        "detailed_balance": true,
+        "sampling": true
+      }
+    },
+    {
+      "name": "absorption_favored",
+      "parameters": {
+        "angle_degrees": 65,
+        "core_coefficient": 1.0,
+        "residual_stiffness": 2.0,
+        "binding_energy": 0.6,
+        "drive_work": 0.4,
+        "thermal_energy": 0.2,
+        "attempt_rate": 1.0,
+        "transmission_barrier": 0.15,
+        "absorption_barrier": 0.2,
+        "reflection_barrier": 0.3,
+        "misalignment_barrier": 0.4
+      },
+      "state_energies": [
+        0.9999999999999998,
+        1.9857161718223209,
+        0.3999999999999998,
+        1.4
+      ],
+      "rates": [
+        [
+          0.0,
+          0.0007780702379323669,
+          0.3678794411714424,
+          0.030197383422318473
+        ],
+        [
+          0.10751629100854483,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.01831563888873419,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2231301601484298,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "stationary": [
+        0.047107351921906106,
+        0.00034090488217574646,
+        0.9461764563810402,
+        0.0063752868148779515
+      ],
+      "first_event_probabilities": [
+        0.0,
+        0.0019507601586804973,
+        0.9223390409353714,
+        0.07571019890594802
+      ],
+      "sampled_probabilities": [
+        0.0,
+        0.0021,
+        0.922,
+        0.0759
+      ],
+      "dominant_first_event": "absorbed",
+      "maximum_burgers_error": 0.0,
+      "minimum_probability": 0.0,
+      "maximum_probability_sum_error": 1.5543122344752192e-15,
+      "maximum_ensemble_energy_increase": 0.0,
+      "detailed_balance_error": 3.469446951953614e-18,
+      "stationary_generator_residual": 3.903127820947816e-18,
+      "events": [
+        {
+          "from": "incident",
+          "to": "transmitted",
+          "mobile_burgers": [
+            0.0,
+            0.9396926207859082,
+            0.3420201433256686
+          ],
+          "residual_burgers": [
+            0.0,
+            -0.23258583959936074,
+            -1.0491269245122161
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": 1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": 0.9857161718223211
+        },
+        {
+          "from": "incident",
+          "to": "absorbed",
+          "mobile_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "residual_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "mobile_count": 0,
+          "normal_travel_direction": 0,
+          "burgers_error": 0.0,
+          "configuration_energy_change": -0.6
+        },
+        {
+          "from": "incident",
+          "to": "reflected",
+          "mobile_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "residual_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": -1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": 0.40000000000000013
+        }
+      ],
+      "sampling_within_5se": true,
+      "checks": {
+        "burgers": true,
+        "probability": true,
+        "ensemble_dissipation": true,
+        "detailed_balance": true,
+        "sampling": true
+      }
+    },
+    {
+      "name": "reflection_favored",
+      "parameters": {
+        "angle_degrees": 65,
+        "core_coefficient": 1.0,
+        "residual_stiffness": 2.0,
+        "binding_energy": 0.4,
+        "drive_work": 0.0,
+        "thermal_energy": 0.2,
+        "attempt_rate": 1.0,
+        "transmission_barrier": 1.2,
+        "absorption_barrier": 1.2,
+        "reflection_barrier": 0.05,
+        "misalignment_barrier": 0.4
+      },
+      "state_energies": [
+        0.9999999999999998,
+        2.1547634765186006,
+        0.5999999999999998,
+        0.9999999999999998
+      ],
+      "rates": [
+        [
+          0.0,
+          1.7534412344358102e-06,
+          0.0024787521766663607,
+          0.7788007830714047
+        ],
+        [
+          0.0005641937152790785,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.00033546262790251185,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7788007830714047,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "stationary": [
+        0.10647173571620824,
+        0.0003309004100026253,
+        0.7867256281575808,
+        0.10647173571620824
+      ],
+      "first_event_probabilities": [
+        0.0,
+        2.2443148963383233e-06,
+        0.0031726757219858286,
+        0.9968250799631179
+      ],
+      "sampled_probabilities": [
+        0.0,
+        0.0,
+        0.0033,
+        0.9967
+      ],
+      "dominant_first_event": "reflected",
+      "maximum_burgers_error": 0.0,
+      "minimum_probability": 0.0,
+      "maximum_probability_sum_error": 1.1657341758564144e-14,
+      "maximum_ensemble_energy_increase": 0.0,
+      "detailed_balance_error": 2.168404344971009e-19,
+      "stationary_generator_residual": 2.168404344971009e-19,
+      "events": [
+        {
+          "from": "incident",
+          "to": "transmitted",
+          "mobile_burgers": [
+            0.0,
+            0.9396926207859082,
+            0.3420201433256686
+          ],
+          "residual_burgers": [
+            0.0,
+            -0.23258583959936074,
+            -1.0491269245122161
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": 1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": 1.1547634765186008
+        },
+        {
+          "from": "incident",
+          "to": "absorbed",
+          "mobile_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "residual_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "mobile_count": 0,
+          "normal_travel_direction": 0,
+          "burgers_error": 0.0,
+          "configuration_energy_change": -0.4
+        },
+        {
+          "from": "incident",
+          "to": "reflected",
+          "mobile_burgers": [
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ],
+          "residual_burgers": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mobile_count": 1,
+          "normal_travel_direction": -1,
+          "burgers_error": 0.0,
+          "configuration_energy_change": 0.0
+        }
+      ],
+      "sampling_within_5se": true,
+      "checks": {
+        "burgers": true,
+        "probability": true,
+        "ensemble_dissipation": true,
+        "detailed_balance": true,
+        "sampling": true
+      }
+    }
+  ],
+  "seed": 20260912,
+  "limits": [
+    "Not an atomistically calibrated prediction.",
+    "No reactive 3D line-network or evolving-interface feedback.",
+    "Configuration energy may increase in a thermal event; ensemble free energy is the dissipative quantity."
+  ]
+}

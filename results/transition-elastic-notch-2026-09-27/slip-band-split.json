@@ -1,0 +1,16 @@
+{
+ "64_96": {
+  "total": 0.04120366170823409,
+  "outside": 0.04060543677829194,
+  "inside": 0.14518428856108231,
+  "share_of_squared_error_inside": 0.03127290087799601,
+  "share_of_reference_inside": 0.002518839832189968
+ },
+ "96_128": {
+  "total": 0.01672730893365333,
+  "outside": 0.016522613256417584,
+  "inside": 0.05352489991505455,
+  "share_of_squared_error_inside": 0.026886705596256374,
+  "share_of_reference_inside": 0.002625899011884729
+ }
+}

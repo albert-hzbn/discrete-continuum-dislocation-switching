@@ -1,0 +1,71 @@
+{
+ "date": "2026-09-27",
+ "pytest_passed": 341,
+ "pytest_record": "results/release-notch-2026-09-27/test-results.xml",
+ "declared_gates": {
+  "R1_energy_ledger_and_checks": true,
+  "R2_reach": false,
+  "R3_t04": false
+ },
+ "reached": {
+  "64": 0.35850000000000004,
+  "96": 0.30850000000000005,
+  "128": 0.29500000000000004
+ },
+ "fold_diagnostics": {
+  "release-notch-128-0.00025-last-accepted-fold-diagnostic.json": {
+   "time": 0.29500000000000004,
+   "genuine_fold": false,
+   "last_accepted_min_J": 0.6870133346272311,
+   "smaller_steps": {
+    "0.5": "accepted",
+    "0.25": "accepted"
+   }
+  },
+  "release-notch-64-0.00025-last-accepted-fold-diagnostic.json": {
+   "time": 0.35850000000000004,
+   "genuine_fold": true,
+   "last_accepted_min_J": 0.005001550496157947,
+   "smaller_steps": null
+  },
+  "release-notch-96-0.00025-last-accepted-fold-diagnostic.json": {
+   "time": 0.30850000000000005,
+   "genuine_fold": true,
+   "last_accepted_min_J": 0.025670152625741828,
+   "smaller_steps": null
+  }
+ },
+ "post_hoc_n128": {
+  "declared_before_running": "theory 65.4",
+  "reached": 0.31900000000000006,
+  "halved_steps": 41,
+  "checks": {
+   "energy_drift": true,
+   "positive_T": true,
+   "composition_inventory": true,
+   "damage_bounds": true,
+   "damage_irreversibility": true,
+   "entropy_production": true,
+   "midpoint_converged": true,
+   "deletion_ledger": true
+  },
+  "depth12_extension_end": {
+   "time": 0.31925000000000003,
+   "error": "Element orientation not certified by Bernstein bound.",
+   "bypassed_step": {
+    "dense_min_J": -0.0015867365803298524,
+    "centre": [
+     0.002736268372843825,
+     0.5026041668166693
+    ]
+   },
+   "genuine_fold": true
+  }
+ },
+ "interrupted_run": "results/release-notch-2026-09-27/interrupted-session-end (session ended at t about 0.28; rerun from t=0.2)",
+ "figures": [
+  "results/release-notch-2026-09-27/figures/release-notch.png"
+ ],
+ "figures_inspected": true,
+ "document": "RELEASE_NOTCH_RESULTS.md"
+}

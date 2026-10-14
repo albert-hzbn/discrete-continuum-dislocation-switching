@@ -1,0 +1,29 @@
+{
+  "config": {
+    "kind": "allocation",
+    "variant": "residual"
+  },
+  "categories": {
+    "initialization_s": 0.001023625023663044,
+    "solver_s": 0.2882831176975742,
+    "adaptation_s": 0.17063229088671505,
+    "diagnostics_s": 0.004957166966050863,
+    "compilation_s": 0.0,
+    "other_experiment_s": 0.021109174471348524,
+    "array_output_s": 0.006737540941685438,
+    "report_output_s": 0.00041841703932732344
+  },
+  "experiment_s": 0.4860053750453517,
+  "numerical_peak_rss_bytes": 101793792,
+  "post_output_peak_rss_bytes": 101793792,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 14,
+    "numerical_threads": 1
+  }
+}

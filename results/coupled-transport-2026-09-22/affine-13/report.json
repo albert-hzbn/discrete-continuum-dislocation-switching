@@ -1,0 +1,87 @@
+{
+  "n": 13,
+  "kind": "affine",
+  "dt": 0.01,
+  "steps": 100,
+  "backtracks": 0,
+  "end_time": 1.0,
+  "final_mode": "affine",
+  "initial_energy": 135.2978847313521,
+  "final_energy": 75.58582539881738,
+  "max_energy_increase": 0.0,
+  "inventory_max_absolute_error": 5.684341886080802e-14,
+  "population_range": [
+    0.1495804624929761,
+    0.26384156700273265
+  ],
+  "tensor_energy_absolute_error": 1.4210854715202004e-14,
+  "trace_stress_max_error": 8.326672684688674e-16,
+  "equilibrium_rms": 7.681000321906548e-17,
+  "divergence_relative": 4.201602786087561e-16,
+  "plastic_trace": 0.0,
+  "maximum_used_residual": 0.048808240752131235,
+  "events": [
+    {
+      "time": 0.0,
+      "initial_residual": 1.0,
+      "final_residual": 1.732817115127112e-16,
+      "added_modes": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false
+    },
+    {
+      "time": 0.4200000000000002,
+      "initial_residual": 0.06166798365954834,
+      "final_residual": 1.1147467191442313e-15,
+      "added_modes": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false
+    }
+  ],
+  "final_gamma_coordinates": 2,
+  "final_total_coordinates": 4396,
+  "persistent_array_bytes": 949232,
+  "changes_relative_to_initial": {
+    "phase": 0.42564613572411547,
+    "population": 3.419488308117621,
+    "gamma": 0.039929288170282094
+  },
+  "timings": {
+    "initialization_s": 0.005296332994475961,
+    "online_s": 0.21120999800041318,
+    "compilation_s": 0.0,
+    "other_evolution_s": 0.0003138352185487747,
+    "tensor_validation_s": 0.0034204579424113035,
+    "array_io_s": 0.009997750166803598
+  },
+  "parameters": {
+    "length": 12.0,
+    "initial_core": 0.8,
+    "profile_scale": 1.4142135623730951,
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "budget": 0.05,
+    "max_modes": 4,
+    "epsilon_xz": 0.06
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "inventory": true,
+    "positive_population": true,
+    "full_tensor_energy": true,
+    "reciprocal_trace_stress": true,
+    "mechanical_equilibrium": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "kinetic_budget": true,
+    "activation_energy": true
+  },
+  "peak_rss_bytes": 82198528
+}

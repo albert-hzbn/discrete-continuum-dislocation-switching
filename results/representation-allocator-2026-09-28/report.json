@@ -1,0 +1,37 @@
+{
+ "G": 256,
+ "N_dense": 500000,
+ "N_sparse": 200,
+ "steps": 200,
+ "dt": 0.0009765625,
+ "b0": 3.7032842354555524e-06,
+ "M": 540061.1653979549,
+ "tau": 0.5,
+ "seconds_per_step": {
+  "D": 0.044830670356750486,
+  "C": 0.0024681556224822997,
+  "H": 0.002850109338760376
+ },
+ "block_strain_error": {
+  "H": 0.0027891947248419174,
+  "C": 0.0027889256524126905
+ },
+ "sparse_cell_strain_error": {
+  "H": 0.019162659192882275,
+  "C": 0.05519618140661908
+ },
+ "sparse_tracked": 191,
+ "sparse_rms_over_h": 0.014907173182070205,
+ "conversions": {
+  "max_relative_error": 1.1636877431720793e-16,
+  "events": 83,
+  "final_continuum_blocks": 122,
+  "final_particles": 389
+ },
+ "gates": {
+  "A1_conservation": 1.0,
+  "A2_accuracy": false,
+  "A3_cost": true,
+  "A4_continuum_fails_sparse": false
+ }
+}

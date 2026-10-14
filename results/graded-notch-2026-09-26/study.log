@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "<repo>/benchmarks/graded_notch.py", line 121, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "<repo>/benchmarks/graded_notch.py", line 99, in main
+    runs=[run(n,.00025,'graded-notch',out,builder=make_model,end_time=.4) for n in (32,48,64)]
+          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/benchmarks/thermofracture.py", line 46, in run
+    try:state,d=model.step(state,dt)
+                ~~~~~~~~~~^^^^^^^^^^
+  File "<repo>/src/bmvr/nodal_damage.py", line 110, in step
+    final=self.rate(result);obstacle=0.
+  File "<repo>/src/bmvr/nodal_damage.py", line 72, in rate
+    rate=ThermalChemical2D.rate(self,state);extra=rate['additional_energy'];m=self.mechanics.mesh
+  File "<repo>/src/bmvr/thermochemical.py", line 113, in rate
+    rate=super().rate(state);m=self.mechanics.mesh;p=self.mechanics.p;ch=self.chemistry;V=self.V;a=self.edge_a
+  File "<repo>/src/bmvr/thermoplastic.py", line 123, in rate
+    mechanical = model.evaluate(state.u); local = mechanical['local']; F = mechanical['F']
+  File "<repo>/src/bmvr/finite_elasticity.py", line 171, in evaluate
+    raise ValueError('Element corner inversion.')
+ValueError: Element corner inversion.

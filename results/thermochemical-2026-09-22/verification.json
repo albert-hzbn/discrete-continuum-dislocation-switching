@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 189,
+  "trajectory_checks_passed": 225,
+  "trajectory_checks_failed": 0,
+  "accuracy_gates_passed": 21,
+  "accuracy_gates_failed": 2,
+  "retained_failures": {
+    "16_24_slip": 0.15414398892531994,
+    "32_48_slip": 0.07878236701428473,
+    "unchanged_threshold": 0.05
+  },
+  "saved_state_readback": {
+    "results/thermochemical-2026-09-22/diffusion-8-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/diffusion-8-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/diffusion-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/diffusion-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/diffusion-24-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/diffusion-24-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.01-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.01-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.0025-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/phase-4-0.0025-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-8-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-8-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-24-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-24-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.001-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.001-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.00025-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/coupled-16-0.00025-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/frozen-fields-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/frozen-fields-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/no-partition-16-0.0005-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-2026-09-22/no-partition-16-0.0005-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-refinement-2026-09-22/coupled-32-0.00025-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-refinement-2026-09-22/coupled-32-0.00025-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-refinement-2026-09-22/coupled-48-0.00025-initial.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    },
+    "results/thermochemical-refinement-2026-09-22/coupled-48-0.00025-final.npz": {
+      "matches_saved_diagnostics": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  "source_sha256": {
+    "src/bmvr/thermochemical.py": "947a25251423b583bd0f35a7f61e8cfba38865ecbbf5eeef284ff427e72d0d79",
+    "src/bmvr/thermoplastic.py": "66314f25f64077e46d3ba2419fad9fec9aedd3d6900a756a9357929a8fa4a2f5",
+    "tests/test_thermochemical.py": "9df8389a86bb71f445fa6a54759f014cb1cff0fd5932c0a257d7667cb656559c",
+    "benchmarks/thermochemical.py": "40cf722acf659e912c45d78e1cfa93109a3c7ce393d9b3697e08e209b9f9f7c9",
+    "benchmarks/thermochemical_refinement.py": "88a4981f1d0ce3c78b9784578709a8b89f27e2166f56bf8c596574efde22c0e4",
+    "benchmarks/thermochemical_report.py": "376bc487e9b4ab0f36ba1beae92d5209e853bce6218bdd4d08783443e64c5e36",
+    "benchmarks/thermochemical_mesh_diagnostic.py": "da742d255b040d4e1f638c848a67020c3a7160881dbb6b6d4b3555bef9a15b41",
+    "unified_multiscale_defect_framework.md": "589f49477bae168f9fa73753a0b58539d5632cc19bf1eb7426909132b6e87f55",
+    "THEORY_REVIEW.md": "fa9ce88acac82ad234c3588c53d5e397e17a4836ddee17a56d3885028367f321"
+  },
+  "visually_inspected_figures": [
+    "figures/thermochemical-verification.png",
+    "figures/thermochemical-fields.png"
+  ],
+  "goal_complete": false
+}

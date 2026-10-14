@@ -1,0 +1,248 @@
+{
+ "step": "GLL n128 adaptive, refused at step 1124 (last accepted t=0.28075) by the Bernstein certificate; replay with the certificate bypassed",
+ "rows": [
+  {
+   "time": 0.28075,
+   "mouth_dense_min": 1.3016246636204467,
+   "dense_min": 0.6428298252806903,
+   "dense_cell": [
+    0.0246,
+    0.5078
+   ],
+   "bernstein_min": 0.039659197298435034,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.6428298252806903
+  },
+  {
+   "time": 0.2817499999999999,
+   "iterations": 14,
+   "mouth_dense_min": 1.2825416532053633,
+   "dense_min": 0.5904500785918276,
+   "dense_cell": [
+    0.0246,
+    0.5078
+   ],
+   "bernstein_min": -0.21336690254846558,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.5904500785918276
+  },
+  {
+   "time": 0.2827499999999998,
+   "iterations": 17,
+   "mouth_dense_min": 1.2635463127024713,
+   "dense_min": 0.5390466903901863,
+   "dense_cell": [
+    0.0246,
+    0.5078
+   ],
+   "bernstein_min": -0.40887622290856473,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.5390466903901863
+  },
+  {
+   "time": 0.28374999999999967,
+   "iterations": 14,
+   "mouth_dense_min": 1.244458478292733,
+   "dense_min": 0.4858109756493681,
+   "dense_cell": [
+    0.0246,
+    0.5078
+   ],
+   "bernstein_min": -0.6034697217037499,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.4858109756493681
+  },
+  {
+   "time": 0.28474999999999956,
+   "iterations": 15,
+   "mouth_dense_min": 1.2252995263909574,
+   "dense_min": 0.47813649600300545,
+   "dense_cell": [
+    0.0246,
+    0.5078
+   ],
+   "bernstein_min": -0.774275566299167,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.47813649600300545
+  },
+  {
+   "time": 0.28574999999999945,
+   "iterations": 14,
+   "mouth_dense_min": 1.2061570589535635,
+   "dense_min": 0.5100123064258345,
+   "dense_cell": [
+    0.0246,
+    0.4922
+   ],
+   "bernstein_min": -0.7356726424127533,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.5160999504407531
+  },
+  {
+   "time": 0.28674999999999934,
+   "iterations": 14,
+   "mouth_dense_min": 1.1871635861504986,
+   "dense_min": 0.5785298654431077,
+   "dense_cell": [
+    0.0246,
+    0.4922
+   ],
+   "bernstein_min": -0.552404222741518,
+   "bernstein_cell": [
+    0.0246,
+    0.4922
+   ],
+   "dense_at_bernstein_cell": 0.5785298654431077
+  },
+  {
+   "time": 0.28774999999999923,
+   "iterations": 14,
+   "mouth_dense_min": 1.1681352516851378,
+   "dense_min": 0.6564759987284905,
+   "dense_cell": [
+    0.0246,
+    0.4922
+   ],
+   "bernstein_min": -0.3964155175931481,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.7067842914022716
+  },
+  {
+   "time": 0.2887499999999991,
+   "iterations": 15,
+   "mouth_dense_min": 1.1491532322598121,
+   "dense_min": 0.7129588100049116,
+   "dense_cell": [
+    0.0246,
+    0.4922
+   ],
+   "bernstein_min": -0.2466107866869076,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.797899823389778
+  },
+  {
+   "time": 0.289749999999999,
+   "iterations": 15,
+   "mouth_dense_min": 1.1301942559499474,
+   "dense_min": 0.686587955266003,
+   "dense_cell": [
+    0.0027,
+    0.4922
+   ],
+   "bernstein_min": -0.2418402414129597,
+   "bernstein_cell": [
+    0.0027,
+    0.4922
+   ],
+   "dense_at_bernstein_cell": 0.686587955266003
+  },
+  {
+   "time": 0.2907499999999989,
+   "iterations": 15,
+   "mouth_dense_min": 1.1118084789706941,
+   "dense_min": 0.7387242087423009,
+   "dense_cell": [
+    0.0191,
+    0.5026
+   ],
+   "bernstein_min": 0.026647539393646724,
+   "bernstein_cell": [
+    0.0246,
+    0.5078
+   ],
+   "dense_at_bernstein_cell": 0.9300834383986978
+  },
+  {
+   "time": 0.2917499999999988,
+   "iterations": 15,
+   "mouth_dense_min": 1.0956976970935803,
+   "dense_min": 0.756859866850211,
+   "dense_cell": [
+    0.0191,
+    0.4974
+   ],
+   "bernstein_min": -0.0873760227268444,
+   "bernstein_cell": [
+    0.0191,
+    0.5026
+   ],
+   "dense_at_bernstein_cell": 0.9206959169307984
+  },
+  {
+   "time": 0.2927499999999987,
+   "iterations": 14,
+   "mouth_dense_min": 1.081123891636913,
+   "dense_min": 0.7765577475758421,
+   "dense_cell": [
+    0.0137,
+    0.5078
+   ],
+   "bernstein_min": -0.3513115086484755,
+   "bernstein_cell": [
+    0.0191,
+    0.5026
+   ],
+   "dense_at_bernstein_cell": 0.9050812264925733
+  },
+  {
+   "time": 0.29374999999999857,
+   "iterations": 14,
+   "mouth_dense_min": 1.0668175939658853,
+   "dense_min": 0.7416631548682099,
+   "dense_cell": [
+    0.0191,
+    0.5026
+   ],
+   "bernstein_min": -0.6242200154970359,
+   "bernstein_cell": [
+    0.0191,
+    0.5026
+   ],
+   "dense_at_bernstein_cell": 0.7416631548682099
+  },
+  {
+   "time": 0.29474999999999846,
+   "iterations": 18,
+   "mouth_dense_min": 1.050801889650918,
+   "dense_min": 0.6411335723975662,
+   "dense_cell": [
+    0.0191,
+    0.4974
+   ],
+   "bernstein_min": -0.7771514523423521,
+   "bernstein_cell": [
+    0.0191,
+    0.4974
+   ],
+   "dense_at_bernstein_cell": 0.6411335723975662
+  },
+  {
+   "time": 0.2952499999999984,
+   "stop": "Constrained nodal midpoint did not converge: 3.529e-02."
+  }
+ ]
+}

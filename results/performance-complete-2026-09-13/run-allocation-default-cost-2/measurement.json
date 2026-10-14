@@ -1,0 +1,29 @@
+{
+  "config": {
+    "kind": "allocation",
+    "variant": "cost"
+  },
+  "categories": {
+    "initialization_s": 0.0008391670417040586,
+    "solver_s": 0.2924966203281656,
+    "adaptation_s": 0.1723725839983672,
+    "diagnostics_s": 0.005269083078019321,
+    "compilation_s": 0.0,
+    "other_experiment_s": 0.021542129572480917,
+    "array_output_s": 0.006890084012411535,
+    "report_output_s": 0.0004350000526756048
+  },
+  "experiment_s": 0.4925195840187371,
+  "numerical_peak_rss_bytes": 100909056,
+  "post_output_peak_rss_bytes": 100909056,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 14,
+    "numerical_threads": 1
+  }
+}

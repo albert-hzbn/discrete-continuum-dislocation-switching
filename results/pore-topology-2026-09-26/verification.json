@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "gates": {
+  "T1_topology": true,
+  "T2_conservation": true,
+  "T3_shape": false,
+  "N1_event_inventory": true,
+  "N2_ledger": true,
+  "N3_growth": false,
+  "N4_control": true
+ },
+ "collapse_time": 338.0000000000426,
+ "merge_time": 97.99999999999658,
+ "events": 4
+}

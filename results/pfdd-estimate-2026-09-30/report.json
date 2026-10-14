@@ -1,0 +1,40 @@
+{
+ "section": 96,
+ "sizes": [
+  512,
+  1024,
+  2048,
+  4096
+ ],
+ "cpu_per_step_s": {
+  "512": 0.015625,
+  "1024": 0.09375,
+  "2048": 0.5,
+  "4096": 1.984375
+ },
+ "fit_coefficient_s": 4.951262406994408e-09,
+ "estimate": {
+  "h=b": {
+   "grid_side": 195618.15336463228,
+   "cells": 38266461925.788795,
+   "cpu_per_step_s": 6660.791219993527,
+   "memory_bytes_5_fields": 1530658477031.5518
+  },
+  "h=2b": {
+   "grid_side": 97809.07668231614,
+   "cells": 9566615481.447199,
+   "cpu_per_step_s": 1570.4641578074613,
+   "memory_bytes_5_fields": 382664619257.88794
+  }
+ },
+ "environment": {
+  "python": "3.14.2",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "cpu_count": 24,
+  "threads": "one numerical thread",
+  "timer": "time.process_time"
+ }
+}

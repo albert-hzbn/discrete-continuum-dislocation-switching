@@ -1,0 +1,29 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "curvature": {
+  "G1_slope": true,
+  "G2_intercept": true,
+  "G3_history": false,
+  "G4_resolution": false
+ },
+ "anisotropic": {
+  "A1_area_rate": true,
+  "A2_shape": true,
+  "A3_energy": true
+ },
+ "stress": {
+  "S1_slope": false,
+  "S2_linear": true,
+  "S3_order": false
+ },
+ "stress_sign_corrected": {
+  "S1_slope": true,
+  "S3_order": true,
+  "order_ratios": [
+   3.982889722747747,
+   3.9957178464780494
+  ]
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "adaptive_over_uniform": {
+  "1": 7.959649441250562,
+  "2": 6.824104136205284,
+  "4": 5.290050857554834,
+  "8": 4.194641100470327
+ },
+ "ac_strong": {
+  "uniform": {
+   "1": {
+    "speedup": 1.0,
+    "efficiency": 1.0
+   },
+   "2": {
+    "speedup": 1.9197326573871587,
+    "efficiency": 0.9598663286935794
+   },
+   "4": {
+    "speedup": 3.543451846527251,
+    "efficiency": 0.8858629616318128
+   },
+   "8": {
+    "speedup": 4.490143578655122,
+    "efficiency": 0.5612679473318902
+   }
+  },
+  "adaptive": {
+   "1": {
+    "speedup": 1.0,
+    "efficiency": 1.0
+   },
+   "2": {
+    "speedup": 1.6458583590115774,
+    "efficiency": 0.8229291795057887
+   },
+   "4": {
+    "speedup": 2.355008297511236,
+    "efficiency": 0.588752074377809
+   },
+   "8": {
+    "speedup": 2.3662525518310447,
+    "efficiency": 0.2957815689788806
+   }
+  }
+ },
+ "equivalence": {
+  "uniform": {
+   "max_difference_to_numpy": 1.1102230246251565e-16,
+   "thread_invariant": true
+  },
+  "adaptive": {
+   "max_difference_to_numpy": 1.1102230246251565e-16,
+   "thread_invariant": true
+  }
+ }
+}

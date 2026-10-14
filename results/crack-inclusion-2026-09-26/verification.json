@@ -1,0 +1,43 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 337,
+ "pytest_record": "results/deletion-notch-2026-09-26/test-results.xml",
+ "declared_gates_as_evaluated": {
+  "B1_control": true,
+  "B2_arrest": true,
+  "B3_deflection": true,
+  "B4_penetration": true,
+  "B5_numerics": true
+ },
+ "B3_reclassified": "FAIL: satisfied by a second crack at the loaded edge, not by deflection",
+ "arrest": {
+  "k1-n64": {
+   "arrival_load": 0.03,
+   "leave_load": 0.03,
+   "interval_fraction": 0.0,
+   "reaction_rises": false
+  },
+  "k1.25-n64": {
+   "arrival_load": 0.0325,
+   "leave_load": 0.0325,
+   "interval_fraction": 0.0,
+   "reaction_rises": false
+  },
+  "k4-n64": {
+   "arrival_load": 0.035,
+   "leave_load": 0.04,
+   "interval_fraction": 0.14285714285714277,
+   "reaction_rises": true
+  },
+  "k4-n96": {
+   "arrival_load": 0.035,
+   "leave_load": 0.04,
+   "interval_fraction": 0.14285714285714277,
+   "reaction_rises": true
+  }
+ },
+ "post_hoc_tough_edges": {
+  "k4-n64-tough-edges": 0.179572089038567,
+  "k2-n64-tough-edges": 0.6106935771520022
+ }
+}

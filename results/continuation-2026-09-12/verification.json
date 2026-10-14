@@ -1,0 +1,9 @@
+{
+  "test_count": 34,
+  "allocation_runs": 12,
+  "reaction_checks": 15,
+  "regression_runs": 12,
+  "regression_checks": 45,
+  "report_local_links_valid": true,
+  "figure_pairs_visually_inspected": 3
+}

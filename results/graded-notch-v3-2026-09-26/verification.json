@@ -1,0 +1,155 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 269,
+ "pytest_total": 269,
+ "trajectory_checks_passed": 90,
+ "trajectory_checks_total": 90,
+ "reference_checks_passed": 18,
+ "reference_checks_total": 18,
+ "partial_trajectories": {
+  "graded-48": 0.30775,
+  "graded-64": 0.2415,
+  "graded-96": 0.261
+ },
+ "t_star": 0.2,
+ "graded_gates_at_t_star": {
+  "c": true,
+  "eta": true,
+  "T": true,
+  "slip": true,
+  "damage": true
+ },
+ "uniform_gates_at_t_star": {
+  "c": true,
+  "eta": true,
+  "T": true,
+  "slip": false,
+  "damage": true
+ },
+ "declared_t04_graded_gates": "unevaluated/failed: graded n48, n64, n96 did not reach t=0.4",
+ "qualification_by_checkpoint": {
+  "t0.1": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  },
+  "t0.15": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  },
+  "t0.2": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  }
+ },
+ "uniform_rerun_bitwise": {
+  "uniform-32": true,
+  "uniform-48": true
+ },
+ "tip_extrapolations": {
+  "uniform": 0.14073896309668427,
+  "graded_32_48_64": 0.14129797432748487,
+  "graded_48_64_96": 0.14205402758728314
+ },
+ "retained_failures": [
+  "results/graded-notch-2026-09-26/graded-notch-32-0.00025-failure.json",
+  "results/graded-notch-v2-2026-09-26/graded-notch-48-0.00025-failure.json"
+ ],
+ "saved_state_readback": {
+  "results/graded-notch-v3-2026-09-26/graded-notch-32-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-32-0.00025-final.npz": {
+   "step": 1600,
+   "time": 0.4,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-48-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-48-0.00025-last-accepted.npz": {
+   "step": 1231,
+   "time": 0.30775,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-64-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-64-0.00025-last-accepted.npz": {
+   "step": 966,
+   "time": 0.2415,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-96-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/graded-notch-96-0.00025-last-accepted.npz": {
+   "step": 1044,
+   "time": 0.261,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": true,
+   "graded": true
+  },
+  "results/graded-notch-v3-2026-09-26/nodal-tensile-32-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": false,
+   "graded": false
+  },
+  "results/graded-notch-v3-2026-09-26/nodal-tensile-32-0.00025-final.npz": {
+   "step": 1600,
+   "time": 0.4,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": false,
+   "graded": false
+  },
+  "results/graded-notch-v3-2026-09-26/nodal-tensile-48-0.00025-t0.2.npz": {
+   "step": 800,
+   "time": 0.2,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": false,
+   "graded": false
+  },
+  "results/graded-notch-v3-2026-09-26/nodal-tensile-48-0.00025-final.npz": {
+   "step": 1600,
+   "time": 0.4,
+   "max_absolute_diagnostic_difference": 0.0,
+   "compared_keys": 37,
+   "preconditioned": false,
+   "graded": false
+  }
+ }
+}

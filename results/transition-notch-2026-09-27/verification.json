@@ -1,0 +1,25 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "D1": true,
+  "D2": false,
+  "D3": false,
+  "D4": true
+ },
+ "n128_stop": {
+  "time": 0.3955,
+  "cause": "second-row mouth cell (min J 0.14, min nodal d 0.95) degenerates; full step fails to converge, dt/2 and dt/4 accepted"
+ },
+ "band_half_width": {
+  "64": 0.0104,
+  "96": 0.0069,
+  "128": 0.0052
+ },
+ "figures": [
+  "results/transition-notch-2026-09-27/figures/transition-notch.png"
+ ],
+ "figures_inspected": true,
+ "document": "TRANSITION_NOTCH_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

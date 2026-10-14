@@ -1,0 +1,199 @@
+{
+ "step": "GLL n96 adaptive, refused at step 1142 (last accepted t=0.28525) by the Bernstein certificate; replay with the certificate bypassed",
+ "rows": [
+  {
+   "time": 0.28525,
+   "dense_min": 0.8355608684471403,
+   "dense_cell": [
+    0.0182,
+    0.5104
+   ],
+   "bernstein_min": 0.016283292778508943,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.9962147048694703
+  },
+  {
+   "time": 0.28774999999999973,
+   "iterations": 15,
+   "dense_min": 0.8201194063963587,
+   "dense_cell": [
+    0.0109,
+    0.4965
+   ],
+   "bernstein_min": -0.17068483478494811,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.9869291950623584
+  },
+  {
+   "time": 0.29024999999999945,
+   "iterations": 13,
+   "dense_min": 0.7720665802521725,
+   "dense_cell": [
+    0.0109,
+    0.4965
+   ],
+   "bernstein_min": -0.18897089720738514,
+   "bernstein_cell": [
+    0.0036,
+    0.4965
+   ],
+   "dense_at_bernstein_cell": 1.1679233254401318
+  },
+  {
+   "time": 0.2927499999999992,
+   "iterations": 13,
+   "dense_min": 0.8394313462811311,
+   "dense_cell": [
+    0.0401,
+    0.4896
+   ],
+   "bernstein_min": -0.15528933587982133,
+   "bernstein_cell": [
+    0.0036,
+    0.4965
+   ],
+   "dense_at_bernstein_cell": 1.0690999117823832
+  },
+  {
+   "time": 0.2952499999999989,
+   "iterations": 13,
+   "dense_min": 0.8596192062762742,
+   "dense_cell": [
+    0.0036,
+    0.4965
+   ],
+   "bernstein_min": -0.13160044971457308,
+   "bernstein_cell": [
+    0.0036,
+    0.4965
+   ],
+   "dense_at_bernstein_cell": 0.8596192062762742
+  },
+  {
+   "time": 0.2977499999999986,
+   "iterations": 13,
+   "dense_min": 0.8357685374719247,
+   "dense_cell": [
+    0.0036,
+    0.4965
+   ],
+   "bernstein_min": -0.7732005597394842,
+   "bernstein_cell": [
+    0.0036,
+    0.4965
+   ],
+   "dense_at_bernstein_cell": 0.8357685374719247
+  },
+  {
+   "time": 0.30024999999999835,
+   "iterations": 13,
+   "dense_min": 0.7478974137196721,
+   "dense_cell": [
+    0.0036,
+    0.5035
+   ],
+   "bernstein_min": -1.402234571609251,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.7478974137196721
+  },
+  {
+   "time": 0.3027499999999981,
+   "iterations": 13,
+   "dense_min": 0.6043097036781864,
+   "dense_cell": [
+    0.0036,
+    0.5035
+   ],
+   "bernstein_min": -2.0812240017002406,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.6043097036781864
+  },
+  {
+   "time": 0.3052499999999978,
+   "iterations": 13,
+   "dense_min": 0.4346993015369859,
+   "dense_cell": [
+    0.0036,
+    0.5035
+   ],
+   "bernstein_min": -2.7628116645096585,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.4346993015369859
+  },
+  {
+   "time": 0.3077499999999975,
+   "iterations": 13,
+   "dense_min": 0.1226154510003778,
+   "dense_cell": [
+    0.0036,
+    0.5035
+   ],
+   "bernstein_min": -3.390362562496776,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": 0.1226154510003778
+  },
+  {
+   "time": 0.31024999999999725,
+   "iterations": 15,
+   "dense_min": -0.16122685997604372,
+   "dense_cell": [
+    0.0036,
+    0.4965
+   ],
+   "bernstein_min": -3.6635976163773747,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": -0.14835918211191315
+  },
+  {
+   "time": 0.312749999999997,
+   "iterations": 14,
+   "dense_min": -0.24501024110895953,
+   "dense_cell": [
+    0.0036,
+    0.4965
+   ],
+   "bernstein_min": -3.4485665997208144,
+   "bernstein_cell": [
+    0.0036,
+    0.5035
+   ],
+   "dense_at_bernstein_cell": -0.22716369132999323
+  },
+  {
+   "time": 0.3152499999999967,
+   "iterations": 14,
+   "dense_min": -0.07488806929228531,
+   "dense_cell": [
+    0.0036,
+    0.4965
+   ],
+   "bernstein_min": -3.274373079610732,
+   "bernstein_cell": [
+    0.0036,
+    0.4965
+   ],
+   "dense_at_bernstein_cell": -0.07488806929228531
+  }
+ ]
+}

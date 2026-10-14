@@ -1,0 +1,41 @@
+{
+  "case": 2,
+  "name": "Cahn-Hilliard spinodal decomposition",
+  "variant": "adaptive",
+  "metrics": {
+    "steps": 8000,
+    "dt": 0.025,
+    "end_time": 200.0,
+    "h": 0.5,
+    "mass_drift": 7.561729020721941e-13,
+    "max_recorded_energy_increase": 0.0,
+    "initial_length": 1.3101888726311832,
+    "final_length": 14.757927180792915,
+    "finite_time_exponent": 0.22012103978973646,
+    "fit_interval": [
+      80,
+      200
+    ],
+    "asymptotic_exponent_verified": false,
+    "final_dofs": 16384,
+    "stored_array_bytes": 661520
+  },
+  "checks": {
+    "mass_conservation": true,
+    "energy_decay": true,
+    "phase_separation": true
+  },
+  "limitations": [
+    "Dense activity forces a full-grid fallback; no DOF saving is expected.",
+    "The finite-time slope is reported, but the asymptotic 1/3 law is inconclusive.",
+    "A separate fixed-width spatial/time study is provided; the long coarsening run is not an asymptotic-exponent certification."
+  ],
+  "timings": {
+    "initialization_s": 0.0007679580012336373,
+    "solver_s": 3.335727525060065,
+    "adaptation_s": 0.13008482835721225,
+    "diagnostics_s": 0.12105674797203392,
+    "compilation_s": 0.0
+  },
+  "status": "partial"
+}

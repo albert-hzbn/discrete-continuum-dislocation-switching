@@ -1,0 +1,24 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Albert Linda
+
+The saved numerical results (results/), input data
+(data/, except as noted below) and generated figures in this repository are
+licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit (cite the work as described
+in CITATION.cff), provide a link to the licence, and indicate if changes were
+made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Third-party material:
+- data/potentials/Cu01.eam.alloy: embedded-atom potential for copper of
+  Mishin et al., Phys. Rev. B 63, 224106 (2001), in the LAMMPS setfl format
+  converted by C. A. Becker, distributed through the NIST Interatomic
+  Potentials Repository (https://www.ctcms.nist.gov/potentials). It is
+  redistributed unchanged under the terms of that repository and is not
+  covered by this licence.
+
+The source code is licensed separately under the MIT License (see LICENSE).

@@ -1,0 +1,42 @@
+{
+  "dt": 0.0025,
+  "n": 96,
+  "h": 0.3333333333333333,
+  "end": 4.0,
+  "rows": [
+    {
+      "tag": "low",
+      "steps": 1600,
+      "area_change": -4.242828176257447,
+      "inventory_drift": 4.263256414560601e-14,
+      "max_energy_increase": 0.0
+    },
+    {
+      "tag": "high",
+      "steps": 1600,
+      "area_change": 11.87845191216644,
+      "inventory_drift": 1.1368683772161603e-13,
+      "max_energy_increase": 0.0
+    }
+  ],
+  "checks": {
+    "inventory": true,
+    "energy": true,
+    "low_shrinks": true,
+    "high_grows": true
+  },
+  "timings": {
+    "solver_s": 0.755783390137367,
+    "setup_and_diagnostics_s": 0.039115484920330346,
+    "array_io_s": 0.005088625010102987
+  },
+  "all_checks_pass": true,
+  "peak_rss_before_io_bytes": 80592896,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+ "D1": {
+  "max_error": 0.0014008523340840128,
+  "never_larger": true
+ },
+ "cases": {
+  "favorable": {
+   "frank_gain": 0.039999999999999994,
+   "favorable": true,
+   "hand_built_core_jump": -0.002136575601077384,
+   "core_energy_difference": 0.0,
+   "auto_length": 0.4279126302216442,
+   "hand_length": 0.4279126302216442,
+   "length_difference": 0.0
+  },
+  "unfavorable": {
+   "frank_gain": -0.04000000000000001,
+   "favorable": false,
+   "hand_built_core_jump": 0.005863424398922595
+  },
+  "neutral": {
+   "frank_gain": -1.3877787807814457e-17,
+   "favorable": false,
+   "hand_built_core_jump": 0.0018634243989226196
+  }
+ },
+ "gates": {
+  "D1_geometry": false,
+  "D2_classification_and_execution": true
+ },
+ "D1_post_hoc_refined_brute_force": {
+  "400": {
+   "max_error": 0.0014008523340840128,
+   "never_larger": true
+  },
+  "1600": {
+   "max_error": 0.0001869210654325351,
+   "never_larger": true
+  },
+  "4000": {
+   "max_error": 4.684748539415459e-05,
+   "never_larger": true
+  }
+ }
+}

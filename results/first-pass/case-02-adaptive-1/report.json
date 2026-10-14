@@ -1,0 +1,55 @@
+{
+  "case": 2,
+  "name": "Cahn-Hilliard spinodal decomposition",
+  "variant": "adaptive",
+  "metrics": {
+    "steps": 1000,
+    "dt": 0.2,
+    "end_time": 200.0,
+    "h": 0.5,
+    "mass_drift": 2.1793677973391823e-13,
+    "max_recorded_energy_increase": 0.0,
+    "initial_length": 1.3101888726311832,
+    "final_length": 15.259658920708782,
+    "finite_time_exponent": 0.27097899776107554,
+    "fit_interval": [
+      80,
+      200
+    ],
+    "asymptotic_exponent_verified": false,
+    "final_dofs": 16384,
+    "stored_array_bytes": 661520,
+    "peak_rss_bytes": 66895872
+  },
+  "checks": {
+    "mass_conservation": true,
+    "energy_decay": true,
+    "phase_separation": true
+  },
+  "limitations": [
+    "Dense activity forces a full-grid fallback; no DOF saving is expected.",
+    "The finite-time slope is reported, but the asymptotic 1/3 law is inconclusive.",
+    "A full CH spatial/time convergence study remains open."
+  ],
+  "timings": {
+    "initialization_s": 0.0007664579898118973,
+    "solver_s": 0.416626215854194,
+    "adaptation_s": 0.01633749803295359,
+    "diagnostics_s": 0.015117292903596535,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.44928837500629015,
+    "array_io_s": 0.012286750017665327
+  },
+  "status": "partial",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

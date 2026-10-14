@@ -1,0 +1,46 @@
+{
+ "date": "2026-09-28",
+ "theory": "90",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "runs": {
+  "n64": {
+   "H1": true,
+   "H2": true,
+   "H3": false
+  },
+  "n80": {
+   "H1": true,
+   "H2": true,
+   "H3": false
+  },
+  "n64-erode": {
+   "H1": true,
+   "H2": false,
+   "H3": false
+  },
+  "n80-erode": {
+   "H1": true,
+   "H2": false,
+   "H3": false
+  },
+  "n64-erode-band0.9": {
+   "H1": true,
+   "H2": false,
+   "H3": false
+  },
+  "n80-erode-band0.9": {
+   "H1": true,
+   "H2": false,
+   "H3": false
+  }
+ },
+ "H4": false,
+ "decision": "negative with identified cause (theory 90.5)",
+ "document": "THERMOCHEMICAL_BRANCHING_RESULTS.md",
+ "figures": [
+  "figures/thermochemical-branching-final.png",
+  "figures/thermochemical-branching.png"
+ ],
+ "first_attempt": "band-first-attempt/ (driver bug, stopped after 5 minutes)"
+}

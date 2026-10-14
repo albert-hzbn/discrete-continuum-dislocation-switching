@@ -1,0 +1,86 @@
+{
+  "case": 1,
+  "name": "Allen-Cahn circular inclusion",
+  "variant": "adaptive",
+  "metrics": {
+    "steps": 600,
+    "dt": 0.02,
+    "end_time": 12.0,
+    "h": 0.5,
+    "length": 128.0,
+    "physical_profile_scale": 1.4142135623730951,
+    "initial_radius": 14.058624893239118,
+    "final_radius": 13.185304517595245,
+    "radius_squared_slope": -1.9819050751594778,
+    "curvature_slope_relative_error": 0.00904746242026111,
+    "profile_ansatz_rms": 0.029716418197989813,
+    "max_recorded_energy_increase": 0.0,
+    "initial_dofs": 19600,
+    "final_dofs": 16900,
+    "mean_dofs": 17332.0,
+    "uniform_dofs": 65536,
+    "stored_array_bytes": 547056,
+    "accepted_transfers": 1
+  },
+  "checks": {
+    "energy_decay": true,
+    "curvature_slope": true,
+    "finite_values": true
+  },
+  "limitations": [
+    "The profile ansatz and curvature law have finite-width errors.",
+    "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+  ],
+  "timings": {
+    "initialization_s": 0.0004511660663411021,
+    "solver_s": 0.11415836657397449,
+    "adaptation_s": 0.006046541966497898,
+    "diagnostics_s": 0.00261983519885689,
+    "compilation_s": 0.0
+  },
+  "status": "partial",
+  "transfers": [
+    {
+      "changed": true,
+      "reason": "accepted",
+      "relative_l2": 3.3834524086439437e-07,
+      "energy_jump": -4.685986709773715e-09,
+      "common_grid_energy_jump": 7.954128022902296e-09,
+      "mass_error": 0.0,
+      "old_cells": 19600,
+      "proposed_cells": 16900
+    },
+    {
+      "changed": false,
+      "reason": "same_grid"
+    },
+    {
+      "changed": false,
+      "reason": "same_grid"
+    },
+    {
+      "changed": false,
+      "reason": "same_grid"
+    },
+    {
+      "changed": false,
+      "reason": "audit_rejected",
+      "relative_l2": 2.9757577112639013e-07,
+      "energy_jump": -4.466656378099287e-09,
+      "common_grid_energy_jump": 1.3417121635939111e-08,
+      "mass_error": 0.0,
+      "old_cells": 16900,
+      "proposed_cells": 16384
+    },
+    {
+      "changed": false,
+      "reason": "audit_rejected",
+      "relative_l2": 2.421183374215018e-07,
+      "energy_jump": -2.9562698955487576e-09,
+      "common_grid_energy_jump": 8.883304758455779e-09,
+      "mass_error": 1.8189894035458565e-12,
+      "old_cells": 16900,
+      "proposed_cells": 16384
+    }
+  ]
+}

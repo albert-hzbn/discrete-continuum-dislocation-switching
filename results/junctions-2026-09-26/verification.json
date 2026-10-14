@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 305,
+ "all_checks": true,
+ "restart_bitwise": true,
+ "predictions": {
+  "favorable": true,
+  "unfavorable": false,
+  "neutral": null
+ },
+ "event_jumps": {
+  "favorable": -0.002088080108112539,
+  "unfavorable": 0.005903861367219293,
+  "neutral": 0.0019261578408041047
+ },
+ "post_hoc_dissolution": true
+}

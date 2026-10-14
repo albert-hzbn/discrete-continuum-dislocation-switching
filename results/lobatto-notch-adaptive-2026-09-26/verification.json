@@ -1,0 +1,38 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 307,
+ "pytest_failures": 0,
+ "gates_64_96_t0_4": "unevaluated: a trajectory did not reach t=0.4",
+ "qualification_96_128": {
+  "t0.1": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  },
+  "t0.15": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  },
+  "t0.2": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  },
+  "t0.25": {
+   "below_5_percent": true,
+   "decreasing_slip_damage": true
+  }
+ },
+ "all_trajectory_checks": true,
+ "reached": {
+  "48": "t=0.4",
+  "64": 0.3235,
+  "96": 0.28525,
+  "128": 0.28075
+ },
+ "refusal_classification": {
+  "64": "conservative at refusal (exact min about 1.0 in the mouth cell); genuine fold of the same cell by t=0.3535 (fold-replay-64.json)",
+  "96": "conservative at refusal (exact min 0.996 in refused cell); genuine fold of the same cell by t=0.3102 (fold-replay-96.json)",
+  "128": "conservative at refusal (exact min 0.643 at last accepted state); fold time not replayed"
+ },
+ "max_quadrature_sensitivity_slip": 0.0022673609464940645,
+ "tip_extrapolation": 0.14211482227816005
+}

@@ -1,0 +1,34 @@
+{
+  "pytest_passed": 98,
+  "trajectory_checks_passed": 61,
+  "trajectory_checks_total": 61,
+  "monotone_errors": {
+    "space": {
+      "alpha": true,
+      "stress": true
+    },
+    "time": {
+      "alpha": true,
+      "stress": true
+    }
+  },
+  "source_hashes_match": true,
+  "document_links_resolve": true,
+  "known_topology_round_trip_verified": true,
+  "kinetic_equivalence_verified": false,
+  "general_topology_reconstruction_verified": false,
+  "full_original_objective_complete": false,
+  "artifact_sha256": {
+    "REPRESENTATION_TRANSFER_RESULTS.md": "1a46bc5df3c01b8371c06cfa081402061c00b28ab7663ef16b2dfded2f08ec60",
+    "README.md": "992b84ae4b6bccac6bb58bdd0456a07f8bd7ed00fa7d33cbc6bd91d299506aa2",
+    "CURRENT_RESULTS.md": "9c39d1ca591489b30225b6154458d9e9ed30b73ff5b3f2b737f4188468bfb7f6",
+    "COMPLETION_AUDIT.md": "b879b7d72401eac592f85c29b480eb3d069bf43897af21bc51c85036a497447d",
+    "PLAN.md": "854d13c6ab7bd4755e93fcaa13477525fe9bb9899b07f1fba896de570593471b",
+    "PARAMETER_REGISTRY.md": "749154da38d12fb2c8666d17e889c455a341178ffad6c59d887efdd0083cc2cc",
+    "unified_multiscale_defect_framework.md": "973d8034997ebfbee2a33b67457591b7b82574103fc0108a1550260c3b040724",
+    "THEORY_REVIEW.md": "fab82d1a50684a810995077b9947b1345a5b102131e23cf68c291b3ca0ed077e",
+    "src/bmvr/representation3d.py": "615494dfa8c8a8130bef1c7e648385229eb61313830a996b106135b42f413b7f",
+    "tests/test_representation3d.py": "fabb316a0edd2e0a3fe8cd298f24c3e33f532b946f5b1229c1fff4b199d70d7e",
+    "benchmarks/representation_transfer_report.py": "780b650353bb82f1866c3f00a6a4de7504b474614c3fdb736529569ee59a1137"
+  }
+}

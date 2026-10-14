@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 200,
+  "numerical_checks_passed": 72,
+  "numerical_checks_failed": 0,
+  "accuracy_gates_passed": 12,
+  "accuracy_gates_failed": 0,
+  "original_Q1_comparison_change": 2.7755575615628914e-17,
+  "retained_historical_failures": "results/thermochemical-2026-09-22/verification.json",
+  "saved_state_readback": {
+    "results/quadratic-mechanics-2026-09-22/q2-manufactured-4.npz": {
+      "degree": 2,
+      "orientation_matches": true
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-manufactured-8.npz": {
+      "degree": 2,
+      "orientation_matches": true
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-manufactured-16.npz": {
+      "degree": 2,
+      "orientation_matches": true
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-manufactured-32.npz": {
+      "degree": 2,
+      "orientation_matches": true
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-12-0.00025-initial.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-12-0.00025-final.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-16-0.00025-initial.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-16-0.00025-final.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-24-0.00025-initial.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-mechanics-2026-09-22/q2-coupled-24-0.00025-final.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-time-2026-09-22/q2-coupled-16-0.0005-initial.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    },
+    "results/quadratic-time-2026-09-22/q2-coupled-16-0.0005-final.npz": {
+      "degree": 2,
+      "max_absolute_diagnostic_difference": 0.0
+    }
+  },
+  "source_sha256": {
+    "src/bmvr/quadratic_mesh.py": "26b9f90f53ac9763acda67272fef929a354616edce60a42e0f0a603a5a20a9a1",
+    "src/bmvr/finite_elasticity.py": "8887a1a02c83a929ddc7465f0aab6fa55b025c92a349a8045ff3c04b6ddf9205",
+    "src/bmvr/thermoplastic.py": "8ea93cab718adcf9c64fb1bdd51c336b0eaf505cc132695e2088e0a8a222e97c",
+    "src/bmvr/thermochemical.py": "78f03cee57d9a048e230cbca31861f6e7d0dc251d6101f413076c94de1d5a9d6",
+    "tests/test_quadratic_mechanics.py": "5ce61942daf5e176a5f0bee502f8251e697948cceb89774278ac6603351b4107",
+    "benchmarks/thermochemical.py": "bb347bbd8a6b8ba22d99721356d95f20ed3f75f4d89044a1e28e58273c517a28",
+    "benchmarks/quadratic_mechanics.py": "d9055b72c922673a820477b537006577ba3122bbc14adb6d2526257206b77995",
+    "benchmarks/quadratic_mechanics_time.py": "83cb56b11717e5bf5b53d00d9a3ab4c938b8a33d5fdb98cc5681175259101d74",
+    "benchmarks/quadratic_mechanics_report.py": "94f2cba98c420afa6b85b46b1357340546ab312b3f77c47fbd282cd203337776",
+    "benchmarks/mechanical_resolution_diagnostic.py": "591ddcba910edbfd3651899386f832cec4b78b0c72a466748085f9093aa0c471",
+    "unified_multiscale_defect_framework.md": "5ab7e0769c75e80e8772e9c8c857b72f6d628e7022e8ff4553e1cea2456992b5",
+    "THEORY_REVIEW.md": "39cfcac2ebffe6199e9963d427c272dac525b61671bb8c86a85a023bfc3aab88"
+  },
+  "visually_inspected_figures": [
+    "figures/quadratic-verification.png",
+    "figures/quadratic-fields.png"
+  ],
+  "goal_complete": false
+}

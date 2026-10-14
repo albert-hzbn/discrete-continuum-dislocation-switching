@@ -1,0 +1,29 @@
+{
+  "config": {
+    "kind": "allocation",
+    "variant": "uniform"
+  },
+  "categories": {
+    "initialization_s": 0.0009746660944074392,
+    "solver_s": 0.5082584852352738,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.005892083048820496,
+    "compilation_s": 0.0,
+    "other_experiment_s": 0.026106431614607573,
+    "array_output_s": 0.008413917035795748,
+    "report_output_s": 0.00026512506883591413
+  },
+  "experiment_s": 0.5412316659931093,
+  "numerical_peak_rss_bytes": 98205696,
+  "post_output_peak_rss_bytes": 98205696,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 14,
+    "numerical_threads": 1
+  }
+}

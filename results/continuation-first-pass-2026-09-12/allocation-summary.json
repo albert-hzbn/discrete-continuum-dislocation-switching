@@ -1,0 +1,2198 @@
+{
+  "reports": [
+    {
+      "strategy": "cost",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0009400410344824195,
+        "solver_s": 0.29820429696701467,
+        "allocation_s": 0.3293478338746354,
+        "final_validation_s": 0.004971000016666949,
+        "evolution_and_allocation_s": 0.6275521308416501
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 30990,
+      "mean_field_cells": 14696.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 619760,
+      "peak_rss_bytes": 84393984,
+      "final_indicator": {
+        "squared": [
+          7.466269596370115e-10,
+          1.1067420667043772e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818349192748,
+          0.0012737247674271279,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045873081875,
+          3.18431192856782e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00044829146111115633,
+          0.5895428911675498,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 4.336823488641401e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 0.05554820772798597
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 0.062162074672957306
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 0.032660531245495394
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 0.050665868548698666
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 46.929420464769784,
+              "added_dofs": 672,
+              "score": 0.06983544712019313
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 55.073312049587116,
+              "added_dofs": 672,
+              "score": 0.08195433340712369
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 23.34041598108869,
+              "added_dofs": 672,
+              "score": 0.034732761876620076
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.50369309011851,
+              "added_dofs": 672,
+              "score": 0.05134478138410493
+            },
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8605151690223056,
+              "added_dofs": 224,
+              "score": 0.003841585575992436
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3362498401017597,
+              "added_dofs": 672,
+              "score": 0.00347656226205619
+            },
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.336709755604085,
+              "added_dofs": 732,
+              "score": 0.0031922264420820834
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 8,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 56.78626251666542,
+              "added_dofs": 708,
+              "score": 0.08020658547551612
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 44.95933121125389,
+              "added_dofs": 472,
+              "score": 0.09525282036282604
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 17.179148741418764,
+              "added_dofs": 708,
+              "score": 0.024264334380534977
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 24.63978501878849,
+              "added_dofs": 708,
+              "score": 0.03480195624122668
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 10.099866107335675,
+              "added_dofs": 708,
+              "score": 0.014265347609231179
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.0006089479646856226
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 7,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 57.63379678576598,
+              "added_dofs": 708,
+              "score": 0.08140366777650562
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 41.96822354417248,
+              "added_dofs": 472,
+              "score": 0.08891572784782305
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 14.862617118675454,
+              "added_dofs": 708,
+              "score": 0.020992397060276065
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 20.85942633168268,
+              "added_dofs": 708,
+              "score": 0.029462466570173276
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 15.39152832014862,
+              "added_dofs": 708,
+              "score": 0.02173944677987093
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1877408838475934,
+              "added_dofs": 732,
+              "score": 0.001622596835857368
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.8645653855408552,
+              "added_dofs": 726,
+              "score": 0.0011908614125907095
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 8,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 53.06210239136559,
+              "added_dofs": 708,
+              "score": 0.07494647230418869
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 32.03331964084823,
+              "added_dofs": 472,
+              "score": 0.06786720262891574
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 25.74539287781417,
+              "added_dofs": 708,
+              "score": 0.03636354926244939
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 11.798243976846983,
+              "added_dofs": 708,
+              "score": 0.016664186407975966
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 15.312726724376008,
+              "added_dofs": 708,
+              "score": 0.021628145090926563
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 4.8547342467141315,
+              "added_dofs": 708,
+              "score": 0.00685696927501996
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 4.88325690563968,
+              "added_dofs": 750,
+              "score": 0.0065110092075195735
+            },
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.0005371938579687192
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 9,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            7.466269596370115e-10,
+            1.1067420667043772e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818349192748,
+            0.0012737247674271279,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045873081875,
+            3.18431192856782e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00044829146111115633,
+            0.5895428911675498,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.336823488641401e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 50.5928794112275,
+              "added_dofs": 696,
+              "score": 0.07269091869429238
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 29.34467351248044,
+              "added_dofs": 464,
+              "score": 0.06324283084586302
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 28.464849919640358,
+              "added_dofs": 696,
+              "score": 0.04089777287304649
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 11.383427159149004,
+              "added_dofs": 696,
+              "score": 0.016355498791880755
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 14.227140086314193,
+              "added_dofs": 696,
+              "score": 0.020441293227462923
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 6.493136133884326,
+              "added_dofs": 696,
+              "score": 0.009329218583167135
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 6.773186868075578,
+              "added_dofs": 744,
+              "score": 0.009103745790424164
+            },
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6833127339067687,
+              "added_dofs": 744,
+              "score": 0.0009184310939607107
+            },
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.527182033494589,
+              "added_dofs": 732,
+              "score": 0.0007201940348286735
+            }
+          ],
+          "candidate_cells": 15494,
+          "audit_cells": 36864,
+          "full_operator_audits": 10,
+          "accepted": true,
+          "relative_transfer_error": [
+            2.1380905681719414e-08,
+            9.927860833751143e-07
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": -1.9059598344028927e-10,
+          "common_grid_energy_jump": -1.6488144183313125e-10,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-cost-1"
+    },
+    {
+      "strategy": "geometry",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008782920194789767,
+        "solver_s": 0.33384720992762595,
+        "allocation_s": 0.1196026261895895,
+        "final_validation_s": 0.004704417078755796,
+        "evolution_and_allocation_s": 0.45344983611721545
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 35380,
+      "mean_field_cells": 16966.0,
+      "inventory_drift": 6.821210263296962e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 707560,
+      "peak_rss_bytes": 83214336,
+      "final_indicator": {
+        "squared": [
+          4.0131246997957197e-10,
+          3.687603831513758e-11,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818346363145,
+          0.0012701130660422784,
+          0.023891450371438562
+        ],
+        "budget_squared": [
+          0.0037152045866007868,
+          3.1752826751056964e-06,
+          5.972862593859642e-05
+        ],
+        "budget_ratios": [
+          0.00032866235307494403,
+          0.0034078536195193553,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.7489666532845456e-21,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            2.274286524544374e-10,
+            7.701076130293241e-14,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2289941855696673,
+            0.03369876027506336,
+            0.02239105068687985
+          ],
+          "budget_squared": [
+            0.0030724854639341687,
+            8.424690069765843e-05,
+            5.597762672719964e-05
+          ],
+          "budget_ratios": [
+            0.0002720681293783726,
+            3.023421812117112e-05,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.999725064576941e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 15625,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.0089611466367584e-08,
+            1.5098654097737038e-09
+          ],
+          "mass_error": [
+            0.0,
+            6.821210263296962e-13
+          ],
+          "energy_jump": -2.8776980798284058e-12,
+          "common_grid_energy_jump": 6.863842827442568e-12,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            2.4103007264284893e-10,
+            8.85619979314845e-13,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2214250835402276,
+            0.012979552763870068,
+            0.022533357839869483
+          ],
+          "budget_squared": [
+            0.0030535627088605693,
+            3.244888191967518e-05,
+            5.6333394609673724e-05
+          ],
+          "budget_ratios": [
+            0.00028095204281404593,
+            0.00016520524609798742,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.677852544620307e-19,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16129,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15625,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.3490116232672623e-10,
+            9.972118175931726e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2506557920593318,
+            0.007038281836103814,
+            0.022676354198211117
+          ],
+          "budget_squared": [
+            0.00312663948015833,
+            1.759570460025954e-05,
+            5.6690885505527805e-05
+          ],
+          "budget_ratios": [
+            0.0002740966193985138,
+            0.0007528186630220089,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.6940658945086007e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16384,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16129,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            2.229799510433956e-10,
+            1.9102963948659444e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178694269307,
+            0.004479746826136478,
+            0.022836085376343063
+          ],
+          "budget_squared": [
+            0.003208294673577327,
+            1.1199367075341198e-05,
+            5.7090213450857674e-05
+          ],
+          "budget_ratios": [
+            0.00026363057856550756,
+            0.00041300341078399856,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -6.579758931895986e-24,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16900,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16384,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            2.0467770207098131e-10,
+            5.797980355482882e-12,
+            1.925929944387236e-34
+          ],
+          "full_norm_squared": [
+            1.3178374434241316,
+            0.0031481835045196367,
+            0.023013648862278156
+          ],
+          "budget_squared": [
+            0.0032945936085703293,
+            7.870458771299093e-06,
+            5.753412216569541e-05
+          ],
+          "budget_ratios": [
+            0.0002492495256377961,
+            0.0008582984844325982,
+            1.8296056688929455e-15
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.392385417507812e-23,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16900,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            1.7978396882394154e-10,
+            4.0567380023113774e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970882932563,
+            0.0023650006410791432,
+            0.023208637174283
+          ],
+          "budget_squared": [
+            0.0033867427207431413,
+            5.9125016126978595e-06,
+            5.8021592945707513e-05
+          ],
+          "budget_ratios": [
+            0.00023040101008750785,
+            0.0026194061576389964,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.762680705975303e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            1.5086815338379653e-10,
+            7.72563153480555e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277832735,
+            0.0018622273392785178,
+            0.023420278706150228
+          ],
+          "budget_squared": [
+            0.003486388194591838,
+            4.655568358196295e-06,
+            5.8550696775375584e-05
+          ],
+          "budget_ratios": [
+            0.00020802278967654348,
+            0.00128819213021747,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.5901484822859327e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            1.2177596863591254e-10,
+            1.165964064113999e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967860463532,
+            0.001517829820305795,
+            0.023647959041736118
+          ],
+          "budget_squared": [
+            0.0035952419651258836,
+            3.794574560764488e-06,
+            5.9119897614340306e-05
+          ],
+          "budget_ratios": [
+            0.0001840419110309859,
+            0.0017529157260309646,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -2.2809898120004724e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17956,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17689,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            4.0131246997957197e-10,
+            3.687603831513758e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818346363145,
+            0.0012701130660422784,
+            0.023891450371438562
+          ],
+          "budget_squared": [
+            0.0037152045866007868,
+            3.1752826751056964e-06,
+            5.972862593859642e-05
+          ],
+          "budget_ratios": [
+            0.00032866235307494403,
+            0.0034078536195193553,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.7489666532845456e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.745647778115613e-08,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": -5.8122395785176195e-12,
+          "common_grid_energy_jump": 1.1340262062731199e-11,
+          "source_cells": 17956,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-geometry-1"
+    },
+    {
+      "strategy": "residual",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.000844125053845346,
+        "solver_s": 0.291242333361879,
+        "allocation_s": 0.325947541045025,
+        "final_validation_s": 0.004924457985907793,
+        "evolution_and_allocation_s": 0.617189874406904
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 30990,
+      "mean_field_cells": 14696.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 619760,
+      "peak_rss_bytes": 83378176,
+      "final_indicator": {
+        "squared": [
+          7.466269596370115e-10,
+          1.1067420667043772e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818349192748,
+          0.0012737247674271279,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045873081875,
+          3.18431192856782e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00044829146111115633,
+          0.5895428911675498,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 4.336823488641401e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 37.32839559320657
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 41.77291418022731
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 21.947876996972905
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 34.047463664725505
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 46.929420464769784,
+              "added_dofs": 672,
+              "score": 46.929420464769784
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 55.073312049587116,
+              "added_dofs": 672,
+              "score": 55.073312049587116
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 23.34041598108869,
+              "added_dofs": 672,
+              "score": 23.34041598108869
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.50369309011851,
+              "added_dofs": 672,
+              "score": 34.50369309011851
+            },
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3366751823832725,
+              "added_dofs": 708,
+              "score": 2.3366751823832725
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.335211504537841,
+              "added_dofs": 690,
+              "score": 2.335211504537841
+            },
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8599245704240757,
+              "added_dofs": 230,
+              "score": 0.8599245704240757
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 8,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 56.78626251666542,
+              "added_dofs": 708,
+              "score": 56.78626251666542
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 44.95933121125389,
+              "added_dofs": 472,
+              "score": 44.95933121125389
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 17.179148741418764,
+              "added_dofs": 708,
+              "score": 17.179148741418764
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 24.63978501878849,
+              "added_dofs": 708,
+              "score": 24.63978501878849
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 10.099866107335675,
+              "added_dofs": 708,
+              "score": 10.099866107335675
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.4311351589974208
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 7,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 57.63379678576598,
+              "added_dofs": 708,
+              "score": 57.63379678576598
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 41.96822354417248,
+              "added_dofs": 472,
+              "score": 41.96822354417248
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 14.862617118675454,
+              "added_dofs": 708,
+              "score": 14.862617118675454
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 20.85942633168268,
+              "added_dofs": 708,
+              "score": 20.85942633168268
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 15.39152832014862,
+              "added_dofs": 708,
+              "score": 15.39152832014862
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1877408838475934,
+              "added_dofs": 732,
+              "score": 1.1877408838475934
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.8645653855408552,
+              "added_dofs": 726,
+              "score": 0.8645653855408552
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 8,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 53.06210239136559,
+              "added_dofs": 708,
+              "score": 53.06210239136559
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 32.03331964084823,
+              "added_dofs": 472,
+              "score": 32.03331964084823
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 25.74539287781417,
+              "added_dofs": 708,
+              "score": 25.74539287781417
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 11.798243976846983,
+              "added_dofs": 708,
+              "score": 11.798243976846983
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 15.312726724376008,
+              "added_dofs": 708,
+              "score": 15.312726724376008
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 4.8547342467141315,
+              "added_dofs": 708,
+              "score": 4.8547342467141315
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 4.88325690563968,
+              "added_dofs": 750,
+              "score": 4.88325690563968
+            },
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.39000274088529013
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 9,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            7.466269596370115e-10,
+            1.1067420667043772e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818349192748,
+            0.0012737247674271279,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045873081875,
+            3.18431192856782e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00044829146111115633,
+            0.5895428911675498,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.336823488641401e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 50.5928794112275,
+              "added_dofs": 696,
+              "score": 50.5928794112275
+            },
+            {
+              "axis": "x",
+              "low": 10.5,
+              "high": 12.0,
+              "benefit": 29.34467351248044,
+              "added_dofs": 464,
+              "score": 29.34467351248044
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 28.464849919640358,
+              "added_dofs": 696,
+              "score": 28.464849919640358
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 11.383427159149004,
+              "added_dofs": 696,
+              "score": 11.383427159149004
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 14.227140086314193,
+              "added_dofs": 696,
+              "score": 14.227140086314193
+            },
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 6.640043315739396,
+              "added_dofs": 726,
+              "score": 6.640043315739396
+            },
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 6.6247089556879395,
+              "added_dofs": 714,
+              "score": 6.6247089556879395
+            },
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6833127339067687,
+              "added_dofs": 744,
+              "score": 0.6833127339067687
+            },
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.527182033494589,
+              "added_dofs": 732,
+              "score": 0.527182033494589
+            }
+          ],
+          "candidate_cells": 15494,
+          "audit_cells": 36864,
+          "full_operator_audits": 10,
+          "accepted": true,
+          "relative_transfer_error": [
+            2.1380905681719414e-08,
+            9.927860833751143e-07
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": -1.9059598344028927e-10,
+          "common_grid_energy_jump": -1.6488144183313125e-10,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-residual-1"
+    },
+    {
+      "strategy": "uniform",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.002237417036667466,
+        "solver_s": 0.5279169684508815,
+        "allocation_s": 0.0,
+        "final_validation_s": 0.00798145798034966,
+        "evolution_and_allocation_s": 0.5279169684508815
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 73730,
+      "mean_field_cells": 36864.0,
+      "inventory_drift": 2.2737367544323206e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 1474560,
+      "peak_rss_bytes": 79773696,
+      "final_indicator": {
+        "squared": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818342609836,
+          0.0012701132627084186,
+          0.023891450371452058
+        ],
+        "budget_squared": [
+          0.0037152045856624597,
+          3.175283166771047e-06,
+          5.972862593863016e-05
+        ],
+        "budget_ratios": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 0.0,
+        "line_block_present": true
+      },
+      "audits": [],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-uniform-1"
+    }
+  ],
+  "comparisons": [
+    {
+      "strategy": "geometry",
+      "repetitions": 1,
+      "reference_runtime_s": 0.5279169684508815,
+      "runtime_s": 0.45344983611721545,
+      "runtime_ratio": 1.1642235290485727,
+      "dof_ratio": 2.083945732052007,
+      "errors": {
+        "phase": {
+          "l1": 1.170031560293705e-09,
+          "l2": 1.710949589367204e-08,
+          "linf": 5.150508612938864e-07,
+          "relative_l2": 1.7180853120604246e-08
+        },
+        "phase_fraction": {
+          "l1": 5.850157801209238e-10,
+          "l2": 8.55474794683602e-09,
+          "linf": 2.575254306469432e-07,
+          "relative_l2": 1.309767475814747e-07
+        },
+        "population": {
+          "l1": 1.5718213413090123e-09,
+          "l2": 1.7853641694555463e-08,
+          "linf": 6.048458923157973e-07,
+          "relative_l2": 8.921115391304649e-08
+        },
+        "population_excess": {
+          "l1": 1.5718213413090123e-09,
+          "l2": 1.7853641694555463e-08,
+          "linf": 6.048458923157973e-07,
+          "relative_l2": 1.2341987467169034e-05
+        }
+      },
+      "line_position_error": 2.4424906541753444e-14,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 79773696.0,
+      "peak_rss_bytes": 83214336.0
+    },
+    {
+      "strategy": "residual",
+      "repetitions": 1,
+      "reference_runtime_s": 0.5279169684508815,
+      "runtime_s": 0.617189874406904,
+      "runtime_ratio": 0.8553558480819046,
+      "dof_ratio": 2.3791545659890287,
+      "errors": {
+        "phase": {
+          "l1": 2.424614865686577e-09,
+          "l2": 2.3695975574325708e-08,
+          "linf": 5.152981883416174e-07,
+          "relative_l2": 2.379480251329254e-08
+        },
+        "phase_fraction": {
+          "l1": 1.212307432803572e-09,
+          "l2": 1.1847987787162854e-08,
+          "linf": 2.576490941708087e-07,
+          "relative_l2": 1.813976186547451e-07
+        },
+        "population": {
+          "l1": 8.136481041049674e-07,
+          "l2": 7.281370783705412e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 3.6383584973658076e-05
+        },
+        "population_excess": {
+          "l1": 8.136481041049674e-07,
+          "l2": 7.281370783705412e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 0.005033515766349681
+        }
+      },
+      "line_position_error": 9.250278520944732e-07,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 79773696.0,
+      "peak_rss_bytes": 83378176.0
+    },
+    {
+      "strategy": "cost",
+      "repetitions": 1,
+      "reference_runtime_s": 0.5279169684508815,
+      "runtime_s": 0.6275521308416501,
+      "runtime_ratio": 0.8412320546866099,
+      "dof_ratio": 2.3791545659890287,
+      "errors": {
+        "phase": {
+          "l1": 2.424614865686577e-09,
+          "l2": 2.3695975574325708e-08,
+          "linf": 5.152981883416174e-07,
+          "relative_l2": 2.379480251329254e-08
+        },
+        "phase_fraction": {
+          "l1": 1.212307432803572e-09,
+          "l2": 1.1847987787162854e-08,
+          "linf": 2.576490941708087e-07,
+          "relative_l2": 1.813976186547451e-07
+        },
+        "population": {
+          "l1": 8.136481041049674e-07,
+          "l2": 7.281370783705412e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 3.6383584973658076e-05
+        },
+        "population_excess": {
+          "l1": 8.136481041049674e-07,
+          "l2": 7.281370783705412e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 0.005033515766349681
+        }
+      },
+      "line_position_error": 9.250278520944732e-07,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 79773696.0,
+      "peak_rss_bytes": 84393984.0
+    }
+  ],
+  "date": "2026-09-12",
+  "interpretation": "Two-grid operator discrepancy; no exact Galerkin optimality or novelty claim."
+}

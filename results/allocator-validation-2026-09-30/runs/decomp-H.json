@@ -1,0 +1,40 @@
+{
+ "tag": "decomp-H",
+ "method": "H",
+ "grid": 256,
+ "seed": 91,
+ "n_dense": 500000,
+ "n_c": 64,
+ "steps": 1000,
+ "dt": 0.0009765625,
+ "time_refine": 1,
+ "b0": 3.7032842354555524e-06,
+ "M": 540061.1653979549,
+ "tau": 0.5,
+ "cpu_seconds": 5.15625,
+ "wall_seconds": 5.1819556999998895,
+ "init_cpu_seconds": 0.09375,
+ "cpu_per_base_step": 0.00515625,
+ "wall_per_base_step": 0.00518195569999989,
+ "final_particles": 237,
+ "final_continuum_blocks": 116,
+ "conversion_events": 188,
+ "max_conversion_error": 1.1636877431720793e-16,
+ "components": {
+  "stress": 0.0023831058999749075,
+  "particle_grid": 0.0005995812000110163,
+  "transport": 0.001356628300010925,
+  "allocation": 5.9908900002483275e-05
+ },
+ "environment": {
+  "python": "3.14.2",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "cpu_count": 24,
+  "threads": "OPENBLAS/OMP/MKL/VECLIB_NUM_THREADS=1",
+  "timer": "time.process_time",
+  "cpu_percent_at_start": 3.5
+ }
+}

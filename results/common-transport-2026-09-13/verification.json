@@ -1,0 +1,38 @@
+{
+  "pytest_passed": 107,
+  "invariant_stability_checks_passed": 30,
+  "invariant_stability_checks_total": 30,
+  "kinetic_gates": {
+    "adaptive": true,
+    "adaptive-half": true,
+    "fallback": true,
+    "field": true,
+    "field-half": true,
+    "plain": false
+  },
+  "fallback_arrays_identical": true,
+  "source_hashes_match": true,
+  "local_document_links_resolve": true,
+  "parameter_modules": 23,
+  "parameter_declarations": 177,
+  "proven_scope": "Common planar continuum mobility, variational correction, kinetic budget and chart/full restart.",
+  "general_topology_verified": false,
+  "efficiency_advantage_verified": false,
+  "full_original_objective_complete": false,
+  "source_note": "Collection hashes include a later invalid-input guard and separate checkpoint helpers; trajectory arithmetic was unchanged. Tests were rerun after the guard.",
+  "artifact_sha256": {
+    "COMMON_TRANSPORT_RESULTS.md": "c1de9167c1f5b848b966a62bfd3b46e79d6f6535496f46911a360fcd749a35d7",
+    "README.md": "a62804df2ce48be5533cc05309ab00d22573e32d1ee013f0d6d97efa6c5f8e74",
+    "CURRENT_RESULTS.md": "f66b5214b81467fb63c7f6c8069d4d5ec64df507a764c6e1da57c287796c68b9",
+    "COMPLETION_AUDIT.md": "5815feb802da15c216d64098a7b4e3882d377e6bba860783a952d729a6ed39ac",
+    "PLAN.md": "2ae31bae39e3bc974e8f05b4e8ca5f29b68afefbdbb13a62dfbec3248ff9bc1a",
+    "PARAMETER_REGISTRY.md": "4a71515ed21505358aa866106a2b27f67ad6d5d3de8d3ca76cf29164bcb6187d",
+    "THEORY_REVIEW.md": "609407db3add97f8f01a70a074918706cfe7d97917ae4134cf45b3f640d07b1e",
+    "unified_multiscale_defect_framework.md": "57650780e5f680ad3bce254796ffffa0debc050d86f7371cfa51ff139ffb5833",
+    "src/bmvr/transport_metric.py": "28b553f6e1b8a342c71d4198a8186ceaf18662f857d4010be409f8349a5bbdf3",
+    "src/bmvr/transport_checkpoint.py": "53ed12539aa61f1381db7b13132fb9c6642a7b573fd3623533942d94e5bad346",
+    "tests/test_transport_metric.py": "3a49fe73836d7f3ef265f6304fd76f4d2f4e3a2d29aec2e339a8fad0332ecd8b",
+    "benchmarks/common_transport.py": "057e67b86bb08af6e40abce9ab0a0c3ba7e6094ba2f3b1e67e8868db451d4a6d",
+    "benchmarks/common_transport_report.py": "a670910b631421abdb9f4a04931f50333f918e45e66b7a6a8c38688cbd1e503e"
+  }
+}

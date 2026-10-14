@@ -1,0 +1,65 @@
+{
+ "date": "2026-09-26",
+ "declared_gates": {
+  "mobility_within_10_percent": false,
+  "mesh_change_within_5_percent": false,
+  "inventory": true,
+  "energy": true
+ },
+ "post_hoc": {
+  "single-0.5": {
+   "slope": 0.35155305304194023,
+   "intercept": -3.8792069056283e-05,
+   "r_squared": 0.9999483154353744,
+   "max_abs_drive": 0.05519301637964104,
+   "min_abs_drive": 0.0006521716634210854,
+   "well_conditioned_max_relative_error": 0.023248527205340652
+  },
+  "single-0.25": {
+   "slope": 0.3520445499706471,
+   "intercept": -5.950989714086961e-05,
+   "r_squared": 0.9999404298319601,
+   "max_abs_drive": 0.0551898651217891,
+   "min_abs_drive": 0.0006695814280278968,
+   "well_conditioned_max_relative_error": 0.035216202061841395
+  },
+  "squared-0.5": {
+   "slope": 0.9652355920010344,
+   "intercept": -0.0025525355456922976,
+   "r_squared": 0.9979272997603218,
+   "max_abs_drive": 0.040110834152171676,
+   "min_abs_drive": 0.001471031135553521,
+   "well_conditioned_max_relative_error": null
+  },
+  "squared-0.25": {
+   "slope": 0.9666966157845893,
+   "intercept": -0.0026292884174117467,
+   "r_squared": 0.9978256201642779,
+   "max_abs_drive": 0.04014328056876721,
+   "min_abs_drive": 0.0015127928975748155,
+   "well_conditioned_max_relative_error": null
+  }
+ },
+ "two_parameter": {
+  "single-0.5": {
+   "mobility": 0.35185199663126865,
+   "capillary_factor": 1.0077814826823333,
+   "rms_residual": 5.3300794781189004e-05
+  },
+  "single-0.25": {
+   "mobility": 0.3522993358767001,
+   "capillary_factor": 1.0104131984854923,
+   "rms_residual": 5.3151396063665324e-05
+  },
+  "squared-0.5": {
+   "mobility": 0.9594674314585109,
+   "capillary_factor": 1.1228600843411054,
+   "rms_residual": 0.00012923024665561
+  },
+  "squared-0.25": {
+   "mobility": 0.9607431967712331,
+   "capillary_factor": 1.1263172989076464,
+   "rms_residual": 0.00012961872501710412
+  }
+ }
+}

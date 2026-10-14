@@ -1,0 +1,97 @@
+{
+ "sources": {
+  "formation_migration": "J. Phys. F: Met. Phys. 6 (1976), doi:10.1088/0305-4608/6/8/003",
+  "constants": "Wikipedia \"Copper\" (lattice constant, shear modulus), secondary",
+  "assumed": {
+   "entropy_over_k": [
+    1.0,
+    2.0
+   ],
+   "shear_softening": [
+    0.75,
+    1.0
+   ],
+   "attempt_frequency": 10000000000000.0
+  }
+ },
+ "atomic_volume_m3": 1.1809428253987251e-29,
+ "rows": [
+  {
+   "T": 800.0,
+   "kT_eV": 0.068938666096,
+   "theta_over_mu": 0.019485123387332312,
+   "theta_over_mu_softened": [
+    0.019485123387332312,
+    0.025980164516443083
+   ],
+   "formation_over_theta": [
+    16.712285471314758,
+    17.712285471314758
+   ],
+   "x_eq": [
+    2.0307298747350146e-08,
+    5.520096117001103e-08
+   ],
+   "x_eq_factor_from_E_f": 1.336578450103501,
+   "x_eq_ratio_resistivity_vs_positron": 1.3365784501035012,
+   "diffusivity_m2_s": 1.4235337181139507e-11,
+   "diffusivity_factor_from_E_m": 3.191374852442708
+  },
+  {
+   "T": 1000.0,
+   "kT_eV": 0.08617333262,
+   "theta_over_mu": 0.02435640423416539,
+   "theta_over_mu_softened": [
+    0.02435640423416539,
+    0.032475205645553853
+   ],
+   "formation_over_theta": [
+    12.969828377051806,
+    13.969828377051806
+   ],
+   "x_eq": [
+    8.569996068914692e-07,
+    2.3295664584096258e-06
+   ],
+   "x_eq_factor_from_E_f": 1.2612336918266511,
+   "x_eq_ratio_resistivity_vs_positron": 1.2612336918266513,
+   "diffusivity_m2_s": 1.2182227980123959e-10,
+   "diffusivity_factor_from_E_m": 2.5303596574720615
+  },
+  {
+   "T": 1200.0,
+   "kT_eV": 0.103407999144,
+   "theta_over_mu": 0.029227685080998468,
+   "theta_over_mu_softened": [
+    0.029227685080998468,
+    0.038970246774664624
+   ],
+   "formation_over_theta": [
+    10.474856980876504,
+    11.474856980876504
+   ],
+   "x_eq": [
+    1.0388023718815214e-05,
+    2.8237576108456955e-05
+   ],
+   "x_eq_factor_from_E_f": 1.2133785215981434,
+   "x_eq_ratio_resistivity_vs_positron": 1.2133785215981436,
+   "diffusivity_m2_s": 5.096820813405937e-10,
+   "diffusivity_factor_from_E_m": 2.167630296193092
+  }
+ ],
+ "synthetic": {
+  "theta": 0.02,
+  "equilibrium": 0.05,
+  "formation_over_theta": 2.9444389791664403,
+  "equivalent_temperature_K": 821.1392703010509,
+  "physical_formation_over_theta_at_equivalent_T": [
+   16.230559563377696,
+   17.230559563377696
+  ],
+  "physical_x_eq_at_equivalent_T": [
+   3.287479561908742e-08,
+   8.936295954567035e-08
+  ]
+ }
+}

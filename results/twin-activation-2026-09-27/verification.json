@@ -1,0 +1,13 @@
+{
+ "date": "2026-09-27",
+ "kind": "derivation with stated input ranges",
+ "dG0_eV": [
+  0.493,
+  0.833
+ ],
+ "activation_volume_b3": [
+  15.8,
+  73.2
+ ],
+ "document": "BARRIER_DATA_RESULTS.md"
+}

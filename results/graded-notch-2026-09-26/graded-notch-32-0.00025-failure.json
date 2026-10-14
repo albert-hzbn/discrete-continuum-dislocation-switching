@@ -1,0 +1,7 @@
+{
+  "error": "Element corner inversion.",
+  "step": 1314,
+  "n": 32,
+  "dt": 0.00025,
+  "variant": "graded-notch"
+}

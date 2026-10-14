@@ -1,0 +1,6 @@
+nodal-tensile-16-0.00025 checks True drift 3.818453277566723e-08 damage 0.09967603624556035 solver 41.315169221314136
+nodal-tensile-24-0.00025 checks True drift 7.814970092145358e-08 damage 0.09803185828296646 solver 91.71319531885092
+nodal-tensile-32-0.00025 checks True drift 1.444080099304078e-07 damage 0.0969105048844112 solver 159.53536065341905
+nodal-tensile-24-0.001 checks True drift 2.54392735906065e-07 damage 0.09803185315139736 solver 30.06825171795208
+nodal-tensile-24-0.0005 checks True drift 7.730552096734703e-08 damage 0.0980318573459523 solver 49.10157175065251
+Accuracy: {'mesh_c': True, 'time_c': True, 'time_decreases_c': True, 'mesh_eta': True, 'time_eta': True, 'time_decreases_eta': True, 'mesh_T': True, 'time_T': True, 'time_decreases_T': True, 'mesh_slip': False, 'time_slip': True, 'time_decreases_slip': True, 'mesh_damage': True, 'time_damage': True, 'time_decreases_damage': True} Geometry: {'top_fraction': True, 'notch_fraction': False, 'front_advance': True, 'front_mesh': True}

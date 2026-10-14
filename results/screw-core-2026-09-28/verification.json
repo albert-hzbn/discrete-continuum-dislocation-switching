@@ -1,0 +1,46 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "82",
+ "declared_gates": {
+  "P1_lattice": true,
+  "P2_cohesive": true,
+  "P3_elastic": true,
+  "P4_positive_fault": true,
+  "C1_separation": false
+ },
+ "document": "SCREW_CORE_RESULTS.md",
+ "post_hoc": [
+  "post-hoc-tolerance.json",
+  "anisotropic.json"
+ ],
+ "excluded": [
+  "report-zjw-truncated-geometry.json (cylinder truncated by the box; retained, excluded)"
+ ],
+ "figures": [
+  "figures/screw-disregistry.png"
+ ],
+ "potential": "Zhou-Johnson-Wadley 2004 analytical EAM (src/bmvr/eam_zjw.py); EMT blocked result in partial.json",
+ "notes": "C1 failed at the declared 0.01 eV/A tolerance; converged separation 25.6 A (R = 120) lies between the anisotropic 18.7 A and isotropic 30.4 A predictions.",
+ "mishin_section_82_6": {
+  "declared_gates": {
+   "P1_lattice": true,
+   "P2_cohesive": true,
+   "P3_elastic": true,
+   "P4_positive_fault": true,
+   "P0_reader": true,
+   "P5_fault_band": true,
+   "C2_bracket": true
+  },
+  "separation_A": {
+   "60": 13.152061190566293,
+   "120": 13.348092729557138
+  },
+  "bracket_A": [
+   9.985513300730952,
+   16.35636514826862
+  ],
+  "figure": "figures/screw-zjw-mishin.png"
+ }
+}

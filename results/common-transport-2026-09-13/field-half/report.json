@@ -1,0 +1,51 @@
+{
+  "kind": "field",
+  "dt": 0.01,
+  "end": 3.9999999999999587,
+  "steps": 400,
+  "final_mode": "field",
+  "parameters": {
+    "n": 13,
+    "length": 12.0,
+    "core_coefficient": 0.3,
+    "initial_core": 0.8,
+    "field_mobility": 10.0,
+    "budget": 0.05,
+    "detail_cap": 2
+  },
+  "initial_energy": 1.5847039272444323,
+  "final_energy": 1.583051154698855,
+  "max_energy_increase": 0.0,
+  "max_plastic_trace": 0.0,
+  "max_divergence_relative": 5.288972023486494e-16,
+  "maximum_used_chart_residual": null,
+  "initial_used_chart_residual": null,
+  "source_change_relative": 0.07151344458380414,
+  "maximum_detail_storage_bytes": 0,
+  "full_scalar_state_bytes": 17576,
+  "final_active_coordinates": 2197,
+  "events": [],
+  "timings": {
+    "initialization_s": 0.006669958005659282,
+    "audit_and_enrichment_s": 5.9262034483253956e-05,
+    "solver_s": 2.8828965856228024,
+    "compilation_s": 0.0,
+    "array_io_s": 0.004377000033855438
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "nontrivial_evolution": true,
+    "activation_state_unchanged": true
+  },
+  "kinetic_budget_met": true,
+  "peak_rss_bytes": 91914240
+}

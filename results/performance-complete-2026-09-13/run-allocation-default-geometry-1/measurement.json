@@ -1,0 +1,29 @@
+{
+  "config": {
+    "kind": "allocation",
+    "variant": "geometry"
+  },
+  "categories": {
+    "initialization_s": 0.0008447919972240925,
+    "solver_s": 0.32652750227134675,
+    "adaptation_s": 0.1166361658833921,
+    "diagnostics_s": 0.004778958973474801,
+    "compilation_s": 0.0,
+    "other_experiment_s": 0.022034039837308228,
+    "array_output_s": 0.007231499999761581,
+    "report_output_s": 0.0003609160194173455
+  },
+  "experiment_s": 0.47082145896274596,
+  "numerical_peak_rss_bytes": 101875712,
+  "post_output_peak_rss_bytes": 101875712,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "processor": "arm",
+    "logical_cpus": 14,
+    "numerical_threads": 1
+  }
+}

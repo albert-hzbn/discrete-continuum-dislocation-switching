@@ -1,0 +1,12 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "80",
+ "declared_gates": {
+  "C1_schmid": true,
+  "C2_classes": true,
+  "C3_taylor": true
+ },
+ "document": "FCC_FAMILY_RESULTS.md"
+}

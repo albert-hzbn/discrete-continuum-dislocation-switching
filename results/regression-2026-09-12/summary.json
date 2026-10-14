@@ -1,0 +1,970 @@
+{
+  "reports": [
+    {
+      "case": 1,
+      "name": "Allen-Cahn circular inclusion",
+      "variant": "adaptive",
+      "metrics": {
+        "steps": 600,
+        "dt": 0.02,
+        "end_time": 12.0,
+        "h": 0.5,
+        "length": 128.0,
+        "physical_profile_scale": 1.4142135623730951,
+        "initial_radius": 14.058624893239118,
+        "final_radius": 13.185304517595245,
+        "radius_squared_slope": -1.9819050751594778,
+        "curvature_slope_relative_error": 0.00904746242026111,
+        "profile_ansatz_rms": 0.029716418197989813,
+        "max_recorded_energy_increase": 0.0,
+        "initial_dofs": 19600,
+        "final_dofs": 16900,
+        "mean_dofs": 17332.0,
+        "uniform_dofs": 65536,
+        "stored_array_bytes": 547056,
+        "accepted_transfers": 1,
+        "peak_rss_bytes": 89309184
+      },
+      "checks": {
+        "energy_decay": true,
+        "curvature_slope": true,
+        "finite_values": true
+      },
+      "limitations": [
+        "The profile ansatz and curvature law have finite-width errors.",
+        "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+      ],
+      "timings": {
+        "initialization_s": 0.0004957920173183084,
+        "solver_s": 0.10966563690453768,
+        "adaptation_s": 0.00642554194200784,
+        "diagnostics_s": 0.0027635841397568583,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.11973374988883734,
+        "unclassified_s": 0.00038319488521665335,
+        "array_io_s": 0.002355333068408072
+      },
+      "status": "partial",
+      "transfers": [
+        {
+          "changed": true,
+          "reason": "accepted",
+          "relative_l2": 3.3834524086439437e-07,
+          "energy_jump": -4.685986709773715e-09,
+          "common_grid_energy_jump": 7.954128022902296e-09,
+          "mass_error": 0.0,
+          "old_cells": 19600,
+          "proposed_cells": 16900
+        },
+        {
+          "changed": false,
+          "reason": "same_grid"
+        },
+        {
+          "changed": false,
+          "reason": "same_grid"
+        },
+        {
+          "changed": false,
+          "reason": "same_grid"
+        },
+        {
+          "changed": false,
+          "reason": "audit_rejected",
+          "relative_l2": 2.9757577112639013e-07,
+          "energy_jump": -4.466656378099287e-09,
+          "common_grid_energy_jump": 1.3417121635939111e-08,
+          "mass_error": 0.0,
+          "old_cells": 16900,
+          "proposed_cells": 16384
+        },
+        {
+          "changed": false,
+          "reason": "audit_rejected",
+          "relative_l2": 2.421183374215018e-07,
+          "energy_jump": -2.9562698955487576e-09,
+          "common_grid_energy_jump": 8.883304758455779e-09,
+          "mass_error": 1.8189894035458565e-12,
+          "old_cells": 16900,
+          "proposed_cells": 16384
+        }
+      ],
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-01-adaptive-1"
+    },
+    {
+      "case": 1,
+      "name": "Allen-Cahn circular inclusion",
+      "variant": "reference",
+      "metrics": {
+        "steps": 600,
+        "dt": 0.02,
+        "end_time": 12.0,
+        "h": 0.5,
+        "length": 128.0,
+        "physical_profile_scale": 1.4142135623730951,
+        "initial_radius": 14.058624899481943,
+        "final_radius": 13.185304517065463,
+        "radius_squared_slope": -1.9819050813954509,
+        "curvature_slope_relative_error": 0.009047459302274574,
+        "profile_ansatz_rms": 0.02971641818577141,
+        "max_recorded_energy_increase": 0.0,
+        "initial_dofs": 65536,
+        "final_dofs": 65536,
+        "mean_dofs": 65536.0,
+        "uniform_dofs": 65536,
+        "stored_array_bytes": 2109456,
+        "accepted_transfers": 0,
+        "peak_rss_bytes": 87359488
+      },
+      "checks": {
+        "energy_decay": true,
+        "curvature_slope": true,
+        "finite_values": true
+      },
+      "limitations": [
+        "The profile ansatz and curvature law have finite-width errors.",
+        "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+      ],
+      "timings": {
+        "initialization_s": 0.003285749931819737,
+        "solver_s": 0.3369642129400745,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.007113330881111324,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.34804033301770687,
+        "unclassified_s": 0.0006770392647013068,
+        "array_io_s": 0.005200791987590492
+      },
+      "status": "partial",
+      "transfers": [],
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-01-reference-1"
+    },
+    {
+      "case": 2,
+      "name": "Cahn-Hilliard spinodal decomposition",
+      "variant": "adaptive",
+      "metrics": {
+        "steps": 8000,
+        "dt": 0.025,
+        "end_time": 200.0,
+        "h": 0.5,
+        "mass_drift": 7.561729020721941e-13,
+        "max_recorded_energy_increase": 0.0,
+        "initial_length": 1.3101888726311832,
+        "final_length": 14.757927180792915,
+        "finite_time_exponent": 0.22012103978973646,
+        "fit_interval": [
+          80,
+          200
+        ],
+        "asymptotic_exponent_verified": false,
+        "final_dofs": 16384,
+        "stored_array_bytes": 661520,
+        "peak_rss_bytes": 84852736
+      },
+      "checks": {
+        "mass_conservation": true,
+        "energy_decay": true,
+        "phase_separation": true
+      },
+      "limitations": [
+        "Dense activity forces a full-grid fallback; no DOF saving is expected.",
+        "The finite-time slope is reported, but the asymptotic 1/3 law is inconclusive.",
+        "A separate fixed-width spatial/time study is provided; the long coarsening run is not an asymptotic-exponent certification."
+      ],
+      "timings": {
+        "initialization_s": 0.0008012090111151338,
+        "solver_s": 3.3189791281474754,
+        "adaptation_s": 0.12800440657883883,
+        "diagnostics_s": 0.11924306687433273,
+        "compilation_s": 0.0,
+        "experiment_total_s": 3.5692758329678327,
+        "unclassified_s": 0.002248022356070578,
+        "array_io_s": 0.012439125101082027
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-02-adaptive-1"
+    },
+    {
+      "case": 2,
+      "name": "Cahn-Hilliard spinodal decomposition",
+      "variant": "reference",
+      "metrics": {
+        "steps": 8000,
+        "dt": 0.025,
+        "end_time": 200.0,
+        "h": 0.5,
+        "mass_drift": 7.561729020721941e-13,
+        "max_recorded_energy_increase": 0.0,
+        "initial_length": 1.3101888726311832,
+        "final_length": 14.757927180792915,
+        "finite_time_exponent": 0.22012103978973646,
+        "fit_interval": [
+          80,
+          200
+        ],
+        "asymptotic_exponent_verified": false,
+        "final_dofs": 16384,
+        "stored_array_bytes": 661520,
+        "peak_rss_bytes": 86327296
+      },
+      "checks": {
+        "mass_conservation": true,
+        "energy_decay": true,
+        "phase_separation": true
+      },
+      "limitations": [
+        "Dense activity forces a full-grid fallback; no DOF saving is expected.",
+        "The finite-time slope is reported, but the asymptotic 1/3 law is inconclusive.",
+        "A separate fixed-width spatial/time study is provided; the long coarsening run is not an asymptotic-exponent certification."
+      ],
+      "timings": {
+        "initialization_s": 0.0013362501049414277,
+        "solver_s": 3.3885261537507176,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.12795253191143274,
+        "compilation_s": 0.0,
+        "experiment_total_s": 3.5198514580260962,
+        "unclassified_s": 0.002036522259004414,
+        "array_io_s": 0.01264083303976804
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-02-reference-1"
+    },
+    {
+      "case": 3,
+      "name": "Symmetric multiphase grain growth",
+      "variant": "reference",
+      "metrics": {
+        "steps": 800,
+        "end_time": 19.999999999999932,
+        "phase_sum_error": 2.220446049250313e-16,
+        "max_recorded_energy_increase": 0.0,
+        "junction_sector_degrees": [
+          107.5,
+          125.5,
+          127.0,
+          110.5,
+          124.0,
+          125.5,
+          118.5,
+          123.5,
+          118.0,
+          125.0,
+          129.0,
+          106.0,
+          121.5,
+          116.5,
+          122.0,
+          137.0,
+          111.5,
+          111.5,
+          131.0,
+          108.0,
+          121.0,
+          119.0,
+          112.5,
+          128.5,
+          116.5,
+          127.5,
+          116.0,
+          125.5,
+          112.0,
+          122.5,
+          116.5,
+          123.0,
+          120.5
+        ],
+        "junction_mean_abs_error_degrees": 6.03030303030303,
+        "initial_grains": 11,
+        "remaining_grains": 10,
+        "mean_abs_area_change": 9.47322866422223,
+        "final_dofs": 45056,
+        "stored_array_bytes": 461840,
+        "grain_eliminations": 1,
+        "winning_phase_labels": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "max_fraction_by_phase": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "peak_rss_bytes": 86228992
+      },
+      "checks": {
+        "phase_simplex": true,
+        "energy_decay": true,
+        "grain_migration": true
+      },
+      "limitations": [
+        "Finite-ring angles are transient estimates, not converged equilibrium validation.",
+        "Statistical grain-growth scaling, mesh convergence and an adaptive comparison remain open."
+      ],
+      "timings": {
+        "initialization_s": 0.0012657910119742155,
+        "solver_s": 0.8427986067254096,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.8517052080715075,
+        "unclassified_s": 0.007640810334123671,
+        "array_io_s": 0.0020554999355226755
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-03-reference-1"
+    },
+    {
+      "case": 4,
+      "name": "Coherent precipitate with aligned anisotropy",
+      "variant": "reference",
+      "metrics": {
+        "steps": 400,
+        "end_time": 7.999999999999917,
+        "volume_constraint_drift": 2.2737367544323206e-13,
+        "max_recorded_energy_increase": 0.0,
+        "elastic_equilibrium_residual": 1.7623342608577206e-16,
+        "structural_force_rms": 0.005559992654410215,
+        "transient_y_over_x_aspect": 1.0989568695284109,
+        "two_precipitate_elastic_interaction": 0.1117783355484715,
+        "final_elastic_energy": 2.510834263336636,
+        "final_dofs": 4225,
+        "stored_array_bytes": 307336,
+        "equilibrium_force_rms": 3.6716159905341754e-07,
+        "equilibrium_y_over_x_aspect": 1.1831127586818595,
+        "equilibrium_optimizer_success": true,
+        "equilibrium_optimizer_iterations": 66,
+        "peak_rss_bytes": 85442560
+      },
+      "checks": {
+        "elastic_equilibrium": true,
+        "volume_constraint": true,
+        "energy_decay": true,
+        "stationary_shape_residual": true
+      },
+      "limitations": [
+        "A separate constrained equilibrium solve is provided; shape mesh convergence remains open.",
+        "Homogeneous plane-strain elasticity, aligned anisotropy and fixed mean strain only.",
+        "Adaptive elastic discretization and full misfit calibration remain open."
+      ],
+      "timings": {
+        "initialization_s": 0.0009504589252173901,
+        "solver_s": 0.2773566080722958,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "equilibrium_optimization_s": 0.06763199996203184,
+        "experiment_total_s": 0.3479973750654608,
+        "unclassified_s": 0.002058308105915785,
+        "array_io_s": 0.003950915997847915
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-04-reference-1"
+    },
+    {
+      "case": 5,
+      "name": "Point-defect diffusion to an absorbing planar sink",
+      "variant": "reference",
+      "metrics": {
+        "spatial_convergence": [
+          {
+            "n": 64,
+            "h": 0.015625,
+            "relative_l2": 2.470963968452255e-05,
+            "balance_error": 1.1657341758564144e-14,
+            "captured_inventory": 0.24796127867149964,
+            "solver_s": 0.002369082998484373,
+            "steps": 400
+          },
+          {
+            "n": 128,
+            "h": 0.0078125,
+            "relative_l2": 6.130502906164236e-06,
+            "balance_error": 3.8968828164342995e-14,
+            "captured_inventory": 0.24796383179238468,
+            "solver_s": 0.0018563339253887534,
+            "steps": 400
+          },
+          {
+            "n": 256,
+            "h": 0.00390625,
+            "relative_l2": 1.4856844615523249e-06,
+            "balance_error": 3.0164759579065503e-13,
+            "captured_inventory": 0.24796447006230457,
+            "solver_s": 0.0023638750426471233,
+            "steps": 400
+          }
+        ],
+        "observed_orders": [
+          2.0109966403675554,
+          2.0448776876794414
+        ],
+        "final_relative_l2": 1.4856844615523249e-06,
+        "mass_plus_sink_balance_error": 3.0164759579065503e-13,
+        "peak_rss_bytes": 79413248
+      },
+      "checks": {
+        "analytical_profile": true,
+        "sink_balance": true,
+        "spatial_convergence": true
+      },
+      "limitations": [
+        "Planar absorbing-sink reduction; dislocation and pore sink-strength calibration remain open."
+      ],
+      "timings": {
+        "initialization_s": 0.0,
+        "solver_s": 0.00658929196652025,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.011470541940070689,
+        "unclassified_s": 0.004881249973550439,
+        "array_io_s": 0.0008203330216929317
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-05-reference-1"
+    },
+    {
+      "case": 6,
+      "name": "Regularized screw dislocation motion and reactions",
+      "variant": "reference",
+      "metrics": {
+        "dt": 0.05,
+        "end_time": 40.0,
+        "steps_per_pair": 800,
+        "far_field_relative_error": 0.009900990099009858,
+        "fixed_core_energy_quadrature": [
+          {
+            "radial_cells": 256,
+            "relative_error": 1.6413101079092882e-06
+          },
+          {
+            "radial_cells": 512,
+            "relative_error": 2.695787770022071e-08
+          },
+          {
+            "radial_cells": 1024,
+            "relative_error": 1.6611196084489136e-08
+          }
+        ],
+        "same_sign_final_separation": 6.398703863676963,
+        "annihilation_events": [
+          {
+            "step": 545,
+            "occurred": true,
+            "released_energy": 0.054769551065620314,
+            "burgers_error": 0.0
+          }
+        ],
+        "max_recorded_energy_increase": 0.0,
+        "single_line_velocity_stress_slope": 1.0000000000000007,
+        "specified_mobility": 1.0,
+        "peak_rss_bytes": 78888960
+      },
+      "checks": {
+        "far_field_stress": true,
+        "same_sign_repulsion": true,
+        "opposite_sign_annihilation": true,
+        "burgers_balance": true,
+        "pair_energy_decay": true,
+        "linear_velocity_stress": true,
+        "core_quadrature_convergence": true
+      },
+      "limitations": [
+        "Straight screw sections and a softened pair closure; curved-line dynamics are not implemented.",
+        "Isolated stress energy and pair energy have distinct near-core closures.",
+        "The velocity-stress test verifies the specified linear drag law; a material-calibrated curve remains open."
+      ],
+      "timings": {
+        "initialization_s": 0.0,
+        "solver_s": 0.027412833995185792,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.027972416952252388,
+        "unclassified_s": 0.0005595829570665956,
+        "array_io_s": 0.0015655000461265445
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-06-reference-1"
+    },
+    {
+      "case": 7,
+      "name": "Screw interaction with a fixed diffuse interface",
+      "variant": "reference",
+      "metrics": {
+        "trajectories": [
+          {
+            "drive": 0.005,
+            "final_x": 0.02133435418067699,
+            "crossed_midplane": true,
+            "escaped_binding_region": false,
+            "max_energy_increase": 0.0
+          },
+          {
+            "drive": 0.08,
+            "final_x": 0.35565493935310194,
+            "crossed_midplane": true,
+            "escaped_binding_region": false,
+            "max_energy_increase": 0.0
+          }
+        ],
+        "interface_profile_scale": 1.4142135623730951,
+        "absorption": null,
+        "crystallographic_transmission": null,
+        "reflection": null,
+        "residual_burgers_vector": null,
+        "peak_rss_bytes": 81231872
+      },
+      "checks": {
+        "binding_dynamics": true,
+        "driven_potential_decay": true
+      },
+      "limitations": [
+        "Binding and glide across a prescribed diffuse profile are demonstrated.",
+        "Midplane crossing is not crystallographic transmission.",
+        "Absorption, reflection, slip-system selection, residual interfacial Burgers content and their barriers are uncalibrated and disabled."
+      ],
+      "timings": {
+        "initialization_s": 0.0,
+        "solver_s": 0.36634583305567503,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.36655891593545675,
+        "unclassified_s": 0.00021308287978172302,
+        "array_io_s": 0.0027097080601379275
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-07-reference-1"
+    },
+    {
+      "case": 8,
+      "name": "Vacancy-coupled pore growth and shrinkage",
+      "variant": "reference",
+      "metrics": {
+        "runs": [
+          {
+            "supersaturation": 0.005,
+            "steps": 1000,
+            "initial_pore_area": 118.26439719360228,
+            "final_pore_area": 107.16140307143382,
+            "area_change": -11.102994122168454,
+            "inventory_drift": 1.4210854715202004e-14,
+            "max_energy_increase": 0.0,
+            "minimum_inventory_density": 0.005020019566310243
+          },
+          {
+            "supersaturation": 0.15,
+            "steps": 1000,
+            "initial_pore_area": 118.26439719360228,
+            "final_pore_area": 153.3790575717795,
+            "area_change": 35.11466037817722,
+            "inventory_drift": 5.684341886080802e-14,
+            "max_energy_increase": 0.0,
+            "minimum_inventory_density": 0.06217892075891109
+          }
+        ],
+        "end_time": 20.0,
+        "physical_profile_scale": 1.4142135623730951,
+        "peak_rss_bytes": 80117760
+      },
+      "checks": {
+        "inventory_conservation": true,
+        "energy_decay": true,
+        "low_supersaturation_shrinks": true,
+        "high_supersaturation_grows": true
+      },
+      "limitations": [
+        "Two-dimensional closed-inventory analogue; no gas, elasticity, nucleation or fracture.",
+        "Quantitative Gibbs-Thomson and growth-law convergence, and an adaptive comparison remain open."
+      ],
+      "timings": {
+        "initialization_s": 0.0,
+        "solver_s": 0.4752396979602054,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.4767978750169277,
+        "unclassified_s": 0.001558177056722343,
+        "array_io_s": 0.0021313329925760627
+      },
+      "status": "partial",
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-08-reference-1"
+    },
+    {
+      "case": 9,
+      "name": "Coupled defect population, screw dipole and diffuse inclusion",
+      "variant": "adaptive",
+      "metrics": {
+        "end_time": 7.999999999999917,
+        "steps": 400,
+        "h": 0.5,
+        "physical_profile_scale": 1.4142135623730951,
+        "inventory_drift": 1.1368683772161603e-13,
+        "burgers_content": 0.0,
+        "final_plastic_shear": 0.000825291743532801,
+        "initial_stress": 0.15,
+        "final_stress": 0.1491747082564672,
+        "dislocation_displacement": 2.3903002145149443,
+        "concentration_range": 0.04557037128506505,
+        "max_recorded_energy_increase": 0.0,
+        "initial_dofs": 21634,
+        "final_dofs": 12170,
+        "stored_array_bytes": 247168,
+        "accepted_transfers": 3,
+        "peak_rss_bytes": 86392832
+      },
+      "checks": {
+        "mass_conservation": true,
+        "burgers_conservation": true,
+        "energy_decay": true,
+        "reciprocal_coupling_evolves": true,
+        "plastic_relaxation": true
+      },
+      "limitations": [
+        "0D defects are populations, lines are straight sections, and plasticity is one analytical mean-shear mode.",
+        "No local 3D crystal plasticity, curved-line topology, disclinations or crystallographic transmission.",
+        "The reference uses the same sparse lines with uniform fields; it is a uniform-field hybrid reference, not an all-field dislocation PF model.",
+        "The full residual-per-cost allocation policy is not implemented."
+      ],
+      "timings": {
+        "initialization_s": 0.000941542093642056,
+        "solver_s": 0.16921487101353705,
+        "adaptation_s": 0.009691666113212705,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.180125999962911,
+        "unclassified_s": 0.00027792074251919985,
+        "array_io_s": 0.0025551669532433152
+      },
+      "status": "partial",
+      "transfers": [
+        {
+          "changed": true,
+          "reason": "accepted",
+          "relative_l2": 1.7485212411502456e-05,
+          "energy_jump": -2.982770297421666e-08,
+          "common_grid_energy_jump": -1.707371666270774e-08,
+          "mass_error": 1.1368683772161603e-13,
+          "old_cells": 10816,
+          "proposed_cells": 6400
+        },
+        {
+          "changed": false,
+          "reason": "same_grid"
+        },
+        {
+          "changed": true,
+          "reason": "accepted",
+          "relative_l2": 4.009638605577943e-07,
+          "energy_jump": -1.9430359543548548e-09,
+          "common_grid_energy_jump": 5.963613602943951e-09,
+          "mass_error": 1.1368683772161603e-13,
+          "old_cells": 6400,
+          "proposed_cells": 6240
+        },
+        {
+          "changed": true,
+          "reason": "accepted",
+          "relative_l2": 1.4841653217439533e-05,
+          "energy_jump": -1.9653839444799814e-08,
+          "common_grid_energy_jump": -1.3107779750498594e-08,
+          "mass_error": 4.547473508864641e-13,
+          "old_cells": 6240,
+          "proposed_cells": 6084
+        }
+      ],
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-09-adaptive-1"
+    },
+    {
+      "case": 9,
+      "name": "Coupled defect population, screw dipole and diffuse inclusion",
+      "variant": "reference",
+      "metrics": {
+        "end_time": 7.999999999999917,
+        "steps": 400,
+        "h": 0.5,
+        "physical_profile_scale": 1.4142135623730951,
+        "inventory_drift": 1.1368683772161603e-13,
+        "burgers_content": 0.0,
+        "final_plastic_shear": 0.0008252914983883641,
+        "initial_stress": 0.15,
+        "final_stress": 0.14917470850161163,
+        "dislocation_displacement": 2.3902995045008133,
+        "concentration_range": 0.045571016896043565,
+        "max_recorded_energy_increase": 0.0,
+        "initial_dofs": 32770,
+        "final_dofs": 32770,
+        "stored_array_bytes": 661568,
+        "accepted_transfers": 0,
+        "peak_rss_bytes": 84688896
+      },
+      "checks": {
+        "mass_conservation": true,
+        "burgers_conservation": true,
+        "energy_decay": true,
+        "reciprocal_coupling_evolves": true,
+        "plastic_relaxation": true
+      },
+      "limitations": [
+        "0D defects are populations, lines are straight sections, and plasticity is one analytical mean-shear mode.",
+        "No local 3D crystal plasticity, curved-line topology, disclinations or crystallographic transmission.",
+        "The reference uses the same sparse lines with uniform fields; it is a uniform-field hybrid reference, not an all-field dislocation PF model.",
+        "The full residual-per-cost allocation policy is not implemented."
+      ],
+      "timings": {
+        "initialization_s": 0.001050708000548184,
+        "solver_s": 0.2937499466352165,
+        "adaptation_s": 0.0,
+        "diagnostics_s": 0.0,
+        "compilation_s": 0.0,
+        "experiment_total_s": 0.2951487919781357,
+        "unclassified_s": 0.00034813734237104654,
+        "array_io_s": 0.007428042008541524
+      },
+      "status": "partial",
+      "transfers": [],
+      "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "architecture": "arm64",
+        "threads": 1,
+        "seed_policy": "fixed per case"
+      },
+      "data_file": "fields.npz",
+      "all_implemented_checks_pass": true,
+      "folder": "case-09-reference-1"
+    }
+  ],
+  "comparisons": [
+    {
+      "case": 1,
+      "reference": "uniform PF",
+      "reference_runtime_s": 0.3369642129400745,
+      "adaptive_runtime_s": 0.11609117884654552,
+      "speedup": 2.9025824036595305,
+      "repetitions": 1,
+      "reference_peak_rss_bytes": 87359488.0,
+      "adaptive_peak_rss_bytes": 89309184.0,
+      "peak_rss_ratio": 0.978169143276463,
+      "state_storage_ratio": 3.8560147407212426,
+      "dof_ratio": 3.877869822485207,
+      "field_error": {
+        "l1": 1.3230409210802143e-08,
+        "l2": 1.433970666528912e-07,
+        "linf": 4.17009400033308e-06,
+        "relative_l2": 1.4442738075138223e-07
+      },
+      "concentration_error": null,
+      "free_energy_relative_error": 3.080188919506678e-11,
+      "line_position_absolute_error": null,
+      "field_tolerance_met": true,
+      "radius_relative_error": 4.017976524196948e-11
+    },
+    {
+      "case": 2,
+      "reference": "uniform PF",
+      "reference_runtime_s": 3.3885261537507176,
+      "adaptive_runtime_s": 3.4469835347263142,
+      "speedup": 0.9830410037104403,
+      "repetitions": 1,
+      "reference_peak_rss_bytes": 86327296.0,
+      "adaptive_peak_rss_bytes": 84852736.0,
+      "peak_rss_ratio": 1.0173778721760958,
+      "state_storage_ratio": 1.0,
+      "dof_ratio": 1.0,
+      "field_error": {
+        "l1": 0.0,
+        "l2": 0.0,
+        "linf": 0.0,
+        "relative_l2": 0.0
+      },
+      "concentration_error": null,
+      "free_energy_relative_error": 0.0,
+      "line_position_absolute_error": null,
+      "field_tolerance_met": true
+    },
+    {
+      "case": 9,
+      "reference": "uniform-field hybrid",
+      "reference_runtime_s": 0.2937499466352165,
+      "adaptive_runtime_s": 0.17890653712674975,
+      "speedup": 1.641918463980462,
+      "repetitions": 1,
+      "reference_peak_rss_bytes": 84688896.0,
+      "adaptive_peak_rss_bytes": 86392832.0,
+      "peak_rss_ratio": 0.9802768822302295,
+      "state_storage_ratio": 2.676592439150699,
+      "dof_ratio": 2.692686935086278,
+      "field_error": {
+        "l1": 9.284984434943289e-08,
+        "l2": 5.564578319949173e-07,
+        "linf": 9.007076025913108e-06,
+        "relative_l2": 5.651587766446526e-07
+      },
+      "concentration_error": {
+        "l1": 2.1321969218096244e-06,
+        "l2": 9.88426960082351e-06,
+        "linf": 0.00012650439794692492,
+        "relative_l2": 4.941957747398601e-05
+      },
+      "free_energy_relative_error": 2.7090300977498214e-10,
+      "line_position_absolute_error": 5.020558067059255e-07,
+      "field_tolerance_met": true
+    }
+  ],
+  "overall_status": "partial: reduced models only; original full acceptance not established"
+}

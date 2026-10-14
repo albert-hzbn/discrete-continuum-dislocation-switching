@@ -1,0 +1,70 @@
+{
+  "kind": "adaptive",
+  "dt": 0.02,
+  "end": 4.0,
+  "steps": 200,
+  "final_mode": "chart",
+  "parameters": {
+    "n": 13,
+    "length": 12.0,
+    "core_coefficient": 0.3,
+    "initial_core": 0.8,
+    "field_mobility": 10.0,
+    "budget": 0.05,
+    "detail_cap": 2
+  },
+  "initial_energy": 1.5847039272444323,
+  "final_energy": 1.5830511284613897,
+  "max_energy_increase": 0.0,
+  "max_plastic_trace": 0.0,
+  "max_divergence_relative": 5.43137469573129e-16,
+  "maximum_used_chart_residual": 0.04957960777369892,
+  "initial_used_chart_residual": 1.6948400924825837e-15,
+  "source_change_relative": 0.07147181759700709,
+  "maximum_detail_storage_bytes": 35152,
+  "full_scalar_state_bytes": 17576,
+  "final_active_coordinates": 34,
+  "events": [
+    {
+      "time": 0.0,
+      "initial_residual": 0.974902297324791,
+      "final_residual": 1.6948400924825837e-15,
+      "added_details": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false,
+      "detail_storage_bytes": 17576
+    },
+    {
+      "time": 2.1800000000000015,
+      "initial_residual": 0.05002729703253549,
+      "final_residual": 2.261539807841673e-15,
+      "added_details": 1,
+      "energy_jump": 0.0,
+      "fallback_required": false,
+      "detail_storage_bytes": 35152
+    }
+  ],
+  "timings": {
+    "initialization_s": 0.007565499981865287,
+    "audit_and_enrichment_s": 3.024288129527122,
+    "solver_s": 3.012997171492316,
+    "compilation_s": 0.0,
+    "array_io_s": 0.004520874936133623
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "nontrivial_evolution": true,
+    "activation_state_unchanged": true
+  },
+  "kinetic_budget_met": true,
+  "peak_rss_bytes": 103694336
+}

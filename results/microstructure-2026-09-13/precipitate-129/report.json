@@ -1,0 +1,72 @@
+{
+  "n": 129,
+  "h": 0.24806201550387597,
+  "mode": "condensed",
+  "initial_aspect": 1.0,
+  "profile_scale": 1.4142135623730951,
+  "mean_phase": -0.7690148790016167,
+  "metrics": {
+    "stationary_force_rms": 1.2407629835275553e-07,
+    "inventory_error": 0.0,
+    "aspect_y_over_x": 1.1835380959203676,
+    "expected_aspect": 1.1832159566199232,
+    "axis_and_diagonal_radii": [
+      4.7624616454191715,
+      5.636554787713187,
+      5.145440539123626
+    ],
+    "energy": 39.04965766101961,
+    "elastic_energy": 2.4241102089633415,
+    "gradient_energy": 15.427171623471848,
+    "elastic_equilibrium_rms": 4.2572672673681584e-16,
+    "optimizer_success": true,
+    "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 271,
+    "evaluations": 280,
+    "condensed_energy_error": 4.440892098500626e-16,
+    "condensed_force_error": 6.245004513516506e-17
+  },
+  "checks": {
+    "stationary": true,
+    "inventory": true,
+    "elastic_equilibrium": true,
+    "exact_reduction": true,
+    "aspect": true
+  },
+  "timings": {
+    "initialization_s": 0.0012125420616939664,
+    "equilibrium_solver_s": 0.29341333406046033,
+    "full_fft_verification_and_output_fields_s": 0.006101666949689388,
+    "array_io_s": 0.01782925007864833
+  },
+  "limits": [
+    "Homogeneous isotropic plane strain and zero mean strain only. Optimizer iterations are not physical time."
+  ],
+  "all_checks_pass": true,
+  "peak_rss_before_io_bytes": 96124928,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "parameters": {
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.4
+    ],
+    "misfit": 0.08,
+    "lam": 2.0,
+    "shear": 1.0,
+    "mean_strain": 0.0
+  },
+  "optimizer_options": {
+    "ftol": 1e-15,
+    "gtol": 1e-09,
+    "maxiter": 1800,
+    "maxls": 40
+  },
+  "parameter_metadata_note": "Explicit metadata added from the benchmark configuration used to generate these runs."
+}

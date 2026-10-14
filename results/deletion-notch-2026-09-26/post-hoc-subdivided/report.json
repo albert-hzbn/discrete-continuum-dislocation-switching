@@ -1,0 +1,465 @@
+{
+ "scope": "Section 64 element deletion on the GLL graded notch, restarted at t=0.2; declared gates.",
+ "pairs": {
+  "64_96": {
+   "t0.25": {
+    "c": 0.0008625543011511014,
+    "eta": 0.0022982312514463832,
+    "T": 0.0008970184049936541,
+    "slip": 0.025121968204362004,
+    "damage": 0.008336392144448698
+   },
+   "t0.3": {
+    "c": 0.0009088730758029067,
+    "eta": 0.002325151906783237,
+    "T": 0.0009124574799800804,
+    "slip": 0.041134075276722845,
+    "damage": 0.007830312073359411
+   },
+   "t0.35": {
+    "c": 0.0009537664183773206,
+    "eta": 0.002350528838215787,
+    "T": 0.0009090847075701989,
+    "slip": 0.046195952533029674,
+    "damage": 0.007413652533474196
+   },
+   "final": {
+    "c": 0.001005813154324795,
+    "eta": 0.002373552705592956,
+    "T": 0.0009233068926143533,
+    "slip": 0.042390017968296424,
+    "damage": 0.0069597637110372845
+   }
+  },
+  "96_128": {
+   "t0.25": {
+    "c": 0.0006187682665590385,
+    "eta": 0.001199041842671881,
+    "T": 0.00047260677350155305,
+    "slip": 0.009503940740368168,
+    "damage": 0.0037774016499997286
+   },
+   "t0.3": {
+    "c": 0.0006754081279430061,
+    "eta": 0.0012028647024023694,
+    "T": 0.00045676471976825066,
+    "slip": 0.016998162653939882,
+    "damage": 0.0036295656860805665
+   }
+  }
+ },
+ "gates": {
+  "E1_ledger_and_checks": true,
+  "E2_reach": false,
+  "E3_t04": false
+ },
+ "runs": {
+  "64": {
+   "n": 64,
+   "failure": null,
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.21150000000000002,
+     "energy_moved": 2.7050544344646563e-06,
+     "total_before": 0.0562076218849807,
+     "total_after": 0.0562076218849807,
+     "ledger_error": 0.0,
+     "active_cells": 4094,
+     "count": 2
+    },
+    {
+     "time": 0.21200000000000002,
+     "energy_moved": 5.422375442718211e-06,
+     "total_before": 0.056207621503450385,
+     "total_after": 0.056207621503450385,
+     "ledger_error": 0.0,
+     "active_cells": 4090,
+     "count": 4
+    },
+    {
+     "time": 0.21275000000000002,
+     "energy_moved": 2.680060786753405e-06,
+     "total_before": 0.05620762070052866,
+     "total_after": 0.05620762070052866,
+     "ledger_error": 0.0,
+     "active_cells": 4088,
+     "count": 2
+    },
+    {
+     "time": 0.21300000000000002,
+     "energy_moved": 2.7489545405747374e-06,
+     "total_before": 0.05620762072515963,
+     "total_after": 0.05620762072515963,
+     "ledger_error": 0.0,
+     "active_cells": 4086,
+     "count": 2
+    },
+    {
+     "time": 0.21425000000000002,
+     "energy_moved": 5.434814111925375e-06,
+     "total_before": 0.05620762038174355,
+     "total_after": 0.05620762038174355,
+     "ledger_error": 0.0,
+     "active_cells": 4082,
+     "count": 4
+    },
+    {
+     "time": 0.21575,
+     "energy_moved": 2.7870245363844062e-06,
+     "total_before": 0.05620762137174713,
+     "total_after": 0.05620762137174713,
+     "ledger_error": 0.0,
+     "active_cells": 4080,
+     "count": 2
+    },
+    {
+     "time": 0.21650000000000003,
+     "energy_moved": 2.646843490861472e-06,
+     "total_before": 0.05620762102398287,
+     "total_after": 0.05620762102398287,
+     "ledger_error": 0.0,
+     "active_cells": 4078,
+     "count": 2
+    },
+    {
+     "time": 0.21800000000000003,
+     "energy_moved": 2.8142713503679485e-06,
+     "total_before": 0.05620762234309832,
+     "total_after": 0.05620762234309832,
+     "ledger_error": 0.0,
+     "active_cells": 4076,
+     "count": 2
+    },
+    {
+     "time": 0.22025,
+     "energy_moved": 2.624674346500031e-06,
+     "total_before": 0.05620762335696832,
+     "total_after": 0.05620762335696832,
+     "ledger_error": 0.0,
+     "active_cells": 4074,
+     "count": 2
+    },
+    {
+     "time": 0.22075,
+     "energy_moved": 2.8400208540108314e-06,
+     "total_before": 0.0562076239071761,
+     "total_after": 0.0562076239071761,
+     "ledger_error": 0.0,
+     "active_cells": 4072,
+     "count": 2
+    },
+    {
+     "time": 0.224,
+     "energy_moved": 2.8687011496730303e-06,
+     "total_before": 0.05620761919943483,
+     "total_after": 0.05620761919943483,
+     "ledger_error": 0.0,
+     "active_cells": 4070,
+     "count": 2
+    },
+    {
+     "time": 0.2255,
+     "energy_moved": 2.5895973784298855e-06,
+     "total_before": 0.056207623000161286,
+     "total_after": 0.056207623000161286,
+     "ledger_error": 0.0,
+     "active_cells": 4068,
+     "count": 2
+    },
+    {
+     "time": 0.228,
+     "energy_moved": 2.904740372437948e-06,
+     "total_before": 0.05620762691341946,
+     "total_after": 0.05620762691341946,
+     "ledger_error": 0.0,
+     "active_cells": 4066,
+     "count": 2
+    },
+    {
+     "time": 0.23275,
+     "energy_moved": 2.5494503923058208e-06,
+     "total_before": 0.05620762810083747,
+     "total_after": 0.05620762810083747,
+     "ledger_error": 0.0,
+     "active_cells": 4064,
+     "count": 2
+    },
+    {
+     "time": 0.233,
+     "energy_moved": 2.949411938178197e-06,
+     "total_before": 0.05620762780733876,
+     "total_after": 0.05620762780733876,
+     "ledger_error": 0.0,
+     "active_cells": 4062,
+     "count": 2
+    },
+    {
+     "time": 0.23925000000000002,
+     "energy_moved": 3.0041033095344674e-06,
+     "total_before": 0.056207631054824875,
+     "total_after": 0.056207631054824875,
+     "ledger_error": 0.0,
+     "active_cells": 4060,
+     "count": 2
+    },
+    {
+     "time": 0.24200000000000002,
+     "energy_moved": 2.4924191909188457e-06,
+     "total_before": 0.056207630941373196,
+     "total_after": 0.056207630941373196,
+     "ledger_error": 0.0,
+     "active_cells": 4058,
+     "count": 2
+    },
+    {
+     "time": 0.24675000000000002,
+     "energy_moved": 3.0613372185961714e-06,
+     "total_before": 0.056207635082548564,
+     "total_after": 0.056207635082548564,
+     "ledger_error": 0.0,
+     "active_cells": 4056,
+     "count": 2
+    },
+    {
+     "time": 0.253,
+     "energy_moved": 2.3988410920707978e-06,
+     "total_before": 0.05620764415500803,
+     "total_after": 0.05620764415500803,
+     "ledger_error": 0.0,
+     "active_cells": 4054,
+     "count": 2
+    },
+    {
+     "time": 0.256,
+     "energy_moved": 3.147565739810629e-06,
+     "total_before": 0.05620765576863828,
+     "total_after": 0.05620765576863828,
+     "ledger_error": 0.0,
+     "active_cells": 4052,
+     "count": 2
+    },
+    {
+     "time": 0.26175000000000004,
+     "energy_moved": 2.2601140975192333e-06,
+     "total_before": 0.05620766592304975,
+     "total_after": 0.05620766592304975,
+     "ledger_error": 0.0,
+     "active_cells": 4050,
+     "count": 2
+    },
+    {
+     "time": 0.2675,
+     "energy_moved": 3.235311388131209e-06,
+     "total_before": 0.05620765755073541,
+     "total_after": 0.05620765755073541,
+     "ledger_error": 0.0,
+     "active_cells": 4048,
+     "count": 2
+    },
+    {
+     "time": 0.28200000000000003,
+     "energy_moved": 3.2340077468516355e-06,
+     "total_before": 0.05620766720561475,
+     "total_after": 0.05620766720561475,
+     "ledger_error": 0.0,
+     "active_cells": 4046,
+     "count": 2
+    },
+    {
+     "time": 0.30025,
+     "energy_moved": 3.229968275237978e-06,
+     "total_before": 0.05620764824858977,
+     "total_after": 0.05620764824858977,
+     "ledger_error": 0.0,
+     "active_cells": 4044,
+     "count": 2
+    },
+    {
+     "time": 0.32275,
+     "energy_moved": 3.2791401736612816e-06,
+     "total_before": 0.05620765034805203,
+     "total_after": 0.05620765034805203,
+     "ledger_error": 0.0,
+     "active_cells": 4042,
+     "count": 2
+    },
+    {
+     "time": 0.35025,
+     "energy_moved": 3.3676428034239875e-06,
+     "total_before": 0.05620765234312861,
+     "total_after": 0.05620765234312861,
+     "ledger_error": 0.0,
+     "active_cells": 4040,
+     "count": 2
+    },
+    {
+     "time": 0.382,
+     "energy_moved": 3.3823278771802156e-06,
+     "total_before": 0.0562076517492114,
+     "total_after": 0.0562076517492114,
+     "ledger_error": 0.0,
+     "active_cells": 4038,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 58,
+   "energy_to_heat": 8.265877403852241e-05,
+   "relative_energy_drift": 8.554084631193053e-07,
+   "solver_seconds": 585.0914341160678
+  },
+  "96": {
+   "n": 96,
+   "start_time": 0.29450000000000004,
+   "subdivide": 6,
+   "failure": null,
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.29775,
+     "energy_moved": 1.1230467778306537e-06,
+     "total_before": 0.05621277598029455,
+     "total_after": 0.05621277598029455,
+     "ledger_error": 0.0,
+     "active_cells": 9138,
+     "count": 2
+    },
+    {
+     "time": 0.3125,
+     "energy_moved": 1.192145990974853e-06,
+     "total_before": 0.05621279253026353,
+     "total_after": 0.05621279253026353,
+     "ledger_error": 0.0,
+     "active_cells": 9136,
+     "count": 2
+    },
+    {
+     "time": 0.329,
+     "energy_moved": 1.1961475700424853e-06,
+     "total_before": 0.05621279320096324,
+     "total_after": 0.05621279320096324,
+     "ledger_error": 0.0,
+     "active_cells": 9134,
+     "count": 2
+    },
+    {
+     "time": 0.34725,
+     "energy_moved": 1.1797490969822318e-06,
+     "total_before": 0.056212801450015205,
+     "total_after": 0.056212801450015205,
+     "ledger_error": 0.0,
+     "active_cells": 9132,
+     "count": 2
+    },
+    {
+     "time": 0.36825,
+     "energy_moved": 1.2010457037076502e-06,
+     "total_before": 0.05621278374971012,
+     "total_after": 0.05621278374971012,
+     "ledger_error": 0.0,
+     "active_cells": 9130,
+     "count": 2
+    },
+    {
+     "time": 0.39125,
+     "energy_moved": 1.1383290649932801e-06,
+     "total_before": 0.05621277562154973,
+     "total_after": 0.05621277562154973,
+     "ledger_error": 0.0,
+     "active_cells": 9128,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 12,
+   "energy_to_heat": 7.030464204531154e-06,
+   "relative_energy_drift": 6.732214803081179e-07,
+   "solver_seconds": 1995.3822236705455
+  },
+  "128": {
+   "n": 128,
+   "start_time": 0.27825000000000005,
+   "subdivide": 6,
+   "failure": {
+    "error": "Constrained nodal midpoint did not converge: 4.920e-07.",
+    "step": 416,
+    "last_accepted_time": 0.3037500000000001
+   },
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.28,
+     "energy_moved": 2.598956229138747e-07,
+     "total_before": 0.05621456901145161,
+     "total_after": 0.05621456901145161,
+     "ledger_error": 0.0,
+     "active_cells": 16286,
+     "count": 2
+    },
+    {
+     "time": 0.28275,
+     "energy_moved": 5.577921024909826e-07,
+     "total_before": 0.056214557562167776,
+     "total_after": 0.056214557562167776,
+     "ledger_error": 0.0,
+     "active_cells": 16284,
+     "count": 2
+    },
+    {
+     "time": 0.2915,
+     "energy_moved": 5.611109831649789e-07,
+     "total_before": 0.05621456096660566,
+     "total_after": 0.05621456096660566,
+     "ledger_error": 0.0,
+     "active_cells": 16282,
+     "count": 2
+    },
+    {
+     "time": 0.3015,
+     "energy_moved": 5.605979633981911e-07,
+     "total_before": 0.05621455731914303,
+     "total_after": 0.05621455731914303,
+     "ledger_error": 0.0,
+     "active_cells": 16280,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 8,
+   "energy_to_heat": 1.9393966719680273e-06,
+   "relative_energy_drift": 4.4141453632688253e-07,
+   "solver_seconds": 935.0312467559415
+  }
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "threads": 1
+ }
+}

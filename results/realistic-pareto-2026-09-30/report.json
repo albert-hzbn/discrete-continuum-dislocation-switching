@@ -1,0 +1,124 @@
+{
+ "section": 95,
+ "seed": 95,
+ "rows": [
+  {
+   "method": "D",
+   "k": 1,
+   "cost": 0.20396875,
+   "particles": 502250,
+   "interior": 0.0,
+   "block": 0.0
+  },
+  {
+   "method": "D",
+   "k": 2,
+   "cost": 0.105734375,
+   "particles": 251126,
+   "interior": 0.7670702976482195,
+   "block": 0.02953953288184926
+  },
+  {
+   "method": "D",
+   "k": 4,
+   "cost": 0.033375,
+   "particles": 125564,
+   "interior": 1.3557239354789505,
+   "block": 0.04174788047881713
+  },
+  {
+   "method": "D",
+   "k": 8,
+   "cost": 0.014484375,
+   "particles": 62783,
+   "interior": 1.9653825409818924,
+   "block": 0.07833014797029544
+  },
+  {
+   "method": "D",
+   "k": 16,
+   "cost": 0.008359375,
+   "particles": 31392,
+   "interior": 2.6581016411196035,
+   "block": 0.1057007052818677
+  },
+  {
+   "method": "D",
+   "k": 32,
+   "cost": 0.005828125,
+   "particles": 15696,
+   "interior": 3.2884570785038774,
+   "block": 0.17444589355235812
+  },
+  {
+   "method": "D",
+   "k": 64,
+   "cost": 0.004625,
+   "particles": 7848,
+   "interior": 5.7015528977520376,
+   "block": 0.23337558342286965
+  },
+  {
+   "method": "C",
+   "cost": 0.005171875,
+   "particles": 0,
+   "interior": 0.14119554713337637,
+   "block": 0.001298354340349681
+  },
+  {
+   "method": "H",
+   "n_c": 16,
+   "cost": 0.005453125,
+   "particles": 1958,
+   "interior": 0.022357446113957333,
+   "block": 0.00128975791529146
+  },
+  {
+   "method": "H",
+   "n_c": 64,
+   "cost": 0.0054375,
+   "particles": 1958,
+   "interior": 0.022357446113957333,
+   "block": 0.00128975791529146
+  },
+  {
+   "method": "H",
+   "n_c": 256,
+   "cost": 0.012015625,
+   "particles": 48096,
+   "interior": 0.022754109419672836,
+   "block": 0.005892470279807741
+  }
+ ],
+ "equal_cost_D": {
+  "method": "D",
+  "k": 32,
+  "cost": 0.005828125,
+  "particles": 15696,
+  "interior": 3.2884570785038774,
+  "block": 0.17444589355235812
+ },
+ "cheapest_D_matching_H": {
+  "method": "D",
+  "k": 1,
+  "cost": 0.20396875,
+  "particles": 502250,
+  "interior": 0.0,
+  "block": 0.0
+ },
+ "gates": {
+  "P1_equal_cost_D": true,
+  "P2_C": true,
+  "P3_D_to_match": true
+ },
+ "environment": {
+  "python": "3.14.2",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+  "cpu_count": 24,
+  "threads": "one numerical thread",
+  "timer": "time.process_time"
+ }
+}

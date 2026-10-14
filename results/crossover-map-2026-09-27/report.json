@@ -1,0 +1,138 @@
+{
+ "scope": "Section 67 crossover of adaptive advantage with active fraction; declared gates.",
+ "rows": [
+  {
+   "radius": 6.0,
+   "band_half_width": 16.0,
+   "fine_axis_fraction": 0.25,
+   "active_fraction": 0.0625,
+   "predicted_cell_ratio": 5.224489795918367,
+   "uniform_cells": 65536,
+   "adaptive_cells": 12544,
+   "cell_ratio": 5.224489795918367,
+   "speedup": 4.0709865850372,
+   "relative_l2": 1.4553693283389215e-08,
+   "uniform_seconds": 0.10939741600304842,
+   "adaptive_seconds": 0.026872457994613796
+  },
+  {
+   "radius": 12.0,
+   "band_half_width": 22.0,
+   "fine_axis_fraction": 0.34375,
+   "active_fraction": 0.1181640625,
+   "predicted_cell_ratio": 3.877869822485207,
+   "uniform_cells": 65536,
+   "adaptive_cells": 16900,
+   "cell_ratio": 3.877869822485207,
+   "speedup": 3.096891640954193,
+   "relative_l2": 1.9976356726076537e-08,
+   "uniform_seconds": 0.1115155839943327,
+   "adaptive_seconds": 0.03600887500215322
+  },
+  {
+   "radius": 18.0,
+   "band_half_width": 28.0,
+   "fine_axis_fraction": 0.4375,
+   "active_fraction": 0.19140625,
+   "predicted_cell_ratio": 2.991964937910884,
+   "uniform_cells": 65536,
+   "adaptive_cells": 21904,
+   "cell_ratio": 2.991964937910884,
+   "speedup": 2.5240991616032336,
+   "relative_l2": 2.349266854480506e-08,
+   "uniform_seconds": 0.11432812502607703,
+   "adaptive_seconds": 0.04529462501523085
+  },
+  {
+   "radius": 24.0,
+   "band_half_width": 34.0,
+   "fine_axis_fraction": 0.53125,
+   "active_fraction": 0.2822265625,
+   "predicted_cell_ratio": 2.378284221222238,
+   "uniform_cells": 65536,
+   "adaptive_cells": 27556,
+   "cell_ratio": 2.378284221222238,
+   "speedup": 2.1475692373236925,
+   "relative_l2": 2.6146470401260877e-08,
+   "uniform_seconds": 0.12079745801747777,
+   "adaptive_seconds": 0.056248457985930145
+  },
+  {
+   "radius": 32.0,
+   "band_half_width": 42.0,
+   "fine_axis_fraction": 0.65625,
+   "active_fraction": 0.4306640625,
+   "predicted_cell_ratio": 1.8154016620498614,
+   "uniform_cells": 65536,
+   "adaptive_cells": 36100,
+   "cell_ratio": 1.8154016620498614,
+   "speedup": 1.6950831112015041,
+   "relative_l2": 2.895034720327149e-08,
+   "uniform_seconds": 0.12471475001075305,
+   "adaptive_seconds": 0.0735744160192553
+  },
+  {
+   "radius": 40.0,
+   "band_half_width": 50.0,
+   "fine_axis_fraction": 0.78125,
+   "active_fraction": 0.6103515625,
+   "predicted_cell_ratio": 1.43104201240283,
+   "uniform_cells": 65536,
+   "adaptive_cells": 45796,
+   "cell_ratio": 1.43104201240283,
+   "speedup": 1.4257396380576812,
+   "relative_l2": 3.124744623321274e-08,
+   "uniform_seconds": 0.13311245900695212,
+   "adaptive_seconds": 0.09336379199521616
+  },
+  {
+   "radius": 48.0,
+   "band_half_width": 58.0,
+   "fine_axis_fraction": 0.90625,
+   "active_fraction": 0.8212890625,
+   "predicted_cell_ratio": 1.1569804392345173,
+   "uniform_cells": 65536,
+   "adaptive_cells": 56644,
+   "cell_ratio": 1.1569804392345173,
+   "speedup": 1.1999266784507656,
+   "relative_l2": 3.3219215008419905e-08,
+   "uniform_seconds": 0.1350199999869801,
+   "adaptive_seconds": 0.11252354198950343
+  },
+  {
+   "radius": 56.0,
+   "band_half_width": 64.0,
+   "fine_axis_fraction": 1.0,
+   "active_fraction": 1.0,
+   "predicted_cell_ratio": 1.0,
+   "uniform_cells": 65536,
+   "adaptive_cells": 65536,
+   "cell_ratio": 1.0,
+   "speedup": 1.0122683474780265,
+   "relative_l2": 0.0,
+   "uniform_seconds": 0.13136029199813493,
+   "adaptive_seconds": 0.12976825001533143
+  }
+ ],
+ "efficiency": [
+  0.7792122760422765,
+  0.7986063954486978,
+  0.8436259160729558,
+  0.9029909958449047,
+  0.9337234545040024,
+  0.9962947458570796,
+  1.0371192439905574,
+  1.0122683474780265
+ ],
+ "gates": {
+  "C1_equal_accuracy": true,
+  "C2_monotone_crossover": true,
+  "C3_speedup_tracks_cells": true
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "threads": 1
+ }
+}

@@ -1,0 +1,26 @@
+         26641 function calls in 0.673 seconds
+
+   Ordered by: cumulative time
+   List reduced from 102 to 18 due to restriction <18>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       30    0.004    0.000    0.673    0.022 <repo>/src/bmvr/thermochemical.py:78(rate)
+       30    0.053    0.002    0.665    0.022 <repo>/src/bmvr/thermoplastic.py:116(rate)
+       30    0.006    0.000    0.448    0.015 <repo>/src/bmvr/finite_elasticity.py:128(evaluate)
+       30    0.066    0.002    0.288    0.010 <repo>/src/bmvr/finite_elasticity.py:31(constitutive)
+      120    0.212    0.002    0.214    0.002 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/linalg/_linalg.py:557(inv)
+      180    0.190    0.001    0.191    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/linalg/_linalg.py:2380(det)
+       30    0.000    0.000    0.103    0.003 <repo>/src/bmvr/quadratic_mesh.py:48(orientation_lower_bound)
+       30    0.003    0.000    0.102    0.003 <repo>/src/bmvr/quadratic_mesh.py:43(determinant_coefficients)
+      330    0.000    0.000    0.099    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/einsumfunc.py:1057(einsum)
+      330    0.099    0.000    0.099    0.000 {built-in method numpy._core._multiarray_umath.c_einsum}
+     2490    0.010    0.000    0.010    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       30    0.000    0.000    0.010    0.000 <repo>/src/bmvr/thermochemical.py:57(install)
+      900    0.001    0.000    0.009    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:69(_wrapreduction)
+       30    0.004    0.000    0.009    0.000 <repo>/src/bmvr/thermoplastic.py:101(install)
+      660    0.000    0.000    0.005    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:2338(sum)
+       60    0.000    0.000    0.005    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/numeric.py:2279(allclose)
+       60    0.003    0.000    0.005    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/numeric.py:2373(isclose)
+       90    0.000    0.000    0.004    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:1831(trace)
+
+

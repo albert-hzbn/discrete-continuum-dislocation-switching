@@ -1,0 +1,49 @@
+{
+  "sink_relaxation": {
+    "exact": 0.07124896053235096,
+    "x0": 0.08,
+    "runs": {
+      "0.04": {
+        "error": 2.4558390515627693e-08,
+        "energy_drift": 3.9291523160067676e-11,
+        "heat_released": -7.710487025008178e-05
+      },
+      "0.02": {
+        "error": 6.13957748529792e-09,
+        "energy_drift": 9.820068369581492e-12,
+        "heat_released": -7.710473145391365e-05
+      },
+      "0.01": {
+        "error": 1.5348934900849542e-09,
+        "energy_drift": 2.4659553912731447e-12,
+        "heat_released": -7.710469675499976e-05
+      }
+    },
+    "observed_orders": [
+      2.0000047333936593,
+      2.000000828304724
+    ],
+    "linearized_rate": 0.21052631578947367
+  },
+  "generation_backstress": {
+    "control": {
+      "final_slip": 0.04111452845838919,
+      "final_vac": 0.05,
+      "final_mu": 0.0,
+      "stored_power_last": 0.0,
+      "plastic_power_last": 0.0006969963287523969,
+      "energy_drift": 3.040096993589536e-11,
+      "min_entropy_production": 0.0006967188574873397
+    },
+    "generation": {
+      "final_slip": 0.012070635179627209,
+      "final_vac": 0.10593281106436944,
+      "final_mu": 0.01622926173327783,
+      "stored_power_last": 0.00011979840428889124,
+      "plastic_power_last": 3.108664105333234e-05,
+      "energy_drift": 2.3974730917544762e-08,
+      "min_entropy_production": 0.0001627659369725847
+    },
+    "slip_reduction": 0.706414359297747
+  }
+}

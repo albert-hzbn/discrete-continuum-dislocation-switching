@@ -1,0 +1,1 @@
+{'T1_topology': True, 'T2_conservation': True, 'T3_shape': False, 'N1_event_inventory': True, 'N2_ledger': True, 'N3_growth': False, 'N4_control': True} collapse 338.0000000000426 2.253333333333617 merge 97.99999999999658 103.50000000001496 events 4 {'thinned': 108, 'insufficient_vacancies': 499, 'subcritical_after_depletion': 17}

@@ -1,0 +1,34 @@
+{
+  "scope": "Saved-run consistency checks; scientific acceptance gates reported separately.",
+  "checks": {
+    "source_hashes_match": true,
+    "matrix_42_runs": true,
+    "one_thread": true,
+    "nonnegative_timing_categories": true,
+    "timing_accounting_closes": true,
+    "three_repetitions_per_configuration": true,
+    "all_repetition_arrays_identical": true,
+    "paired_configuration_steps_and_times_match": true,
+    "all_existing_numerical_checks_pass": true
+  },
+  "maximum_timing_closure_error_s": 0.0,
+  "numerical_checks_passed": 153,
+  "numerical_checks_total": 153,
+  "ac_accuracy_gates": {
+    "ac-128-reference": false,
+    "ac-128-adaptive": false,
+    "ac-192-reference": true,
+    "ac-192-adaptive": true,
+    "ac-256-reference": true,
+    "ac-256-adaptive": true
+  },
+  "allocation_pair_accuracy_gates": {
+    "allocation-default-geometry": true,
+    "allocation-default-residual": true,
+    "allocation-default-cost": true
+  },
+  "source_sha256": {
+    "benchmarks/verify_performance_audit.py": "5cd175f85194c241c16171b98966e7d81981f4eb53381cecd85f8216af77dcd6"
+  },
+  "full_original_objective_complete": false
+}

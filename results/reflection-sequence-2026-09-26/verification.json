@@ -1,0 +1,20 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 281,
+ "all_checks": true,
+ "predictions": {
+  "0.0": true,
+  "25.0": true,
+  "60.0": false,
+  "75.0": null
+ },
+ "declared_sequence_events": 1,
+ "forced_reencounter_time": 15.66999999999971,
+ "ensemble_multi_event_fraction": 0.15625,
+ "restart": {
+  "events_equal": true,
+  "nodes_equal": true,
+  "fields_equal": true,
+  "energy_equal": true
+ }
+}

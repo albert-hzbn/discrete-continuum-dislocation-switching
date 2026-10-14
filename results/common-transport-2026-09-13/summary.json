@@ -1,0 +1,527 @@
+{
+  "reports": {
+    "adaptive": {
+      "kind": "adaptive",
+      "dt": 0.02,
+      "end": 4.0,
+      "steps": 200,
+      "final_mode": "chart",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 2
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.5830511284613897,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 5.43137469573129e-16,
+      "maximum_used_chart_residual": 0.04957960777369892,
+      "initial_used_chart_residual": 1.6948400924825837e-15,
+      "source_change_relative": 0.07147181759700709,
+      "maximum_detail_storage_bytes": 35152,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 34,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 0.974902297324791,
+          "final_residual": 1.6948400924825837e-15,
+          "added_details": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false,
+          "detail_storage_bytes": 17576
+        },
+        {
+          "time": 2.1800000000000015,
+          "initial_residual": 0.05002729703253549,
+          "final_residual": 2.261539807841673e-15,
+          "added_details": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false,
+          "detail_storage_bytes": 35152
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.007565499981865287,
+        "audit_and_enrichment_s": 3.024288129527122,
+        "solver_s": 3.012997171492316,
+        "compilation_s": 0.0,
+        "array_io_s": 0.004520874936133623
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": true,
+      "peak_rss_bytes": 103694336
+    },
+    "adaptive-half": {
+      "kind": "adaptive",
+      "dt": 0.01,
+      "end": 3.9999999999999587,
+      "steps": 400,
+      "final_mode": "chart",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 2
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.5830512727400703,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 5.545997678342962e-16,
+      "maximum_used_chart_residual": 0.0497987982795187,
+      "initial_used_chart_residual": 1.6948400924825837e-15,
+      "source_change_relative": 0.07146525110581493,
+      "maximum_detail_storage_bytes": 35152,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 34,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 0.974902297324791,
+          "final_residual": 1.6948400924825837e-15,
+          "added_details": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false,
+          "detail_storage_bytes": 17576
+        },
+        {
+          "time": 2.1799999999999975,
+          "initial_residual": 0.05002260050981894,
+          "final_residual": 1.991879857119428e-15,
+          "added_details": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false,
+          "detail_storage_bytes": 35152
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.0067001249408349395,
+        "audit_and_enrichment_s": 6.032953658141196,
+        "solver_s": 6.009039612603374,
+        "compilation_s": 0.0,
+        "array_io_s": 0.00441820896230638
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": true,
+      "peak_rss_bytes": 105086976
+    },
+    "fallback": {
+      "kind": "fallback",
+      "dt": 0.02,
+      "end": 4.0,
+      "steps": 200,
+      "final_mode": "field",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 0
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.5830510106945266,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 5.495946038748966e-16,
+      "maximum_used_chart_residual": null,
+      "initial_used_chart_residual": null,
+      "source_change_relative": 0.07151967255792734,
+      "maximum_detail_storage_bytes": 0,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 2197,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 0.974902297324791,
+          "final_residual": 0.974902297324791,
+          "added_details": 0,
+          "energy_jump": 0.0,
+          "fallback_required": true,
+          "detail_storage_bytes": 0,
+          "promotion_state_error": 0.0
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.006631250027567148,
+        "audit_and_enrichment_s": 0.015550831914879382,
+        "solver_s": 1.4554395490558818,
+        "compilation_s": 0.0,
+        "array_io_s": 0.004138167016208172
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": true,
+      "peak_rss_bytes": 92962816
+    },
+    "field": {
+      "kind": "field",
+      "dt": 0.02,
+      "end": 4.0,
+      "steps": 200,
+      "final_mode": "field",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 2
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.5830510106945266,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 5.495946038748966e-16,
+      "maximum_used_chart_residual": null,
+      "initial_used_chart_residual": null,
+      "source_change_relative": 0.07151967255792734,
+      "maximum_detail_storage_bytes": 0,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 2197,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.009777250001206994,
+        "audit_and_enrichment_s": 2.9666000045835972e-05,
+        "solver_s": 1.4735552845522761,
+        "compilation_s": 0.0,
+        "array_io_s": 0.004057584097608924
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": true,
+      "peak_rss_bytes": 93011968
+    },
+    "field-half": {
+      "kind": "field",
+      "dt": 0.01,
+      "end": 3.9999999999999587,
+      "steps": 400,
+      "final_mode": "field",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 2
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.583051154698855,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 5.288972023486494e-16,
+      "maximum_used_chart_residual": null,
+      "initial_used_chart_residual": null,
+      "source_change_relative": 0.07151344458380414,
+      "maximum_detail_storage_bytes": 0,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 2197,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.006669958005659282,
+        "audit_and_enrichment_s": 5.9262034483253956e-05,
+        "solver_s": 2.8828965856228024,
+        "compilation_s": 0.0,
+        "array_io_s": 0.004377000033855438
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": true,
+      "peak_rss_bytes": 91914240
+    },
+    "plain": {
+      "kind": "plain",
+      "dt": 0.02,
+      "end": 4.0,
+      "steps": 200,
+      "final_mode": "chart",
+      "parameters": {
+        "n": 13,
+        "length": 12.0,
+        "core_coefficient": 0.3,
+        "initial_core": 0.8,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "detail_cap": 2
+      },
+      "initial_energy": 1.5847039272444323,
+      "final_energy": 1.5846148338539296,
+      "max_energy_increase": 0.0,
+      "max_plastic_trace": 0.0,
+      "max_divergence_relative": 4.964781735251346e-16,
+      "maximum_used_chart_residual": 0.974902297324791,
+      "initial_used_chart_residual": 0.974902297324791,
+      "source_change_relative": 0.0025416088408703793,
+      "maximum_detail_storage_bytes": 0,
+      "full_scalar_state_bytes": 17576,
+      "final_active_coordinates": 32,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.007265457999892533,
+        "audit_and_enrichment_s": 2.965834958711639,
+        "solver_s": 2.974603666109033,
+        "compilation_s": 0.0,
+        "array_io_s": 0.004479833994992077
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "nontrivial_evolution": true,
+        "activation_state_unchanged": true
+      },
+      "kinetic_budget_met": false,
+      "peak_rss_bytes": 102858752
+    }
+  },
+  "comparisons": [
+    {
+      "run": "plain",
+      "reference": "field",
+      "errors": {
+        "gamma": {
+          "l1": 0.00013383395697735953,
+          "l2": 0.0011542050899746587,
+          "linf": 0.019404316705241925,
+          "relative_l2": 0.03632451915360677
+        },
+        "alpha": {
+          "l1": 1.036087056246614e-05,
+          "l2": 0.0001457906647191802,
+          "linf": 0.009994828305853,
+          "relative_l2": 0.07237871749386503
+        },
+        "stress": {
+          "l1": 2.8027070979635646e-05,
+          "l2": 8.858634900078222e-05,
+          "linf": 0.002236831996756339,
+          "relative_l2": 0.0031194328522555926
+        }
+      },
+      "gamma_identical": false,
+      "energy_relative": 0.0009878539281669152
+    },
+    {
+      "run": "adaptive",
+      "reference": "field",
+      "errors": {
+        "gamma": {
+          "l1": 1.6721556616368604e-06,
+          "l2": 1.4839280955010831e-05,
+          "linf": 0.0002493429771550093,
+          "relative_l2": 0.00046701383485310907
+        },
+        "alpha": {
+          "l1": 2.5003957615133994e-07,
+          "l2": 3.4429697169255124e-06,
+          "linf": 0.00013080687661280732,
+          "relative_l2": 0.0017092845619524745
+        },
+        "stress": {
+          "l1": 2.7757324218839175e-07,
+          "l2": 1.1901513101781427e-06,
+          "linf": 2.949904095355879e-05,
+          "relative_l2": 4.190935892495075e-05
+        }
+      },
+      "gamma_identical": false,
+      "energy_relative": 7.439233629114028e-08
+    },
+    {
+      "run": "fallback",
+      "reference": "field",
+      "errors": {
+        "gamma": {
+          "l1": 0.0,
+          "l2": 0.0,
+          "linf": 0.0,
+          "relative_l2": 0.0
+        },
+        "alpha": {
+          "l1": 0.0,
+          "l2": 0.0,
+          "linf": 0.0,
+          "relative_l2": 0.0
+        },
+        "stress": {
+          "l1": 0.0,
+          "l2": 0.0,
+          "linf": 0.0,
+          "relative_l2": 0.0
+        }
+      },
+      "gamma_identical": true,
+      "energy_relative": 0.0
+    },
+    {
+      "run": "adaptive-half",
+      "reference": "field-half",
+      "errors": {
+        "gamma": {
+          "l1": 1.6791841896016889e-06,
+          "l2": 1.4900462927338964e-05,
+          "linf": 0.0002503559339718242,
+          "relative_l2": 0.00046893805450996345
+        },
+        "alpha": {
+          "l1": 2.510808457876283e-07,
+          "l2": 3.4570601858328504e-06,
+          "linf": 0.00013136420945449034,
+          "relative_l2": 0.0017162754980832129
+        },
+        "stress": {
+          "l1": 2.7870910864588245e-07,
+          "l2": 1.1950447985124652e-06,
+          "linf": 2.961768104403628e-05,
+          "relative_l2": 4.208167475327413e-05
+        }
+      },
+      "gamma_identical": false,
+      "energy_relative": 7.456563544394612e-08
+    },
+    {
+      "run": "field",
+      "reference": "field-half",
+      "errors": {
+        "gamma": {
+          "l1": 1.582135859720222e-08,
+          "l2": 1.6320124169486198e-07,
+          "linf": 2.8730175014868298e-06,
+          "relative_l2": 5.1361674564876375e-06
+        },
+        "alpha": {
+          "l1": 2.046569025053615e-09,
+          "l2": 2.7872870518013427e-08,
+          "linf": 1.185212429255511e-06,
+          "relative_l2": 1.3837631444009039e-05
+        },
+        "stress": {
+          "l1": 3.743389842202474e-09,
+          "l2": 1.2746862482465554e-08,
+          "linf": 3.1421539332249226e-07,
+          "relative_l2": 4.4886126593707995e-07
+        }
+      },
+      "gamma_identical": false,
+      "energy_relative": 9.096631403693323e-08
+    },
+    {
+      "run": "adaptive",
+      "reference": "adaptive-half",
+      "errors": {
+        "gamma": {
+          "l1": 1.376677698261425e-08,
+          "l2": 1.2403231454467398e-07,
+          "linf": 1.8600607399610336e-06,
+          "relative_l2": 3.903506735343387e-06
+        },
+        "alpha": {
+          "l1": 1.3390564458516183e-09,
+          "l2": 1.7097809689378434e-08,
+          "linf": 6.853642788642866e-07,
+          "relative_l2": 8.488198905202707e-06
+        },
+        "stress": {
+          "l1": 3.0226372355233175e-09,
+          "l2": 9.583230749580292e-09,
+          "linf": 1.955753099261437e-07,
+          "relative_l2": 3.374588256486592e-07
+        }
+      },
+      "gamma_identical": false,
+      "energy_relative": 9.113961307871676e-08
+    }
+  ],
+  "source_sha256": {
+    "src/bmvr/transport_metric.py": "28b553f6e1b8a342c71d4198a8186ceaf18662f857d4010be409f8349a5bbdf3",
+    "benchmarks/common_transport.py": "057e67b86bb08af6e40abce9ab0a0c3ba7e6094ba2f3b1e67e8868db451d4a6d",
+    "unified_multiscale_defect_framework.md": "57650780e5f680ad3bce254796ffffa0debc050d86f7371cfa51ff139ffb5833"
+  },
+  "limits": [
+    "One planar Burgers family; no unknown topology reconstruction.",
+    "Dense correction storage and full audits are charged.",
+    "Single timing per configuration; no statistical speedup claim."
+  ]
+}

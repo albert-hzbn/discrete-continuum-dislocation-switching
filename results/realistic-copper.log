@@ -1,0 +1,30 @@
+D 203.97 ms/step particles 502250 continuum blocks 0
+C 5.17 ms/step particles 0 continuum blocks 0
+H 5.44 ms/step particles 1958 continuum blocks 1024
+{
+ "gates": {
+  "R1_conservation": 1.0,
+  "R2_accuracy": false,
+  "R3_cost": true,
+  "R4_H_better_than_C": true
+ },
+ "errors": {
+  "C": {
+   "block": 0.001298354340349681,
+   "interior": 0.14119554713337637,
+   "mean": 0.0008442750613045384
+  },
+  "H": {
+   "block": 0.00128975791529146,
+   "interior": 0.022357446113957333,
+   "mean": 0.000864871544153878
+  }
+ },
+ "cost": {
+  "D": 0.20396875,
+  "C": 0.005171875,
+  "H": 0.0054375,
+  "DDD_direct_extrapolated": 5905.009189703525
+ },
+ "t_phys": 1.6374163728344005e-08
+}

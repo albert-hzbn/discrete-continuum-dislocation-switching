@@ -1,0 +1,20 @@
+128 t=0.2100 deleted=0 split=0 iters=13
+128 t=0.2200 deleted=0 split=0 iters=13
+128 t=0.2300 deleted=0 split=47 iters=13
+128 t=0.2400 deleted=0 split=63 iters=13
+128 t=0.2500 deleted=0 split=77 iters=14
+128 t=0.2600 deleted=0 split=83 iters=14
+128 t=0.2700 deleted=0 split=91 iters=19
+128 t=0.2800 deleted=0 split=98 iters=19
+128 t=0.2900 deleted=0 split=100 iters=22
+128 t=0.3000 deleted=0 split=102 iters=20
+128 t=0.3100 deleted=0 split=104 iters=19
+128 t=0.3200 deleted=0 split=106 iters=23
+128 t=0.3300 deleted=0 split=108 iters=20
+128 t=0.3400 deleted=0 split=110 iters=20
+128 t=0.3500 deleted=0 split=110 iters=22
+128 t=0.3600 deleted=0 split=112 iters=29
+128 t=0.3700 deleted=0 split=114 iters=22
+128 t=0.3800 deleted=0 split=114 iters=19
+128 t=0.3900 deleted=0 split=116 iters=22
+128 done {'error': 'Element orientation not certified by Bernstein bound.', 'step': 783, 'last_accepted_time': 0.3955000000000001} {'energy_drift': True, 'positive_T': True, 'composition_inventory': True, 'damage_bounds': True, 'damage_irreversibility': True, 'entropy_production': True, 'midpoint_converged': True, 'deletion_ledger': True}

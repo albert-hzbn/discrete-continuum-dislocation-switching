@@ -1,0 +1,48 @@
+{
+  "n": 96,
+  "h": 0.6666666666666666,
+  "width": 3.141592653589793,
+  "metrics": {
+    "steps": 800,
+    "seed": 47,
+    "initial_grains": 36,
+    "final_grains": 35,
+    "mean_area_slope": 0.08520225294418758,
+    "mean_area_fit_r_squared": 0.4062499999999901,
+    "fit_interval": [
+      10.0,
+      40.0
+    ],
+    "qualified_von_neumann_samples": 516,
+    "von_neumann_normalized_rms_error": 0.21015130888038727,
+    "von_neumann_fitted_scale": 1.01437721524984,
+    "phase_sum_error": 2.220446049250313e-16,
+    "max_energy_increase": 0.0
+  },
+  "checks": {
+    "simplex": true,
+    "energy": true,
+    "grain_elimination": true,
+    "finite_time_growth": true,
+    "von_neumann_25_percent": true
+  },
+  "timings": {
+    "initialization_s": 0.005050374893471599,
+    "solver_s": 6.290002254536375,
+    "diagnostics_s": 0.08084974996745586,
+    "array_io_s": 0.007939999923110008
+  },
+  "limits": [
+    "Finite three-seed ensemble and finite-width grains; no asymptotic exponent claim.",
+    "Neighbor threshold 1 length unit; qualifying area >4*pi*width^2 and stable sides across three observations."
+  ],
+  "all_checks_pass": true,
+  "peak_rss_before_io_bytes": 113852416,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  }
+}

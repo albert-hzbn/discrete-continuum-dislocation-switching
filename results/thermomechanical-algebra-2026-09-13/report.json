@@ -1,0 +1,55 @@
+{
+  "scope": "Homogeneous algebra/rate checks of the stated specialization; no spatial thermomechanical solver or integrated trajectory.",
+  "normalization": "Dimensionless test state, not a calibrated material or Kelvin-valued experiment.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "finite_difference_step": 1e-05,
+  "errors": {
+    "piola_derivative": 1.2734517607082552e-10,
+    "gc_derivative": 8.731015910257156e-12,
+    "geta_derivative": 4.063874237125731e-11,
+    "entropy_derivative": 1.300773933010646e-10,
+    "heat_capacity_derivative": 3.460076669625778e-10,
+    "frame_objectivity": 3.885780586188048e-16,
+    "cauchy_symmetry": 6.938893903907228e-18,
+    "plastic_and_phase_derivative": 2.0531926853140092e-12,
+    "adiabatic_internal_energy_rate": 1.126948361018787e-11,
+    "plastic_determinant": 0.0
+  },
+  "small_strain_refinement": [
+    {
+      "epsilon": 0.01,
+      "relative_stress_error": 0.0029164476098748017
+    },
+    {
+      "epsilon": 0.005,
+      "relative_stress_error": 0.00146023363509771
+    },
+    {
+      "epsilon": 0.0025,
+      "relative_stress_error": 0.0007306204327444157
+    }
+  ],
+  "heat_capacity": 9.999329565297082,
+  "dissipation": 0.009199070968134828,
+  "adiabatic_temperature_rate": 0.0008980025612175586,
+  "checks": {
+    "piola_derivative": true,
+    "gc_derivative": true,
+    "geta_derivative": true,
+    "entropy_derivative": true,
+    "heat_capacity_derivative": true,
+    "frame_objectivity": true,
+    "cauchy_symmetry": true,
+    "plastic_and_phase_derivative": true,
+    "adiabatic_internal_energy_rate": true,
+    "plastic_determinant": true,
+    "positive_heat_capacity": true,
+    "nonnegative_dissipation": true,
+    "small_strain_limit": true
+  },
+  "all_checks_pass": true
+}

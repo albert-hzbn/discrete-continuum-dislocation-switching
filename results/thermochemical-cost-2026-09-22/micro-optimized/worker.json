@@ -1,0 +1,36 @@
+{
+  "mode": "micro",
+  "warmup_calls": 5,
+  "batch_calls": 30,
+  "batch_seconds": [
+    0.1637702090665698,
+    0.15555433300323784,
+    0.15771250007674098,
+    0.16430300008505583,
+    0.16398420790210366
+  ],
+  "batch_median_seconds": 0.1637702090665698,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 14,
+    "load_average": [
+      9.20703125,
+      9.17578125,
+      11.00927734375
+    ],
+    "implementation_file": "<repo>/src/bmvr/thermochemical.py",
+    "threads": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "worker_elapsed_seconds": 1.3710482909809798,
+  "peak_rss_bytes": 103841792,
+  "launch_to_exit_seconds": 1.4213905830401927,
+  "startup_exit_residual_seconds": 0.05034229205921292
+}

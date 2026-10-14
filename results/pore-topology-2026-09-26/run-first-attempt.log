@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<repo>/benchmarks/pore_topology.py", line 99, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "<repo>/benchmarks/pore_topology.py", line 84, in main
+    col=collapse();co=coalescence();cof=coalescence(h=.25,stop_at_merge=True);nuc=nucleation(.06);ctrl=nucleation(0.)
+  File "<repo>/benchmarks/pore_topology.py", line 21, in collapse
+    n,p,E1,used=m.step(n,p,E);increase=max(increase,E1-E);E=E1;t+=used;k+=1
+                ~~~~~~^^^^^^^
+  File "<repo>/src/bmvr/pore_topology.py", line 43, in step
+    raise RuntimeError("Pore step failed bounds or energy.")
+RuntimeError: Pore step failed bounds or energy.

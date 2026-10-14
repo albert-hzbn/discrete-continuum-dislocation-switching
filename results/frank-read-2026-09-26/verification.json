@@ -1,0 +1,16 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "gates": {
+  "F1_subcritical_arc": true,
+  "F2_multiplication": true,
+  "F3_events": false,
+  "F4_critical": true
+ },
+ "arc_relative_error": 0.00018791145049146252,
+ "events": [
+  -0.05245015498792327,
+  0.035726381054928424
+ ]
+}

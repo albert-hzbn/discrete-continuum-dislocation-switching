@@ -1,0 +1,347 @@
+{
+  "n": 13,
+  "kind": "corrected",
+  "dt": 0.01,
+  "end_time": 1.0,
+  "steps": 100,
+  "backtracks": 0,
+  "initial_energy": 135.2978847313521,
+  "final_energy": 75.58586506641615,
+  "max_energy_increase": 0.0,
+  "inventory_max_absolute_error": 5.684341886080802e-14,
+  "tensor_energy_absolute_error": 0.0,
+  "direct_force_max_error": 1.1102230246251565e-16,
+  "equilibrium_rms": 7.186871217454202e-17,
+  "divergence_relative": 4.805767402175422e-16,
+  "plastic_trace": 0.0,
+  "corrections": [
+    {
+      "accepted": true,
+      "time": 0.01,
+      "proposed_energy_jump": -4.6050417296328305e-05,
+      "inventory_jump": 1.3098307145327291e-16,
+      "proposed_field_jump_max": [
+        6.938893903907228e-18,
+        0.0002869845603603316,
+        8.131516293641283e-20
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.02,
+      "proposed_energy_jump": -4.4598433021292294e-05,
+      "inventory_jump": -3.492881905420611e-16,
+      "proposed_field_jump_max": [
+        3.469446951953614e-18,
+        0.00028139772657884143,
+        5.421010862427522e-20
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.03,
+      "proposed_energy_jump": -4.3218029844638295e-05,
+      "inventory_jump": -2.40135630997667e-16,
+      "proposed_field_jump_max": [
+        4.336808689942018e-18,
+        0.00027592279377613993,
+        8.131516293641283e-20
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.04,
+      "proposed_energy_jump": -4.1905052938773224e-05,
+      "inventory_jump": 4.366102381775764e-17,
+      "proposed_field_jump_max": [
+        6.938893903907228e-18,
+        0.0002705566698400219,
+        5.421010862427522e-20
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.05,
+      "proposed_energy_jump": -4.065566255917474e-05,
+      "inventory_jump": -2.183051190887882e-17,
+      "proposed_field_jump_max": [
+        1.3877787807814457e-17,
+        0.0002652963641514017,
+        2.168404344971009e-19
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.060000000000000005,
+      "proposed_energy_jump": -3.946630050677413e-05,
+      "inventory_jump": -1.7464409527103056e-16,
+      "proposed_field_jump_max": [
+        1.3877787807814457e-17,
+        0.0002601389841232482,
+        1.0842021724855044e-19
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.07,
+      "proposed_energy_jump": -3.833366108096925e-05,
+      "inventory_jump": 2.183051190887882e-16,
+      "proposed_field_jump_max": [
+        3.469446951953614e-18,
+        0.0002550817322083121,
+        1.0842021724855044e-19
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.08,
+      "proposed_energy_jump": -3.7254666153785365e-05,
+      "inventory_jump": -2.183051190887882e-16,
+      "proposed_field_jump_max": [
+        1.3877787807814457e-17,
+        0.00025012190324222305,
+        2.168404344971009e-19
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.09999999999999999,
+      "proposed_energy_jump": -8.472645964729963e-05,
+      "inventory_jump": -3.0562716672430347e-16,
+      "proposed_field_jump_max": [
+        4.9823779242341715e-05,
+        0.00048096469663652663,
+        2.664374423866356e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.11999999999999998,
+      "proposed_energy_jump": -7.928342189700288e-05,
+      "inventory_jump": 8.077289406285164e-16,
+      "proposed_field_jump_max": [
+        4.2102223928308646e-05,
+        0.0004619729221959079,
+        2.658171056046932e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.13999999999999999,
+      "proposed_energy_jump": -7.457878768946102e-05,
+      "inventory_jump": 8.732204763551528e-17,
+      "proposed_field_jump_max": [
+        3.5627709519037154e-05,
+        0.0004436950056791178,
+        2.652520042500939e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.16,
+      "proposed_energy_jump": -7.049217140320252e-05,
+      "inventory_jump": -4.366102381775764e-17,
+      "proposed_field_jump_max": [
+        3.22714459685125e-05,
+        0.0004260932386663252,
+        2.647204711547779e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.19000000000000003,
+      "proposed_energy_jump": -0.00013597597278192097,
+      "inventory_jump": 4.80271261995334e-16,
+      "proposed_field_jump_max": [
+        8.800615736159756e-05,
+        0.0003099012034341597,
+        7.932540969091129e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.22000000000000006,
+      "proposed_energy_jump": -0.0001278719157227215,
+      "inventory_jump": -2.8379665481542465e-16,
+      "proposed_field_jump_max": [
+        7.826130262655884e-05,
+        0.00030053378713246204,
+        7.907942859430861e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.25000000000000006,
+      "proposed_energy_jump": -0.00012191031062513957,
+      "inventory_jump": 8.732204763551528e-17,
+      "proposed_field_jump_max": [
+        6.996137041115347e-05,
+        0.00029136217312858426,
+        7.882899007161104e-07
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.2900000000000001,
+      "proposed_energy_jump": -0.0002274847469152519,
+      "inventory_jump": 4.366102381775764e-16,
+      "proposed_field_jump_max": [
+        0.00012422967870939772,
+        0.00035587196756606265,
+        1.5721228268095189e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.3300000000000001,
+      "proposed_energy_jump": -0.00021053755524746975,
+      "inventory_jump": -3.492881905420611e-16,
+      "proposed_field_jump_max": [
+        0.00011546104390525169,
+        0.0003536495796451211,
+        1.56557030275839e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.38000000000000017,
+      "proposed_energy_jump": -0.0003813451191945205,
+      "inventory_jump": 2.8379665481542465e-16,
+      "proposed_field_jump_max": [
+        0.00020579530052622363,
+        0.00048178165471260415,
+        2.597293226686004e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.4400000000000002,
+      "proposed_energy_jump": -0.0006333861422831433,
+      "inventory_jump": -4.366102381775764e-16,
+      "proposed_field_jump_max": [
+        0.00032951827826305236,
+        0.0006192078404861634,
+        3.871049962383966e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.5100000000000002,
+      "proposed_energy_jump": -0.0010711955670785756,
+      "inventory_jump": 4.366102381775764e-17,
+      "proposed_field_jump_max": [
+        0.0005011715723320931,
+        0.0007586822106024071,
+        5.369446216929585e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.5800000000000003,
+      "proposed_energy_jump": -0.00118243092097714,
+      "inventory_jump": -4.366102381775764e-17,
+      "proposed_field_jump_max": [
+        0.0005981693908252428,
+        0.0007775393639005423,
+        5.310187011248191e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.6700000000000004,
+      "proposed_energy_jump": -0.0029005108962820714,
+      "inventory_jump": 1.3098307145327291e-16,
+      "proposed_field_jump_max": [
+        0.0011995386576434397,
+        0.0012290372453337417,
+        8.993118032429859e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.7600000000000005,
+      "proposed_energy_jump": -0.0033077209513550088,
+      "inventory_jump": -5.021017739042128e-16,
+      "proposed_field_jump_max": [
+        0.0013886280104728477,
+        0.0010386856319035132,
+        8.853491332422303e-06
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.8600000000000005,
+      "proposed_energy_jump": -0.0051619037402019785,
+      "inventory_jump": -1.3098307145327291e-16,
+      "proposed_field_jump_max": [
+        0.001963997885737534,
+        0.0011244488221978932,
+        1.1037651225259681e-05
+      ]
+    },
+    {
+      "accepted": true,
+      "time": 0.9800000000000006,
+      "proposed_energy_jump": -0.010239854276434812,
+      "inventory_jump": 2.183051190887882e-17,
+      "proposed_field_jump_max": [
+        0.0032340171391551653,
+        0.0011161316255525744,
+        1.6207903953104064e-05
+      ]
+    }
+  ],
+  "correction_count": 25,
+  "rejection_count": 0,
+  "tangent_calls": 100,
+  "indicator_calls": 100,
+  "final_used_coordinates": [
+    8,
+    14,
+    8
+  ],
+  "persistent_array_bytes": 3236416,
+  "timings": {
+    "initialization_s": 0.00426616589538753,
+    "online_s": 1.2647548387758434,
+    "compilation_s": 0.0,
+    "other_evolution_s": 0.0003429532516747713,
+    "tensor_validation_s": 0.0028797080740332603,
+    "array_io_s": 0.015714250039309263
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "parameters": {
+    "length": 12.0,
+    "initial_core": 0.8,
+    "profile_scale": 1.4142135623730951,
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "epsilon_xz": 0.06,
+    "kinetic_budget": 0.05,
+    "mode_cap": 32,
+    "field_trigger": 0.005,
+    "energy_trigger": 0.0005
+  },
+  "checks": {
+    "energy_descent": true,
+    "inventory": true,
+    "positive_population": true,
+    "tensor_energy": true,
+    "direct_forces": true,
+    "mechanical_equilibrium": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "kinetic_budgets": true,
+    "correction_audits": true
+  },
+  "peak_rss_bytes": 90374144,
+  "maximum_physical_coordinates": 37,
+  "auxiliary_error_coordinates": 6591,
+  "maximum_total_evolving_coordinates": 6628
+}

@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-28",
+ "theory": "84",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "declared_gates": {
+  "N1_saddle_index": true,
+  "N2_sharp_interface_limit": false,
+  "N3_appearance_disappearance": true
+ },
+ "post_hoc": [
+  "post-hoc-anisotropy.json"
+ ],
+ "document": "CRITICAL_NUCLEUS_RESULTS.md",
+ "figures": [
+  "figures/critical-nucleus.png"
+ ],
+ "notes": "Declared fixed-volume search collapsed to the homogeneous state; Newton from the classical droplet used, gates unchanged. N2 failed on lattice anisotropy of the reference interface energy."
+}

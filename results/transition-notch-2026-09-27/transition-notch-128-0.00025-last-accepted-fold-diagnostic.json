@@ -1,0 +1,24 @@
+{
+ "checkpoint": "results/transition-notch-2026-09-27/transition-notch-128-0.00025-last-accepted.npz",
+ "time": 0.3955000000000001,
+ "released": 116,
+ "retries": {
+  "6": "Constrained nodal midpoint did not converge: 2.618e-01.",
+  "12": "Constrained nodal midpoint did not converge: 2.618e-01."
+ },
+ "last_accepted_dense_min_J": {
+  "value": 0.13960658229568967,
+  "cell": 65,
+  "centre": [
+   0.002736268372843825,
+   0.5078125004749361
+  ]
+ },
+ "bypassed_step": {
+  "error": "Constrained nodal midpoint did not converge: 2.618e-01."
+ },
+ "smaller_steps": {
+  "0.5": "accepted",
+  "0.25": "accepted"
+ }
+}

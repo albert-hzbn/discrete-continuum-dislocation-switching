@@ -1,0 +1,42 @@
+{
+  "moving": {
+    "steps": 20,
+    "trial_evaluations": 20,
+    "minimum_dt": 0.019999999999999962,
+    "initial_energy": 280.356453288728,
+    "final_energy": 218.93645432078048,
+    "max_energy_increase": 0.0,
+    "inventory_drift": 0.0,
+    "maximum_node_displacement": 0.008403746215753361,
+    "maximum_equilibrium_rms": 1.9338260900663583e-16,
+    "source_divergence_max": 7.869049163098062e-16,
+    "slip_rms": 0.014663247602953887,
+    "primary_field_dofs": 218750,
+    "line_coordinate_dofs": 36
+  },
+  "pinned": {
+    "steps": 20,
+    "trial_evaluations": 20,
+    "minimum_dt": 0.019999999999999962,
+    "initial_energy": 280.356453288728,
+    "final_energy": 218.93839703050395,
+    "max_energy_increase": 0.0,
+    "inventory_drift": 0.0,
+    "maximum_node_displacement": 0.0,
+    "maximum_equilibrium_rms": 1.8489848779792403e-16,
+    "source_divergence_max": 5.822050954717918e-16,
+    "slip_rms": 0.014663571923936258,
+    "primary_field_dofs": 218750,
+    "line_coordinate_dofs": 36
+  },
+  "ablation_field_rms_differences": {
+    "phase": 2.150752763488052e-07,
+    "population": 1.8184001622192885e-07,
+    "slip": 1.4268440864473256e-06,
+    "stress": 1.057158062421672e-05
+  },
+  "checks": {
+    "all_feedback_blocks_change": true
+  },
+  "notes": "Pinned-coordinate ablation holds fields, parameters, and initial state fixed; not a performance comparison at equal constraints."
+}

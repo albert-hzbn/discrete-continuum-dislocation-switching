@@ -1,0 +1,62 @@
+{
+  "kind": "fallback",
+  "dt": 0.02,
+  "end": 4.0,
+  "steps": 200,
+  "final_mode": "field",
+  "parameters": {
+    "n": 13,
+    "length": 12.0,
+    "core_coefficient": 0.3,
+    "initial_core": 0.8,
+    "field_mobility": 10.0,
+    "budget": 0.05,
+    "detail_cap": 0
+  },
+  "initial_energy": 1.5847039272444323,
+  "final_energy": 1.5830510106945266,
+  "max_energy_increase": 0.0,
+  "max_plastic_trace": 0.0,
+  "max_divergence_relative": 5.495946038748966e-16,
+  "maximum_used_chart_residual": null,
+  "initial_used_chart_residual": null,
+  "source_change_relative": 0.07151967255792734,
+  "maximum_detail_storage_bytes": 0,
+  "full_scalar_state_bytes": 17576,
+  "final_active_coordinates": 2197,
+  "events": [
+    {
+      "time": 0.0,
+      "initial_residual": 0.974902297324791,
+      "final_residual": 0.974902297324791,
+      "added_details": 0,
+      "energy_jump": 0.0,
+      "fallback_required": true,
+      "detail_storage_bytes": 0,
+      "promotion_state_error": 0.0
+    }
+  ],
+  "timings": {
+    "initialization_s": 0.006631250027567148,
+    "audit_and_enrichment_s": 0.015550831914879382,
+    "solver_s": 1.4554395490558818,
+    "compilation_s": 0.0,
+    "array_io_s": 0.004138167016208172
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "nontrivial_evolution": true,
+    "activation_state_unchanged": true
+  },
+  "kinetic_budget_met": true,
+  "peak_rss_bytes": 92962816
+}

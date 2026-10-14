@@ -1,0 +1,5 @@
+{'L': 50.0, 'tau_c': np.float64(0.016932741625408098), 'tau_line_tension': np.float64(0.01245235597606204), 'ratio': np.float64(1.3598022460937504), 'scaled': np.float64(0.8466370812704049)}
+{'L': 100.0, 'tau_c': np.float64(0.010041629265165108), 'tau_line_tension': np.float64(0.007329355988794278), 'ratio': np.float64(1.3700561523437498), 'scaled': np.float64(1.0041629265165108)}
+{'L': 200.0, 'tau_c': np.float64(0.0058082268875461265), 'tau_line_tension': np.float64(0.004216266994778768), 'ratio': np.float64(1.3775756835937498), 'scaled': np.float64(1.1616453775092253)}
+{'L': 400.0, 'tau_c': np.float64(0.003326411836174313), 'tau_line_tension': np.float64(0.0023839279975801982), 'ratio': np.float64(1.39534912109375), 'scaled': np.float64(1.3305647344697251)}
+{'F1_declared': False, 'F1_exact_post_hoc': True, 'F2_foreman_log': True} [ 0.23216792 -0.06388354] 0.9996985705422388

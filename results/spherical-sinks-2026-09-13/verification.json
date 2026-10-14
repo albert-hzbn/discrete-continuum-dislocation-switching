@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-13",
+  "automated_tests_passed": 84,
+  "automated_test_failures": 0,
+  "numerical_checks_passed": 39,
+  "numerical_checks_total": 40,
+  "retained_failed_checks": [
+    "capture_convergence_10.0"
+  ],
+  "fresh_process_arrays_identical": true,
+  "figures_visually_inspected": [
+    "spherical-capture.png",
+    "spherical-storage.png"
+  ],
+  "document_links_checked": true,
+  "source_sha256": {
+    "src/bmvr/spherical_sink.py": "51c68594051f38b5c598a6677697a2a9c402753ec16744d5d8cb738209b28a92",
+    "tests/test_spherical_sink.py": "8f1d1bb887623bc5e743268319aaf411cf825fd6afa3a794f772000c3ec28d74",
+    "benchmarks/spherical_sinks.py": "78cf34f22fd44dcb14a759d022a0602fc6121def6e635258c7d5495e94ff12c2",
+    "benchmarks/spherical_sinks_report.py": "3486bef3f50f90dbfa7918cba360937e29383771f4f4259d999bb5ad3148eb86",
+    "unified_multiscale_defect_framework.md": "279378c82e570b6dd69cdae99142d61ab5a162e53959fc42a9050eabca37d405",
+    "THEORY_REVIEW.md": "e62c0e3ec888a7f3ea69eef381c6e469bc188ba79aecdecea9ea89d1abc22f78",
+    "SPHERICAL_SINK_RESULTS.md": "d9be9d877f2de65f728dd37453f1744882f19ca7843e70d5d7de3b8391b7a8ce"
+  },
+  "full_original_objective_complete": false
+}

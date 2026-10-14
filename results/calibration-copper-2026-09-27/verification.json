@@ -1,0 +1,50 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "V1_band": true,
+  "V2_activation": true
+ },
+ "z_activation": 1.6889098424323075,
+ "validation_rows": {
+  "700.0": {
+   "band": [
+    1.481121213025613e-21,
+    3.241511624393796e-20,
+    6.7406382006368925e-19
+   ],
+   "measured": 1.6188124577853562e-20
+  },
+  "800.0": {
+   "band": [
+    1.3597250723467786e-19,
+    2.1185515424032926e-18,
+    3.4055492244149757e-17
+   ],
+   "measured": 1.4524814170166318e-18
+  },
+  "900.0": {
+   "band": [
+    4.1933278108395104e-18,
+    5.537507533588731e-17,
+    6.847127345276814e-16
+   ],
+   "measured": 4.7978175895630154e-17
+  },
+  "1000.0": {
+   "band": [
+    7.177000531567474e-17,
+    7.664569766017383e-16,
+    8.226368467716072e-15
+   ],
+   "measured": 7.87390644489329e-16
+  }
+ },
+ "caveat": "95% band width is dominated by assumed S_f, S_m and attempt-frequency ranges; V1 is a weak test",
+ "figures": [
+  "results/calibration-copper-2026-09-27/figures/copper-self-diffusion.png"
+ ],
+ "figures_inspected": true,
+ "document": "CALIBRATION_COPPER.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

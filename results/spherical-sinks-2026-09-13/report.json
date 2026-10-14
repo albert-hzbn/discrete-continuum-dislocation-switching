@@ -1,0 +1,497 @@
+{
+  "parameters": {
+    "radius": 2.0,
+    "length": 8.0,
+    "width": 1.0,
+    "diffusion": 1.0,
+    "chi": 1.0,
+    "concentration_infinity": 1.0,
+    "fixed_surface_equilibrium": 0.0,
+    "capacity_fraction_of_volume": 0.2
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "steady": [
+    {
+      "n": 32,
+      "h": 0.25,
+      "reactivity": 0.1,
+      "profile_relative_l2": 7.482969310542148e-05,
+      "profile_l1": 1.5173531763385724e-05,
+      "profile_linf": 0.0006862464429661097,
+      "capture_coefficient": 4.42094327284325,
+      "reference_capture_coefficient": 4.41626533013312,
+      "capture_relative_error": 0.001059253092926948,
+      "capture_length": 4.42094327284325,
+      "sink_strength_per_volume": 0.0020613719970757763,
+      "steady_flux_balance_relative": 1.6795446424983605e-13,
+      "reference_tolerance_relative_change": 4.761404153623765e-12,
+      "reference": {
+        "nodes": 1664,
+        "max_rms_residual": 9.911490432422273e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 64,
+      "h": 0.125,
+      "reactivity": 0.1,
+      "profile_relative_l2": 1.8476667948812293e-05,
+      "profile_l1": 4.150077033608701e-06,
+      "profile_linf": 0.0001896410846148333,
+      "capture_coefficient": 4.4170909197660055,
+      "reference_capture_coefficient": 4.41626533013312,
+      "capture_relative_error": 0.000186942941868168,
+      "capture_length": 4.4170909197660055,
+      "sink_strength_per_volume": 0.0020595757440441983,
+      "steady_flux_balance_relative": 5.133513316077589e-13,
+      "reference_tolerance_relative_change": 4.761404153623765e-12,
+      "reference": {
+        "nodes": 1664,
+        "max_rms_residual": 9.911490432422273e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 128,
+      "h": 0.0625,
+      "reactivity": 0.1,
+      "profile_relative_l2": 4.618398718741773e-06,
+      "profile_l1": 1.102678795822876e-06,
+      "profile_linf": 4.8386641135045316e-05,
+      "capture_coefficient": 4.416452411699295,
+      "reference_capture_coefficient": 4.41626533013312,
+      "capture_relative_error": 4.236193982688113e-05,
+      "capture_length": 4.416452411699295,
+      "sink_strength_per_volume": 0.0020592780241759723,
+      "steady_flux_balance_relative": 2.4627533399511463e-12,
+      "reference_tolerance_relative_change": 4.761404153623765e-12,
+      "reference": {
+        "nodes": 1664,
+        "max_rms_residual": 9.911490432422273e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 256,
+      "h": 0.03125,
+      "reactivity": 0.1,
+      "profile_relative_l2": 1.1547311338956002e-06,
+      "profile_l1": 2.804223941126516e-07,
+      "profile_linf": 1.2140336631438764e-05,
+      "capture_coefficient": 4.416310923966689,
+      "reference_capture_coefficient": 4.41626533013312,
+      "capture_relative_error": 1.0324070263161296e-05,
+      "capture_length": 4.416310923966689,
+      "sink_strength_per_volume": 0.002059212052089944,
+      "steady_flux_balance_relative": 2.9000523361186262e-12,
+      "reference_tolerance_relative_change": 4.761404153623765e-12,
+      "reference": {
+        "nodes": 1664,
+        "max_rms_residual": 9.911490432422273e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 32,
+      "h": 0.25,
+      "reactivity": 1.0,
+      "profile_relative_l2": 0.00039973279326479584,
+      "profile_l1": 0.0002050050041652229,
+      "profile_linf": 0.0021539948859588542,
+      "capture_coefficient": 21.13744404540477,
+      "reference_capture_coefficient": 21.15392998744924,
+      "capture_relative_error": 0.0007793323535744768,
+      "capture_length": 21.13744404540477,
+      "sink_strength_per_volume": 0.009855845812952692,
+      "steady_flux_balance_relative": 6.7230714767008026e-15,
+      "reference_tolerance_relative_change": 6.1229679486769865e-12,
+      "reference": {
+        "nodes": 2679,
+        "max_rms_residual": 9.987791571749018e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 64,
+      "h": 0.125,
+      "reactivity": 1.0,
+      "profile_relative_l2": 0.0001126961236134621,
+      "profile_l1": 6.451387910858409e-05,
+      "profile_linf": 0.0005574097444170367,
+      "capture_coefficient": 21.146020431531156,
+      "reference_capture_coefficient": 21.15392998744924,
+      "capture_relative_error": 0.0003739047979631035,
+      "capture_length": 21.146020431531156,
+      "sink_strength_per_volume": 0.009859844760938664,
+      "steady_flux_balance_relative": 3.81379563922666e-14,
+      "reference_tolerance_relative_change": 6.1229679486769865e-12,
+      "reference": {
+        "nodes": 2679,
+        "max_rms_residual": 9.987791571749018e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 128,
+      "h": 0.0625,
+      "reactivity": 1.0,
+      "profile_relative_l2": 2.8985917495202057e-05,
+      "profile_l1": 1.693042257811497e-05,
+      "profile_linf": 0.00013834299576215292,
+      "capture_coefficient": 21.151743640408693,
+      "reference_capture_coefficient": 21.15392998744924,
+      "capture_relative_error": 0.00010335417777419273,
+      "capture_length": 21.151743640408693,
+      "sink_strength_per_volume": 0.009862513345850405,
+      "steady_flux_balance_relative": 5.757777088249922e-13,
+      "reference_tolerance_relative_change": 6.1229679486769865e-12,
+      "reference": {
+        "nodes": 2679,
+        "max_rms_residual": 9.987791571749018e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 256,
+      "h": 0.03125,
+      "reactivity": 1.0,
+      "profile_relative_l2": 7.29735581075106e-06,
+      "profile_l1": 4.276608742975135e-06,
+      "profile_linf": 3.4369484951279894e-05,
+      "capture_coefficient": 21.15337068354603,
+      "reference_capture_coefficient": 21.15392998744924,
+      "capture_relative_error": 2.643971609724903e-05,
+      "capture_length": 21.15337068354603,
+      "sink_strength_per_volume": 0.009863271994164655,
+      "steady_flux_balance_relative": 1.5805797067225e-12,
+      "reference_tolerance_relative_change": 6.1229679486769865e-12,
+      "reference": {
+        "nodes": 2679,
+        "max_rms_residual": 9.987791571749018e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 32,
+      "h": 0.25,
+      "reactivity": 10.0,
+      "profile_relative_l2": 0.0004963151383768683,
+      "profile_l1": 0.00019542097399476556,
+      "profile_linf": 0.0032344166913790343,
+      "capture_coefficient": 34.979634861109375,
+      "reference_capture_coefficient": 34.975966583778536,
+      "capture_relative_error": 0.00010487994154648544,
+      "capture_length": 34.979634861109375,
+      "sink_strength_per_volume": 0.01631010291707561,
+      "steady_flux_balance_relative": 1.157843302228262e-14,
+      "reference_tolerance_relative_change": 3.4109171807549383e-13,
+      "reference": {
+        "nodes": 2684,
+        "max_rms_residual": 9.993706774234837e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 64,
+      "h": 0.125,
+      "reactivity": 10.0,
+      "profile_relative_l2": 0.00025975685109471205,
+      "profile_l1": 0.00015389235522931911,
+      "profile_linf": 0.0008755417942095181,
+      "capture_coefficient": 34.950164888129386,
+      "reference_capture_coefficient": 34.975966583778536,
+      "capture_relative_error": 0.000737697858538005,
+      "capture_length": 34.950164888129386,
+      "sink_strength_per_volume": 0.016296361827605247,
+      "steady_flux_balance_relative": 6.505653869474538e-14,
+      "reference_tolerance_relative_change": 3.4109171807549383e-13,
+      "reference": {
+        "nodes": 2684,
+        "max_rms_residual": 9.993706774234837e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 128,
+      "h": 0.0625,
+      "reactivity": 10.0,
+      "profile_relative_l2": 7.221797706754278e-05,
+      "profile_l1": 4.329286035260787e-05,
+      "profile_linf": 0.0002319732690336529,
+      "capture_coefficient": 34.96825889881083,
+      "reference_capture_coefficient": 34.975966583778536,
+      "capture_relative_error": 0.00022037089237385974,
+      "capture_length": 34.96825889881083,
+      "sink_strength_per_volume": 0.016304798598817092,
+      "steady_flux_balance_relative": 4.1350485062925925e-13,
+      "reference_tolerance_relative_change": 3.4109171807549383e-13,
+      "reference": {
+        "nodes": 2684,
+        "max_rms_residual": 9.993706774234837e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "n": 256,
+      "h": 0.03125,
+      "reactivity": 10.0,
+      "profile_relative_l2": 1.8501013581945892e-05,
+      "profile_l1": 1.1107879504520284e-05,
+      "profile_linf": 5.9661608948102796e-05,
+      "capture_coefficient": 34.97396370783135,
+      "reference_capture_coefficient": 34.975966583778536,
+      "capture_relative_error": 5.7264348717473076e-05,
+      "capture_length": 34.97396370783135,
+      "sink_strength_per_volume": 0.016307458604349352,
+      "steady_flux_balance_relative": 6.094900266631738e-14,
+      "reference_tolerance_relative_change": 3.4109171807549383e-13,
+      "reference": {
+        "nodes": 2684,
+        "max_rms_residual": 9.993706774234837e-11,
+        "tolerance": 1e-10
+      }
+    }
+  ],
+  "width_limit": [
+    {
+      "width": 1.0,
+      "reactivity": 0.1,
+      "capture_coefficient": 4.41626533013312,
+      "robin_limit": 4.370911518037973,
+      "relative_difference": 0.01037628236306775,
+      "reference": {
+        "nodes": 1664,
+        "max_rms_residual": 9.911490432422273e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.5,
+      "reactivity": 0.1,
+      "capture_coefficient": 4.39217620039288,
+      "robin_limit": 4.370911518037973,
+      "relative_difference": 0.004865045258214823,
+      "reference": {
+        "nodes": 1979,
+        "max_rms_residual": 9.999300636131753e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.25,
+      "reactivity": 0.1,
+      "capture_coefficient": 4.3811503343634906,
+      "robin_limit": 4.370911518037973,
+      "relative_difference": 0.0023424899550731756,
+      "reference": {
+        "nodes": 2441,
+        "max_rms_residual": 9.994307476379963e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 1.0,
+      "reactivity": 1.0,
+      "capture_coefficient": 21.15392998744924,
+      "robin_limit": 20.106192982974676,
+      "relative_difference": 0.05211016353825685,
+      "reference": {
+        "nodes": 2679,
+        "max_rms_residual": 9.987791571749018e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.5,
+      "reactivity": 1.0,
+      "capture_coefficient": 20.578755768354206,
+      "robin_limit": 20.106192982974676,
+      "relative_difference": 0.02350334475450834,
+      "reference": {
+        "nodes": 2837,
+        "max_rms_residual": 9.999615346662839e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.25,
+      "reactivity": 1.0,
+      "capture_coefficient": 20.32858427797104,
+      "robin_limit": 20.106192982974676,
+      "relative_difference": 0.011060835593524724,
+      "reference": {
+        "nodes": 3300,
+        "max_rms_residual": 9.992530458884444e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 1.0,
+      "reactivity": 10.0,
+      "capture_coefficient": 34.975966583778536,
+      "robin_limit": 31.41592653589793,
+      "relative_difference": 0.11331959424506122,
+      "reference": {
+        "nodes": 2684,
+        "max_rms_residual": 9.993706774234837e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.5,
+      "reactivity": 10.0,
+      "capture_coefficient": 32.88212708318692,
+      "robin_limit": 31.41592653589793,
+      "relative_difference": 0.04667061293301705,
+      "reference": {
+        "nodes": 3109,
+        "max_rms_residual": 9.999857722665665e-11,
+        "tolerance": 1e-10
+      }
+    },
+    {
+      "width": 0.25,
+      "reactivity": 10.0,
+      "capture_coefficient": 32.04823003970136,
+      "robin_limit": 31.41592653589793,
+      "relative_difference": 0.020126845632928114,
+      "reference": {
+        "nodes": 3455,
+        "max_rms_residual": 9.995086344661054e-11,
+        "tolerance": 1e-10
+      }
+    }
+  ],
+  "closed": [
+    {
+      "name": "capture",
+      "n": 128,
+      "dt": 0.25,
+      "end": 160.0,
+      "steps": 640,
+      "capacity": 428.9321169701264,
+      "initial_bulk_concentration": 1.0,
+      "initial_surface_concentration": 0.0,
+      "equilibrium_concentration": 0.8333333333333331,
+      "equilibrium_relative_linf_error": 3.47657721347261e-05,
+      "relative_inventory_drift": 6.42896119613159e-13,
+      "max_energy_increase": 0.0,
+      "minimum_population": 0.0,
+      "stored_population_change": 357.43100401157204
+    },
+    {
+      "name": "release",
+      "n": 128,
+      "dt": 0.25,
+      "end": 160.0,
+      "steps": 640,
+      "capacity": 428.9321169701264,
+      "initial_bulk_concentration": 0.2,
+      "initial_surface_concentration": 1.0,
+      "equilibrium_concentration": 0.33333333333333326,
+      "equilibrium_relative_linf_error": 6.953154265620932e-05,
+      "relative_inventory_drift": 5.894628009645719e-13,
+      "max_energy_increase": 0.0,
+      "minimum_population": 0.2,
+      "stored_population_change": -285.9448032094884
+    }
+  ],
+  "time_refinement": [
+    {
+      "dt": 0.5,
+      "steps": 16,
+      "solver_s": 5.891697946935892e-05,
+      "combined_relative_l2": 0.0023076992311487575,
+      "bulk_linf": 0.002147058124485235,
+      "surface_absolute_error": 0.004220283530587732
+    },
+    {
+      "dt": 0.25,
+      "steps": 32,
+      "solver_s": 0.00010424992069602013,
+      "combined_relative_l2": 0.0011535953559786967,
+      "bulk_linf": 0.001047054578062534,
+      "surface_absolute_error": 0.0021165167869095503
+    },
+    {
+      "dt": 0.125,
+      "steps": 64,
+      "solver_s": 0.00022804096806794405,
+      "combined_relative_l2": 0.0005766150611753687,
+      "bulk_linf": 0.0005163288075480388,
+      "surface_absolute_error": 0.0010597835343574835
+    },
+    {
+      "dt": 0.0625,
+      "steps": 128,
+      "solver_s": 0.0003859159769490361,
+      "combined_relative_l2": 0.0002882463695571399,
+      "bulk_linf": 0.00025626460274974505,
+      "surface_absolute_error": 0.0005302634446153753
+    }
+  ],
+  "checks": {
+    "reference_tolerance_0.1": true,
+    "steady_balance_0.1_32": true,
+    "steady_balance_0.1_64": true,
+    "steady_balance_0.1_128": true,
+    "steady_balance_0.1_256": true,
+    "profile_convergence_0.1": true,
+    "capture_convergence_0.1": true,
+    "finest_profile_0.1": true,
+    "finest_capture_0.1": true,
+    "reference_tolerance_1.0": true,
+    "steady_balance_1.0_32": true,
+    "steady_balance_1.0_64": true,
+    "steady_balance_1.0_128": true,
+    "steady_balance_1.0_256": true,
+    "profile_convergence_1.0": true,
+    "capture_convergence_1.0": true,
+    "finest_profile_1.0": true,
+    "finest_capture_1.0": true,
+    "reference_tolerance_10.0": true,
+    "steady_balance_10.0_32": true,
+    "steady_balance_10.0_64": true,
+    "steady_balance_10.0_128": true,
+    "steady_balance_10.0_256": true,
+    "profile_convergence_10.0": true,
+    "capture_convergence_10.0": false,
+    "finest_profile_10.0": true,
+    "finest_capture_10.0": true,
+    "capture_inventory": true,
+    "capture_dissipation": true,
+    "capture_positivity": true,
+    "capture_equilibrium": true,
+    "capture_exchange_direction": true,
+    "release_inventory": true,
+    "release_dissipation": true,
+    "release_positivity": true,
+    "release_equilibrium": true,
+    "release_exchange_direction": true,
+    "time_convergence_combined_relative_l2": true,
+    "time_convergence_bulk_linf": true,
+    "time_convergence_surface_absolute_error": true
+  },
+  "all_checks_pass": false,
+  "limits": [
+    "Radial symmetry and a fixed permeable spherical trapping layer; not an excluded-volume pore.",
+    "Quadratic storage closure without site saturation or material calibration.",
+    "Width-limit studies are separate from fixed-width spatial convergence; no performance superiority claim."
+  ],
+  "peak_rss_before_io_bytes": 107003904,
+  "timings": {
+    "reference_s": 0.2522190809249878,
+    "assembly_s": 0.005722500151023269,
+    "solver_s": 0.0077473403653129935,
+    "diagnostics_s": 0.0043135074665769935,
+    "unclassified_pre_io_s": 0.014043988077901304,
+    "array_io_s": 0.003782499930821359,
+    "compilation_s": 0.0
+  }
+}

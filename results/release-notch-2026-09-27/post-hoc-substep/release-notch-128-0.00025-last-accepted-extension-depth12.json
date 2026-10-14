@@ -1,0 +1,29 @@
+{
+ "checkpoint": "results/release-notch-2026-09-27/post-hoc-substep/release-notch-128-0.00025-last-accepted.npz",
+ "depth": 12,
+ "start": 0.31900000000000006,
+ "rows": [
+  {
+   "time": 0.31925000000000003,
+   "min_J": 0.0008148561706865044,
+   "cell": 64,
+   "centre": [
+    0.002736268372843825,
+    0.5026041668166693
+   ],
+   "iterations": 14
+  }
+ ],
+ "end": {
+  "time": 0.31925000000000003,
+  "error": "Element orientation not certified by Bernstein bound.",
+  "bypassed_step": {
+   "dense_min_J": -0.0015867365803298524,
+   "centre": [
+    0.002736268372843825,
+    0.5026041668166693
+   ]
+  },
+  "genuine_fold": true
+ }
+}

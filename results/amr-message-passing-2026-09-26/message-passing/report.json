@@ -1,0 +1,147 @@
+{
+ "scope": "Section 61.2 message-passing strips on one node (pipes between processes, private memory, one thread each); not a network measurement.",
+ "serial_ns_per_cell": 8.191525938117117,
+ "strong": {
+  "uniform": [
+   {
+    "parts": 1,
+    "cells": 1048576,
+    "warmup": 58,
+    "steps": 69,
+    "seconds_per_step": 0.0085398351446307,
+    "bitwise": true,
+    "speedup": 1.0,
+    "efficiency": 1.0
+   },
+   {
+    "parts": 2,
+    "cells": 1048576,
+    "warmup": 116,
+    "steps": 139,
+    "seconds_per_step": 0.004477783870504726,
+    "bitwise": true,
+    "speedup": 1.9071566184519997,
+    "efficiency": 0.9535783092259998
+   },
+   {
+    "parts": 4,
+    "cells": 1048576,
+    "warmup": 232,
+    "steps": 279,
+    "seconds_per_step": 0.0025416620357978526,
+    "bitwise": true,
+    "speedup": 3.359941260620814,
+    "efficiency": 0.8399853151552035
+   },
+   {
+    "parts": 8,
+    "cells": 1048576,
+    "warmup": 465,
+    "steps": 558,
+    "seconds_per_step": 0.0016283404265028027,
+    "bitwise": true,
+    "speedup": 5.244502320053406,
+    "efficiency": 0.6555627900066757
+   }
+  ],
+  "adaptive": [
+   {
+    "parts": 1,
+    "cells": 110224,
+    "warmup": 553,
+    "steps": 664,
+    "seconds_per_step": 0.0008913063508979499,
+    "bitwise": true,
+    "speedup": 1.0,
+    "efficiency": 1.0
+   },
+   {
+    "parts": 2,
+    "cells": 110224,
+    "warmup": 1107,
+    "steps": 1329,
+    "seconds_per_step": 0.0005103071233840341,
+    "bitwise": true,
+    "speedup": 1.7466076996679372,
+    "efficiency": 0.8733038498339686
+   },
+   {
+    "parts": 4,
+    "cells": 110224,
+    "warmup": 2215,
+    "steps": 2658,
+    "seconds_per_step": 0.0003821855872828146,
+    "bitwise": true,
+    "speedup": 2.3321296787636046,
+    "efficiency": 0.5830324196909011
+   },
+   {
+    "parts": 8,
+    "cells": 110224,
+    "warmup": 4430,
+    "steps": 5316,
+    "seconds_per_step": 0.0002745118980433745,
+    "bitwise": true,
+    "speedup": 3.2468769377607023,
+    "efficiency": 0.4058596172200878
+   }
+  ]
+ },
+ "weak": [
+  {
+   "n": 512,
+   "parts": 1,
+   "cells": 262144,
+   "warmup": 232,
+   "steps": 279,
+   "seconds_per_step": 0.0020922004157805808,
+   "bitwise": true,
+   "efficiency": 1.0
+  },
+  {
+   "n": 724,
+   "parts": 2,
+   "cells": 524176,
+   "warmup": 232,
+   "steps": 279,
+   "seconds_per_step": 0.0022088999425621844,
+   "bitwise": true,
+   "efficiency": 0.9469661496422453
+  },
+  {
+   "n": 1024,
+   "parts": 4,
+   "cells": 1048576,
+   "warmup": 232,
+   "steps": 279,
+   "seconds_per_step": 0.0024160467455201988,
+   "bitwise": true,
+   "efficiency": 0.8659602384183628
+  },
+  {
+   "n": 1448,
+   "parts": 8,
+   "cells": 2096704,
+   "warmup": 232,
+   "steps": 279,
+   "seconds_per_step": 0.0032647446235625145,
+   "bitwise": true,
+   "efficiency": 0.6407096770927678
+  }
+ ],
+ "adaptive_over_uniform": {
+  "1": 9.581256922524126,
+  "2": 8.774684234879764,
+  "4": 6.65033460279872,
+  "8": 5.931766302695978
+ },
+ "gates": {
+  "D1_bitwise": true
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "cpu_count": 14
+ }
+}

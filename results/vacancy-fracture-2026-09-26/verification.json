@@ -1,0 +1,43 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 305,
+ "gates_48_64": {
+  "c": true,
+  "eta": true,
+  "T": true,
+  "vac": true,
+  "slip": false,
+  "damage": true
+ },
+ "homogeneous_orders": [
+  2.0000047333936593,
+  2.000000828304724
+ ],
+ "slip_reduction_homogeneous": 0.706414359297747,
+ "effects": {
+  "32": {
+   "slip_L1_change": -0.2963087922207771,
+   "max_supersaturation": 0.11716398379748427,
+   "ledger_residual": -2.0268536491610133e-10
+  },
+  "48": {
+   "slip_L1_change": -0.3028760657636359,
+   "max_supersaturation": 0.1251192441816109,
+   "ledger_residual": -2.394526522322884e-10
+  },
+  "64": {
+   "slip_L1_change": -0.3049275923423779,
+   "max_supersaturation": 0.1281477618280742,
+   "ledger_residual": -2.55618991898838e-10
+  }
+ },
+ "trajectory_checks_all": true,
+ "saved_state_readback_max_difference": {
+  "32-t0.1": 0.0,
+  "32-final": 0.0,
+  "48-t0.1": 0.0,
+  "48-final": 0.0,
+  "64-t0.1": 0.0,
+  "64-final": 0.0
+ }
+}

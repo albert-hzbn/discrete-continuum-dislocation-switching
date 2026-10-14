@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13",
+  "algebra_checks_passed": 16,
+  "algebra_checks_total": 16,
+  "pytest_passed": 91,
+  "source_sha256": {
+    "benchmarks/fracture_topology_algebra.py": "6b3aa6b0a74aa2047950e0b95d48de057987221243fbf6337b1f420feb2ca1e4",
+    "unified_multiscale_defect_framework.md": "40c0845226a236c13d0917370c228d6b864158eadb66f0ca453ed0da90303751",
+    "THEORY_REVIEW.md": "8eedb7a216565b450521516fe6ac2fdaaa0aa50dc5425f4eafe85d7c43521da9",
+    "FRACTURE_TOPOLOGY_RESULTS.md": "8b43fbe282ce76017c2c5005963b1dd26681fad154f870fc537dcc6b71511134",
+    "PARAMETER_REGISTRY.md": "dee837bd2da7879d91d6649a28c5f10596f95e4e509412a3f4cd8722714efd2e"
+  },
+  "parameter_modules": 20,
+  "parameter_declarations": 155,
+  "parameter_inventory_hashes_match": true,
+  "spatial_fracture_solver_verified": false,
+  "general_topology_kinetics_verified": false,
+  "full_original_objective_complete": false,
+  "review_note": "Documentation hashes refreshed after synthesis; algebra executable and numerical model sources unchanged."
+}

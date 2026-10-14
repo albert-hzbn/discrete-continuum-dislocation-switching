@@ -1,0 +1,21 @@
+{
+ "date": "2026-09-28",
+ "pytest_passed": 364,
+ "pytest_record": "results/test-results.xml",
+ "theory": "74",
+ "declared_gates": {
+  "S1_stacking": true,
+  "R1_edge_solver": true,
+  "R2_disclination_far_near": true,
+  "T1_twin_junction": false,
+  "A1_order": true,
+  "A2_apb": true
+ },
+ "document": "DEFECT_TYPES_RESULTS.md",
+ "post_hoc": [
+  "twin-radius-post-hoc.json",
+  "twin-refinement-post-hoc.json",
+  "twin-young-bc-post-hoc.json"
+ ],
+ "notes": "T1 measured inside the diffuse junction core; Young law approached to 1.0 degree at r = 20 (post hoc)."
+}

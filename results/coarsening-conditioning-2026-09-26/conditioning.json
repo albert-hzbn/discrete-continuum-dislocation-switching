@@ -1,0 +1,20 @@
+{
+ "1e-10": {
+  "final_l2": 4.220585017363531e-10,
+  "final_linf": 4.319120006091026e-09,
+  "max_spectral_length_difference": 1.6202972297207907e-10,
+  "max_energy_length_difference": 2.7078106423772397e-10,
+  "time_l2_exceeds_1em3": null,
+  "time_l2_exceeds_0p3": null,
+  "solver_seconds": 69.26119041698985
+ },
+ "1e-06": {
+  "final_l2": 4.223162603785171e-06,
+  "final_linf": 4.321606347923446e-05,
+  "max_spectral_length_difference": 1.6193505588679713e-06,
+  "max_energy_length_difference": 2.7058076008668053e-06,
+  "time_l2_exceeds_1em3": null,
+  "time_l2_exceeds_0p3": null,
+  "solver_seconds": 63.68601841700729
+ }
+}

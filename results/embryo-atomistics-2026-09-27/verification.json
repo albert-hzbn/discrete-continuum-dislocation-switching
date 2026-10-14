@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "A1_fidelity": true,
+  "A2_capillarity": false,
+  "A3_cnt_adequate": false
+ },
+ "figures": [
+  "results/embryo-atomistics-2026-09-27/figures/embryo-energetics.png"
+ ],
+ "figures_inspected": true,
+ "document": "BARRIER_DATA_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

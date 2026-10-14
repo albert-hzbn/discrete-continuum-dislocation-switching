@@ -1,0 +1,110 @@
+{'k_ex': 3.5, 'calibration_ratio': 1.009949866613814, 'transfer_ratios': {'0.03_30': 0.9747882862679922, '0.08_30': 1.0786353651533873, '0.04_60': 1.0674524934061256, '0.04_20': 0.966279363230901}, 'passed_a': True, 'passed_b': True}
+C_20_96 failed True 23.74999999999 hours 372.11596120645993 wall 44 ledger 1.418274528796837e-12
+C_30_96 failed True 14.850000000006657 hours 232.6704010071888 wall 30 ledger 1.0347160084303968e-12
+C_45_96 failed True 9.55000000000018 hours 149.62978650624234 wall 17 ledger 9.901161804808105e-13
+C_60_96 failed True 6.99999999999884 hours 109.6762833029846 wall 16 ledger 1.4985542191060917e-12
+A0_30_96 failed True 14.95000000000678 hours 234.23720505437646 wall 6746 ledger 2.301351122198641e-12
+Traceback (most recent call last):
+  File "D:\Work\unified-defect-framework\benchmarks\creep_cavitation3d.py", line 112, in <module>
+    print('PASS' if v['passed'] else 'FAIL', k, v['value'])
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\unified-defect-framework\benchmarks\creep_cavitation3d.py", line 44, in run
+    szz=to_host(s.sig[2]).astype(np.float32)))
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 337, in run
+    self.mechanics()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 297, in mechanics
+    eps = self.equilibrate(p)
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 251, in equilibrate
+    u, eps, it = self.mech.solve(g, E, self.u_cases[k], self.P.cg_tol)
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Work\unified-defect-framework\src\bmvr\creep3d.py", line 140, in solve
+    if float(xp.sqrt(rz)) <= tol*bn:
+       ~~~~~^^^^^^^^^^^^^
+  File "cupy/_core/core.pyx", line 2052, in cupy._core.core._ndarray_base.__float__
+  File "cupy/_core/core.pyx", line 2203, in cupy._core.core._ndarray_base.get
+  File "cupy/cuda/memory.pyx", line 722, in cupy.cuda.memory.MemoryPointer.copy_to_host_async
+  File "cupy_backends/cuda/api/runtime.pyx", line 627, in cupy_backends.cuda.api.runtime.memcpyAsync
+  File "cupy_backends/cuda/api/runtime.pyx", line 146, in cupy_backends.cuda.api.runtime.check_status
+cupy_backends.cuda.api.runtime.CUDARuntimeError: cudaErrorIllegalAddress: an illegal memory access was encountered
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Exception ignored in: 'cupy.cuda.function.Module.__dealloc__'
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Exception ignored in: 'cupy.cuda.function.Module.__dealloc__'
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Exception ignored in: 'cupy.cuda.function.Module.__dealloc__'
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Exception ignored in: 'cupy.cuda.function.Module.__dealloc__'
+Traceback (most recent call last):
+  File "cupy_backends/cuda/api/driver.pyx", line 247, in cupy_backends.cuda.api.driver.moduleUnload
+  File "cupy_backends/cuda/api/driver.pyx", line 73, in cupy_backends.cuda.api.driver.check_status
+cupy_backends.cuda.api.driver.CUDADriverError: CUDA_ERROR_ILLEGAL_ADDRESS: an illegal memory access was encountered
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:
+Error in sys.excepthook:
+
+Original exception was:

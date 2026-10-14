@@ -1,0 +1,1453 @@
+{
+  "reports": {
+    "affine-13": {
+      "n": 13,
+      "kind": "affine",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "affine",
+      "initial_energy": 135.2978847313521,
+      "final_energy": 75.58582539881738,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.1495804624929761,
+        0.26384156700273265
+      ],
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "trace_stress_max_error": 8.326672684688674e-16,
+      "equilibrium_rms": 7.681000321906548e-17,
+      "divergence_relative": 4.201602786087561e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.048808240752131235,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.732817115127112e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.4200000000000002,
+          "initial_residual": 0.06166798365954834,
+          "final_residual": 1.1147467191442313e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "final_gamma_coordinates": 2,
+      "final_total_coordinates": 4396,
+      "persistent_array_bytes": 949232,
+      "changes_relative_to_initial": {
+        "phase": 0.42564613572411547,
+        "population": 3.419488308117621,
+        "gamma": 0.039929288170282094
+      },
+      "timings": {
+        "initialization_s": 0.005296332994475961,
+        "online_s": 0.21120999800041318,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0003138352185487747,
+        "tensor_validation_s": 0.0034204579424113035,
+        "array_io_s": 0.009997750166803598,
+        "report_io_s": 0.0003439169377088547
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 82198528,
+      "launch_to_exit_s": 0.6085067500825971
+    },
+    "affine-21": {
+      "n": 21,
+      "kind": "affine",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "affine",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22517462230243,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14600021924450868,
+        0.2645692038686304
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 4.440892098500626e-16,
+      "equilibrium_rms": 1.1848687276377675e-16,
+      "divergence_relative": 7.977638215891157e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04988985272046822,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5954312961555998e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.5100000000000002,
+          "initial_residual": 0.05087735627092261,
+          "final_residual": 5.865748705752573e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "final_gamma_coordinates": 2,
+      "final_total_coordinates": 18524,
+      "persistent_array_bytes": 4000880,
+      "changes_relative_to_initial": {
+        "phase": 0.4308866641906478,
+        "population": 3.44655326988852,
+        "gamma": 0.03922014302222409
+      },
+      "timings": {
+        "initialization_s": 0.012621625093743205,
+        "online_s": 0.187607582192868,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0005305837839841843,
+        "tensor_validation_s": 0.009322209050878882,
+        "array_io_s": 0.05098662478849292,
+        "report_io_s": 0.0008375837933272123
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 103071744,
+      "launch_to_exit_s": 0.6648634590674192
+    },
+    "affine-21-halfdt": {
+      "n": 21,
+      "kind": "affine",
+      "dt": 0.005,
+      "steps": 200,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "affine",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22124691144217,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14644972807490705,
+        0.2645278185844746
+      ],
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "trace_stress_max_error": 4.996003610813204e-16,
+      "equilibrium_rms": 1.169880138260387e-16,
+      "divergence_relative": 7.996388686976644e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04988849182412064,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5954312961555998e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.5050000000000003,
+          "initial_residual": 0.05038227635053527,
+          "final_residual": 3.4036854857380807e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "final_gamma_coordinates": 2,
+      "final_total_coordinates": 18524,
+      "persistent_array_bytes": 4000880,
+      "changes_relative_to_initial": {
+        "phase": 0.4308892400218657,
+        "population": 3.439372758223557,
+        "gamma": 0.03921752797775838
+      },
+      "timings": {
+        "initialization_s": 0.011395582929253578,
+        "online_s": 0.34972691047005355,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0010952565353363752,
+        "tensor_validation_s": 0.00861845794133842,
+        "array_io_s": 0.0438741659745574,
+        "report_io_s": 0.0003396670799702406
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 101318656,
+      "launch_to_exit_s": 0.7638293330091983
+    },
+    "affine-29": {
+      "n": 29,
+      "kind": "affine",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "affine",
+      "initial_energy": 136.7171915689152,
+      "final_energy": 75.1173051467321,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14308334828841565,
+        0.2640872494792382
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 9.992007221626409e-16,
+      "equilibrium_rms": 1.8108695631702505e-16,
+      "divergence_relative": 9.793670336969027e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04989579585625324,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5745889613538258e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.5100000000000002,
+          "initial_residual": 0.0508834179745255,
+          "final_residual": 1.2384445049173122e-14,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "final_gamma_coordinates": 2,
+      "final_total_coordinates": 48780,
+      "persistent_array_bytes": 10536176,
+      "changes_relative_to_initial": {
+        "phase": 0.43242914526161347,
+        "population": 3.4535335919459786,
+        "gamma": 0.039216993540182384
+      },
+      "timings": {
+        "initialization_s": 0.031040250090882182,
+        "online_s": 0.5258220033720136,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00103407958522439,
+        "tensor_validation_s": 0.041608165949583054,
+        "array_io_s": 0.1009022081270814,
+        "report_io_s": 0.0004623329732567072
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 142966784,
+      "launch_to_exit_s": 1.1042437499854714
+    },
+    "field-13": {
+      "n": 13,
+      "kind": "field",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "field",
+      "initial_energy": 135.2978847313521,
+      "final_energy": 75.58582618211992,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14958053828606205,
+        0.26384153754064754
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 6.661338147750939e-16,
+      "equilibrium_rms": 6.882078431054644e-17,
+      "divergence_relative": 4.1751104853911185e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 2197,
+      "final_total_coordinates": 6591,
+      "persistent_array_bytes": 685576,
+      "changes_relative_to_initial": {
+        "phase": 0.42564613557960057,
+        "population": 3.419488354168759,
+        "gamma": 0.03987046544450897
+      },
+      "timings": {
+        "initialization_s": 0.00618558400310576,
+        "online_s": 0.06427950132638216,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0003472066018730402,
+        "tensor_validation_s": 0.003734499914571643,
+        "array_io_s": 0.007080125156790018,
+        "report_io_s": 0.00036945799365639687
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 82182144,
+      "launch_to_exit_s": 0.6804058749694377
+    },
+    "field-21": {
+      "n": 21,
+      "kind": "field",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "field",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22517533366987,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14600028522032663,
+        0.26456907864581997
+      ],
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "trace_stress_max_error": 4.996003610813204e-16,
+      "equilibrium_rms": 1.3418006652783743e-16,
+      "divergence_relative": 8.186340664611151e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.43088666416845817,
+        "population": 3.446553323658117,
+        "gamma": 0.039111654969525886
+      },
+      "timings": {
+        "initialization_s": 0.011868000030517578,
+        "online_s": 0.13868725392967463,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0007693290244787931,
+        "tensor_validation_s": 0.009678625036031008,
+        "array_io_s": 0.030256458092480898,
+        "report_io_s": 0.00043283402919769287
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 98107392,
+      "launch_to_exit_s": 0.6265616249293089
+    },
+    "field-21-halfdt": {
+      "n": 21,
+      "kind": "field",
+      "dt": 0.005,
+      "steps": 200,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "field",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.22124757941455,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14644979959679957,
+        0.264527693813049
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 5.551115123125783e-16,
+      "equilibrium_rms": 1.1534768807626497e-16,
+      "divergence_relative": 8.473441850708539e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.43088924000418893,
+        "population": 3.4393728121245304,
+        "gamma": 0.039108737402388793
+      },
+      "timings": {
+        "initialization_s": 0.010994374984875321,
+        "online_s": 0.220336536411196,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0010475476738065481,
+        "tensor_validation_s": 0.0073132498655468225,
+        "array_io_s": 0.02885229093953967,
+        "report_io_s": 0.00029516592621803284
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 100892672,
+      "launch_to_exit_s": 0.6621299579273909
+    },
+    "field-29": {
+      "n": 29,
+      "kind": "field",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "field",
+      "initial_energy": 136.7171915689152,
+      "final_energy": 75.11730583173596,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14308334931878008,
+        0.26408711109647254
+      ],
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "trace_stress_max_error": 8.326672684688674e-16,
+      "equilibrium_rms": 1.8522715349193483e-16,
+      "divergence_relative": 1.0652379367578356e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 24389,
+      "final_total_coordinates": 73167,
+      "persistent_array_bytes": 7609480,
+      "changes_relative_to_initial": {
+        "phase": 0.43242914529908394,
+        "population": 3.4535336396478846,
+        "gamma": 0.03910858382193532
+      },
+      "timings": {
+        "initialization_s": 0.03674650005996227,
+        "online_s": 0.5891563384793699,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.001043078489601612,
+        "tensor_validation_s": 0.04106454201973975,
+        "array_io_s": 0.0971429580822587,
+        "report_io_s": 0.00042545818723738194
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 142917632,
+      "launch_to_exit_s": 1.208771833917126
+    },
+    "field-41": {
+      "n": 41,
+      "kind": "field",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "field",
+      "initial_energy": 136.90587614972404,
+      "final_energy": 75.0576469778002,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 0.0,
+      "population_range": [
+        0.14204853084706384,
+        0.2642039518156067
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 1.2212453270876722e-15,
+      "equilibrium_rms": 3.2321476754523423e-16,
+      "divergence_relative": 1.7171699261849965e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 68921,
+      "final_total_coordinates": 206763,
+      "persistent_array_bytes": 21503464,
+      "changes_relative_to_initial": {
+        "phase": 0.4332770618079866,
+        "population": 3.4572072742353632,
+        "gamma": 0.03910843531524756
+      },
+      "timings": {
+        "initialization_s": 0.0974295421037823,
+        "online_s": 1.9627551697194576,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.002018747152760625,
+        "tensor_validation_s": 0.13847970799542964,
+        "array_io_s": 0.23848387505859137,
+        "report_io_s": 0.000418792013078928
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 235061248,
+      "launch_to_exit_s": 2.7976266250479966
+    },
+    "frozen-fields-21": {
+      "n": 21,
+      "kind": "frozen-fields",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "frozen-fields",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 136.37509227994437,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 0.0,
+      "population_range": [
+        0.2000000000000023,
+        0.23910317701036612
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 8.881784197001252e-16,
+      "equilibrium_rms": 1.7730506196371056e-16,
+      "divergence_relative": 8.336639356651734e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.0,
+        "population": 0.0,
+        "gamma": 0.039129264558540364
+      },
+      "timings": {
+        "initialization_s": 0.017780999885872006,
+        "online_s": 0.17073395615443587,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0007195437792688608,
+        "tensor_validation_s": 0.009874542010948062,
+        "array_io_s": 0.03246183390729129,
+        "report_io_s": 0.00042608403600752354
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 101597184,
+      "launch_to_exit_s": 0.7294442909769714
+    },
+    "frozen-fields-21-halfdt": {
+      "n": 21,
+      "kind": "frozen-fields",
+      "dt": 0.005,
+      "steps": 200,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "frozen-fields",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 136.37509253818777,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 0.0,
+      "population_range": [
+        0.2000000000000023,
+        0.23910317701036612
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 6.661338147750939e-16,
+      "equilibrium_rms": 1.7501632523712952e-16,
+      "divergence_relative": 8.309013152834645e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.0,
+        "population": 0.0,
+        "gamma": 0.039126395694766995
+      },
+      "timings": {
+        "initialization_s": 0.011234625009819865,
+        "online_s": 0.2607137910090387,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0011395839974284172,
+        "tensor_validation_s": 0.010337915970012546,
+        "array_io_s": 0.029753125039860606,
+        "report_io_s": 0.0005243329796940088
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 102105088,
+      "launch_to_exit_s": 0.7441364999394864
+    },
+    "frozen-gamma-21": {
+      "n": 21,
+      "kind": "frozen-gamma",
+      "dt": 0.01,
+      "steps": 100,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "frozen-gamma",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.23512094985975,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14601583155077733,
+        0.2645681669827105
+      ],
+      "tensor_energy_absolute_error": 1.4210854715202004e-14,
+      "trace_stress_max_error": 4.440892098500626e-16,
+      "equilibrium_rms": 1.1679599029687353e-16,
+      "divergence_relative": 8.193124868815959e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.4308867025767922,
+        "population": 3.4465453111566777,
+        "gamma": 0.0
+      },
+      "timings": {
+        "initialization_s": 0.013103292090818286,
+        "online_s": 0.14324537990614772,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.000662744976580143,
+        "tensor_validation_s": 0.011268374975770712,
+        "array_io_s": 0.03712516697123647,
+        "report_io_s": 0.0005902501288801432
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 100761600,
+      "launch_to_exit_s": 0.6226725829765201
+    },
+    "frozen-gamma-21-halfdt": {
+      "n": 21,
+      "kind": "frozen-gamma",
+      "dt": 0.005,
+      "steps": 200,
+      "backtracks": 0,
+      "end_time": 1.0,
+      "final_mode": "frozen-gamma",
+      "initial_energy": 136.3850605809364,
+      "final_energy": 75.23119289659275,
+      "max_energy_increase": 0.0,
+      "inventory_max_absolute_error": 5.684341886080802e-14,
+      "population_range": [
+        0.14646534718356838,
+        0.26452678431865373
+      ],
+      "tensor_energy_absolute_error": 0.0,
+      "trace_stress_max_error": 4.996003610813204e-16,
+      "equilibrium_rms": 1.157249276823682e-16,
+      "divergence_relative": 8.193124868815959e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "events": [],
+      "final_gamma_coordinates": 9261,
+      "final_total_coordinates": 27783,
+      "persistent_array_bytes": 2889544,
+      "changes_relative_to_initial": {
+        "phase": 0.4308892785096542,
+        "population": 3.439364804757282,
+        "gamma": 0.0
+      },
+      "timings": {
+        "initialization_s": 0.012513374909758568,
+        "online_s": 0.2260440003592521,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0011381246149539948,
+        "tensor_validation_s": 0.007718583103269339,
+        "array_io_s": 0.02743250015191734,
+        "report_io_s": 0.0002988330088555813
+      },
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "profile_scale": 1.4142135623730951,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "budget": 0.05,
+        "max_modes": 4,
+        "epsilon_xz": 0.06
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "inventory": true,
+        "positive_population": true,
+        "full_tensor_energy": true,
+        "reciprocal_trace_stress": true,
+        "mechanical_equilibrium": true,
+        "burgers_closure": true,
+        "plastic_volume": true,
+        "kinetic_budget": true,
+        "activation_energy": true
+      },
+      "peak_rss_bytes": 80510976,
+      "launch_to_exit_s": 0.87197474995628
+    }
+  },
+  "matched": [
+    {
+      "run": "affine-13",
+      "reference": "field-13",
+      "errors": {
+        "phase": {
+          "l1": 6.6531783541918245e-09,
+          "l2": 1.5286864018102354e-08,
+          "linf": 1.5387401408606394e-07,
+          "relative_l2": 5.9491437201228774e-08
+        },
+        "population": {
+          "l1": 1.56282004224206e-08,
+          "l2": 4.713905723939725e-08,
+          "linf": 5.846027679445864e-07,
+          "relative_l2": 2.9534524499494028e-06
+        },
+        "gamma": {
+          "l1": 1.8261055953466123e-06,
+          "l2": 1.3146080105965515e-05,
+          "linf": 0.00028281005147069715,
+          "relative_l2": 0.0004044986207515813
+        },
+        "alpha": {
+          "l1": 2.3524681629528755e-07,
+          "l2": 2.794730371891607e-06,
+          "linf": 0.00011456526308362136,
+          "relative_l2": 0.0013560293730238207
+        },
+        "stress": {
+          "l1": 2.986957407699616e-07,
+          "l2": 1.028553727170105e-06,
+          "linf": 2.9684532032267508e-05,
+          "relative_l2": 1.6394064170663794e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 1.0363087610265609e-08,
+      "online_ratio_reference_over_run": 0.3043392923390701
+    },
+    {
+      "run": "affine-21",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 7.95629851896863e-09,
+          "l2": 1.7997597122594927e-08,
+          "linf": 2.4892463201808823e-07,
+          "relative_l2": 7.08239795835636e-08
+        },
+        "population": {
+          "l1": 1.2662860138401068e-08,
+          "l2": 5.134436161557361e-08,
+          "linf": 1.0122823090319422e-06,
+          "relative_l2": 3.194234726260405e-06
+        },
+        "gamma": {
+          "l1": 2.2287736165454187e-06,
+          "l2": 1.4446281710821314e-05,
+          "linf": 0.0003498087352279411,
+          "relative_l2": 0.00044440360040708045
+        },
+        "alpha": {
+          "l1": 1.9895738359551246e-07,
+          "l2": 2.849282896570082e-06,
+          "linf": 0.00016109055326564078,
+          "relative_l2": 0.0013821235318063336
+        },
+        "stress": {
+          "l1": 2.8511885145261223e-07,
+          "l2": 1.1473943010103924e-06,
+          "linf": 4.132346504492901e-05,
+          "relative_l2": 1.8315803754393906e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 9.456507465976927e-09,
+      "online_ratio_reference_over_run": 0.7392411986158356
+    },
+    {
+      "run": "affine-29",
+      "reference": "field-29",
+      "errors": {
+        "phase": {
+          "l1": 7.830428730593989e-09,
+          "l2": 1.7509384109963298e-08,
+          "linf": 2.288044650411436e-07,
+          "relative_l2": 6.912870796356368e-08
+        },
+        "population": {
+          "l1": 1.2269920838636845e-08,
+          "l2": 5.176854462242469e-08,
+          "linf": 1.2370884955592576e-06,
+          "relative_l2": 3.2146816220335217e-06
+        },
+        "gamma": {
+          "l1": 2.2048433755068268e-06,
+          "l2": 1.4344974745325506e-05,
+          "linf": 0.0004169121976221324,
+          "relative_l2": 0.000441287050560825
+        },
+        "alpha": {
+          "l1": 1.7739195134473369e-07,
+          "l2": 2.834525821699731e-06,
+          "linf": 0.00022199761353700748,
+          "relative_l2": 0.001374963442577432
+        },
+        "stress": {
+          "l1": 2.765651131522739e-07,
+          "l2": 1.1312588982088142e-06,
+          "linf": 4.636059855592234e-05,
+          "relative_l2": 1.806614825339619e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 9.11912190204589e-09,
+      "online_ratio_reference_over_run": 1.1204482404714964
+    }
+  ],
+  "time": [
+    {
+      "run": "field-21",
+      "reference": "field-21-halfdt",
+      "errors": {
+        "phase": {
+          "l1": 3.275476486192188e-05,
+          "l2": 6.946596174133073e-05,
+          "linf": 0.0005447528667330559,
+          "relative_l2": 0.000273390229794577
+        },
+        "population": {
+          "l1": 2.394115896702241e-05,
+          "l2": 4.259951463891716e-05,
+          "linf": 0.0004495143764729481,
+          "relative_l2": 0.0026545861333574054
+        },
+        "gamma": {
+          "l1": 4.4402406405381716e-08,
+          "l2": 2.8314623077200115e-07,
+          "linf": 6.308533392229698e-06,
+          "relative_l2": 8.710292972232306e-06
+        },
+        "alpha": {
+          "l1": 3.761634962755194e-09,
+          "l2": 5.322396709062983e-08,
+          "linf": 2.910743803194449e-06,
+          "relative_l2": 2.581788166695655e-05
+        },
+        "stress": {
+          "l1": 2.1983086087691433e-06,
+          "l2": 4.296605983433418e-06,
+          "linf": 4.1624097518344616e-05,
+          "relative_l2": 6.858668669615983e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 5.2216021160456094e-05,
+      "online_ratio_reference_over_run": 1.5887295347481896
+    },
+    {
+      "run": "affine-21",
+      "reference": "affine-21-halfdt",
+      "errors": {
+        "phase": {
+          "l1": 3.2754763710621326e-05,
+          "l2": 6.946595837844632e-05,
+          "linf": 0.0005447537544076564,
+          "relative_l2": 0.00027339021645547695
+        },
+        "population": {
+          "l1": 2.3941160758612663e-05,
+          "l2": 4.259951649549321e-05,
+          "linf": 0.0004495088303983763,
+          "relative_l2": 0.0026545862614067704
+        },
+        "gamma": {
+          "l1": 4.591035725490964e-08,
+          "l2": 2.995978226868453e-07,
+          "linf": 7.040940528946216e-06,
+          "relative_l2": 9.215853662019795e-06
+        },
+        "alpha": {
+          "l1": 3.923947965250421e-09,
+          "l2": 5.564332696524291e-08,
+          "linf": 3.1002566866084047e-06,
+          "relative_l2": 2.698475133088819e-05
+        },
+        "stress": {
+          "l1": 2.198382645269975e-06,
+          "l2": 4.2967812669622494e-06,
+          "linf": 4.16290627934246e-05,
+          "relative_l2": 6.858949758129555e-05
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 5.221544472533424e-05,
+      "online_ratio_reference_over_run": 1.8641405980623986
+    }
+  ],
+  "space": [
+    {
+      "run": "field-13",
+      "reference": "field-41",
+      "errors": {
+        "phase": {
+          "l1": 0.0018490644641090783,
+          "l2": 0.0050334614305655246,
+          "linf": 0.027587287678496136,
+          "relative_l2": 0.01990840797836168
+        },
+        "population": {
+          "l1": 0.0002767023269774629,
+          "l2": 0.00041482575838799055,
+          "linf": 0.004598533439130692,
+          "relative_l2": 0.025734394101150658
+        },
+        "gamma": {
+          "l1": 3.482143529017201e-05,
+          "l2": 0.00011770308959990849,
+          "linf": 0.001409973330431774,
+          "relative_l2": 0.003621001682536818
+        },
+        "alpha": {
+          "l1": 2.09698396727739e-06,
+          "l2": 1.85969766086535e-05,
+          "linf": 0.0008550923582021572,
+          "relative_l2": 0.009021609068370693
+        },
+        "stress": {
+          "l1": 0.0001799714823488108,
+          "l2": 0.0004016897027014094,
+          "linf": 0.003334493977094566,
+          "relative_l2": 0.0064165043980397695
+        }
+      },
+      "cell_overlap_relative_l2": {
+        "phase": 0.041402805784997956,
+        "population": 0.0652834987944836,
+        "gamma": 0.07888741917358638,
+        "alpha": 0.10124793653117191,
+        "stress": 0.0128435147611048
+      },
+      "energy_relative": 0.00703698058208424,
+      "online_ratio_reference_over_run": 30.534698142001396
+    },
+    {
+      "run": "field-21",
+      "reference": "field-41",
+      "errors": {
+        "phase": {
+          "l1": 0.000574985282842684,
+          "l2": 0.001548927947984133,
+          "linf": 0.00926346194313818,
+          "relative_l2": 0.006126338593378547
+        },
+        "population": {
+          "l1": 8.669247121441914e-05,
+          "l2": 0.0001298154998372044,
+          "linf": 0.0015028220983527296,
+          "relative_l2": 0.008053312405103787
+        },
+        "gamma": {
+          "l1": 1.81260088502375e-06,
+          "l2": 6.132070736380884e-06,
+          "linf": 7.91000620047333e-05,
+          "relative_l2": 0.00018863774556774187
+        },
+        "alpha": {
+          "l1": 1.5521804024443536e-07,
+          "l2": 1.213024599062341e-06,
+          "linf": 5.05474407535636e-05,
+          "relative_l2": 0.000588410307082805
+        },
+        "stress": {
+          "l1": 5.6276874472317645e-05,
+          "l2": 0.0001238709105901603,
+          "linf": 0.0010575073414741398,
+          "relative_l2": 0.001978687083322982
+        }
+      },
+      "cell_overlap_relative_l2": {
+        "phase": 0.01639815685677767,
+        "population": 0.03025435554072943,
+        "gamma": 0.04301555496203357,
+        "alpha": 0.05325371884661275,
+        "stress": 0.005205582802607688
+      },
+      "energy_relative": 0.002231995840733081,
+      "online_ratio_reference_over_run": 14.15238325156203
+    },
+    {
+      "run": "field-29",
+      "reference": "field-41",
+      "errors": {
+        "phase": {
+          "l1": 0.00020315003354013373,
+          "l2": 0.0005474833429069589,
+          "linf": 0.0032973346340886556,
+          "relative_l2": 0.002165412753542015
+        },
+        "population": {
+          "l1": 3.0593663595042716e-05,
+          "l2": 4.5752471021370824e-05,
+          "linf": 0.0005549433880542853,
+          "relative_l2": 0.00283832780261764
+        },
+        "gamma": {
+          "l1": 7.567075203367596e-08,
+          "l2": 3.137772117932027e-07,
+          "linf": 9.108576393190848e-06,
+          "relative_l2": 9.652567202286987e-06
+        },
+        "alpha": {
+          "l1": 1.2036487940924744e-08,
+          "l2": 1.2329031453557776e-07,
+          "linf": 6.478505958619485e-06,
+          "relative_l2": 5.980528008410101e-05
+        },
+        "stress": {
+          "l1": 1.9943812127474115e-05,
+          "l2": 4.3801196099270695e-05,
+          "linf": 0.0003740697133207127,
+          "relative_l2": 0.0006996708148972568
+        }
+      },
+      "cell_overlap_relative_l2": {
+        "phase": 0.011812814167467635,
+        "population": 0.02229032208252192,
+        "gamma": 0.031143943518333536,
+        "alpha": 0.03578937715267971,
+        "stress": 0.003775426997071227
+      },
+      "energy_relative": 0.0007948404504793949,
+      "online_ratio_reference_over_run": 3.3314674586806405
+    }
+  ],
+  "ablations": [
+    {
+      "run": "frozen-gamma-21",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 9.716213595667553e-07,
+          "l2": 1.8757123211861615e-06,
+          "linf": 1.2000645856838354e-05,
+          "relative_l2": 7.381285970311435e-06
+        },
+        "population": {
+          "l1": 6.765409353314392e-07,
+          "l2": 2.3685417263496516e-06,
+          "linf": 2.7178597635013624e-05,
+          "relative_l2": 0.00014735168565438016
+        },
+        "gamma": {
+          "l1": 0.00023104240643862664,
+          "l2": 0.001278741387395157,
+          "linf": 0.022366789687203847,
+          "relative_l2": 0.03933726947345019
+        },
+        "alpha": {
+          "l1": 8.560538004571477e-06,
+          "l2": 0.00010093593570533374,
+          "linf": 0.00432461411373565,
+          "relative_l2": 0.04896176933191427
+        },
+        "stress": {
+          "l1": 3.8514768845650134e-05,
+          "l2": 8.433740362089725e-05,
+          "linf": 0.0019227573146428922,
+          "relative_l2": 0.0013462741905857461
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.00013221127296492163,
+      "online_ratio_reference_over_run": 0.9681795951851326
+    },
+    {
+      "run": "frozen-fields-21",
+      "reference": "field-21",
+      "errors": {
+        "phase": {
+          "l1": 0.09181827732074757,
+          "l2": 0.18631397935626318,
+          "linf": 0.6382875940310188,
+          "relative_l2": 0.7331810674600722
+        },
+        "population": {
+          "l1": 0.009611854205994978,
+          "l2": 0.01437664373145344,
+          "linf": 0.06704363601070548,
+          "relative_l2": 0.8943995642192093
+        },
+        "gamma": {
+          "l1": 1.6223484791334101e-06,
+          "l2": 8.982052932351281e-06,
+          "linf": 0.000159172349883413,
+          "relative_l2": 0.00027631031583676255
+        },
+        "alpha": {
+          "l1": 9.38275581725799e-08,
+          "l2": 1.0751992251797907e-06,
+          "linf": 4.638137822278801e-05,
+          "relative_l2": 0.0005215551436783681
+        },
+        "stress": {
+          "l1": 0.011942871466610668,
+          "l2": 0.02061474617288764,
+          "linf": 0.08929926075353725,
+          "relative_l2": 0.3290722683708301
+        }
+      },
+      "cell_overlap_relative_l2": {},
+      "energy_relative": 0.8128916506347383,
+      "online_ratio_reference_over_run": 0.8123003593041932
+    }
+  ],
+  "feedback_refinement": [
+    {
+      "ablation": "frozen-gamma",
+      "observable": "population",
+      "paired_difference_relative_change": 0.0013484556108394512,
+      "persistence_10pct": true
+    },
+    {
+      "ablation": "frozen-fields",
+      "observable": "alpha",
+      "paired_difference_relative_change": 0.0048814998841232365,
+      "persistence_10pct": true
+    }
+  ],
+  "source_sha256": {
+    "src/bmvr/coupled_transport.py": "3294072990366ff614d4f26da3a5ef2aeac1d6a7e2e6025fe0922207684555ca",
+    "src/bmvr/response_cache.py": "e9844473d591268195d3e684679c977e2037ac9cb1dc81ac618625a1aaf0903a",
+    "benchmarks/coupled_transport.py": "63538b08912ea4b3c9c8cb33daa9aab65f5cf8ab7e637f1c9542d05d267d3649",
+    "src/bmvr/continuum3d.py": "ebd85323316d3c91159799869c7fb1227fb814039cd7712b67173a9eb178a1c1",
+    "unified_multiscale_defect_framework.md": "d9309457cddf3acdee92678fd5a06fa37075711ee448d1a468be23fbb5741639"
+  },
+  "spatial_error_monotonicity": {
+    "phase": true,
+    "population": true,
+    "gamma": true,
+    "alpha": true,
+    "stress": true
+  },
+  "scope": "Only gamma is reduced; phase/population remain full grid. One timing per case does not establish speedup. Spatial collocation restriction and cell-overlap diagnostics are both retained."
+}

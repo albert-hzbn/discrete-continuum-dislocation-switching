@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-13",
+  "automated_tests_passed": 91,
+  "automated_test_failures": 0,
+  "trajectories": 11,
+  "trajectory_checks_passed": 55,
+  "trajectory_checks_total": 55,
+  "interpretation_checks": {
+    "complete_matrix": true,
+    "late_scale_separation": false,
+    "exponents_near_one_third": false,
+    "numerical_sensitivity": false,
+    "window_stability": true,
+    "domain_stability": false
+  },
+  "fine_sensitivity_passes": {
+    "mesh": false,
+    "time": false
+  },
+  "figures_visually_inspected": [
+    "coarsening-morphology.png",
+    "coarsening-windows.png"
+  ],
+  "document_links_checked": true,
+  "source_sha256": {
+    "src/bmvr/coarsening.py": "f0f1643718ae244fde763184d79abfe6f0e5edd7b11183f04d585eea10e7c3c1",
+    "tests/test_coarsening.py": "d4b9be805761f2db3f6963325a81e230ace499a3373d547c5ae27d81044a4b2b",
+    "benchmarks/coarsening_windows.py": "7df7becfe5be5b4b560395ef479b703d92bf2866f05af15186b1b167169d4bf2",
+    "benchmarks/coarsening_windows_report.py": "1bdb4a2c975aacde73db3176bb1a8aab571b7b5692ebf13aec78e4a58e1f3f33",
+    "unified_multiscale_defect_framework.md": "ba0a4566bccbe06127591393972e94380082557037a410528ab0664bee91623e",
+    "THEORY_REVIEW.md": "e4d272fc4568abf9cb4f099ba76399cbf067fda73ef2b7e0259e57783f9a3cdc",
+    "COARSENING_RESULTS.md": "080406de7c45cdf937e32ca914e0d2ed45efb1efb299be9645986df856853a2c"
+  },
+  "asymptotic_exponent_verified": false,
+  "full_original_objective_complete": false
+}

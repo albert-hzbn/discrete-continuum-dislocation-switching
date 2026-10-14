@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 124,
+  "trajectory_checks_passed": 130,
+  "feedback_checks_passed": 2,
+  "source_hash_matches": {
+    "src/bmvr/coupled_transport.py": true,
+    "src/bmvr/response_cache.py": true,
+    "benchmarks/coupled_transport.py": true,
+    "src/bmvr/continuum3d.py": true,
+    "unified_multiscale_defect_framework.md": true
+  },
+  "saved_array_readback": {
+    "affine-13": true,
+    "affine-21": true,
+    "affine-21-halfdt": true,
+    "affine-29": true,
+    "field-13": true,
+    "field-21": true,
+    "field-21-halfdt": true,
+    "field-29": true,
+    "field-41": true,
+    "frozen-fields-21": true,
+    "frozen-fields-21-halfdt": true,
+    "frozen-gamma-21": true,
+    "frozen-gamma-21-halfdt": true
+  },
+  "visually_inspected_figures": [
+    "figures/coupled-verification.png",
+    "figures/coupled-fields.png"
+  ],
+  "scope": "Section 33 restricted coupled model; original research objective remains incomplete."
+}

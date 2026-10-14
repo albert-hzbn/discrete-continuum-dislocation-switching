@@ -1,0 +1,2153 @@
+{
+  "scope": "Current top-level/class source declarations; defaults are not experimental parameter values or physical-unit assignments.",
+  "physical_units_registry": "PARAMETER_REGISTRY.md",
+  "modules": [
+    {
+      "source": "src/bmvr/__init__.py",
+      "sha256": "0a40bd476b08e4af8868c9fb192f70ed9b07a814c4b4cd75f1b509cf9aaf0893",
+      "declarations": []
+    },
+    {
+      "source": "src/bmvr/adaptivity.py",
+      "sha256": "f9094869bd5be4c8cb9b36edc12f9eaa0427aff3ebb10ba35c5fcd0e6ba2fd81",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "focused_grid",
+          "line": 7,
+          "arguments": "length, h, bounds, factor=4"
+        },
+        {
+          "kind": "function",
+          "name": "overlap_matrix",
+          "line": 21,
+          "arguments": "old_edges, new_edges"
+        },
+        {
+          "kind": "function",
+          "name": "transfer",
+          "line": 27,
+          "arguments": "old, new, field"
+        },
+        {
+          "kind": "function",
+          "name": "bounds_for",
+          "line": 32,
+          "arguments": "grid, field, points=(), threshold=0.999, buffer=3.0"
+        },
+        {
+          "kind": "function",
+          "name": "adapt",
+          "line": 45,
+          "arguments": "grid, fields, h, length, energy, points=(), tolerance=0.001"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/allocation.py",
+      "sha256": "9ed8ffc0827d8c0506dbb8efc08e0185d5e696776ece586b274f48bc721be381",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "TransferCache.__init__",
+          "line": 17,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "TransferCache.axis",
+          "line": 20,
+          "arguments": "self, old, new"
+        },
+        {
+          "kind": "function",
+          "name": "TransferCache.project",
+          "line": 26,
+          "arguments": "self, old, new, field"
+        },
+        {
+          "kind": "function",
+          "name": "inverse_diffusion_map",
+          "line": 31,
+          "arguments": "grid, rate, mobility=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "two_grid_indicator",
+          "line": 57,
+          "arguments": "grid, fields, audit, evaluate, cache=None, relative=(0.05, 0.05, 0.05), absolute=1e-07, phase_mobility=1.0, diffusion_mobility=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "audit_grid",
+          "line": 91,
+          "arguments": "grid, h"
+        },
+        {
+          "kind": "function",
+          "name": "seed_grid",
+          "line": 98,
+          "arguments": "source, fields, audit, cache, points=(), core=1.0, factor=4, geometry=False, buffer=1.5"
+        },
+        {
+          "kind": "function",
+          "name": "split_candidates",
+          "line": 121,
+          "arguments": "grid, audit, indicator, fields_count=2, mode='cost'"
+        },
+        {
+          "kind": "function",
+          "name": "plan_grid",
+          "line": 141,
+          "arguments": "source, fields, evaluate, h, mode='cost', relative=(0.05, 0.05, 0.05), absolute=1e-07, max_splits=256, max_cells=None, refine_only=False"
+        },
+        {
+          "kind": "function",
+          "name": "allocate",
+          "line": 185,
+          "arguments": "source, fields, evaluate, h, mode='cost', relative=(0.05, 0.05, 0.05), transfer_tolerance=0.001, max_splits=256, refine_only=False"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/checkpoint.py",
+      "sha256": "59c67c9738248eae6628eb4b1e370756731a4f1c38e2c2e7ad53e412b9e41c5e",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "save",
+          "line": 9,
+          "arguments": "path, grid, fields, time, dt, metadata=None"
+        },
+        {
+          "kind": "function",
+          "name": "load",
+          "line": 18,
+          "arguments": "path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/coarsening.py",
+      "sha256": "f0f1643718ae244fde763184d79abfe6f0e5edd7b11183f04d585eea10e7c3c1",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "periodic_cell_resample",
+          "line": 6,
+          "arguments": "field, length, n"
+        },
+        {
+          "kind": "function",
+          "name": "initial_coarsening_field",
+          "line": 15,
+          "arguments": "length, n, seed, cutoff=1.2, rms=0.04"
+        },
+        {
+          "kind": "function",
+          "name": "coarsening_windows",
+          "line": 25,
+          "arguments": "time, length_s, length_e, domain"
+        },
+        {
+          "kind": "function",
+          "name": "radial_structure",
+          "line": 42,
+          "arguments": "grid, field"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/continuum3d.py",
+      "sha256": "ebd85323316d3c91159799869c7fb1227fb814039cd7712b67173a9eb178a1c1",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "Cube",
+          "line": 13,
+          "fields": [
+            {
+              "name": "length",
+              "annotation": "float",
+              "default": null
+            },
+            {
+              "name": "n",
+              "annotation": "int",
+              "default": null
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "Cube.__post_init__",
+          "line": 17,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.shape",
+          "line": 22,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.h",
+          "line": 26,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.volume",
+          "line": 30,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.coordinates",
+          "line": 33,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.integrate",
+          "line": 37,
+          "arguments": "self, field"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.lap",
+          "line": 40,
+          "arguments": "self, field, coefficients=(1.0, 1.0, 1.0)"
+        },
+        {
+          "kind": "function",
+          "name": "Cube.gradient_energy",
+          "line": 44,
+          "arguments": "self, field, coefficients=(1.0, 1.0, 1.0)"
+        },
+        {
+          "kind": "function",
+          "name": "isotropic_stress",
+          "line": 49,
+          "arguments": "strain, lam, shear"
+        },
+        {
+          "kind": "function",
+          "name": "PeriodicElasticity.__init__",
+          "line": 57,
+          "arguments": "self, grid, lam=2.0, shear=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "PeriodicElasticity.derivative",
+          "line": 66,
+          "arguments": "self, field, axis"
+        },
+        {
+          "kind": "function",
+          "name": "PeriodicElasticity.solve",
+          "line": 70,
+          "arguments": "self, eigenstrain, mean_strain=None"
+        },
+        {
+          "kind": "function",
+          "name": "fcc_slip_systems",
+          "line": 98,
+          "arguments": "rotation=None"
+        },
+        {
+          "kind": "class_fields",
+          "name": "Parameters3D",
+          "line": 121,
+          "fields": [
+            {
+              "name": "W",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "gradient",
+              "annotation": "tuple",
+              "default": "(1.0, 1.0, 1.4)"
+            },
+            {
+              "name": "susceptibility",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "binding",
+              "annotation": "float",
+              "default": "0.15"
+            },
+            {
+              "name": "reference_population",
+              "annotation": "float",
+              "default": "0.2"
+            },
+            {
+              "name": "phase_misfit",
+              "annotation": "float",
+              "default": "0.08"
+            },
+            {
+              "name": "solute_expansion",
+              "annotation": "float",
+              "default": "0.02"
+            },
+            {
+              "name": "hardening",
+              "annotation": "float",
+              "default": "0.2"
+            },
+            {
+              "name": "yield_stress",
+              "annotation": "float",
+              "default": "0.015"
+            },
+            {
+              "name": "slip_drag",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "phase_mobility",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "diffusion_mobility",
+              "annotation": "float",
+              "default": "1.0"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "CoupledCrystal.__init__",
+          "line": 137,
+          "arguments": "self, grid, parameters=None, mean_strain=None, schmid=None, lam=2.0, shear=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledCrystal.evaluate",
+          "line": 150,
+          "arguments": "self, v, c, slip, extra_eigenstrain=None"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledCrystal.step",
+          "line": 182,
+          "arguments": "self, fields, dt, current=None"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/coupled_transport.py",
+      "sha256": "d95f842a868aa69d7eb37e62f10d65297f364e8c13377b51bf8f4fc2a2ff6ce1",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "CoupledTransport.__init__",
+          "line": 10,
+          "arguments": "self, grid, parameters=None, burgers=(0.2, 0, 0), mean_strain=None, lam=2.0, shear=1.0, core_coefficient=0.3, field_mobility=10.0"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledTransport.response_gamma",
+          "line": 38,
+          "arguments": "self, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledTransport.evaluate",
+          "line": 41,
+          "arguments": "self, v, c, gamma, gamma_response=None, d_response=None"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledTransport.step",
+          "line": 61,
+          "arguments": "self, fields, dt, current=None, freeze_gamma=False, freeze_fields=False"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledTransport.tensor_readback",
+          "line": 77,
+          "arguments": "self, v, c, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.__init__",
+          "line": 90,
+          "arguments": "self, model, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.state",
+          "line": 94,
+          "arguments": "self, v, c, coefficients, project=True"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.enrich",
+          "line": 106,
+          "arguments": "self, v, c, coefficients, budget=0.05, max_modes=4"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.step",
+          "line": 116,
+          "arguments": "self, v, c, coefficients, dt, current=None"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.save",
+          "line": 129,
+          "arguments": "self, path, v, c, coefficients, gamma, mode, time, step, budget=0.05, max_modes=4"
+        },
+        {
+          "kind": "function",
+          "name": "CoupledGammaCache.load",
+          "line": 138,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/defects.py",
+      "sha256": "101fb267bd85249a039c6901d5c645108cbd7a2b654439ad3c92cb6d2932b6d0",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "Screws",
+          "line": 9,
+          "fields": [
+            {
+              "name": "positions",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "burgers",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "core",
+              "annotation": "float",
+              "default": "0.75"
+            },
+            {
+              "name": "shear",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "reference_radius",
+              "annotation": "float",
+              "default": "64.0"
+            },
+            {
+              "name": "mobility",
+              "annotation": "float",
+              "default": "1.0"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "Screws.moved",
+          "line": 17,
+          "arguments": "self, positions"
+        },
+        {
+          "kind": "function",
+          "name": "Screws.pair",
+          "line": 20,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "screw_stress",
+          "line": 37,
+          "arguments": "x, y, b=1.0, shear=1.0, core=0.75"
+        },
+        {
+          "kind": "function",
+          "name": "core_kernel",
+          "line": 42,
+          "arguments": "grid, position, width"
+        },
+        {
+          "kind": "function",
+          "name": "binding",
+          "line": 56,
+          "arguments": "grid, v, c, screws, chemical=0.1, interface=0.1"
+        },
+        {
+          "kind": "function",
+          "name": "coupled_energy_forces",
+          "line": 70,
+          "arguments": "grid, v, c, screws, origins, imposed=0.025, chemical=0.1, interface=0.1, c0=0.2"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/diagnostics.py",
+      "sha256": "a63e0516c1489ff0c0e583621e677a7d35e6b217d552fbcb25dbc551d2461113",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "radius",
+          "line": 7,
+          "arguments": "grid, v"
+        },
+        {
+          "kind": "function",
+          "name": "field_errors",
+          "line": 11,
+          "arguments": "reference_grid, reference, grid, field"
+        },
+        {
+          "kind": "function",
+          "name": "energy_increase",
+          "line": 20,
+          "arguments": "values"
+        },
+        {
+          "kind": "function",
+          "name": "structure_factor",
+          "line": 24,
+          "arguments": "grid, c"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/elasticity.py",
+      "sha256": "894e2df41b8a371e11b94467cba7f3a9a3660c7e9314991cfc65b0398695ce4c",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "coherent_elasticity",
+          "line": 6,
+          "arguments": "grid, phase, misfit=0.08, lam=2.0, shear=1.0, mean_strain=0.0"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/energy.py",
+      "sha256": "97ea95ea6f16615be603e5372327a4f743480b1188983d9cea2291c4750b795e",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "DoubleWell",
+          "line": 8,
+          "fields": [
+            {
+              "name": "W",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "k",
+              "annotation": "tuple",
+              "default": "(1.0, 1.0)"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "DoubleWell.value",
+          "line": 12,
+          "arguments": "self, grid, v"
+        },
+        {
+          "kind": "function",
+          "name": "DoubleWell.force",
+          "line": 15,
+          "arguments": "self, grid, v"
+        },
+        {
+          "kind": "function",
+          "name": "grain_energy",
+          "line": 19,
+          "arguments": "grid, phases, W=1.0, k=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "grain_force",
+          "line": 23,
+          "arguments": "grid, phases, W=1.0, k=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "pore_energy",
+          "line": 27,
+          "arguments": "grid, n, p, chi=1.0, W=1.0, k=1.0, neq=0.0, formation=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "pore_forces",
+          "line": 31,
+          "arguments": "grid, n, p, chi=1.0, W=1.0, k=1.0, neq=0.0, formation=0.0"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/experiments.py",
+      "sha256": "095ab32bebdd6d9afaf829fcba5be37a5321af9a993c2c57c3e079652512c74e",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "result",
+          "line": 19,
+          "arguments": "case, name, variant='reference'"
+        },
+        {
+          "kind": "function",
+          "name": "state_bytes",
+          "line": 26,
+          "arguments": "grid, *fields"
+        },
+        {
+          "kind": "function",
+          "name": "ac_run",
+          "line": 32,
+          "arguments": "n=256, length=128.0, initial_radius=14.0, end=12.0, dt=0.02, adaptive=False"
+        },
+        {
+          "kind": "function",
+          "name": "case1",
+          "line": 85,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case2",
+          "line": 89,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "triple_angles",
+          "line": 139,
+          "arguments": "grid, phases"
+        },
+        {
+          "kind": "function",
+          "name": "case3",
+          "line": 160,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case4",
+          "line": 205,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "sink_run",
+          "line": 291,
+          "arguments": "n, end=0.2, dt=0.0005"
+        },
+        {
+          "kind": "function",
+          "name": "case5",
+          "line": 316,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case6",
+          "line": 335,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case7",
+          "line": 397,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case8",
+          "line": 432,
+          "arguments": "variant"
+        },
+        {
+          "kind": "function",
+          "name": "case9",
+          "line": 486,
+          "arguments": "variant"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/finite_elasticity.py",
+      "sha256": "fd2582f652ea0a34e1d2c282dc7b38839e232e3436824231acf296d657e39252",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "FiniteParameters",
+          "line": 13,
+          "fields": [
+            {
+              "name": "lam",
+              "annotation": "float",
+              "default": "2.0"
+            },
+            {
+              "name": "mu",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "cv",
+              "annotation": "float",
+              "default": "10.0"
+            },
+            {
+              "name": "alpha_c",
+              "annotation": "float",
+              "default": "0.02"
+            },
+            {
+              "name": "alpha_eta",
+              "annotation": "float",
+              "default": "0.015"
+            },
+            {
+              "name": "alpha_T",
+              "annotation": "float",
+              "default": "0.005"
+            },
+            {
+              "name": "c0",
+              "annotation": "float",
+              "default": "0.2"
+            },
+            {
+              "name": "T0",
+              "annotation": "float",
+              "default": "1.0"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "FiniteParameters.__post_init__",
+          "line": 23,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "constitutive",
+          "line": 30,
+          "arguments": "F, Fp=None, c=0.2, eta=0.0, T=1.0, parameters=None, tangent=True"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.__init__",
+          "line": 86,
+          "arguments": "self, n, length=1.0, parameters=None, c=0.2, eta=0.0, T=1.0, Fp=None, body=None"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.sample",
+          "line": 109,
+          "arguments": "self, value, tail=()"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.boundary",
+          "line": 117,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.evaluate",
+          "line": 122,
+          "arguments": "self, u, tangent=False"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.equilibrate",
+          "line": 146,
+          "arguments": "self, u, fixed, values, tolerance=1e-09, max_iterations=60"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.save",
+          "line": 184,
+          "arguments": "self, path, u, load=0.0, step=0"
+        },
+        {
+          "kind": "function",
+          "name": "FiniteElasticity2D.load",
+          "line": 191,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/fracture2d.py",
+      "sha256": "942c92b488b7631eee1c803c8c8108741560e7c056848f2c1dd2195797250862",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "spectral_elasticity",
+          "line": 13,
+          "arguments": "strain, damage, lam=2.0, shear=1.0, residual=0.0001, tangent=True"
+        },
+        {
+          "kind": "class_fields",
+          "name": "FractureParameters",
+          "line": 43,
+          "fields": [
+            {
+              "name": "lam",
+              "annotation": "float",
+              "default": "2.0"
+            },
+            {
+              "name": "shear",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "toughness",
+              "annotation": "float",
+              "default": "0.001"
+            },
+            {
+              "name": "ell",
+              "annotation": "float",
+              "default": "0.06"
+            },
+            {
+              "name": "residual",
+              "annotation": "float",
+              "default": "0.0001"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "bound_quadratic",
+          "line": 51,
+          "arguments": "A, rhs, lower, initial=None, tolerance=1e-09, max_iterations=300"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.__init__",
+          "line": 73,
+          "arguments": "self, n, length=1.0, parameters=None, toughness=None"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.node_count",
+          "line": 93,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.matrix",
+          "line": 95,
+          "arguments": "self, element, indices, size"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.evaluate",
+          "line": 99,
+          "arguments": "self, u, q, tangent=False"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.damage_system",
+          "line": 113,
+          "arguments": "self, u"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.boundary",
+          "line": 123,
+          "arguments": "self, load, compression=False"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.mechanical_error",
+          "line": 133,
+          "arguments": "self, state, fixed"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.equilibrate",
+          "line": 137,
+          "arguments": "self, u, q, fixed, values, tolerance=1e-09, max_iterations=60"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.solve_load",
+          "line": 154,
+          "arguments": "self, u, old_q, load, compression=False, tolerance=1e-06, max_iterations=2000, relaxation=1.5"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.seed",
+          "line": 178,
+          "arguments": "self, length=0.3"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.save",
+          "line": 182,
+          "arguments": "self, path, u, q, load, step"
+        },
+        {
+          "kind": "function",
+          "name": "Fracture2D.load",
+          "line": 187,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/graphs3d.py",
+      "sha256": "0563885056ffcd69348f74ecb634b492e5f1b1ad54cdfe4b0b508e77a4875610",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "DislocationGraph",
+          "line": 14,
+          "fields": [
+            {
+              "name": "nodes",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "edges",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "burgers",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "core",
+              "annotation": "float",
+              "default": "0.8"
+            },
+            {
+              "name": "core_coefficients",
+              "annotation": "object",
+              "default": "0.25"
+            },
+            {
+              "name": "kinds",
+              "annotation": "object",
+              "default": "None"
+            },
+            {
+              "name": "projectors",
+              "annotation": "object",
+              "default": "None"
+            },
+            {
+              "name": "mobility",
+              "annotation": "float",
+              "default": "1.0"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.__post_init__",
+          "line": 24,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.segments",
+          "line": 53,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.lengths",
+          "line": 56,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.balance_error",
+          "line": 59,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.tensions",
+          "line": 66,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.core_energy",
+          "line": 69,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.moved",
+          "line": 71,
+          "arguments": "self, nodes"
+        },
+        {
+          "kind": "function",
+          "name": "DislocationGraph.to_dict",
+          "line": 73,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "tangent_projector",
+          "line": 77,
+          "arguments": "normals"
+        },
+        {
+          "kind": "function",
+          "name": "GraphMechanics.sample_phase",
+          "line": 86,
+          "arguments": "self, phase, points, core"
+        },
+        {
+          "kind": "function",
+          "name": "GraphMechanics.source",
+          "line": 90,
+          "arguments": "self, graph"
+        },
+        {
+          "kind": "function",
+          "name": "GraphMechanics.interactions",
+          "line": 109,
+          "arguments": "self, graph, stress, phase=None, mobile_barrier=0.0, residual_binding=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "GraphMechanics.evaluate",
+          "line": 142,
+          "arguments": "self, graph, mean_strain=None, phase=None, mobile_barrier=0.0, residual_binding=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "graph_state",
+          "line": 149,
+          "arguments": "crystal, fields, graph, mechanics, mobile_barrier=0.2, residual_binding=0.4"
+        },
+        {
+          "kind": "function",
+          "name": "graph_step",
+          "line": 172,
+          "arguments": "crystal, fields, graph, mechanics, dt, current=None, mobile_barrier=0.2, residual_binding=0.4"
+        },
+        {
+          "kind": "function",
+          "name": "encounter_graphs",
+          "line": 191,
+          "arguments": "angle_degrees=25.0, core=0.8, burgers=0.2, transmission_depth=0.4, reflection_depth=0.9, base_graph=None"
+        },
+        {
+          "kind": "function",
+          "name": "frozen_reaction_family",
+          "line": 222,
+          "arguments": "energies, thermal_energy=0.05, barriers=(0.02, 0.02, 0.02), gate=1.0, attempt_rate=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "ensemble_trajectory",
+          "line": 239,
+          "arguments": "energies, family, times, thermal_energy"
+        },
+        {
+          "kind": "function",
+          "name": "save_graph_checkpoint",
+          "line": 246,
+          "arguments": "path, crystal, fields, graph, mechanics, time, dt, step, rng, mobile_barrier=0.2, residual_binding=0.4, reaction_context=None"
+        },
+        {
+          "kind": "function",
+          "name": "load_graph_checkpoint",
+          "line": 258,
+          "arguments": "path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/grid.py",
+      "sha256": "fe18ea23695c543b1cbf547151da1aea96cb7ba45babfed345832863b7b800d7",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "Grid",
+          "line": 8,
+          "fields": [
+            {
+              "name": "xe",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "ye",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "periodic",
+              "annotation": "bool",
+              "default": "False"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "Grid.__post_init__",
+          "line": 13,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Grid.uniform",
+          "line": 29,
+          "arguments": "cls, length=64.0, n=128, periodic=False"
+        },
+        {
+          "kind": "function",
+          "name": "Grid.integrate",
+          "line": 33,
+          "arguments": "self, value"
+        },
+        {
+          "kind": "function",
+          "name": "Grid.lap",
+          "line": 36,
+          "arguments": "self, v, k=(1.0, 1.0)"
+        },
+        {
+          "kind": "function",
+          "name": "Grid.gradient_energy",
+          "line": 54,
+          "arguments": "self, v, k=(1.0, 1.0)"
+        },
+        {
+          "kind": "function",
+          "name": "Grid.spectrum",
+          "line": 62,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "circle",
+          "line": 70,
+          "arguments": "grid, radius, width=np.sqrt(2), center=(0.0, 0.0)"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/interface_reactions.py",
+      "sha256": "47912fb6ce1aba4898627eb5d3807a62c299cfca950fcd702926528a9570f84d",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "InterfaceParameters",
+          "line": 16,
+          "fields": [
+            {
+              "name": "angle_degrees",
+              "annotation": "float",
+              "default": "20.0"
+            },
+            {
+              "name": "core_coefficient",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "residual_stiffness",
+              "annotation": "float",
+              "default": "2.0"
+            },
+            {
+              "name": "binding_energy",
+              "annotation": "float",
+              "default": "0.4"
+            },
+            {
+              "name": "drive_work",
+              "annotation": "float",
+              "default": "0.8"
+            },
+            {
+              "name": "thermal_energy",
+              "annotation": "float",
+              "default": "0.2"
+            },
+            {
+              "name": "attempt_rate",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "transmission_barrier",
+              "annotation": "float",
+              "default": "0.15"
+            },
+            {
+              "name": "absorption_barrier",
+              "annotation": "float",
+              "default": "0.5"
+            },
+            {
+              "name": "reflection_barrier",
+              "annotation": "float",
+              "default": "0.3"
+            },
+            {
+              "name": "misalignment_barrier",
+              "annotation": "float",
+              "default": "0.4"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.__init__",
+          "line": 31,
+          "arguments": "self, parameters=InterfaceParameters()"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.charge",
+          "line": 68,
+          "arguments": "self, state"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.event",
+          "line": 71,
+          "arguments": "self, previous, following"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.first_event_probabilities",
+          "line": 85,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.sample_first_events",
+          "line": 91,
+          "arguments": "self, count=20000, seed=20260912, overlap=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.propagate",
+          "line": 99,
+          "arguments": "self, exposure, initial=None"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.ensemble_free_energy",
+          "line": 108,
+          "arguments": "self, probabilities"
+        },
+        {
+          "kind": "function",
+          "name": "InterfaceReactionModel.entropy_production",
+          "line": 115,
+          "arguments": "self, probabilities"
+        },
+        {
+          "kind": "function",
+          "name": "approach_exposure",
+          "line": 131,
+          "arguments": "times, start=-6.0, speed=0.5, width=np.sqrt(2)"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/localized_transport.py",
+      "sha256": "8a80b3b0b1838346d5c2d7f2681f1b050aa0832178b973cdfc55415383e7342e",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "DiffusionMetric.__init__",
+          "line": 15,
+          "arguments": "self, grid, mobility"
+        },
+        {
+          "kind": "function",
+          "name": "DiffusionMetric.inverse",
+          "line": 20,
+          "arguments": "self, rate"
+        },
+        {
+          "kind": "function",
+          "name": "DiffusionMetric.localized",
+          "line": 27,
+          "arguments": "self, potential, mask"
+        },
+        {
+          "kind": "function",
+          "name": "constant_projection",
+          "line": 35,
+          "arguments": "modes, metric_modes, force, rate, metric_rate, volume, gram=None"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.__init__",
+          "line": 60,
+          "arguments": "self, model, fields, budgets=(0.05, 0.05, 0.05), caps=(32, 32, 32), reset_at_cap=False"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.response",
+          "line": 77,
+          "arguments": "self, block, field, base=False"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.inverse",
+          "line": 83,
+          "arguments": "self, block, rate, state"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.state",
+          "line": 89,
+          "arguments": "self, coefficients=None, bases=None, project=True"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.candidates",
+          "line": 123,
+          "arguments": "self, block, state"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.activate",
+          "line": 128,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.step",
+          "line": 166,
+          "arguments": "self, dt, current=None"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.reset",
+          "line": 185,
+          "arguments": "self, block"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.save",
+          "line": 193,
+          "arguments": "self, path"
+        },
+        {
+          "kind": "function",
+          "name": "LocalizedTransport.load",
+          "line": 203,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/loops3d.py",
+      "sha256": "cddea42f3f7d909c3a45434e31647ad2d8d40164e1d367936bd6ea200ab56ac8",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "Loop",
+          "line": 16,
+          "fields": [
+            {
+              "name": "nodes",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "burgers",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "core",
+              "annotation": "float",
+              "default": "0.8"
+            },
+            {
+              "name": "core_tension",
+              "annotation": "float",
+              "default": "0.01"
+            },
+            {
+              "name": "mobility",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "glide_normal",
+              "annotation": "np.ndarray | None",
+              "default": "None"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "Loop.__post_init__",
+          "line": 24,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.segments",
+          "line": 45,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.lengths",
+          "line": 49,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.area",
+          "line": 53,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.core_energy",
+          "line": 57,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.moved",
+          "line": 60,
+          "arguments": "self, nodes"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.subdivide",
+          "line": 63,
+          "arguments": "self, max_length"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.to_dict",
+          "line": 72,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "Loop.coarsen_collinear",
+          "line": 77,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "circular_loop",
+          "line": 89,
+          "arguments": "radius=3.0, count=12, center=(0.0, 0.0, 0.0), burgers=(0.2, 0.0, 0.0), **kwargs"
+        },
+        {
+          "kind": "function",
+          "name": "LoopMechanics.__init__",
+          "line": 96,
+          "arguments": "self, grid, lam=2.0, shear=1.0, quadrature_order=8"
+        },
+        {
+          "kind": "function",
+          "name": "LoopMechanics.source",
+          "line": 108,
+          "arguments": "self, loops"
+        },
+        {
+          "kind": "function",
+          "name": "LoopMechanics.forces",
+          "line": 134,
+          "arguments": "self, loops, stress"
+        },
+        {
+          "kind": "function",
+          "name": "LoopMechanics.evaluate",
+          "line": 155,
+          "arguments": "self, loops, mean_strain=None, background=None, need_forces=True"
+        },
+        {
+          "kind": "function",
+          "name": "velocities",
+          "line": 174,
+          "arguments": "loops, forces"
+        },
+        {
+          "kind": "function",
+          "name": "coupled_state",
+          "line": 187,
+          "arguments": "crystal, fields, loops, mechanics, need_forces=True"
+        },
+        {
+          "kind": "function",
+          "name": "coupled_step",
+          "line": 201,
+          "arguments": "crystal, fields, loops, mechanics, dt, current=None, pinned=False"
+        },
+        {
+          "kind": "function",
+          "name": "annihilate_coincident",
+          "line": 228,
+          "arguments": "first, second"
+        },
+        {
+          "kind": "function",
+          "name": "save_checkpoint",
+          "line": 238,
+          "arguments": "path, crystal, fields, loops, mechanics, time, dt, step, pinned=False"
+        },
+        {
+          "kind": "function",
+          "name": "load_checkpoint",
+          "line": 250,
+          "arguments": "path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/microstructure.py",
+      "sha256": "2fbb4e3eeda122fa8d54778f1236a9c712ea9d0ad148e121f19201076b113622",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "dilatational_elasticity",
+          "line": 10,
+          "arguments": "grid, phase, misfit=0.08, lam=2.0, shear=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "contour_radii",
+          "line": 23,
+          "arguments": "grid, field, level=0.0, angles=None, center=(0.0, 0.0), samples=1025"
+        },
+        {
+          "kind": "function",
+          "name": "junction_angles",
+          "line": 39,
+          "arguments": "grid, phases, radius=6.0, angular_samples=7200"
+        },
+        {
+          "kind": "function",
+          "name": "stationary_junction",
+          "line": 68,
+          "arguments": "grid, tolerance=1e-05, max_iterations=6000, initial_phases=None"
+        },
+        {
+          "kind": "function",
+          "name": "grain_adjacency",
+          "line": 104,
+          "arguments": "grid, phases, minimum_contact=1.0"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/precipitate_interaction.py",
+      "sha256": "9985881a835f1435a6f328e885d48db9f38b8b9879f4814b52701bcb5afdcebd",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "tensor_elasticity",
+          "line": 6,
+          "arguments": "grid, eigenstrain, lam=2.0, shear=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "inclusion_profile",
+          "line": 33,
+          "arguments": "grid, center"
+        },
+        {
+          "kind": "function",
+          "name": "transformation_tensor",
+          "line": 44,
+          "arguments": "angle=0.0, dilatational=False"
+        },
+        {
+          "kind": "function",
+          "name": "pair_evaluation",
+          "line": 50,
+          "arguments": "grid, center1, center2, tensor1=None, tensor2=None, save_fields=False"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/reactions.py",
+      "sha256": "04fdaf957a30da9a6542fd66de947c83bed4ad44b8e8f0d5842f39e879846ae5",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "annihilate",
+          "line": 7,
+          "arguments": "screws, capture=None"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/representation3d.py",
+      "sha256": "615494dfa8c8a8130bef1c7e648385229eb61313830a996b106135b42f413b7f",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "NyeTransfer.__init__",
+          "line": 15,
+          "arguments": "self, grid, core_coefficient=0.3, field_mobility=10.0, glide_normal=None, mean_strain=None, background=None, lam=2.0, shear=1.0, quadrature_order=10"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.curl",
+          "line": 28,
+          "arguments": "self, tensor"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.evaluate",
+          "line": 33,
+          "arguments": "self, beta"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.promote",
+          "line": 56,
+          "arguments": "self, loops, mean_correction=None"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.line_state",
+          "line": 67,
+          "arguments": "self, loops, mean_correction=None"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.field_step",
+          "line": 75,
+          "arguments": "self, beta, dt"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.line_step",
+          "line": 87,
+          "arguments": "self, loops, mean_correction, dt"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.recover",
+          "line": 99,
+          "arguments": "self, beta, hints, source_tolerance=0.01, stress_tolerance=0.01, force_tolerance=0.01, energy_tolerance=0.001, max_evaluations=50"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.save",
+          "line": 192,
+          "arguments": "self, path, beta, hints, time, step"
+        },
+        {
+          "kind": "function",
+          "name": "NyeTransfer.load",
+          "line": 201,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/response_cache.py",
+      "sha256": "e9844473d591268195d3e684679c977e2037ac9cb1dc81ac618625a1aaf0903a",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "small_projection",
+          "line": 8,
+          "arguments": "modes, rate, mobility, volume, conjugate"
+        },
+        {
+          "kind": "function",
+          "name": "ScalarTransportOperator.__init__",
+          "line": 31,
+          "arguments": "self, model"
+        },
+        {
+          "kind": "function",
+          "name": "ScalarTransportOperator.response",
+          "line": 55,
+          "arguments": "self, direction"
+        },
+        {
+          "kind": "function",
+          "name": "ScalarTransportOperator.assemble",
+          "line": 61,
+          "arguments": "self, gamma, h, a, energy"
+        },
+        {
+          "kind": "function",
+          "name": "ScalarTransportOperator.evaluate",
+          "line": 66,
+          "arguments": "self, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "ScalarTransportOperator.step",
+          "line": 71,
+          "arguments": "self, current, dt"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.__init__",
+          "line": 84,
+          "arguments": "self, operator, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.storage_bytes",
+          "line": 91,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.add",
+          "line": 95,
+          "arguments": "self, direction"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.state",
+          "line": 107,
+          "arguments": "self, coefficients, project=True"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.enrich",
+          "line": 127,
+          "arguments": "self, coefficients, budget=0.05, max_modes=3"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.step",
+          "line": 136,
+          "arguments": "self, coefficients, current, dt"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.save",
+          "line": 147,
+          "arguments": "self, path, coefficients, state, mode, time, step, budget=0.05, max_modes=3"
+        },
+        {
+          "kind": "function",
+          "name": "AffineTransportCache.load",
+          "line": 154,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/solvers.py",
+      "sha256": "481218fce87910a5b57b05086a6285422fde7f9553ab82531706a73074ee82d8",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "ac_step",
+          "line": 7,
+          "arguments": "grid, v, model, dt, mobility=1.0"
+        },
+        {
+          "kind": "function",
+          "name": "ch_step",
+          "line": 11,
+          "arguments": "grid, c, dt, W=1.0, kappa=1.0, mobility=1.0, stabilization=2.0, symbol=None"
+        },
+        {
+          "kind": "function",
+          "name": "project_simplex",
+          "line": 19,
+          "arguments": "phases"
+        },
+        {
+          "kind": "function",
+          "name": "grain_step",
+          "line": 29,
+          "arguments": "grid, phases, dt"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/spherical_sink.py",
+      "sha256": "51c68594051f38b5c598a6677697a2a9c402753ec16744d5d8cb738209b28a92",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "reaction_profile",
+          "line": 10,
+          "arguments": "r, radius=2.0, width=1.0, reactivity=1.0"
+        },
+        {
+          "kind": "class_fields",
+          "name": "SphericalSink",
+          "line": 21,
+          "fields": [
+            {
+              "name": "cells",
+              "annotation": "int",
+              "default": "128"
+            },
+            {
+              "name": "length",
+              "annotation": "float",
+              "default": "8.0"
+            },
+            {
+              "name": "radius",
+              "annotation": "float",
+              "default": "2.0"
+            },
+            {
+              "name": "width",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "diffusion",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "reactivity",
+              "annotation": "float",
+              "default": "1.0"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "SphericalSink.__post_init__",
+          "line": 29,
+          "arguments": "self"
+        },
+        {
+          "kind": "function",
+          "name": "SphericalSink.steady",
+          "line": 42,
+          "arguments": "self, concentration=1.0, equilibrium=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "SphericalSink.closed_system",
+          "line": 50,
+          "arguments": "self, capacity"
+        },
+        {
+          "kind": "function",
+          "name": "SphericalSink.stepper",
+          "line": 59,
+          "arguments": "self, capacity, dt"
+        },
+        {
+          "kind": "function",
+          "name": "collocation_reference",
+          "line": 67,
+          "arguments": "radii, *, length=8.0, radius=2.0, width=1.0, diffusion=1.0, reactivity=1.0, concentration=1.0, equilibrium=0.0, tolerance=1e-09"
+        },
+        {
+          "kind": "function",
+          "name": "robin_capture",
+          "line": 87,
+          "arguments": "*, length=8.0, radius=2.0, diffusion=1.0, reactivity=1.0, concentration=1.0, equilibrium=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "exact_discrete_evolution",
+          "line": 93,
+          "arguments": "model, capacity, state, time"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/thermoplastic.py",
+      "sha256": "00e94b9e0407283db826de2af325629f8a6fe4c802dd9d3cd0ffbe711e704aaf",
+      "declarations": [
+        {
+          "kind": "class_fields",
+          "name": "ThermalPlasticParameters",
+          "line": 9,
+          "fields": [
+            {
+              "name": "density",
+              "annotation": "float",
+              "default": "1.0"
+            },
+            {
+              "name": "conductivity",
+              "annotation": "float",
+              "default": "0.4"
+            },
+            {
+              "name": "hardening",
+              "annotation": "tuple",
+              "default": "(0.2, 0.3)"
+            },
+            {
+              "name": "yield_stress",
+              "annotation": "tuple",
+              "default": "(0.015, 0.025)"
+            },
+            {
+              "name": "drag",
+              "annotation": "tuple",
+              "default": "(1.0, 1.7)"
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlasticParameters.__post_init__",
+          "line": 16,
+          "arguments": "self"
+        },
+        {
+          "kind": "class_fields",
+          "name": "ThermalPlasticState",
+          "line": 26,
+          "fields": [
+            {
+              "name": "u",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "v",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "T",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "Fp",
+              "annotation": "np.ndarray",
+              "default": null
+            },
+            {
+              "name": "gamma",
+              "annotation": "np.ndarray",
+              "default": null
+            }
+          ]
+        },
+        {
+          "kind": "function",
+          "name": "exponential_slip",
+          "line": 34,
+          "arguments": "L, dt"
+        },
+        {
+          "kind": "function",
+          "name": "conductive_power",
+          "line": 55,
+          "arguments": "T, conductivity"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.__init__",
+          "line": 72,
+          "arguments": "self, n, length=1.0, mechanical=None, transport=None, c=0.2, eta=0.0, fixed=None, values=None"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.initial",
+          "line": 87,
+          "arguments": "self, T=1.0, u=None, equilibrate=False"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.install",
+          "line": 101,
+          "arguments": "self, state"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.rate",
+          "line": 116,
+          "arguments": "self, state"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.step",
+          "line": 152,
+          "arguments": "self, state, dt, tolerance=1e-12, max_iterations=40"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.save",
+          "line": 181,
+          "arguments": "self, path, state, time=0.0, step=0"
+        },
+        {
+          "kind": "function",
+          "name": "ThermalPlastic2D.load",
+          "line": 189,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/trajectory_control.py",
+      "sha256": "30524f9650584c94b95f733f462d6be17b27957a259411573e92a658e2284bbd",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "tangent_rate",
+          "line": 10,
+          "arguments": "model, fields, direction, current=None"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.__init__",
+          "line": 25,
+          "arguments": "self, chart, correct=True, field_limits=(0.005, 0.005, 0.005), energy_limit=0.0005"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.indicators",
+          "line": 32,
+          "arguments": "self, state"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.transfer",
+          "line": 44,
+          "arguments": "self, state, shadow, reference"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.step",
+          "line": 61,
+          "arguments": "self, dt"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.save",
+          "line": 76,
+          "arguments": "self, path"
+        },
+        {
+          "kind": "function",
+          "name": "TrajectoryControl.load",
+          "line": 85,
+          "arguments": "cls, path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/transport_checkpoint.py",
+      "sha256": "53ed12539aa61f1381db7b13132fb9c6642a7b573fd3623533942d94e5bad346",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "save_transport",
+          "line": 9,
+          "arguments": "path, model, loops, details, amplitudes, gamma, mode, time, step, history=0.0, budget=0.05, max_details=2"
+        },
+        {
+          "kind": "function",
+          "name": "load_transport",
+          "line": 24,
+          "arguments": "path"
+        }
+      ]
+    },
+    {
+      "source": "src/bmvr/transport_metric.py",
+      "sha256": "28b553f6e1b8a342c71d4198a8186ceaf18662f857d4010be409f8349a5bbdf3",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "weighted_projection",
+          "line": 10,
+          "arguments": "columns, full_rate, mobility, volume, rcond=1e-11"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.__init__",
+          "line": 55,
+          "arguments": "self, grid, burgers=(0.2, 0, 0), **kwargs"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.embed",
+          "line": 62,
+          "arguments": "self, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.evaluate",
+          "line": 65,
+          "arguments": "self, gamma"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.gamma_from_loops",
+          "line": 73,
+          "arguments": "self, loops, history=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.tangent",
+          "line": 92,
+          "arguments": "self, loops"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.chart_state",
+          "line": 109,
+          "arguments": "self, loops, details=None, amplitudes=None, history=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.enrich",
+          "line": 123,
+          "arguments": "self, loops, details, amplitudes, budget=0.05, max_details=3, history=0.0"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.chart_step",
+          "line": 138,
+          "arguments": "self, loops, details, amplitudes, dt, history=0.0, current=None"
+        },
+        {
+          "kind": "function",
+          "name": "PlanarTransport.field_step",
+          "line": 155,
+          "arguments": "self, gamma, dt"
+        }
+      ]
+    }
+  ]
+}

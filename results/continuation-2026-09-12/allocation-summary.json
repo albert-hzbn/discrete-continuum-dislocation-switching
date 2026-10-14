@@ -1,0 +1,4967 @@
+{
+  "reports": [
+    {
+      "strategy": "cost",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008307090029120445,
+        "solver_s": 0.28916558355558664,
+        "allocation_s": 0.17198887711856514,
+        "final_validation_s": 0.0050424590008333325,
+        "evolution_and_allocation_s": 0.4611544606741518
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 83066880,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 0.05554820772798597
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 0.062162074672957306
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 0.032660531245495394
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 0.050665868548698666
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8605151690223056,
+              "added_dofs": 224,
+              "score": 0.003841585575992436
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3362498401017597,
+              "added_dofs": 672,
+              "score": 0.00347656226205619
+            },
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.336709755604085,
+              "added_dofs": 732,
+              "score": 0.0031922264420820834
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.0006089479646856226
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 0.0015890473981062024
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.0005371938579687192
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.0008915510867400145
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-cost-1"
+    },
+    {
+      "strategy": "cost",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008602909510955215,
+        "solver_s": 0.29385740333236754,
+        "allocation_s": 0.17445970803964883,
+        "final_validation_s": 0.005045500001870096,
+        "evolution_and_allocation_s": 0.46831711137201637
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 82345984,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 0.05554820772798597
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 0.062162074672957306
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 0.032660531245495394
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 0.050665868548698666
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8605151690223056,
+              "added_dofs": 224,
+              "score": 0.003841585575992436
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3362498401017597,
+              "added_dofs": 672,
+              "score": 0.00347656226205619
+            },
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.336709755604085,
+              "added_dofs": 732,
+              "score": 0.0031922264420820834
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.0006089479646856226
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 0.0015890473981062024
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.0005371938579687192
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.0008915510867400145
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-cost-2"
+    },
+    {
+      "strategy": "cost",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0009272500174120069,
+        "solver_s": 0.2890472888248041,
+        "allocation_s": 0.17092887382023036,
+        "final_validation_s": 0.0048607500502839684,
+        "evolution_and_allocation_s": 0.4599761626450345
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 82591744,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 0.05554820772798597
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 0.062162074672957306
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 0.032660531245495394
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 0.050665868548698666
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8605151690223056,
+              "added_dofs": 224,
+              "score": 0.003841585575992436
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3362498401017597,
+              "added_dofs": 672,
+              "score": 0.00347656226205619
+            },
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.336709755604085,
+              "added_dofs": 732,
+              "score": 0.0031922264420820834
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.0006089479646856226
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 0.0015890473981062024
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.0005371938579687192
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "cost",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.0008915510867400145
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-cost-3"
+    },
+    {
+      "strategy": "geometry",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008795410394668579,
+        "solver_s": 0.33015950361732394,
+        "allocation_s": 0.11774729192256927,
+        "final_validation_s": 0.004768458078615367,
+        "evolution_and_allocation_s": 0.4479067955398932
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 35380,
+      "mean_field_cells": 16966.0,
+      "inventory_drift": 6.821210263296962e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 707560,
+      "peak_rss_bytes": 81707008,
+      "final_indicator": {
+        "squared": [
+          4.0131246997957197e-10,
+          3.687603831513758e-11,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818346363145,
+          0.0012701130660422784,
+          0.023891450371438562
+        ],
+        "budget_squared": [
+          0.0037152045866007868,
+          3.1752826751056964e-06,
+          5.972862593859642e-05
+        ],
+        "budget_ratios": [
+          0.00032866235307494403,
+          0.0034078536195193553,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.7489666532845456e-21,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            2.274286524544374e-10,
+            7.701076130293241e-14,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2289941855696673,
+            0.03369876027506336,
+            0.02239105068687985
+          ],
+          "budget_squared": [
+            0.0030724854639341687,
+            8.424690069765843e-05,
+            5.597762672719964e-05
+          ],
+          "budget_ratios": [
+            0.0002720681293783726,
+            3.023421812117112e-05,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.999725064576941e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 15625,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.0089611466367584e-08,
+            1.5098654097737038e-09
+          ],
+          "mass_error": [
+            0.0,
+            6.821210263296962e-13
+          ],
+          "energy_jump": -2.8776980798284058e-12,
+          "common_grid_energy_jump": 6.863842827442568e-12,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            2.4103007264284893e-10,
+            8.85619979314845e-13,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2214250835402276,
+            0.012979552763870068,
+            0.022533357839869483
+          ],
+          "budget_squared": [
+            0.0030535627088605693,
+            3.244888191967518e-05,
+            5.6333394609673724e-05
+          ],
+          "budget_ratios": [
+            0.00028095204281404593,
+            0.00016520524609798742,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.677852544620307e-19,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16129,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15625,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.3490116232672623e-10,
+            9.972118175931726e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2506557920593318,
+            0.007038281836103814,
+            0.022676354198211117
+          ],
+          "budget_squared": [
+            0.00312663948015833,
+            1.759570460025954e-05,
+            5.6690885505527805e-05
+          ],
+          "budget_ratios": [
+            0.0002740966193985138,
+            0.0007528186630220089,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.6940658945086007e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16384,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16129,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            2.229799510433956e-10,
+            1.9102963948659444e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178694269307,
+            0.004479746826136478,
+            0.022836085376343063
+          ],
+          "budget_squared": [
+            0.003208294673577327,
+            1.1199367075341198e-05,
+            5.7090213450857674e-05
+          ],
+          "budget_ratios": [
+            0.00026363057856550756,
+            0.00041300341078399856,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -6.579758931895986e-24,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16900,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16384,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            2.0467770207098131e-10,
+            5.797980355482882e-12,
+            1.925929944387236e-34
+          ],
+          "full_norm_squared": [
+            1.3178374434241316,
+            0.0031481835045196367,
+            0.023013648862278156
+          ],
+          "budget_squared": [
+            0.0032945936085703293,
+            7.870458771299093e-06,
+            5.753412216569541e-05
+          ],
+          "budget_ratios": [
+            0.0002492495256377961,
+            0.0008582984844325982,
+            1.8296056688929455e-15
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.392385417507812e-23,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16900,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            1.7978396882394154e-10,
+            4.0567380023113774e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970882932563,
+            0.0023650006410791432,
+            0.023208637174283
+          ],
+          "budget_squared": [
+            0.0033867427207431413,
+            5.9125016126978595e-06,
+            5.8021592945707513e-05
+          ],
+          "budget_ratios": [
+            0.00023040101008750785,
+            0.0026194061576389964,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.762680705975303e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            1.5086815338379653e-10,
+            7.72563153480555e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277832735,
+            0.0018622273392785178,
+            0.023420278706150228
+          ],
+          "budget_squared": [
+            0.003486388194591838,
+            4.655568358196295e-06,
+            5.8550696775375584e-05
+          ],
+          "budget_ratios": [
+            0.00020802278967654348,
+            0.00128819213021747,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.5901484822859327e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            1.2177596863591254e-10,
+            1.165964064113999e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967860463532,
+            0.001517829820305795,
+            0.023647959041736118
+          ],
+          "budget_squared": [
+            0.0035952419651258836,
+            3.794574560764488e-06,
+            5.9119897614340306e-05
+          ],
+          "budget_ratios": [
+            0.0001840419110309859,
+            0.0017529157260309646,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -2.2809898120004724e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17956,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17689,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            4.0131246997957197e-10,
+            3.687603831513758e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818346363145,
+            0.0012701130660422784,
+            0.023891450371438562
+          ],
+          "budget_squared": [
+            0.0037152045866007868,
+            3.1752826751056964e-06,
+            5.972862593859642e-05
+          ],
+          "budget_ratios": [
+            0.00032866235307494403,
+            0.0034078536195193553,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.7489666532845456e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.745647778115613e-08,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": -5.8122395785176195e-12,
+          "common_grid_energy_jump": 1.1340262062731199e-11,
+          "source_cells": 17956,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-geometry-1"
+    },
+    {
+      "strategy": "geometry",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008442499674856663,
+        "solver_s": 0.32793909253086895,
+        "allocation_s": 0.11364041629713029,
+        "final_validation_s": 0.005197375081479549,
+        "evolution_and_allocation_s": 0.44157950882799923
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 35380,
+      "mean_field_cells": 16966.0,
+      "inventory_drift": 6.821210263296962e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 707560,
+      "peak_rss_bytes": 82067456,
+      "final_indicator": {
+        "squared": [
+          4.0131246997957197e-10,
+          3.687603831513758e-11,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818346363145,
+          0.0012701130660422784,
+          0.023891450371438562
+        ],
+        "budget_squared": [
+          0.0037152045866007868,
+          3.1752826751056964e-06,
+          5.972862593859642e-05
+        ],
+        "budget_ratios": [
+          0.00032866235307494403,
+          0.0034078536195193553,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.7489666532845456e-21,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            2.274286524544374e-10,
+            7.701076130293241e-14,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2289941855696673,
+            0.03369876027506336,
+            0.02239105068687985
+          ],
+          "budget_squared": [
+            0.0030724854639341687,
+            8.424690069765843e-05,
+            5.597762672719964e-05
+          ],
+          "budget_ratios": [
+            0.0002720681293783726,
+            3.023421812117112e-05,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.999725064576941e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 15625,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.0089611466367584e-08,
+            1.5098654097737038e-09
+          ],
+          "mass_error": [
+            0.0,
+            6.821210263296962e-13
+          ],
+          "energy_jump": -2.8776980798284058e-12,
+          "common_grid_energy_jump": 6.863842827442568e-12,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            2.4103007264284893e-10,
+            8.85619979314845e-13,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2214250835402276,
+            0.012979552763870068,
+            0.022533357839869483
+          ],
+          "budget_squared": [
+            0.0030535627088605693,
+            3.244888191967518e-05,
+            5.6333394609673724e-05
+          ],
+          "budget_ratios": [
+            0.00028095204281404593,
+            0.00016520524609798742,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.677852544620307e-19,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16129,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15625,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.3490116232672623e-10,
+            9.972118175931726e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2506557920593318,
+            0.007038281836103814,
+            0.022676354198211117
+          ],
+          "budget_squared": [
+            0.00312663948015833,
+            1.759570460025954e-05,
+            5.6690885505527805e-05
+          ],
+          "budget_ratios": [
+            0.0002740966193985138,
+            0.0007528186630220089,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.6940658945086007e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16384,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16129,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            2.229799510433956e-10,
+            1.9102963948659444e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178694269307,
+            0.004479746826136478,
+            0.022836085376343063
+          ],
+          "budget_squared": [
+            0.003208294673577327,
+            1.1199367075341198e-05,
+            5.7090213450857674e-05
+          ],
+          "budget_ratios": [
+            0.00026363057856550756,
+            0.00041300341078399856,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -6.579758931895986e-24,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16900,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16384,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            2.0467770207098131e-10,
+            5.797980355482882e-12,
+            1.925929944387236e-34
+          ],
+          "full_norm_squared": [
+            1.3178374434241316,
+            0.0031481835045196367,
+            0.023013648862278156
+          ],
+          "budget_squared": [
+            0.0032945936085703293,
+            7.870458771299093e-06,
+            5.753412216569541e-05
+          ],
+          "budget_ratios": [
+            0.0002492495256377961,
+            0.0008582984844325982,
+            1.8296056688929455e-15
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.392385417507812e-23,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16900,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            1.7978396882394154e-10,
+            4.0567380023113774e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970882932563,
+            0.0023650006410791432,
+            0.023208637174283
+          ],
+          "budget_squared": [
+            0.0033867427207431413,
+            5.9125016126978595e-06,
+            5.8021592945707513e-05
+          ],
+          "budget_ratios": [
+            0.00023040101008750785,
+            0.0026194061576389964,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.762680705975303e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            1.5086815338379653e-10,
+            7.72563153480555e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277832735,
+            0.0018622273392785178,
+            0.023420278706150228
+          ],
+          "budget_squared": [
+            0.003486388194591838,
+            4.655568358196295e-06,
+            5.8550696775375584e-05
+          ],
+          "budget_ratios": [
+            0.00020802278967654348,
+            0.00128819213021747,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.5901484822859327e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            1.2177596863591254e-10,
+            1.165964064113999e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967860463532,
+            0.001517829820305795,
+            0.023647959041736118
+          ],
+          "budget_squared": [
+            0.0035952419651258836,
+            3.794574560764488e-06,
+            5.9119897614340306e-05
+          ],
+          "budget_ratios": [
+            0.0001840419110309859,
+            0.0017529157260309646,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -2.2809898120004724e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17956,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17689,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            4.0131246997957197e-10,
+            3.687603831513758e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818346363145,
+            0.0012701130660422784,
+            0.023891450371438562
+          ],
+          "budget_squared": [
+            0.0037152045866007868,
+            3.1752826751056964e-06,
+            5.972862593859642e-05
+          ],
+          "budget_ratios": [
+            0.00032866235307494403,
+            0.0034078536195193553,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.7489666532845456e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.745647778115613e-08,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": -5.8122395785176195e-12,
+          "common_grid_energy_jump": 1.1340262062731199e-11,
+          "source_cells": 17956,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-geometry-2"
+    },
+    {
+      "strategy": "geometry",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0009006249019876122,
+        "solver_s": 0.3316114202607423,
+        "allocation_s": 0.11772079207003117,
+        "final_validation_s": 0.005472042015753686,
+        "evolution_and_allocation_s": 0.4493322123307735
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 35380,
+      "mean_field_cells": 16966.0,
+      "inventory_drift": 6.821210263296962e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 707560,
+      "peak_rss_bytes": 83476480,
+      "final_indicator": {
+        "squared": [
+          4.0131246997957197e-10,
+          3.687603831513758e-11,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818346363145,
+          0.0012701130660422784,
+          0.023891450371438562
+        ],
+        "budget_squared": [
+          0.0037152045866007868,
+          3.1752826751056964e-06,
+          5.972862593859642e-05
+        ],
+        "budget_ratios": [
+          0.00032866235307494403,
+          0.0034078536195193553,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.7489666532845456e-21,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            2.274286524544374e-10,
+            7.701076130293241e-14,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2289941855696673,
+            0.03369876027506336,
+            0.02239105068687985
+          ],
+          "budget_squared": [
+            0.0030724854639341687,
+            8.424690069765843e-05,
+            5.597762672719964e-05
+          ],
+          "budget_ratios": [
+            0.0002720681293783726,
+            3.023421812117112e-05,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.999725064576941e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 15625,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.0089611466367584e-08,
+            1.5098654097737038e-09
+          ],
+          "mass_error": [
+            0.0,
+            6.821210263296962e-13
+          ],
+          "energy_jump": -2.8776980798284058e-12,
+          "common_grid_energy_jump": 6.863842827442568e-12,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            2.4103007264284893e-10,
+            8.85619979314845e-13,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2214250835402276,
+            0.012979552763870068,
+            0.022533357839869483
+          ],
+          "budget_squared": [
+            0.0030535627088605693,
+            3.244888191967518e-05,
+            5.6333394609673724e-05
+          ],
+          "budget_ratios": [
+            0.00028095204281404593,
+            0.00016520524609798742,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -8.677852544620307e-19,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16129,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15625,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.3490116232672623e-10,
+            9.972118175931726e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2506557920593318,
+            0.007038281836103814,
+            0.022676354198211117
+          ],
+          "budget_squared": [
+            0.00312663948015833,
+            1.759570460025954e-05,
+            5.6690885505527805e-05
+          ],
+          "budget_ratios": [
+            0.0002740966193985138,
+            0.0007528186630220089,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.6940658945086007e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16384,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16129,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            2.229799510433956e-10,
+            1.9102963948659444e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178694269307,
+            0.004479746826136478,
+            0.022836085376343063
+          ],
+          "budget_squared": [
+            0.003208294673577327,
+            1.1199367075341198e-05,
+            5.7090213450857674e-05
+          ],
+          "budget_ratios": [
+            0.00026363057856550756,
+            0.00041300341078399856,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -6.579758931895986e-24,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 16900,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            4.547473508864641e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16384,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            2.0467770207098131e-10,
+            5.797980355482882e-12,
+            1.925929944387236e-34
+          ],
+          "full_norm_squared": [
+            1.3178374434241316,
+            0.0031481835045196367,
+            0.023013648862278156
+          ],
+          "budget_squared": [
+            0.0032945936085703293,
+            7.870458771299093e-06,
+            5.753412216569541e-05
+          ],
+          "budget_ratios": [
+            0.0002492495256377961,
+            0.0008582984844325982,
+            1.8296056688929455e-15
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.392385417507812e-23,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 16900,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            1.7978396882394154e-10,
+            4.0567380023113774e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970882932563,
+            0.0023650006410791432,
+            0.023208637174283
+          ],
+          "budget_squared": [
+            0.0033867427207431413,
+            5.9125016126978595e-06,
+            5.8021592945707513e-05
+          ],
+          "budget_ratios": [
+            0.00023040101008750785,
+            0.0026194061576389964,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.762680705975303e-22,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17161,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            1.5086815338379653e-10,
+            7.72563153480555e-12,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277832735,
+            0.0018622273392785178,
+            0.023420278706150228
+          ],
+          "budget_squared": [
+            0.003486388194591838,
+            4.655568358196295e-06,
+            5.8550696775375584e-05
+          ],
+          "budget_ratios": [
+            0.00020802278967654348,
+            0.00128819213021747,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.5901484822859327e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17161,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            1.2177596863591254e-10,
+            1.165964064113999e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967860463532,
+            0.001517829820305795,
+            0.023647959041736118
+          ],
+          "budget_squared": [
+            0.0035952419651258836,
+            3.794574560764488e-06,
+            5.9119897614340306e-05
+          ],
+          "budget_ratios": [
+            0.0001840419110309859,
+            0.0017529157260309646,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -2.2809898120004724e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17956,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 17689,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            4.0131246997957197e-10,
+            3.687603831513758e-11,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4860818346363145,
+            0.0012701130660422784,
+            0.023891450371438562
+          ],
+          "budget_squared": [
+            0.0037152045866007868,
+            3.1752826751056964e-06,
+            5.972862593859642e-05
+          ],
+          "budget_ratios": [
+            0.00032866235307494403,
+            0.0034078536195193553,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.7489666532845456e-21,
+          "line_block_present": true,
+          "strategy": "geometry",
+          "reason": "budgets_met",
+          "selected": [],
+          "candidate_cells": 17689,
+          "audit_cells": 36864,
+          "full_operator_audits": 1,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.745647778115613e-08,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": -5.8122395785176195e-12,
+          "common_grid_energy_jump": 1.1340262062731199e-11,
+          "source_cells": 17956,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-geometry-3"
+    },
+    {
+      "strategy": "residual",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008392080198973417,
+        "solver_s": 0.291373866959475,
+        "allocation_s": 0.17248287587426603,
+        "final_validation_s": 0.005133667029440403,
+        "evolution_and_allocation_s": 0.463856742833741
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 82591744,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 37.32839559320657
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 41.77291418022731
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 21.947876996972905
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 34.047463664725505
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3366751823832725,
+              "added_dofs": 708,
+              "score": 2.3366751823832725
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.335211504537841,
+              "added_dofs": 690,
+              "score": 2.335211504537841
+            },
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8599245704240757,
+              "added_dofs": 230,
+              "score": 0.8599245704240757
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.4311351589974208
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 1.1917855485796518
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.39000274088529013
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.6847112346163311
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-residual-1"
+    },
+    {
+      "strategy": "residual",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0011403330136090517,
+        "solver_s": 0.2896682443097234,
+        "allocation_s": 0.17362200084608048,
+        "final_validation_s": 0.004733125097118318,
+        "evolution_and_allocation_s": 0.46329024515580386
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 83296256,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 37.32839559320657
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 41.77291418022731
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 21.947876996972905
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 34.047463664725505
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3366751823832725,
+              "added_dofs": 708,
+              "score": 2.3366751823832725
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.335211504537841,
+              "added_dofs": 690,
+              "score": 2.335211504537841
+            },
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8599245704240757,
+              "added_dofs": 230,
+              "score": 0.8599245704240757
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.4311351589974208
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 1.1917855485796518
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.39000274088529013
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.6847112346163311
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-residual-2"
+    },
+    {
+      "strategy": "residual",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0026166250463575125,
+        "solver_s": 0.31711366353556514,
+        "allocation_s": 0.18613749998621643,
+        "final_validation_s": 0.004935542005114257,
+        "evolution_and_allocation_s": 0.5032511635217816
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 31746,
+      "mean_field_cells": 14738.777777777777,
+      "inventory_drift": 4.547473508864641e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 634880,
+      "peak_rss_bytes": 83132416,
+      "final_indicator": {
+        "squared": [
+          2.875860106558644e-10,
+          1.1010471821090627e-06,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.486081834504956,
+          0.0012737171165858833,
+          0.023891379653747533
+        ],
+        "budget_squared": [
+          0.0037152045862723906,
+          3.1842928014647087e-06,
+          5.972844914436885e-05
+        ],
+        "budget_ratios": [
+          0.00027822266810520474,
+          0.5880259163314475,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": -4.336793891242634e-19,
+        "line_block_present": true
+      },
+      "audits": [
+        {
+          "squared": [
+            3.41142617201888e-10,
+            6.818347196686765e-05,
+            4.3078800193854453e-23
+          ],
+          "full_norm_squared": [
+            1.2289941856781321,
+            0.03375445986288445,
+            0.022391050685687166
+          ],
+          "budget_squared": [
+            0.0030724854642053307,
+            8.438614966721115e-05,
+            5.597762672421793e-05
+          ],
+          "budget_ratios": [
+            0.00033321386957143315,
+            0.8988846626905187,
+            8.772523870714706e-10
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 8.173867941003998e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 10.0,
+              "high": 12.0,
+              "benefit": 37.32839559320657,
+              "added_dofs": 672,
+              "score": 37.32839559320657
+            },
+            {
+              "axis": "x",
+              "low": 16.0,
+              "high": 18.0,
+              "benefit": 41.77291418022731,
+              "added_dofs": 672,
+              "score": 41.77291418022731
+            },
+            {
+              "axis": "x",
+              "low": 14.0,
+              "high": 16.0,
+              "benefit": 21.947876996972905,
+              "added_dofs": 672,
+              "score": 21.947876996972905
+            },
+            {
+              "axis": "x",
+              "low": 12.0,
+              "high": 14.0,
+              "benefit": 34.047463664725505,
+              "added_dofs": 672,
+              "score": 34.047463664725505
+            }
+          ],
+          "candidate_cells": 13104,
+          "audit_cells": 36864,
+          "full_operator_audits": 5,
+          "refine_only": false,
+          "accepted": true,
+          "relative_transfer_error": [
+            1.2357194865847797e-08,
+            0.00010800756987674138
+          ],
+          "mass_error": [
+            0.0,
+            4.547473508864641e-13
+          ],
+          "energy_jump": -2.1531165828037047e-06,
+          "common_grid_energy_jump": -2.1531031251242894e-06,
+          "source_cells": 36864,
+          "time": 0.0
+        },
+        {
+          "squared": [
+            3.774968698469104e-10,
+            8.172328957963031e-06,
+            7.340716842363941e-27
+          ],
+          "full_norm_squared": [
+            1.2214250836983838,
+            0.013249168239471884,
+            0.022533356622967397
+          ],
+          "budget_squared": [
+            0.0030535627092559596,
+            3.312292060867972e-05,
+            5.633339156741851e-05
+          ],
+          "budget_ratios": [
+            0.00035160355362218263,
+            0.4967165244663348,
+            1.141527258962033e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 1.1146953585850445e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.3366751823832725,
+              "added_dofs": 708,
+              "score": 2.3366751823832725
+            },
+            {
+              "axis": "x",
+              "low": 18.0,
+              "high": 20.0,
+              "benefit": 2.335211504537841,
+              "added_dofs": 690,
+              "score": 2.335211504537841
+            },
+            {
+              "axis": "x",
+              "low": 9.0,
+              "high": 10.0,
+              "benefit": 0.8599245704240757,
+              "added_dofs": 230,
+              "score": 0.8599245704240757
+            }
+          ],
+          "candidate_cells": 14030,
+          "audit_cells": 36864,
+          "full_operator_audits": 4,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.360778570524417e-11,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 13104,
+          "time": 0.5000000000000001
+        },
+        {
+          "squared": [
+            2.0092904056817547e-09,
+            5.7332287686544886e-06,
+            3.458032252236559e-26
+          ],
+          "full_norm_squared": [
+            1.2506557932030973,
+            0.007066512522852974,
+            0.022676340355082526
+          ],
+          "budget_squared": [
+            0.0031266394830177435,
+            1.7666281317132437e-05,
+            5.669085089770633e-05
+          ],
+          "budget_ratios": [
+            0.0008016456704020632,
+            0.569674873805381,
+            2.4697786496152694e-11
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 4.3368086899410317e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 14030,
+          "time": 1.0000000000000004
+        },
+        {
+          "squared": [
+            4.2404049197469594e-10,
+            7.904578905815228e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.2833178776781944,
+            0.004502246771508942,
+            0.022836043232044752
+          ],
+          "budget_squared": [
+            0.0032082946942054865,
+            1.1255616938772358e-05,
+            5.709010809011189e-05
+          ],
+          "budget_ratios": [
+            0.00036355200013649667,
+            0.8380206441327713,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.7347234747144817e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 0.4311351589974208,
+              "added_dofs": 708,
+              "score": 0.4311351589974208
+            }
+          ],
+          "candidate_cells": 14750,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 6.428422238968778e-10,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14030,
+          "time": 1.5000000000000009
+        },
+        {
+          "squared": [
+            3.3112657079323663e-10,
+            1.39742528788103e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3178374434357953,
+            0.0031658390516083614,
+            0.02301358102897824
+          ],
+          "budget_squared": [
+            0.0032945936085994887,
+            7.914597639020906e-06,
+            5.753395258244562e-05
+          ],
+          "budget_ratios": [
+            0.00031702688243065484,
+            0.4201940306183267,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 9.75781955236954e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 20.0,
+              "high": 22.0,
+              "benefit": 1.1917855485796518,
+              "added_dofs": 750,
+              "score": 1.1917855485796518
+            }
+          ],
+          "candidate_cells": 15125,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            0.0
+          ],
+          "energy_jump": 1.5631940186722204e-12,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 14750,
+          "time": 2.0000000000000013
+        },
+        {
+          "squared": [
+            3.320619429960038e-10,
+            1.3559271534110612e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.3546970883799734,
+            0.0023687813531480524,
+            0.023208556350780694
+          ],
+          "budget_squared": [
+            0.003386742720959934,
+            5.921953392870132e-06,
+            5.802139088695175e-05
+          ],
+          "budget_ratios": [
+            0.00031312550912602333,
+            0.47850412542918647,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 2.168404377314306e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 2.5000000000000018
+        },
+        {
+          "squared": [
+            3.2819956695350405e-10,
+            2.726131756893189e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.394555277953496,
+            0.001865613228153763,
+            0.023420195840146183
+          ],
+          "budget_squared": [
+            0.0034863881948937405,
+            4.664033080384408e-06,
+            5.8550489610365475e-05
+          ],
+          "budget_ratios": [
+            0.0003068182091255839,
+            0.764526616920341,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": 6.505211633903948e-19,
+          "line_block_present": true,
+          "reason": "current_grid_budgets_met",
+          "accepted": true,
+          "candidate_cells": 15125,
+          "time": 3.000000000000002
+        },
+        {
+          "squared": [
+            3.118055828934375e-10,
+            2.7398264614519977e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.4380967861837746,
+            0.0015222948677718173,
+            0.023647880685855275
+          ],
+          "budget_squared": [
+            0.003595241965469437,
+            3.8057371794295437e-06,
+            5.91197017246382e-05
+          ],
+          "budget_ratios": [
+            0.00029449496992554306,
+            0.8484810190801172,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -1.3010440875723546e-18,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "x",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.39000274088529013,
+              "added_dofs": 726,
+              "score": 0.39000274088529013
+            }
+          ],
+          "candidate_cells": 15488,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            0.0,
+            2.2737367544323206e-13
+          ],
+          "energy_jump": 0.0,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15125,
+          "time": 3.5000000000000027
+        },
+        {
+          "squared": [
+            2.875860106558644e-10,
+            1.1010471821090627e-06,
+            0.0
+          ],
+          "full_norm_squared": [
+            1.486081834504956,
+            0.0012737171165858833,
+            0.023891379653747533
+          ],
+          "budget_squared": [
+            0.0037152045862723906,
+            3.1842928014647087e-06,
+            5.972844914436885e-05
+          ],
+          "budget_ratios": [
+            0.00027822266810520474,
+            0.5880259163314475,
+            0.0
+          ],
+          "met": true,
+          "inventory_rate_roundoff": -4.336793891242634e-19,
+          "line_block_present": true,
+          "strategy": "residual",
+          "reason": "budgets_met",
+          "selected": [
+            {
+              "axis": "y",
+              "low": 22.0,
+              "high": 24.0,
+              "benefit": 0.6847112346163311,
+              "added_dofs": 768,
+              "score": 0.6847112346163311
+            }
+          ],
+          "candidate_cells": 15872,
+          "audit_cells": 36864,
+          "full_operator_audits": 2,
+          "refine_only": true,
+          "accepted": true,
+          "relative_transfer_error": [
+            0.0,
+            0.0
+          ],
+          "mass_error": [
+            1.8189894035458565e-12,
+            0.0
+          ],
+          "energy_jump": 2.842170943040401e-14,
+          "common_grid_energy_jump": 0.0,
+          "source_cells": 15488,
+          "time": 4.0
+        }
+      ],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-residual-3"
+    },
+    {
+      "strategy": "uniform",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0020067919977009296,
+        "solver_s": 0.5992959085851908,
+        "allocation_s": 0.0,
+        "final_validation_s": 0.006722082966007292,
+        "evolution_and_allocation_s": 0.5992959085851908
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 73730,
+      "mean_field_cells": 36864.0,
+      "inventory_drift": 2.2737367544323206e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 1474560,
+      "peak_rss_bytes": 81313792,
+      "final_indicator": {
+        "squared": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818342609836,
+          0.0012701132627084186,
+          0.023891450371452058
+        ],
+        "budget_squared": [
+          0.0037152045856624597,
+          3.175283166771047e-06,
+          5.972862593863016e-05
+        ],
+        "budget_ratios": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 0.0,
+        "line_block_present": true
+      },
+      "audits": [],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-uniform-1"
+    },
+    {
+      "strategy": "uniform",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0010261250426992774,
+        "solver_s": 0.5590480050304905,
+        "allocation_s": 0.0,
+        "final_validation_s": 0.007074416964314878,
+        "evolution_and_allocation_s": 0.5590480050304905
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 73730,
+      "mean_field_cells": 36864.0,
+      "inventory_drift": 2.2737367544323206e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 1474560,
+      "peak_rss_bytes": 79691776,
+      "final_indicator": {
+        "squared": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818342609836,
+          0.0012701132627084186,
+          0.023891450371452058
+        ],
+        "budget_squared": [
+          0.0037152045856624597,
+          3.175283166771047e-06,
+          5.972862593863016e-05
+        ],
+        "budget_ratios": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 0.0,
+        "line_block_present": true
+      },
+      "audits": [],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-uniform-2"
+    },
+    {
+      "strategy": "uniform",
+      "model": "isothermal coupled hybrid; separated structural and chemical features",
+      "parameters": {
+        "length": 96.0,
+        "h": 0.5,
+        "dt": 0.02,
+        "final_time": 4.0,
+        "profile_scale": 1.4142135623730951,
+        "core_width": 1.0,
+        "relative_indicator_tolerances": [
+          0.05,
+          0.05,
+          0.05
+        ],
+        "imposed": 0.08,
+        "chemical": 0.3,
+        "interface": 0.2
+      },
+      "timings": {
+        "initialization_s": 0.0008232499239966273,
+        "solver_s": 0.5677584616933018,
+        "allocation_s": 0.0,
+        "final_validation_s": 0.013192207901738584,
+        "evolution_and_allocation_s": 0.5677584616933018
+      },
+      "steps": 200,
+      "minimum_used_dt": 0.01999999999999691,
+      "final_dofs": 73730,
+      "mean_field_cells": 36864.0,
+      "inventory_drift": 2.2737367544323206e-13,
+      "max_recorded_energy_increase": 0.0,
+      "burgers_content": 0.0,
+      "stored_field_bytes": 1474560,
+      "peak_rss_bytes": 82411520,
+      "final_indicator": {
+        "squared": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "full_norm_squared": [
+          1.4860818342609836,
+          0.0012701132627084186,
+          0.023891450371452058
+        ],
+        "budget_squared": [
+          0.0037152045856624597,
+          3.175283166771047e-06,
+          5.972862593863016e-05
+        ],
+        "budget_ratios": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "met": true,
+        "inventory_rate_roundoff": 0.0,
+        "line_block_present": true
+      },
+      "audits": [],
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "inventory": true,
+        "burgers": true,
+        "energy": true,
+        "positive_population": true
+      },
+      "folder": "allocation-uniform-3"
+    }
+  ],
+  "comparisons": [
+    {
+      "strategy": "geometry",
+      "repetitions": 3,
+      "reference_runtime_s": 0.5677584616933018,
+      "runtime_s": 0.4479067955398932,
+      "runtime_ratio": 1.2675817097370514,
+      "dof_ratio": 2.083945732052007,
+      "errors": {
+        "phase": {
+          "l1": 1.170031560293705e-09,
+          "l2": 1.710949589367204e-08,
+          "linf": 5.150508612938864e-07,
+          "relative_l2": 1.7180853120604246e-08
+        },
+        "phase_fraction": {
+          "l1": 5.850157801209238e-10,
+          "l2": 8.55474794683602e-09,
+          "linf": 2.575254306469432e-07,
+          "relative_l2": 1.309767475814747e-07
+        },
+        "population": {
+          "l1": 1.5718213413090123e-09,
+          "l2": 1.7853641694555463e-08,
+          "linf": 6.048458923157973e-07,
+          "relative_l2": 8.921115391304649e-08
+        },
+        "population_excess": {
+          "l1": 1.5718213413090123e-09,
+          "l2": 1.7853641694555463e-08,
+          "linf": 6.048458923157973e-07,
+          "relative_l2": 1.2341987467169034e-05
+        }
+      },
+      "line_position_error": 2.4424906541753444e-14,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 81313792.0,
+      "peak_rss_bytes": 82067456.0
+    },
+    {
+      "strategy": "residual",
+      "repetitions": 3,
+      "reference_runtime_s": 0.5677584616933018,
+      "runtime_s": 0.463856742833741,
+      "runtime_ratio": 1.2239952754051093,
+      "dof_ratio": 2.3224973224973224,
+      "errors": {
+        "phase": {
+          "l1": 1.5354310364480348e-09,
+          "l2": 1.3735091192722613e-08,
+          "linf": 4.373385108502603e-07,
+          "relative_l2": 1.379237505574608e-08
+        },
+        "phase_fraction": {
+          "l1": 7.677155181843009e-10,
+          "l2": 6.867545596361307e-09,
+          "linf": 2.1866925542513016e-07,
+          "relative_l2": 1.0514497816520233e-07
+        },
+        "population": {
+          "l1": 8.079074993360738e-07,
+          "l2": 7.2788213758147074e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 3.6370846081301224e-05
+        },
+        "population_excess": {
+          "l1": 8.079074993360738e-07,
+          "l2": 7.2788213758147074e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 0.005031753394236805
+        }
+      },
+      "line_position_error": 9.250278520944732e-07,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 81313792.0,
+      "peak_rss_bytes": 83132416.0
+    },
+    {
+      "strategy": "cost",
+      "repetitions": 3,
+      "reference_runtime_s": 0.5677584616933018,
+      "runtime_s": 0.4611544606741518,
+      "runtime_ratio": 1.2311676674737309,
+      "dof_ratio": 2.3224973224973224,
+      "errors": {
+        "phase": {
+          "l1": 1.5354310364480348e-09,
+          "l2": 1.3735091192722613e-08,
+          "linf": 4.373385108502603e-07,
+          "relative_l2": 1.379237505574608e-08
+        },
+        "phase_fraction": {
+          "l1": 7.677155181843009e-10,
+          "l2": 6.867545596361307e-09,
+          "linf": 2.1866925542513016e-07,
+          "relative_l2": 1.0514497816520233e-07
+        },
+        "population": {
+          "l1": 8.079074993360738e-07,
+          "l2": 7.2788213758147074e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 3.6370846081301224e-05
+        },
+        "population_excess": {
+          "l1": 8.079074993360738e-07,
+          "l2": 7.2788213758147074e-06,
+          "linf": 0.00030469795381327103,
+          "relative_l2": 0.005031753394236805
+        }
+      },
+      "line_position_error": 9.250278520944732e-07,
+      "accuracy_met": true,
+      "final_indicator_budgets_met": true,
+      "reference_peak_rss_bytes": 81313792.0,
+      "peak_rss_bytes": 82591744.0
+    }
+  ],
+  "date": "2026-09-12",
+  "interpretation": "Two-grid operator discrepancy; no exact Galerkin optimality or novelty claim."
+}

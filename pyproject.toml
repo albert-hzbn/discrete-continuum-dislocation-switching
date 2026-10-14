@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "albert-bmvr"
+version = "0.1.0"
+description = "Restricted verification models for mixed-dimensional variational defect evolution"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8", "numba>=0.59"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+# Optional back ends used by individual studies; the core tests do not need them.
+atomistics = ["ase>=3.22"]          # EAM/EMT molecular statics (eam_zjw, sft, screw_core, embryo_atomistics)
+gpu = ["cupy"]                      # GPU arrays for the 3D creep study (falls back to NumPy)
+elastic-line = ["torch>=2.0"]       # non-singular elastic line model (frank_read_elastic)
+benchmarks = ["psutil>=5.9"]        # memory probes in allocator_validation
+# ExaDiS (pyexadis) is built from source; see tools/exadis/.
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

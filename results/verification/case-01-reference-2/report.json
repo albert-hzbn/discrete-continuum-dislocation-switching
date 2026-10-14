@@ -1,0 +1,59 @@
+{
+  "case": 1,
+  "name": "Allen-Cahn circular inclusion",
+  "variant": "reference",
+  "metrics": {
+    "steps": 600,
+    "dt": 0.02,
+    "end_time": 12.0,
+    "h": 0.5,
+    "length": 128.0,
+    "physical_profile_scale": 1.4142135623730951,
+    "initial_radius": 14.058624899481943,
+    "final_radius": 13.185304517065463,
+    "radius_squared_slope": -1.9819050813954509,
+    "curvature_slope_relative_error": 0.009047459302274574,
+    "profile_ansatz_rms": 0.02971641818577141,
+    "max_recorded_energy_increase": 0.0,
+    "initial_dofs": 65536,
+    "final_dofs": 65536,
+    "mean_dofs": 65536.0,
+    "uniform_dofs": 65536,
+    "stored_array_bytes": 2109456,
+    "accepted_transfers": 0,
+    "peak_rss_bytes": 87130112
+  },
+  "checks": {
+    "energy_decay": true,
+    "curvature_slope": true,
+    "finite_values": true
+  },
+  "limitations": [
+    "The profile ansatz and curvature law have finite-width errors.",
+    "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+  ],
+  "timings": {
+    "initialization_s": 0.0014931659970898181,
+    "solver_s": 0.3461404322006274,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.007601918012369424,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.35605308300000615,
+    "unclassified_s": 0.0008175667899195105,
+    "array_io_s": 0.0054858329822309315
+  },
+  "status": "partial",
+  "transfers": [],
+  "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

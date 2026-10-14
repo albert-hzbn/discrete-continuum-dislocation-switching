@@ -1,0 +1,25 @@
+{
+ "date": "2026-09-27",
+ "declared_gates": {
+  "N1_bitwise": true,
+  "N2_tcp_overhead": false,
+  "N3_message_model": true
+ },
+ "model_relative_error": {
+  "2": 0.052548843651852924,
+  "4": 0.014846921088113094,
+  "8": 0.0018239695918069562
+ },
+ "one_way_message_seconds": {
+  "pipe": 2.2002554733741195e-05,
+  "tcp": 3.83757674985406e-05
+ },
+ "n2_cause": "timing noise: adaptive p=1 (no messages) differs by 26%; uniform ratios 0.96-1.03",
+ "figures": [
+  "results/network-strips-2026-09-27/figures/network-projection.png"
+ ],
+ "figures_inspected": true,
+ "document": "NETWORK_STRIPS_RESULTS.md",
+ "pytest_passed": 345,
+ "pytest_record": "results/transition-band-notch-2026-09-27/test-results.xml"
+}

@@ -1,0 +1,163 @@
+{
+ "date": "2026-09-27",
+ "pytest_passed": 359,
+ "pytest_record": "results/test-results.xml",
+ "declared_gates": {
+  "K1_bounds": true,
+  "K2_energy": true,
+  "K3_branching": false
+ },
+ "post_hoc_wide_domain": {
+  "declared_before_running": "theory 66.4",
+  "K4_branch_away_from_edge": true,
+  "first_branch": {
+   "time": 1.0499999999999952,
+   "tip": 0.9,
+   "branches": {
+    "0.9": 2,
+    "1": 0,
+    "1.1": 0,
+    "1.2": 0,
+    "1.3": 0,
+    "1.4": 0
+   }
+  },
+  "max_bands": {
+   "0.9": 2,
+   "1": 2,
+   "1.1": 2,
+   "1.2": 2,
+   "1.3": 2,
+   "1.4": 4
+  },
+  "max_speed": 0.7000000000000799,
+  "energy_drift_fraction": 1.6888848779360136e-05,
+  "end_time": 2.9099999999997905
+ },
+ "post_hoc_strong": {
+  "0.15": {
+   "end_time": 0.46000000000000035,
+   "max_bands_before_edge": {
+    "0.65": 1,
+    "0.75": 0,
+    "0.85": 0
+   },
+   "energy_drift_fraction": 0.00010079829552347351,
+   "interpretation": "second crack nucleates at the free right edge at t = 0.46; the notch crack is one band to x = 0.75"
+  },
+  "0.25": {
+   "end_time": 0.03000000000000002,
+   "max_bands_before_edge": {
+    "0.65": 0,
+    "0.75": 0,
+    "0.85": 0
+   },
+   "energy_drift_fraction": 0.0005049762465865584,
+   "interpretation": "loaded edges fail at once; above the homogeneous AT2 strength"
+  }
+ },
+ "figures": [
+  "results/dynamic-branching-2026-09-27/figures/dynamic-branching.png",
+  "results/dynamic-branching-2026-09-27/figures/dynamic-branching-post-hoc.png"
+ ],
+ "figures_inspected": true,
+ "document": "DYNAMIC_BRANCHING_RESULTS.md",
+ "section_81_thermal": {
+  "date": "2026-09-28",
+  "declared_before_running": "theory 81",
+  "gates": {
+   "H1_energy": true,
+   "H2_bounds": true,
+   "H3_branch_away": true
+  },
+  "peak_rise_in_band": {
+   "0\u20130.5": 0.13055801391601562,
+   "0.5\u20130.9": 0.23845553398132324,
+   "0.9\u20132": 0.3459460735321045
+  },
+  "onset": {
+   "thermal": {
+    "time": 1.0299999999999974,
+    "tip": 0.9,
+    "branches": {
+     "0.9": 2,
+     "1": 0,
+     "1.1": 0,
+     "1.2": 0,
+     "1.3": 0,
+     "1.4": 0
+    }
+   },
+   "isothermal": {
+    "time": 1.0499999999999952,
+    "tip": 0.9,
+    "branches": {
+     "0.9": 2,
+     "1": 0,
+     "1.1": 0,
+     "1.2": 0,
+     "1.3": 0,
+     "1.4": 0
+    }
+   }
+  },
+  "figure": "figures/dynamic-branching-thermal.png"
+ },
+ "section_83_refinement": {
+  "declared_before_running": "theory 83 (end-time amendment for n = 300 recorded before the result)",
+  "gates": {
+   "B1_bounds_energy": true,
+   "B2_same_line_and_time": true,
+   "B3_converging": true
+  },
+  "onset": {
+   "150": {
+    "time": 1.069999999999993,
+    "tip": 0.9,
+    "branches": {
+     "0.9": 2,
+     "1": 0,
+     "1.1": 0,
+     "1.2": 0,
+     "1.3": 0,
+     "1.4": 0
+    }
+   },
+   "200": {
+    "time": 1.0499999999999952,
+    "tip": 0.9,
+    "branches": {
+     "0.9": 2,
+     "1": 0,
+     "1.1": 0,
+     "1.2": 0,
+     "1.3": 0,
+     "1.4": 0
+    }
+   },
+   "300": {
+    "time": 1.0399999999999963,
+    "tip": 0.9,
+    "branches": {
+     "0.9": 2,
+     "1": 0,
+     "1.1": 0,
+     "1.2": 0,
+     "1.3": 0,
+     "1.4": 0
+    }
+   }
+  },
+  "max_speed": {
+   "150": 0.6666666666667421,
+   "200": 0.7000000000000799,
+   "300": 0.6000000000000666
+  },
+  "drift": {
+   "150": 1.1738210098575583e-05,
+   "200": 1.6888848779360136e-05,
+   "300": 7.162981781032372e-05
+  },
+  "figure": "figures/dynamic-branching-refinement.png"
+ }
+}

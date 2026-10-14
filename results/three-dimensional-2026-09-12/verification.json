@@ -1,0 +1,14 @@
+{
+  "tests": 46,
+  "three_dimensional_runs": 10,
+  "numerical_checks": 60,
+  "monotone_error_reduction": true,
+  "all_report_local_links_exist": true,
+  "source_sha256": {
+    "src/bmvr/continuum3d.py": "2c51d2109d8f8c2f034651a727e97b9c150cad5650759b9b4a843cb89e8a9939",
+    "tests/test_continuum3d.py": "d81366cb9edf728c47c08c6ff38d2bf39bc155a0a4469e8b8ced97b7a169d116",
+    "benchmarks/three_dimensional.py": "3ab0b8cf81b686894d58b776ee4820f2d9e1b461fa9dd2a0233104539e921e17",
+    "benchmarks/three_dimensional_report.py": "406046defb0b71fa7f686dd29528b1765f463cbc9a4cc45232797e023c506475",
+    "unified_multiscale_defect_framework.md": "1aa4dc1c11e081ea1af866ce245884f73dcfbf4440235e9bbe28599b7407b392"
+  }
+}

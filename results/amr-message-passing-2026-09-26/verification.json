@@ -1,0 +1,66 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 331,
+ "pytest_record": "results/amr-message-passing-2026-09-26/test-results.xml",
+ "amr_gates": {
+  "A1_accuracy": true,
+  "A2_prediction_fewer_cells": false,
+  "A2_prediction_slower": true
+ },
+ "amr_speedups": {
+  "uniform_over_amr": 1.6113248812624787,
+  "uniform_over_focused": 2.8820555135801604,
+  "focused_over_amr": 0.559088773158589
+ },
+ "amr_accuracy": {
+  "focused": {
+   "relative_l2": 4.154668627394253e-07,
+   "radius_difference": 5.297824401395701e-10
+  },
+  "amr": {
+   "relative_l2": 4.26209918181243e-13,
+   "radius_difference": 1.3535839116229909e-12
+  }
+ },
+ "amr_block_size_post_hoc": {
+  "8": {
+   "solver_plus_adaptation_s": 0.19038503165938891,
+   "mean_cells": 13312.0,
+   "blocks": 208,
+   "relative_l2": 2.2676013936248378e-08
+  },
+  "16": {
+   "solver_plus_adaptation_s": 0.2098886409366969,
+   "mean_cells": 25600.0,
+   "blocks": 100,
+   "relative_l2": 4.26209918181243e-13
+  },
+  "32": {
+   "solver_plus_adaptation_s": 0.2927054534375202,
+   "mean_cells": 53248.0,
+   "blocks": 52,
+   "relative_l2": 1.4261264510700226e-16
+  }
+ },
+ "message_passing_gates": {
+  "D1_bitwise": true
+ },
+ "adaptive_over_uniform": {
+  "1": 9.581256922524126,
+  "2": 8.774684234879764,
+  "4": 6.65033460279872,
+  "8": 5.931766302695978
+ },
+ "strong_uniform": [
+  1.0,
+  1.9071566184519997,
+  3.359941260620814,
+  5.244502320053406
+ ],
+ "weak": [
+  1.0,
+  0.9469661496422453,
+  0.8659602384183628,
+  0.6407096770927678
+ ]
+}

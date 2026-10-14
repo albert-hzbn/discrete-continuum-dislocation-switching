@@ -1,0 +1,1393 @@
+{
+  "reports": [
+    {
+      "n": 13,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.583051155413841,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.806255641895632e-18,
+      "source_change_relative": 0.0714850816383248,
+      "divergence_relative": 4.3032765919977566e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04986348906019191,
+      "persistent_array_bytes": 967552,
+      "maximum_cache_bytes": 210960,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 8.17073151613627e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 2.1800000000000015,
+          "initial_residual": 0.05031652044737991,
+          "final_residual": 7.209432416178403e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.010577833047136664,
+        "online_s": 0.030352207366377115,
+        "compilation_s": 0.0,
+        "other_evolution_s": 6.262562237679958e-05,
+        "full_tensor_validation_s": 0.004695040988735855,
+        "array_io_s": 0.0036631659604609013,
+        "report_io_s": 0.00017120898701250553,
+        "process_measurement_overhead_s": 0.2979663759469986
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 83197952,
+      "folder": "run-13-affine-1",
+      "launch_to_exit_s": 0.34748845791909844
+    },
+    {
+      "n": 13,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.583051155413841,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.806255641895632e-18,
+      "source_change_relative": 0.0714850816383248,
+      "divergence_relative": 4.3032765919977566e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04986348906019191,
+      "persistent_array_bytes": 967552,
+      "maximum_cache_bytes": 210960,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 8.17073151613627e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 2.1800000000000015,
+          "initial_residual": 0.05031652044737991,
+          "final_residual": 7.209432416178403e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.011369707994163036,
+        "online_s": 0.02924133383203298,
+        "compilation_s": 0.0,
+        "other_evolution_s": 6.895826663821936e-05,
+        "full_tensor_validation_s": 0.004926541936583817,
+        "array_io_s": 0.004158042022027075,
+        "report_io_s": 0.00023091596085578203,
+        "process_measurement_overhead_s": 0.3288894169963896
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 84262912,
+      "folder": "run-13-affine-2",
+      "launch_to_exit_s": 0.37888491700869054
+    },
+    {
+      "n": 13,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.583051155413841,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.806255641895632e-18,
+      "source_change_relative": 0.0714850816383248,
+      "divergence_relative": 4.3032765919977566e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04986348906019191,
+      "persistent_array_bytes": 967552,
+      "maximum_cache_bytes": 210960,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 8.17073151613627e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 2.1800000000000015,
+          "initial_residual": 0.05031652044737991,
+          "final_residual": 7.209432416178403e-16,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.01209216599818319,
+        "online_s": 0.029714588657952845,
+        "compilation_s": 0.0,
+        "other_evolution_s": 7.04954145476222e-05,
+        "full_tensor_validation_s": 0.00409558298997581,
+        "array_io_s": 0.004072624957188964,
+        "report_io_s": 0.0002407499123364687,
+        "process_measurement_overhead_s": 0.2950931249652058
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 85016576,
+      "folder": "run-13-affine-3",
+      "launch_to_exit_s": 0.3453793328953907
+    },
+    {
+      "n": 13,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 2197,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.5830510106945264,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.979727989493313e-17,
+      "source_change_relative": 0.07151967255792753,
+      "divergence_relative": 4.3172654890492365e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 651120,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.01104079105425626,
+        "online_s": 0.035275971284136176,
+        "compilation_s": 0.0,
+        "other_evolution_s": 6.282073445618153e-05,
+        "full_tensor_validation_s": 0.004998374963179231,
+        "array_io_s": 0.0037707919254899025,
+        "report_io_s": 0.00018862506840378046,
+        "process_measurement_overhead_s": 0.2985710829962045
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 84262912,
+      "folder": "run-13-field-1",
+      "launch_to_exit_s": 0.353908458026126
+    },
+    {
+      "n": 13,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 2197,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.5830510106945264,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.979727989493313e-17,
+      "source_change_relative": 0.07151967255792753,
+      "divergence_relative": 4.3172654890492365e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 651120,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.012381665990687907,
+        "online_s": 0.042123680585063994,
+        "compilation_s": 0.0,
+        "other_evolution_s": 7.236143574118614e-05,
+        "full_tensor_validation_s": 0.004119249992072582,
+        "array_io_s": 0.003928332938812673,
+        "report_io_s": 0.00025220902170985937,
+        "process_measurement_overhead_s": 0.3028892920119688
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 84279296,
+      "folder": "run-13-field-2",
+      "launch_to_exit_s": 0.365766791976057
+    },
+    {
+      "n": 13,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 2197,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.584703927244432,
+      "final_energy": 1.5830510106945264,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 7.979727989493313e-17,
+      "source_change_relative": 0.07151967255792753,
+      "divergence_relative": 4.3172654890492365e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 651120,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.01064095797482878,
+        "online_s": 0.035798550001345575,
+        "compilation_s": 0.0,
+        "other_evolution_s": 8.77829734236002e-05,
+        "full_tensor_validation_s": 0.004845749936066568,
+        "array_io_s": 0.004032750031910837,
+        "report_io_s": 0.00024237495381385088,
+        "process_measurement_overhead_s": 0.3038638341240585
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 81510400,
+      "folder": "run-13-field-3",
+      "launch_to_exit_s": 0.3595119999954477
+    },
+    {
+      "n": 25,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.5830589432270281,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 0.0,
+      "tensor_conjugate_max_error": 3.122502256758253e-17,
+      "source_change_relative": 0.05844395575050846,
+      "divergence_relative": 9.51705523989728e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04953947022751137,
+      "persistent_array_bytes": 6875872,
+      "maximum_cache_bytes": 1500048,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5015267264013427e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.05063232032165421,
+          "final_residual": 2.022369893729799e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.039147166069597006,
+        "online_s": 0.11971411923877895,
+        "compilation_s": 0.0,
+        "other_evolution_s": 6.625568494200706e-05,
+        "full_tensor_validation_s": 0.014008541940711439,
+        "array_io_s": 0.026319125085137784,
+        "report_io_s": 0.0002281250199303031,
+        "process_measurement_overhead_s": 0.2974696250166744
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 118603776,
+      "folder": "run-25-affine-1",
+      "launch_to_exit_s": 0.4969529580557719
+    },
+    {
+      "n": 25,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.5830589432270281,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 0.0,
+      "tensor_conjugate_max_error": 3.122502256758253e-17,
+      "source_change_relative": 0.05844395575050846,
+      "divergence_relative": 9.51705523989728e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04953947022751137,
+      "persistent_array_bytes": 6875872,
+      "maximum_cache_bytes": 1500048,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5015267264013427e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.05063232032165421,
+          "final_residual": 2.022369893729799e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.04143512505106628,
+        "online_s": 0.12281179765705019,
+        "compilation_s": 0.0,
+        "other_evolution_s": 7.661839481443167e-05,
+        "full_tensor_validation_s": 0.013579791993834078,
+        "array_io_s": 0.02751816692762077,
+        "report_io_s": 0.00033795798663049936,
+        "process_measurement_overhead_s": 0.30207295902073383
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 116867072,
+      "folder": "run-25-affine-2",
+      "launch_to_exit_s": 0.5078324170317501
+    },
+    {
+      "n": 25,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 2,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.5830589432270281,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 0.0,
+      "tensor_conjugate_max_error": 3.122502256758253e-17,
+      "source_change_relative": 0.05844395575050846,
+      "divergence_relative": 9.51705523989728e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.04953947022751137,
+      "persistent_array_bytes": 6875872,
+      "maximum_cache_bytes": 1500048,
+      "response_calls": 3,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 1.5015267264013427e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.05063232032165421,
+          "final_residual": 2.022369893729799e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.04069575003813952,
+        "online_s": 0.12108842539601028,
+        "compilation_s": 0.0,
+        "other_evolution_s": 7.169961463660002e-05,
+        "full_tensor_validation_s": 0.013962083030492067,
+        "array_io_s": 0.025838791043497622,
+        "report_io_s": 0.0002535000676289201,
+        "process_measurement_overhead_s": 0.29917300085071474
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 118521856,
+      "folder": "run-25-affine-3",
+      "launch_to_exit_s": 0.5010832500411198
+    },
+    {
+      "n": 25,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 15625,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.583058701495673,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 4.440892098500626e-16,
+      "tensor_conjugate_max_error": 1.6479873021779667e-16,
+      "source_change_relative": 0.05780748585044624,
+      "divergence_relative": 9.656224306104102e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 4625808,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.03934395802207291,
+        "online_s": 0.1039738382678479,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00011253671254962683,
+        "full_tensor_validation_s": 0.012385917012579739,
+        "array_io_s": 0.025948458001948893,
+        "report_io_s": 0.00025358295533806086,
+        "process_measurement_overhead_s": 0.2991184591082856
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 115113984,
+      "folder": "run-25-field-1",
+      "launch_to_exit_s": 0.48113675008062273
+    },
+    {
+      "n": 25,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 15625,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.583058701495673,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 4.440892098500626e-16,
+      "tensor_conjugate_max_error": 1.6479873021779667e-16,
+      "source_change_relative": 0.05780748585044624,
+      "divergence_relative": 9.656224306104102e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 4625808,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.04045483306981623,
+        "online_s": 0.10288808029145002,
+        "compilation_s": 0.0,
+        "other_evolution_s": 8.975365199148655e-05,
+        "full_tensor_validation_s": 0.013417000067420304,
+        "array_io_s": 0.026235708966851234,
+        "report_io_s": 0.00028245896100997925,
+        "process_measurement_overhead_s": 0.3060182899935171
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 117555200,
+      "folder": "run-25-field-2",
+      "launch_to_exit_s": 0.48938612500205636
+    },
+    {
+      "n": 25,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 15625,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488939,
+      "final_energy": 1.583058701495673,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 4.440892098500626e-16,
+      "tensor_conjugate_max_error": 1.6479873021779667e-16,
+      "source_change_relative": 0.05780748585044624,
+      "divergence_relative": 9.656224306104102e-16,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 4625808,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.03945725003723055,
+        "online_s": 0.10134687076788396,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00010346225462853909,
+        "full_tensor_validation_s": 0.013812583056278527,
+        "array_io_s": 0.02604637504555285,
+        "report_io_s": 0.0004515419714152813,
+        "process_measurement_overhead_s": 0.2973617089446634
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 120143872,
+      "folder": "run-25-field-3",
+      "launch_to_exit_s": 0.4785797920776531
+    },
+    {
+      "n": 33,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 3,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.583058718013303,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 6.071532165918825e-17,
+      "source_change_relative": 0.058316832505611635,
+      "divergence_relative": 1.370484784459794e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.049457606472675886,
+      "persistent_array_bytes": 16963192,
+      "maximum_cache_bytes": 4600032,
+      "response_calls": 4,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 2.169234788672062e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.050548730659039226,
+          "final_residual": 3.207333991266009e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 3.5800000000000027,
+          "initial_residual": 0.05001733630443356,
+          "final_residual": 4.35966938143261e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.091475083027035,
+        "online_s": 0.257537460536696,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00010691443458199501,
+        "full_tensor_validation_s": 0.03293891600333154,
+        "array_io_s": 0.060187957948073745,
+        "report_io_s": 0.00029295904096215963,
+        "process_measurement_overhead_s": 0.3020958750275895
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 176488448,
+      "folder": "run-33-affine-1",
+      "launch_to_exit_s": 0.74463516601827
+    },
+    {
+      "n": 33,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 3,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.583058718013303,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 6.071532165918825e-17,
+      "source_change_relative": 0.058316832505611635,
+      "divergence_relative": 1.370484784459794e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.049457606472675886,
+      "persistent_array_bytes": 16963192,
+      "maximum_cache_bytes": 4600032,
+      "response_calls": 4,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 2.169234788672062e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.050548730659039226,
+          "final_residual": 3.207333991266009e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 3.5800000000000027,
+          "initial_residual": 0.05001733630443356,
+          "final_residual": 4.35966938143261e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.10214575007557869,
+        "online_s": 0.25447199831251055,
+        "compilation_s": 0.0,
+        "other_evolution_s": 8.541857823729515e-05,
+        "full_tensor_validation_s": 0.030851125018671155,
+        "array_io_s": 0.0599191669607535,
+        "report_io_s": 0.00025862501934170723,
+        "process_measurement_overhead_s": 0.31449004099704325
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 172113920,
+      "folder": "run-33-affine-2",
+      "launch_to_exit_s": 0.7622221249621361
+    },
+    {
+      "n": 33,
+      "kind": "affine",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "affine",
+      "final_coordinates": 3,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.583058718013303,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 6.071532165918825e-17,
+      "source_change_relative": 0.058316832505611635,
+      "divergence_relative": 1.370484784459794e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": 0.049457606472675886,
+      "persistent_array_bytes": 16963192,
+      "maximum_cache_bytes": 4600032,
+      "response_calls": 4,
+      "events": [
+        {
+          "time": 0.0,
+          "initial_residual": 1.0,
+          "final_residual": 2.169234788672062e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 0.9200000000000005,
+          "initial_residual": 0.050548730659039226,
+          "final_residual": 3.207333991266009e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        },
+        {
+          "time": 3.5800000000000027,
+          "initial_residual": 0.05001733630443356,
+          "final_residual": 4.35966938143261e-15,
+          "added_modes": 1,
+          "energy_jump": 0.0,
+          "fallback_required": false
+        }
+      ],
+      "timings": {
+        "initialization_s": 0.09186445793602616,
+        "online_s": 0.25795711774844676,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00011254928540438414,
+        "full_tensor_validation_s": 0.0328425420448184,
+        "array_io_s": 0.0608050829032436,
+        "report_io_s": 0.00037216697819530964,
+        "process_measurement_overhead_s": 0.3056655421387404
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 175898624,
+      "folder": "run-33-affine-3",
+      "launch_to_exit_s": 0.749619459034875
+    },
+    {
+      "n": 33,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 35937,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.5830585295316046,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 4.2674197509029455e-16,
+      "source_change_relative": 0.057700685409221575,
+      "divergence_relative": 1.4153088373915505e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 10638160,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.09087399998679757,
+        "online_s": 0.22430511750280857,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.0001484655076637864,
+        "full_tensor_validation_s": 0.03163866710383445,
+        "array_io_s": 0.0600323750404641,
+        "report_io_s": 0.00033837510272860527,
+        "process_measurement_overhead_s": 0.2995572497602552
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 172949504,
+      "folder": "run-33-field-1",
+      "launch_to_exit_s": 0.7068942500045523
+    },
+    {
+      "n": 33,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 35937,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.5830585295316046,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 4.2674197509029455e-16,
+      "source_change_relative": 0.057700685409221575,
+      "divergence_relative": 1.4153088373915505e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 10638160,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.09524783305823803,
+        "online_s": 0.23199450538959354,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.000145786558277905,
+        "full_tensor_validation_s": 0.03220241598319262,
+        "array_io_s": 0.06079354090616107,
+        "report_io_s": 0.004772625048644841,
+        "process_measurement_overhead_s": 0.30276758410036564
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 170426368,
+      "folder": "run-33-field-2",
+      "launch_to_exit_s": 0.7279242910444736
+    },
+    {
+      "n": 33,
+      "kind": "field",
+      "steps": 200,
+      "end_time": 4.0,
+      "final_mode": "field",
+      "final_coordinates": 35937,
+      "parameters": {
+        "length": 12.0,
+        "initial_core": 0.8,
+        "core_coefficient": 0.3,
+        "field_mobility": 10.0,
+        "dt": 0.02,
+        "budget": 0.05,
+        "mode_cap": 3
+      },
+      "initial_energy": 1.5847064980488952,
+      "final_energy": 1.5830585295316046,
+      "max_energy_increase": 0.0,
+      "tensor_energy_absolute_error": 2.220446049250313e-16,
+      "tensor_conjugate_max_error": 4.2674197509029455e-16,
+      "source_change_relative": 0.057700685409221575,
+      "divergence_relative": 1.4153088373915505e-15,
+      "plastic_trace": 0.0,
+      "maximum_used_residual": null,
+      "persistent_array_bytes": 10638160,
+      "maximum_cache_bytes": 0,
+      "response_calls": 201,
+      "events": [],
+      "timings": {
+        "initialization_s": 0.09083495801314712,
+        "online_s": 0.2265964198159054,
+        "compilation_s": 0.0,
+        "other_evolution_s": 0.00014716421719640493,
+        "full_tensor_validation_s": 0.030978291062638164,
+        "array_io_s": 0.060510957962833345,
+        "report_io_s": 0.0002405419945716858,
+        "process_measurement_overhead_s": 0.31490099988877773
+      },
+      "environment": {
+        "python": "3.13.5",
+        "numpy": "2.3.3",
+        "scipy": "1.18.0",
+        "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+        "threads": 1
+      },
+      "checks": {
+        "energy_descent": true,
+        "burgers_closure": true,
+        "glide_volume": true,
+        "full_tensor_energy": true,
+        "full_tensor_force": true,
+        "kinetic_budget": true,
+        "activation_preserves_state_energy": true
+      },
+      "peak_rss_bytes": 170147840,
+      "folder": "run-33-field-3",
+      "launch_to_exit_s": 0.7242093329550698
+    }
+  ],
+  "comparisons": [
+    {
+      "n": 13,
+      "repetitions": 3,
+      "errors": {
+        "gamma": {
+          "l1": 1.6839572371390454e-06,
+          "l2": 1.4895670851062335e-05,
+          "linf": 0.00025198616705593424,
+          "relative_l2": 0.0004687885072029232
+        },
+        "alpha": {
+          "l1": 2.499331918498219e-07,
+          "l2": 3.44294066048026e-06,
+          "linf": 0.00013053587339525302,
+          "relative_l2": 0.0017092701366924873
+        },
+        "stress": {
+          "l1": 2.78973123981891e-07,
+          "l2": 1.1945592863115236e-06,
+          "linf": 2.9741638954333682e-05,
+          "relative_l2": 4.206457906572329e-05
+        }
+      },
+      "energy_relative": 9.141797296940979e-08,
+      "accuracy_met": true,
+      "field_online_s": 0.035798550001345575,
+      "affine_online_s": 0.029714588657952845,
+      "online_ratio": 1.204746611619825,
+      "field_launch_s": 0.3595119999954477,
+      "affine_launch_s": 0.34748845791909844,
+      "launch_ratio": 1.0346012703511107,
+      "field_launch_range": [
+        0.353908458026126,
+        0.365766791976057
+      ],
+      "affine_launch_range": [
+        0.3453793328953907,
+        0.37888491700869054
+      ],
+      "field_peak_rss": 84262912.0,
+      "affine_peak_rss": 84262912.0,
+      "field_persistent_arrays": 651120,
+      "affine_persistent_arrays": 967552,
+      "field_responses": 201,
+      "affine_responses": 3,
+      "final_affine_coordinates": 2
+    },
+    {
+      "n": 25,
+      "repetitions": 3,
+      "errors": {
+        "gamma": {
+          "l1": 1.361341843002387e-06,
+          "l2": 1.5398572729596507e-05,
+          "linf": 0.0005896675750240721,
+          "relative_l2": 0.0004843427876637408
+        },
+        "alpha": {
+          "l1": 3.205904098997249e-07,
+          "l2": 6.271230139455418e-06,
+          "linf": 0.0007883088456872578,
+          "relative_l2": 0.0031140546706794774
+        },
+        "stress": {
+          "l1": 1.4925218385267852e-07,
+          "l2": 1.1426235638674489e-06,
+          "linf": 6.430578876480929e-05,
+          "relative_l2": 4.023561862005658e-05
+        }
+      },
+      "energy_relative": 1.5269892061908763e-07,
+      "accuracy_met": true,
+      "field_online_s": 0.10288808029145002,
+      "affine_online_s": 0.12108842539601028,
+      "online_ratio": 0.8496937668068815,
+      "field_launch_s": 0.48113675008062273,
+      "affine_launch_s": 0.5010832500411198,
+      "launch_ratio": 0.960193241424733,
+      "field_launch_range": [
+        0.4785797920776531,
+        0.48938612500205636
+      ],
+      "affine_launch_range": [
+        0.4969529580557719,
+        0.5078324170317501
+      ],
+      "field_peak_rss": 117555200.0,
+      "affine_peak_rss": 118521856.0,
+      "field_persistent_arrays": 4625808,
+      "affine_persistent_arrays": 6875872,
+      "field_responses": 201,
+      "affine_responses": 3,
+      "final_affine_coordinates": 2
+    },
+    {
+      "n": 33,
+      "repetitions": 3,
+      "errors": {
+        "gamma": {
+          "l1": 9.315155500517595e-07,
+          "l2": 1.1173227867130543e-05,
+          "linf": 0.0004326498988743155,
+          "relative_l2": 0.00035144018188152634
+        },
+        "alpha": {
+          "l1": 2.2383271668222243e-07,
+          "l2": 4.408339394477883e-06,
+          "linf": 0.0003334932941386967,
+          "relative_l2": 0.002189029846051178
+        },
+        "stress": {
+          "l1": 9.42785384715021e-08,
+          "l2": 8.720109932888735e-07,
+          "linf": 3.9834889439253895e-05,
+          "relative_l2": 3.070644007959152e-05
+        }
+      },
+      "energy_relative": 1.1906173691400568e-07,
+      "accuracy_met": true,
+      "field_online_s": 0.2265964198159054,
+      "affine_online_s": 0.257537460536696,
+      "online_ratio": 0.8798580965413305,
+      "field_launch_s": 0.7242093329550698,
+      "affine_launch_s": 0.749619459034875,
+      "launch_ratio": 0.9661026327778092,
+      "field_launch_range": [
+        0.7068942500045523,
+        0.7279242910444736
+      ],
+      "affine_launch_range": [
+        0.74463516601827,
+        0.7622221249621361
+      ],
+      "field_peak_rss": 170426368.0,
+      "affine_peak_rss": 175898624.0,
+      "field_persistent_arrays": 10638160,
+      "affine_persistent_arrays": 16963192,
+      "field_responses": 201,
+      "affine_responses": 4,
+      "final_affine_coordinates": 3
+    }
+  ],
+  "source_sha256": {
+    "src/bmvr/response_cache.py": "ea9822ebc66a2346b31aa8832848dec4ae2a218b5826b358f357a91744f8da30",
+    "src/bmvr/transport_metric.py": "28b553f6e1b8a342c71d4198a8186ceaf18662f857d4010be409f8349a5bbdf3",
+    "benchmarks/response_cache.py": "45d298eb952390fd2cdc3a9f5772850b809651fda928de36ee13489083c4c573",
+    "unified_multiscale_defect_framework.md": "6a0b376b8d4e0ec2c5f1e918fa3112bfbf855672416d454ca1c0e479e99dd065"
+  },
+  "scope": "Same homogeneous continuum law; both methods use the exact scalar operator. No memory or novelty benefit presumed."
+}

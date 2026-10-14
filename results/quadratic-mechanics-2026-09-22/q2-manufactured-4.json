@@ -1,0 +1,30 @@
+{
+  "n": 4,
+  "degree": 2,
+  "errors": {
+    "displacement": 0.01004123253308685,
+    "gradient": 0.03996212291943816,
+    "Piola": 0.02701600367213677
+  },
+  "status": {
+    "iterations": 4,
+    "relative_residual": 1.720554939154267e-14,
+    "potential": [
+      -0.04453969934854353,
+      -0.0794784437455571,
+      -0.07969680369987224,
+      -0.07969683060239768,
+      -0.07969683060239859
+    ]
+  },
+  "min_J_bound": 0.872297775947267,
+  "unknowns": 162,
+  "initialization_seconds": 0.002193833002820611,
+  "solver_seconds": 0.02162270899862051,
+  "diagnostics_output_seconds": 0.0016377910505980253,
+  "checks": {
+    "converged": true,
+    "orientation": true,
+    "energy_search": true
+  }
+}

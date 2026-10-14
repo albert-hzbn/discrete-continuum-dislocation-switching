@@ -1,0 +1,298 @@
+{
+  "grid": {
+    "n": 13,
+    "length": 12,
+    "h": 0.9230769230769231
+  },
+  "dt": 0.02,
+  "end": 0.4,
+  "steps": 20,
+  "mode": "switch",
+  "parameters": {
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "line_mobility": 1.0,
+    "initial_core": 0.8,
+    "loop": {
+      "nodes": [
+        [
+          2.2,
+          0.1,
+          0.0
+        ],
+        [
+          1.614213562373095,
+          1.514213562373095,
+          0.0
+        ],
+        [
+          0.20000000000000012,
+          2.1,
+          0.0
+        ],
+        [
+          -1.214213562373095,
+          1.5142135623730952,
+          0.0
+        ],
+        [
+          -1.8,
+          0.10000000000000026,
+          0.0
+        ],
+        [
+          -1.2142135623730954,
+          -1.3142135623730948,
+          0.0
+        ],
+        [
+          0.19999999999999965,
+          -1.9,
+          0.0
+        ],
+        [
+          1.6142135623730947,
+          -1.3142135623730953,
+          0.0
+        ]
+      ],
+      "burgers": [
+        0.2,
+        0.0,
+        0.0
+      ],
+      "core": 0.8,
+      "core_tension": 0,
+      "mobility": 1.0,
+      "glide_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "initial_energy": 1.5835332914238751,
+  "final_energy": 1.5834543391451437,
+  "max_recorded_energy_increase": 0.0,
+  "alpha_change_relative": 0.0022572603545884364,
+  "initial_chart_full_alpha_rate_discrepancy": 0.9412709895846981,
+  "max_plastic_trace": 3.947936904817494e-21,
+  "max_divergence_relative": 4.56275044963348e-16,
+  "events": [
+    {
+      "time": 0.1,
+      "kind": "promotion",
+      "energy_jump": 0.0,
+      "accepted": true
+    },
+    {
+      "time": 0.3,
+      "kind": "reconstruction",
+      "accepted": true,
+      "reason": "audits_met",
+      "errors": {
+        "alpha_relative": 0.0026128651724873653,
+        "stress_relative": 0.00010190477890125012,
+        "force_relative": 0.0007800276523885075,
+        "energy_relative": 5.264076841942512e-07,
+        "energy_jump": -8.335473256071424e-07,
+        "mean_beta_absolute": 4.336808689942018e-19,
+        "field_rate_relative": 0.00699239992668289
+      },
+      "optimizer_success": true,
+      "optimizer_evaluations": 6,
+      "initial_fit_energy_jump": 1.670022996824727e-05,
+      "energy_corrections": 1,
+      "fitted_nodes": [
+        [
+          [
+            2.1981412996776655,
+            0.09487267714112801,
+            0.0
+          ],
+          [
+            1.6099934886712837,
+            1.5173021479331772,
+            0.0
+          ],
+          [
+            0.19271452449749216,
+            2.097014380449671,
+            0.0
+          ],
+          [
+            -1.2142433899602036,
+            1.510640469527701,
+            0.0
+          ],
+          [
+            -1.7981040273839641,
+            0.0951014739910788,
+            0.0
+          ],
+          [
+            -1.209838636284821,
+            -1.3133885726549723,
+            0.0
+          ],
+          [
+            0.19292563086207135,
+            -1.8971054500064377,
+            0.0
+          ],
+          [
+            1.6054996507808466,
+            -1.3199941293408155,
+            0.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "final_recovery": {
+    "accepted": true,
+    "reason": "audits_met",
+    "errors": {
+      "alpha_relative": 9.13815216257581e-16,
+      "stress_relative": 2.8693543293630444e-16,
+      "force_relative": 6.103410242463792e-16,
+      "energy_relative": 1.402279809627514e-16,
+      "energy_jump": 2.220446049250313e-16,
+      "mean_beta_absolute": 8.833508824529144e-21,
+      "field_rate_relative": 9.862432362317992e-16
+    },
+    "optimizer_success": true,
+    "optimizer_evaluations": 4,
+    "initial_fit_energy_jump": 2.220446049250313e-16,
+    "energy_corrections": 0,
+    "fitted_nodes": [
+      [
+        [
+          2.19785907993502,
+          0.09487308622011416,
+          0.0
+        ],
+        [
+          1.6098066023254012,
+          1.5171225049311863,
+          0.0
+        ],
+        [
+          0.19271508607484783,
+          2.0967775714431816,
+          0.0
+        ],
+        [
+          -1.2140554988728296,
+          1.510461070947806,
+          0.0
+        ],
+        [
+          -1.797821706422914,
+          0.09510187890923215,
+          0.0
+        ],
+        [
+          -1.2096511087111845,
+          -1.3132085730296876,
+          0.0
+        ],
+        [
+          0.1929261908357621,
+          -1.8968686875433192,
+          0.0
+        ],
+        [
+          1.6053131192802659,
+          -1.3198138702712319,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "incompatible_recovery": {
+    "accepted": false,
+    "reason": "fit_or_representation_budget_failed",
+    "errors": {
+      "alpha_relative": 0.7071067811865476,
+      "stress_relative": 0.08876413958144073,
+      "force_relative": 0.06221846003609679,
+      "energy_relative": 0.01665882910417659,
+      "energy_jump": -0.02685180994239378,
+      "mean_beta_absolute": 3.009265538105056e-36,
+      "field_rate_relative": 0.7915070343465027
+    },
+    "optimizer_success": true,
+    "optimizer_evaluations": 1,
+    "initial_fit_energy_jump": -0.02685180994239378,
+    "energy_corrections": 0,
+    "fitted_nodes": [
+      [
+        [
+          2.2,
+          0.1,
+          0.0
+        ],
+        [
+          1.614213562373095,
+          1.514213562373095,
+          0.0
+        ],
+        [
+          0.20000000000000012,
+          2.1,
+          0.0
+        ],
+        [
+          -1.214213562373095,
+          1.5142135623730952,
+          0.0
+        ],
+        [
+          -1.8,
+          0.10000000000000026,
+          0.0
+        ],
+        [
+          -1.2142135623730954,
+          -1.3142135623730948,
+          0.0
+        ],
+        [
+          0.19999999999999965,
+          -1.9,
+          0.0
+        ],
+        [
+          1.6142135623730947,
+          -1.3142135623730953,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "timings": {
+    "initialization_s": 0.005838207900524139,
+    "solver_s": 0.285012164269574,
+    "transfer_s": 0.20046316704247147,
+    "diagnostics_and_checkpoint_io_s": 0.18523558403830975,
+    "array_io_s": 0.007493749959394336
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "energy_descent": true,
+    "periodic_burgers_closure": true,
+    "glide_plastic_volume": true,
+    "independent_evolution": true,
+    "incompatible_chart_refused": true,
+    "field_restart_identical": true,
+    "actual_round_trip": true
+  },
+  "peak_rss_bytes": 153157632
+}

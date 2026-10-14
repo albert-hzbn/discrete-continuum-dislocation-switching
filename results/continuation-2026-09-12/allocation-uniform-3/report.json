@@ -1,0 +1,75 @@
+{
+  "strategy": "uniform",
+  "model": "isothermal coupled hybrid; separated structural and chemical features",
+  "parameters": {
+    "length": 96.0,
+    "h": 0.5,
+    "dt": 0.02,
+    "final_time": 4.0,
+    "profile_scale": 1.4142135623730951,
+    "core_width": 1.0,
+    "relative_indicator_tolerances": [
+      0.05,
+      0.05,
+      0.05
+    ],
+    "imposed": 0.08,
+    "chemical": 0.3,
+    "interface": 0.2
+  },
+  "timings": {
+    "initialization_s": 0.0008232499239966273,
+    "solver_s": 0.5677584616933018,
+    "allocation_s": 0.0,
+    "final_validation_s": 0.013192207901738584,
+    "evolution_and_allocation_s": 0.5677584616933018
+  },
+  "steps": 200,
+  "minimum_used_dt": 0.01999999999999691,
+  "final_dofs": 73730,
+  "mean_field_cells": 36864.0,
+  "inventory_drift": 2.2737367544323206e-13,
+  "max_recorded_energy_increase": 0.0,
+  "burgers_content": 0.0,
+  "stored_field_bytes": 1474560,
+  "peak_rss_bytes": 82411520,
+  "final_indicator": {
+    "squared": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "full_norm_squared": [
+      1.4860818342609836,
+      0.0012701132627084186,
+      0.023891450371452058
+    ],
+    "budget_squared": [
+      0.0037152045856624597,
+      3.175283166771047e-06,
+      5.972862593863016e-05
+    ],
+    "budget_ratios": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "met": true,
+    "inventory_rate_roundoff": 0.0,
+    "line_block_present": true
+  },
+  "audits": [],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "checks": {
+    "inventory": true,
+    "burgers": true,
+    "energy": true,
+    "positive_population": true
+  }
+}

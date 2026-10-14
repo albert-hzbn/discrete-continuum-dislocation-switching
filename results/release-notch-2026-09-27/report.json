@@ -1,0 +1,1060 @@
+{
+ "scope": "Section 64 element deletion on the GLL graded notch, restarted at t=0.2; declared gates.",
+ "pairs": {
+  "64_96": {
+   "t0.25": {
+    "c": 0.000884803955106224,
+    "eta": 0.002298270735603211,
+    "T": 0.0008212071423910317,
+    "slip": 0.02512029014551252,
+    "damage": 0.010437661709826256
+   },
+   "t0.3": {
+    "c": 0.001046793192794231,
+    "eta": 0.0023251939682665448,
+    "T": 0.0008216792999608507,
+    "slip": 0.03882325806576215,
+    "damage": 0.011821719268971737
+   }
+  },
+  "96_128": {
+   "t0.25": {
+    "c": 0.0005925681771491742,
+    "eta": 0.0011990248177112855,
+    "T": 0.0004013851635150587,
+    "slip": 0.009503026893159131,
+    "damage": 0.004650271634142903
+   }
+  }
+ },
+ "gates": {
+  "E1_ledger_and_checks": true,
+  "E2_reach": false,
+  "E3_t04": false
+ },
+ "runs": {
+  "64": {
+   "n": 64,
+   "start_time": 0.2,
+   "subdivide": 6,
+   "split_smoothing": 0.001,
+   "failure": {
+    "error": "Element orientation not certified by Bernstein bound.",
+    "step": 635,
+    "last_accepted_time": 0.35850000000000004
+   },
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.21150000000000002,
+     "nodes": 1,
+     "total_split": 1,
+     "total_before": 0.056207621251539906,
+     "total_after": 0.056207621251539906,
+     "ledger_error": 0.0,
+     "count": 1
+    },
+    {
+     "time": 0.21200000000000002,
+     "nodes": 4,
+     "total_split": 5,
+     "total_before": 0.05620762151331605,
+     "total_after": 0.05620762151331605,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.21275000000000002,
+     "nodes": 2,
+     "total_split": 7,
+     "total_before": 0.056207622356187745,
+     "total_after": 0.056207622356187745,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21300000000000002,
+     "nodes": 2,
+     "total_split": 9,
+     "total_before": 0.0562076218095995,
+     "total_after": 0.0562076218095995,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21425000000000002,
+     "nodes": 4,
+     "total_split": 13,
+     "total_before": 0.056207622592821416,
+     "total_after": 0.056207622592821416,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.21575,
+     "nodes": 2,
+     "total_split": 15,
+     "total_before": 0.05620761982014265,
+     "total_after": 0.05620761982014265,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21650000000000003,
+     "nodes": 2,
+     "total_split": 17,
+     "total_before": 0.05620761974261806,
+     "total_after": 0.05620761974261806,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21800000000000003,
+     "nodes": 2,
+     "total_split": 19,
+     "total_before": 0.056207616262342094,
+     "total_after": 0.056207616262342094,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22025,
+     "nodes": 2,
+     "total_split": 21,
+     "total_before": 0.056207617119460505,
+     "total_after": 0.056207617119460505,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22075,
+     "nodes": 2,
+     "total_split": 23,
+     "total_before": 0.056207616278456475,
+     "total_after": 0.056207616278456475,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.224,
+     "nodes": 2,
+     "total_split": 25,
+     "total_before": 0.05620761583772928,
+     "total_after": 0.05620761583772928,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2255,
+     "nodes": 2,
+     "total_split": 27,
+     "total_before": 0.05620761543125257,
+     "total_after": 0.05620761543125257,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.228,
+     "nodes": 2,
+     "total_split": 29,
+     "total_before": 0.056207623520375526,
+     "total_after": 0.056207623520375526,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23275,
+     "nodes": 2,
+     "total_split": 31,
+     "total_before": 0.05620764742385964,
+     "total_after": 0.05620764742385964,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.233,
+     "nodes": 2,
+     "total_split": 33,
+     "total_before": 0.05620765051639657,
+     "total_after": 0.05620765051639657,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23925000000000002,
+     "nodes": 2,
+     "total_split": 35,
+     "total_before": 0.056207650329584066,
+     "total_after": 0.056207650329584066,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24200000000000002,
+     "nodes": 2,
+     "total_split": 37,
+     "total_before": 0.05620764639075603,
+     "total_after": 0.05620764639075604,
+     "ledger_error": 1.2345106670483905e-16,
+     "count": 2
+    },
+    {
+     "time": 0.24675000000000002,
+     "nodes": 2,
+     "total_split": 39,
+     "total_before": 0.056207657558780204,
+     "total_after": 0.056207657558780204,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.253,
+     "nodes": 2,
+     "total_split": 41,
+     "total_before": 0.05620764074586746,
+     "total_after": 0.05620764074586746,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.256,
+     "nodes": 2,
+     "total_split": 43,
+     "total_before": 0.05620764874079565,
+     "total_after": 0.05620764874079565,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.26175000000000004,
+     "nodes": 3,
+     "total_split": 46,
+     "total_before": 0.05620763114673454,
+     "total_after": 0.05620763114673454,
+     "ledger_error": 0.0,
+     "count": 3
+    },
+    {
+     "time": 0.2675,
+     "nodes": 2,
+     "total_split": 48,
+     "total_before": 0.05620761313392842,
+     "total_after": 0.05620761313392842,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.28200000000000003,
+     "nodes": 2,
+     "total_split": 50,
+     "total_before": 0.05620761304759662,
+     "total_after": 0.05620761304759662,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.30025,
+     "nodes": 2,
+     "total_split": 52,
+     "total_before": 0.05620762355010557,
+     "total_after": 0.05620762355010557,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.323,
+     "nodes": 2,
+     "total_split": 54,
+     "total_before": 0.05620762037393506,
+     "total_after": 0.05620762037393506,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.35025,
+     "nodes": 2,
+     "total_split": 56,
+     "total_before": 0.0562076164015499,
+     "total_after": 0.0562076164015499,
+     "ledger_error": 0.0,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 56,
+   "energy_to_heat": 0.0,
+   "relative_energy_drift": 7.647090935080887e-07,
+   "solver_seconds": 609.8859856245981
+  },
+  "96": {
+   "n": 96,
+   "start_time": 0.2,
+   "subdivide": 6,
+   "split_smoothing": 0.001,
+   "failure": {
+    "error": "Element orientation not certified by Bernstein bound.",
+    "step": 435,
+    "last_accepted_time": 0.30850000000000005
+   },
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.21350000000000002,
+     "nodes": 3,
+     "total_split": 3,
+     "total_before": 0.056212717526414546,
+     "total_after": 0.056212717526414546,
+     "ledger_error": 0.0,
+     "count": 3
+    },
+    {
+     "time": 0.21375000000000002,
+     "nodes": 4,
+     "total_split": 7,
+     "total_before": 0.05621271796584873,
+     "total_after": 0.05621271796584873,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.21425000000000002,
+     "nodes": 4,
+     "total_split": 11,
+     "total_before": 0.05621271753548339,
+     "total_after": 0.05621271753548339,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.21475000000000002,
+     "nodes": 2,
+     "total_split": 13,
+     "total_before": 0.056212716863622766,
+     "total_after": 0.056212716863622766,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21500000000000002,
+     "nodes": 2,
+     "total_split": 15,
+     "total_before": 0.05621271544604674,
+     "total_after": 0.05621271544604674,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21550000000000002,
+     "nodes": 2,
+     "total_split": 17,
+     "total_before": 0.0562127152967716,
+     "total_after": 0.0562127152967716,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21600000000000003,
+     "nodes": 2,
+     "total_split": 19,
+     "total_before": 0.05621271655975378,
+     "total_after": 0.05621271655975378,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21650000000000003,
+     "nodes": 2,
+     "total_split": 21,
+     "total_before": 0.05621271764048354,
+     "total_after": 0.05621271764048354,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21725,
+     "nodes": 2,
+     "total_split": 23,
+     "total_before": 0.05621271929953,
+     "total_after": 0.05621271929953,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21750000000000003,
+     "nodes": 2,
+     "total_split": 25,
+     "total_before": 0.05621271783692118,
+     "total_after": 0.05621271783692118,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.21875,
+     "nodes": 2,
+     "total_split": 27,
+     "total_before": 0.056212720058398995,
+     "total_after": 0.056212720058398995,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.219,
+     "nodes": 2,
+     "total_split": 29,
+     "total_before": 0.05621271932783777,
+     "total_after": 0.05621271932783777,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2205,
+     "nodes": 2,
+     "total_split": 31,
+     "total_before": 0.05621272425383189,
+     "total_after": 0.05621272425383189,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22125,
+     "nodes": 2,
+     "total_split": 33,
+     "total_before": 0.05621272333034096,
+     "total_after": 0.05621272333034096,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22225,
+     "nodes": 2,
+     "total_split": 35,
+     "total_before": 0.05621272681198366,
+     "total_after": 0.05621272681198366,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22425,
+     "nodes": 4,
+     "total_split": 39,
+     "total_before": 0.05621272282636933,
+     "total_after": 0.05621272282636933,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.22675,
+     "nodes": 2,
+     "total_split": 41,
+     "total_before": 0.05621271943353374,
+     "total_after": 0.05621271943353374,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.228,
+     "nodes": 2,
+     "total_split": 43,
+     "total_before": 0.05621274785841949,
+     "total_after": 0.05621274785841949,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2295,
+     "nodes": 2,
+     "total_split": 45,
+     "total_before": 0.056212748408579157,
+     "total_after": 0.056212748408579157,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2325,
+     "nodes": 2,
+     "total_split": 47,
+     "total_before": 0.05621274651727296,
+     "total_after": 0.05621274651727296,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.233,
+     "nodes": 2,
+     "total_split": 49,
+     "total_before": 0.056212751996054966,
+     "total_after": 0.056212751996054966,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23625000000000002,
+     "nodes": 2,
+     "total_split": 51,
+     "total_before": 0.05621273836941196,
+     "total_after": 0.05621273836941196,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23875000000000002,
+     "nodes": 2,
+     "total_split": 53,
+     "total_before": 0.05621274181194087,
+     "total_after": 0.05621274181194087,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24050000000000002,
+     "nodes": 2,
+     "total_split": 55,
+     "total_before": 0.05621275956975114,
+     "total_after": 0.05621275956975114,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24525000000000002,
+     "nodes": 2,
+     "total_split": 57,
+     "total_before": 0.0562127642515911,
+     "total_after": 0.0562127642515911,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2455,
+     "nodes": 2,
+     "total_split": 59,
+     "total_before": 0.05621276022799452,
+     "total_after": 0.05621276022799452,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.251,
+     "nodes": 2,
+     "total_split": 61,
+     "total_before": 0.05621272127657283,
+     "total_after": 0.05621272127657283,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.25325000000000003,
+     "nodes": 2,
+     "total_split": 63,
+     "total_before": 0.05621272535836857,
+     "total_after": 0.05621272535836857,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2575,
+     "nodes": 2,
+     "total_split": 65,
+     "total_before": 0.0562127878190423,
+     "total_after": 0.0562127878190423,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.261,
+     "nodes": 2,
+     "total_split": 67,
+     "total_before": 0.05621280109448368,
+     "total_after": 0.05621280109448368,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.26525,
+     "nodes": 2,
+     "total_split": 69,
+     "total_before": 0.05621280946712402,
+     "total_after": 0.05621280946712402,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.26625,
+     "nodes": 3,
+     "total_split": 72,
+     "total_before": 0.056212818016170514,
+     "total_after": 0.056212818016170514,
+     "ledger_error": 0.0,
+     "count": 3
+    },
+    {
+     "time": 0.27425,
+     "nodes": 2,
+     "total_split": 74,
+     "total_before": 0.05621285687144609,
+     "total_after": 0.05621285687144609,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.28475,
+     "nodes": 2,
+     "total_split": 76,
+     "total_before": 0.056212864470386065,
+     "total_after": 0.056212864470386065,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2975,
+     "nodes": 2,
+     "total_split": 78,
+     "total_before": 0.05621289761452084,
+     "total_after": 0.05621289761452084,
+     "ledger_error": 0.0,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 78,
+   "energy_to_heat": 0.0,
+   "relative_energy_drift": 3.6613113606723664e-06,
+   "solver_seconds": 2032.1462601754174
+  },
+  "128": {
+   "n": 128,
+   "start_time": 0.2,
+   "subdivide": 6,
+   "split_smoothing": 0.001,
+   "failure": {
+    "error": "Constrained nodal midpoint did not converge: 3.540e-02.",
+    "step": 381,
+    "last_accepted_time": 0.29500000000000004
+   },
+   "checks": {
+    "energy_drift": true,
+    "positive_T": true,
+    "composition_inventory": true,
+    "damage_bounds": true,
+    "damage_irreversibility": true,
+    "entropy_production": true,
+    "midpoint_converged": true,
+    "deletion_ledger": true
+   },
+   "events": [
+    {
+     "time": 0.22175,
+     "nodes": 7,
+     "total_split": 7,
+     "total_before": 0.05621454831602135,
+     "total_after": 0.05621454831602135,
+     "ledger_error": 0.0,
+     "count": 7
+    },
+    {
+     "time": 0.222,
+     "nodes": 4,
+     "total_split": 11,
+     "total_before": 0.05621455300104693,
+     "total_after": 0.05621455300104693,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.22225,
+     "nodes": 2,
+     "total_split": 13,
+     "total_before": 0.05621455179138325,
+     "total_after": 0.05621455179138325,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2225,
+     "nodes": 2,
+     "total_split": 15,
+     "total_before": 0.056214552113810705,
+     "total_after": 0.056214552113810705,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22275,
+     "nodes": 2,
+     "total_split": 17,
+     "total_before": 0.05621455291189275,
+     "total_after": 0.05621455291189275,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.223,
+     "nodes": 4,
+     "total_split": 21,
+     "total_before": 0.056214550227464244,
+     "total_after": 0.056214550227464244,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.2235,
+     "nodes": 2,
+     "total_split": 23,
+     "total_before": 0.05621455127742523,
+     "total_after": 0.05621455127742523,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22375,
+     "nodes": 2,
+     "total_split": 25,
+     "total_before": 0.05621455177019219,
+     "total_after": 0.05621455177019219,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22425,
+     "nodes": 4,
+     "total_split": 29,
+     "total_before": 0.05621455503567689,
+     "total_after": 0.05621455503567689,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.225,
+     "nodes": 4,
+     "total_split": 33,
+     "total_before": 0.05621455579407121,
+     "total_after": 0.05621455579407121,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.226,
+     "nodes": 2,
+     "total_split": 35,
+     "total_before": 0.05621456100566936,
+     "total_after": 0.05621456100566936,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22625,
+     "nodes": 2,
+     "total_split": 37,
+     "total_before": 0.05621456107346844,
+     "total_after": 0.05621456107346844,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.227,
+     "nodes": 2,
+     "total_split": 39,
+     "total_before": 0.05621455988640969,
+     "total_after": 0.05621455988640969,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2275,
+     "nodes": 2,
+     "total_split": 41,
+     "total_before": 0.05621455933358628,
+     "total_after": 0.05621455933358628,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.228,
+     "nodes": 2,
+     "total_split": 43,
+     "total_before": 0.05621455686907946,
+     "total_after": 0.05621455686907946,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.22925,
+     "nodes": 4,
+     "total_split": 47,
+     "total_before": 0.056214557411025934,
+     "total_after": 0.056214557411025934,
+     "ledger_error": 0.0,
+     "count": 4
+    },
+    {
+     "time": 0.23075,
+     "nodes": 2,
+     "total_split": 49,
+     "total_before": 0.05621455995021828,
+     "total_after": 0.05621455995021828,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23125,
+     "nodes": 2,
+     "total_split": 51,
+     "total_before": 0.05621455346757443,
+     "total_after": 0.05621455346757443,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23225,
+     "nodes": 2,
+     "total_split": 53,
+     "total_before": 0.05621455308019536,
+     "total_after": 0.05621455308019536,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23375,
+     "nodes": 2,
+     "total_split": 55,
+     "total_before": 0.05621456186922205,
+     "total_after": 0.05621456186922205,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.234,
+     "nodes": 2,
+     "total_split": 57,
+     "total_before": 0.056214573075004916,
+     "total_after": 0.056214573075004916,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23600000000000002,
+     "nodes": 2,
+     "total_split": 59,
+     "total_before": 0.056214597648026596,
+     "total_after": 0.056214597648026596,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23675000000000002,
+     "nodes": 2,
+     "total_split": 61,
+     "total_before": 0.056214625557992136,
+     "total_after": 0.056214625557992136,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.23825000000000002,
+     "nodes": 2,
+     "total_split": 63,
+     "total_before": 0.05621462084193451,
+     "total_after": 0.05621462084193451,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24025000000000002,
+     "nodes": 2,
+     "total_split": 65,
+     "total_before": 0.056214642506910134,
+     "total_after": 0.056214642506910134,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24050000000000002,
+     "nodes": 2,
+     "total_split": 67,
+     "total_before": 0.05621464158241582,
+     "total_after": 0.05621464158241582,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24325000000000002,
+     "nodes": 2,
+     "total_split": 69,
+     "total_before": 0.05621466969517901,
+     "total_after": 0.05621466969517901,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2445,
+     "nodes": 2,
+     "total_split": 71,
+     "total_before": 0.056214663349579023,
+     "total_after": 0.056214663349579023,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2465,
+     "nodes": 2,
+     "total_split": 73,
+     "total_before": 0.056214655121521406,
+     "total_after": 0.056214655121521406,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2495,
+     "nodes": 2,
+     "total_split": 75,
+     "total_before": 0.056214664909945186,
+     "total_after": 0.056214664909945186,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.24975000000000003,
+     "nodes": 2,
+     "total_split": 77,
+     "total_before": 0.056214657420548396,
+     "total_after": 0.056214657420548396,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.25375000000000003,
+     "nodes": 2,
+     "total_split": 79,
+     "total_before": 0.05621465515909999,
+     "total_after": 0.05621465515909999,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.255,
+     "nodes": 2,
+     "total_split": 81,
+     "total_before": 0.056214650679388564,
+     "total_after": 0.056214650679388564,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.258,
+     "nodes": 2,
+     "total_split": 83,
+     "total_before": 0.05621466396277971,
+     "total_after": 0.05621466396277971,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.26125,
+     "nodes": 2,
+     "total_split": 85,
+     "total_before": 0.056214662624848546,
+     "total_after": 0.056214662624848546,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.263,
+     "nodes": 2,
+     "total_split": 87,
+     "total_before": 0.05621465957852886,
+     "total_after": 0.05621465957852886,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.26775000000000004,
+     "nodes": 2,
+     "total_split": 89,
+     "total_before": 0.05621463456357431,
+     "total_after": 0.056214634563574305,
+     "ledger_error": 1.2343572021374413e-16,
+     "count": 2
+    },
+    {
+     "time": 0.26875000000000004,
+     "nodes": 2,
+     "total_split": 91,
+     "total_before": 0.0562146480641406,
+     "total_after": 0.0562146480641406,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.2745,
+     "nodes": 2,
+     "total_split": 93,
+     "total_before": 0.05621467771187993,
+     "total_after": 0.05621467771187993,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.27525,
+     "nodes": 2,
+     "total_split": 95,
+     "total_before": 0.056214682442440385,
+     "total_after": 0.056214682442440385,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.27975,
+     "nodes": 3,
+     "total_split": 98,
+     "total_before": 0.05621463041880753,
+     "total_after": 0.05621463041880753,
+     "ledger_error": 0.0,
+     "count": 3
+    },
+    {
+     "time": 0.28275,
+     "nodes": 2,
+     "total_split": 100,
+     "total_before": 0.05621461989399681,
+     "total_after": 0.05621461989399681,
+     "ledger_error": 0.0,
+     "count": 2
+    },
+    {
+     "time": 0.29125,
+     "nodes": 2,
+     "total_split": 102,
+     "total_before": 0.05621469772828642,
+     "total_after": 0.05621469772828642,
+     "ledger_error": 0.0,
+     "count": 2
+    }
+   ],
+   "deleted_cells": 102,
+   "energy_to_heat": 0.0,
+   "relative_energy_drift": 3.3818022782040824e-06,
+   "solver_seconds": 3699.625965303072
+  }
+ },
+ "environment": {
+  "python": "3.13.5",
+  "numpy": "2.3.3",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "threads": 1
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "state_names": [
+    "incident",
+    "transmitted",
+    "absorbed",
+    "reflected"
+  ],
+  "energies": [
+    298.56799832340744,
+    298.5525413319016,
+    298.5316003408947,
+    298.59262996229785
+  ],
+  "thermal_energy": 0.05,
+  "gate": 0.8,
+  "barriers": [
+    0.02,
+    0.02,
+    0.02
+  ],
+  "seed": 20260912,
+  "first_event_probabilities": [
+    0.0,
+    0.38299273185618904,
+    0.38299273185618904,
+    0.23401453628762195
+  ],
+  "sampled_probabilities": [
+    0.0,
+    0.38185,
+    0.3815,
+    0.23665
+  ],
+  "metrics": {
+    "detailed_balance_error": 1.3877787807814457e-17,
+    "probability_sum_error": 3.3306690738754696e-15,
+    "max_ensemble_free_energy_increase": 0.0
+  },
+  "checks": {
+    "detailed_balance": true,
+    "probability": true,
+    "ensemble_energy": true,
+    "sampling": true,
+    "residual_geometry": true
+  },
+  "timings": {
+    "study_s": 0.34849304205272347,
+    "array_io_s": 0.0038852919824421406
+  },
+  "limits": [
+    "Detailed balance is verified for the frozen spatial candidate family only.",
+    "Finite embryo sizes and synthetic barriers prevent material outcome predictions."
+  ],
+  "peak_rss_before_io_bytes": 78299136,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  }
+}

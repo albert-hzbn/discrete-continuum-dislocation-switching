@@ -1,0 +1,34 @@
+{
+ "date": "2026-09-28",
+ "pytest_record": "results/test-results.xml",
+ "theory": "91",
+ "declared_gates": {
+  "A1_conservation": 1.0,
+  "A2_accuracy": false,
+  "A3_cost": true,
+  "A4_continuum_fails_sparse": false
+ },
+ "post_hoc_1000": {
+  "seconds_per_step": {
+   "D": 0.046823251008987425,
+   "C": 0.0027001428604125975,
+   "H": 0.002709108829498291,
+   "C512": 0.011318019509315491
+  },
+  "block_strain_error": {
+   "H": 0.0019349099664547297,
+   "C": 0.0019340038589251676,
+   "C512": 0.0015286954407428878
+  },
+  "sparse_cell_strain_error": {
+   "H": 0.00860327509172101,
+   "C": 0.021699003046917867,
+   "C512": 0.1071804876799454
+  }
+ },
+ "document": "REPRESENTATION_ALLOCATOR_RESULTS.md",
+ "figures": [
+  "figures/allocator-fields.png"
+ ],
+ "pytest_passed": 364
+}

@@ -1,0 +1,84 @@
+{
+  "scope": "Local spectral-fracture derivatives, analytical damage/profile identities and topology inventory algebra only.",
+  "not_verified": [
+    "Spatial crack initiation/branching/arrest",
+    "Prismatic-loop creation kinetics or climb",
+    "Disclination constitutive dynamics"
+  ],
+  "normalization": "Dimensionless synthetic checks, except the declared dimensional identities in the theory.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "finite_difference_step": 1e-06,
+  "errors": {
+    "spectral_stress_derivative": 2.0272991618774938e-11,
+    "damage_derivative": 1.8510304400365385e-11,
+    "spectral_objectivity": 1.734723475976807e-17,
+    "crack_profile_normalization": 1.0880185641326534e-14,
+    "homogeneous_damage_rate": 4.920504975691742e-12,
+    "homogeneous_peak_stress": 6.938893903907228e-18,
+    "prismatic_inventory_from_source": 2.842170943040401e-14,
+    "prismatic_origin_independence": 5.329070518200752e-14,
+    "rigid_motion_inverse": 0.0
+  },
+  "profile_checks": [
+    {
+      "ell": 0.2,
+      "energy_per_area": 1.4000000000000108,
+      "target": 1.4
+    },
+    {
+      "ell": 0.5,
+      "energy_per_area": 1.3999999999999986,
+      "target": 1.4
+    },
+    {
+      "ell": 1.0,
+      "energy_per_area": 1.3999999999999995,
+      "target": 1.4
+    }
+  ],
+  "homogeneous_peak": {
+    "strain": 0.023570226039551584,
+    "stress": 0.039774756441743296
+  },
+  "prismatic_ledger": {
+    "vacancies": 100.0,
+    "atomic_volume": 0.01,
+    "plastic_volume": -0.9999999999999998,
+    "polygon_radius": 1.2656311290571363
+  },
+  "rigid_motion_counterexample": {
+    "correct_translation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "naive_translation": [
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "checks": {
+    "no_compressive_growth": true,
+    "no_healing_under_unload": true,
+    "no_finite_intact_AT2_threshold": true,
+    "peak_is_local_maximum": true,
+    "recombination_atom_and_site_balance": true,
+    "glide_loop_zero_volumetric_inventory": true,
+    "rotation_translation_not_naively_additive": true,
+    "spectral_stress_derivative": true,
+    "damage_derivative": true,
+    "spectral_objectivity": true,
+    "crack_profile_normalization": true,
+    "homogeneous_damage_rate": true,
+    "homogeneous_peak_stress": true,
+    "prismatic_inventory_from_source": true,
+    "prismatic_origin_independence": true,
+    "rigid_motion_inverse": true
+  },
+  "all_checks_pass": true
+}

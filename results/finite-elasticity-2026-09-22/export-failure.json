@@ -1,0 +1,6 @@
+{
+  "status": "incomplete export",
+  "cause": "NumPy boolean was not JSON serializable in the initial writer.",
+  "physics_or_tolerance_changed": false,
+  "resolution": "Convert NumPy scalar values to Python scalars and repeat the study in finite-elasticity-complete-2026-09-22."
+}

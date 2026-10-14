@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-13",
+  "automated_tests_passed": 88,
+  "automated_test_failures": 0,
+  "numerical_checks_passed": 10,
+  "numerical_checks_total": 10,
+  "configurations": {
+    "refinement": 8,
+    "scan": 30,
+    "negative_controls": 15
+  },
+  "figures_visually_inspected": [
+    "precipitate-pair-fields.png",
+    "precipitate-pair-convergence.png"
+  ],
+  "document_links_checked": true,
+  "reported_limitations": [
+    "Nonmonotone small energy refinement error",
+    "Periodic mean and image terms",
+    "Static prescribed profiles",
+    "Synthetic amplitudes do not validate material small-strain accuracy"
+  ],
+  "source_sha256": {
+    "src/bmvr/precipitate_interaction.py": "9985881a835f1435a6f328e885d48db9f38b8b9879f4814b52701bcb5afdcebd",
+    "tests/test_precipitate_interaction.py": "33e8ba448f9f9565441a95bfec05264000e8bd3f51a8b678f66901845d45d6dd",
+    "benchmarks/precipitate_interactions.py": "94cd0979237ed4a3c75c2a3b2c2881f4dba4c8870c8b4d49fc2176fdf80cf170",
+    "benchmarks/precipitate_interactions_report.py": "2856a0316138e15b2f019aff1a0b02c9ff65d919aaa01ba32e3f1345ddbb333c",
+    "unified_multiscale_defect_framework.md": "f0273e7cb5f5a08bb2d0834a9d45e4eabf92fef48d9d4f7380280ff04ee006be",
+    "THEORY_REVIEW.md": "f8bc02af98111d6535ceea942c053a407f90df74407c25f44ba28dbdb5b6114a",
+    "PRECIPITATE_INTERACTION_RESULTS.md": "a5f96e52393e42b6e326e842663bc81ac0bd8ad7092895741dacbace04972500"
+  },
+  "full_original_objective_complete": false
+}

@@ -1,0 +1,356 @@
+{
+  "branch": "absorbed",
+  "requested_branch": "absorbed",
+  "stochastic_selection": null,
+  "parameters": {
+    "W": 1.0,
+    "gradient": [
+      1.0,
+      1.0,
+      1.4
+    ],
+    "susceptibility": 1.0,
+    "binding": 0.1,
+    "reference_population": 0.2,
+    "phase_misfit": 0.03,
+    "solute_expansion": 0.02,
+    "hardening": 0.2,
+    "yield_stress": 10.0,
+    "slip_drag": 1.0,
+    "phase_mobility": 1.0,
+    "diffusion_mobility": 1.0
+  },
+  "angle_degrees": 25.0,
+  "grid": {
+    "n": 17,
+    "length": 12.0,
+    "h": 0.7058823529411765
+  },
+  "interface_coefficients": {
+    "mobile_barrier": 0.2,
+    "residual_binding": 0.4
+  },
+  "mean_strain": [
+    [
+      0.0,
+      0.0,
+      -0.08
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.08,
+      0.0,
+      0.0
+    ]
+  ],
+  "initial_graph": {
+    "nodes": [
+      [
+        0.0,
+        -1.0009209878459007,
+        0.0
+      ],
+      [
+        0.0,
+        1.0009209878459007,
+        0.0
+      ],
+      [
+        -3.0003473078543004,
+        3.419360976168356e-20,
+        0.0
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "burgers": [
+      [
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.0,
+        0.0
+      ]
+    ],
+    "core_coefficients": [
+      0.15,
+      0.25,
+      0.25
+    ],
+    "kinds": [
+      1,
+      0,
+      0
+    ],
+    "projectors": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "core": 0.8,
+    "mobility": 1.0
+  },
+  "final_graph": {
+    "nodes": [
+      [
+        0.0,
+        -1.0029756803820564,
+        0.0
+      ],
+      [
+        0.0,
+        1.0029756803820564,
+        0.0
+      ],
+      [
+        -3.0008736879960174,
+        -6.461385120119423e-20,
+        0.0
+      ]
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "burgers": [
+      [
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.0,
+        0.0
+      ],
+      [
+        0.2,
+        0.0,
+        0.0
+      ]
+    ],
+    "core_coefficients": [
+      0.15,
+      0.25,
+      0.25
+    ],
+    "kinds": [
+      1,
+      0,
+      0
+    ],
+    "projectors": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "core": 0.8,
+    "mobility": 1.0
+  },
+  "metrics": {
+    "energy_initial": 297.73762449389943,
+    "energy_final": 296.91884929295435,
+    "max_energy_increase": 0.0,
+    "inventory_drift": 5.684341886080802e-14,
+    "maximum_equilibrium_rms": 1.7945749407140443e-16,
+    "junction_balance": 0.0,
+    "source_divergence": 6.204205772283039e-16,
+    "source_curl": 3.941344702193689e-16,
+    "node_displacement": 0.0020546925361557555,
+    "constraint_error": 0.0,
+    "residual_phase_abs_max": 0.0016361797011613618,
+    "steps": 15,
+    "trials": 15,
+    "graph_stress_peak": 0.025086665818570608,
+    "approach_apex_x_change": 0.003778158471175075,
+    "field_changes": {
+      "phase": 0.00763728536175798,
+      "population": 0.003954583234091723,
+      "slip": 0.0
+    },
+    "contact_phase_abs_max": 0.0015885636923858575
+  },
+  "approach_metrics": {
+    "energy_initial": 298.56799832340744,
+    "energy_final": 297.7738940882933,
+    "max_energy_increase": 0.0,
+    "inventory_drift": 1.1368683772161603e-13,
+    "maximum_equilibrium_rms": 1.7987167241033425e-16,
+    "junction_balance": 0.0,
+    "source_divergence": 6.1037392404350485e-16,
+    "source_curl": 3.649610183853791e-16,
+    "node_displacement": 0.003778158471175075,
+    "constraint_error": 0.0,
+    "residual_phase_abs_max": null,
+    "steps": 10,
+    "trials": 10
+  },
+  "event_configuration_energy_jump": -0.03626959439384336,
+  "event_heat_to_bath": 0.03626959439384336,
+  "checks": {
+    "charge": true,
+    "continuous_energy": true,
+    "inventory": true,
+    "equilibrium": true,
+    "planes": true,
+    "spatial_motion": true,
+    "live_interface": true,
+    "approach": true,
+    "local_plane_validity": true
+  },
+  "timings": {
+    "approach_solver_and_diagnostics_s": 0.1273629580391571,
+    "branch_solver_and_diagnostics_s": 0.16661654110066593,
+    "setup_event_and_diagnostics_s": 0.041204333771020174,
+    "experiment_s": 0.3351838329108432,
+    "compilation_s": 0.0,
+    "adaptation_s": 0.0,
+    "array_io_s": 0.014308957965113223,
+    "checkpoint_io_s": 0.004950833041220903
+  },
+  "limits": [
+    "Finite-embryo one-encounter closure, not calibrated collision or general reaction-network kinetics.",
+    "Thermal configuration-energy jumps are separate from dissipative continuous evolution.",
+    "A local reference interface plane constrains contact/residual nodes; diffuse phase evolves.",
+    "Bulk crystal slip disabled; outgoing/incident crystallographic directions belong to the graph."
+  ],
+  "peak_rss_before_io_bytes": 88457216,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "additional_diagnostic": "Contact phase proximity was evaluated from the saved final checkpoint after trajectory generation."
+}

@@ -1,0 +1,68 @@
+{
+  "n": 13,
+  "kind": "field",
+  "dt": 0.01,
+  "budget": 0.05,
+  "cap": 32,
+  "end_time": 1.0,
+  "steps": 100,
+  "backtracks": 0,
+  "initial_energy": 135.2978847313521,
+  "final_energy": 75.58582618211992,
+  "max_energy_increase": 0.0,
+  "inventory_max_absolute_error": 5.684341886080802e-14,
+  "tensor_energy_absolute_error": 0.0,
+  "direct_force_max_error": 0.0,
+  "equilibrium_rms": 6.882078431054644e-17,
+  "divergence_relative": 4.1751104853911185e-16,
+  "plastic_trace": 0.0,
+  "final_coordinates": [
+    2197,
+    2197,
+    2197
+  ],
+  "final_full_blocks": [
+    true,
+    true,
+    true
+  ],
+  "maximum_used_residuals": null,
+  "events": [],
+  "persistent_array_bytes": 632848,
+  "timings": {
+    "initialization_s": 0.004242500057443976,
+    "online_s": 0.06029850011691451,
+    "compilation_s": 0.0,
+    "other_evolution_s": 0.0003284576814621687,
+    "tensor_validation_s": 0.0034648750443011522,
+    "array_io_s": 0.007104957941919565
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  },
+  "parameters": {
+    "length": 12.0,
+    "initial_core": 0.8,
+    "profile_scale": 1.4142135623730951,
+    "core_coefficient": 0.3,
+    "field_mobility": 10.0,
+    "epsilon_xz": 0.06
+  },
+  "checks": {
+    "energy_descent": true,
+    "inventory": true,
+    "positive_population": true,
+    "full_tensor_energy": true,
+    "direct_coupled_forces": true,
+    "mechanical_equilibrium": true,
+    "burgers_closure": true,
+    "plastic_volume": true,
+    "all_block_budgets": true,
+    "activation_transfer_energy": true
+  },
+  "peak_rss_bytes": 81985536
+}

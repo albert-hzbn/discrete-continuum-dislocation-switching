@@ -1,0 +1,19 @@
+{
+ "date": "2026-09-26",
+ "pytest_passed": 328,
+ "pytest_record": "results/frank-read-2026-09-26/test-results.xml",
+ "declared_gates": {
+  "P1_consistency": true,
+  "P2_homogeneous": true,
+  "P3_local": false,
+  "P4_relaxation": true,
+  "P5_adaptive": false
+ },
+ "post_hoc_volume_weights": {
+  "P1_consistency": true,
+  "P2_homogeneous": true,
+  "P3_local": false,
+  "P4_relaxation": true,
+  "P5_adaptive": true
+ }
+}

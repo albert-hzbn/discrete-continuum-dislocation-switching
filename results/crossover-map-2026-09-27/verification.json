@@ -1,0 +1,27 @@
+{
+ "date": "2026-09-27",
+ "pytest_passed": 341,
+ "pytest_record": "results/crossover-map-2026-09-27/test-results.xml",
+ "declared_gates": {
+  "C1_equal_accuracy": true,
+  "C2_monotone_crossover": true,
+  "C3_speedup_tracks_cells": true
+ },
+ "speedups": {
+  "0.062": 4.071,
+  "0.118": 3.097,
+  "0.191": 2.524,
+  "0.282": 2.148,
+  "0.431": 1.695,
+  "0.610": 1.426,
+  "0.821": 1.2,
+  "1.000": 1.012
+ },
+ "max_relative_l2": 3.3219215008419905e-08,
+ "background_load": "user desktop applications, load average about 12 on 14 cores during timing",
+ "figures": [
+  "results/crossover-map-2026-09-27/figures/crossover-map.png"
+ ],
+ "figures_inspected": true,
+ "document": "CROSSOVER_RESULTS.md"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 144,
+  "invariant_checks_passed": 110,
+  "corrected_accuracy_gates_passed": 16,
+  "monitor_accuracy_gates_failed": [
+    {
+      "run": "monitor-13",
+      "gate": "population"
+    },
+    {
+      "run": "monitor-13",
+      "gate": "energy"
+    },
+    {
+      "run": "monitor-21",
+      "gate": "population"
+    },
+    {
+      "run": "monitor-21",
+      "gate": "energy"
+    },
+    {
+      "run": "monitor-29",
+      "gate": "population"
+    },
+    {
+      "run": "monitor-29",
+      "gate": "energy"
+    }
+  ],
+  "estimator_gates_passed": 9,
+  "source_hash_matches": {
+    "benchmarks/trajectory_control.py": true,
+    "src/bmvr/trajectory_control.py": true,
+    "src/bmvr/localized_transport.py": true,
+    "src/bmvr/coupled_transport.py": true,
+    "src/bmvr/continuum3d.py": true,
+    "unified_multiscale_defect_framework.md": true
+  },
+  "saved_array_and_coordinate_readback": {
+    "corrected-13": true,
+    "corrected-21": true,
+    "corrected-21-halfdt": true,
+    "corrected-29": true,
+    "field-13": true,
+    "field-21": true,
+    "field-21-halfdt": true,
+    "field-29": true,
+    "monitor-13": true,
+    "monitor-21": true,
+    "monitor-29": true
+  },
+  "visually_inspected_figures": [
+    "figures/trajectory-accuracy-cost.png",
+    "figures/trajectory-error-fields.png"
+  ],
+  "net_evolving_coordinate_reduction": false,
+  "certified_global_error_bound": false,
+  "goal_complete": false
+}

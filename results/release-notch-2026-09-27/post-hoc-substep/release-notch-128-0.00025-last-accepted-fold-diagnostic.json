@@ -1,0 +1,17 @@
+{
+ "checkpoint": "results/release-notch-2026-09-27/post-hoc-substep/release-notch-128-0.00025-last-accepted.npz",
+ "time": 0.31900000000000006,
+ "released": 106,
+ "retries": {
+  "6": "Element orientation not certified by Bernstein bound.",
+  "12": "accepted"
+ },
+ "last_accepted_dense_min_J": {
+  "value": 0.0032338507144158064,
+  "cell": 64,
+  "centre": [
+   0.002736268372843825,
+   0.5026041668166693
+  ]
+ }
+}

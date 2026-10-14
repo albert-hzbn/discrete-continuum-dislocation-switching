@@ -1,0 +1,16 @@
+{
+ "date": "2026-09-28",
+ "pytest_record": "results/test-results.xml",
+ "theory": "89",
+ "declared_gates": {},
+ "band": {
+  "600": 7614808.4941707915,
+  "700": 243706.72599998154,
+  "800": 26041.876770841012,
+  "900": 5413.1654384598605,
+  "1000": 1604.2307350044086
+ },
+ "document": "BARRIER_DATA_RESULTS.md",
+ "notes": "Sensitivity bound, no gate by declaration.",
+ "pytest_passed": 364
+}

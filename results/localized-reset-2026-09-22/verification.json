@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-22",
+  "pytest_passed": 135,
+  "invariant_checks_passed": 210,
+  "accuracy_gates_total": 48,
+  "accuracy_gates_failed": [
+    {
+      "policy": "promote",
+      "run": "localized-13",
+      "gate": "energy"
+    },
+    {
+      "policy": "promote",
+      "run": "localized-21",
+      "gate": "energy"
+    },
+    {
+      "policy": "promote",
+      "run": "localized-21-halfdt",
+      "gate": "energy"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-13",
+      "gate": "population"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-13",
+      "gate": "energy"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-21",
+      "gate": "population"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-21",
+      "gate": "energy"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-29",
+      "gate": "population"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-29",
+      "gate": "energy"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-21-tight",
+      "gate": "energy"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-21-halfdt",
+      "gate": "population"
+    },
+    {
+      "policy": "reset",
+      "run": "localized-21-halfdt",
+      "gate": "energy"
+    }
+  ],
+  "current_source_hashes_match": {
+    "benchmarks/localized_transport.py": true,
+    "src/bmvr/localized_transport.py": true,
+    "src/bmvr/coupled_transport.py": true,
+    "src/bmvr/continuum3d.py": true,
+    "src/bmvr/response_cache.py": true,
+    "unified_multiscale_defect_framework.md": true
+  },
+  "saved_array_readback": {
+    "promote/field-13": true,
+    "promote/field-21": true,
+    "promote/field-21-halfdt": true,
+    "promote/field-29": true,
+    "promote/localized-13": true,
+    "promote/localized-21": true,
+    "promote/localized-21-halfdt": true,
+    "promote/localized-21-tight": true,
+    "promote/localized-29": true,
+    "promote/zero-cap-21": true,
+    "reset/field-13": true,
+    "reset/field-21": true,
+    "reset/field-21-halfdt": true,
+    "reset/field-29": true,
+    "reset/localized-13": true,
+    "reset/localized-21": true,
+    "reset/localized-21-halfdt": true,
+    "reset/localized-21-tight": true,
+    "reset/localized-29": true,
+    "reset/zero-cap-21": true
+  },
+  "visually_inspected_figures": [
+    "figures/localized-accuracy-cost.png",
+    "figures/localized-fields-modes.png"
+  ],
+  "all_block_reduction_accuracy_qualified": false,
+  "goal_complete": false
+}

@@ -1,0 +1,61 @@
+{
+  "case": 7,
+  "name": "Screw interaction with a fixed diffuse interface",
+  "variant": "reference",
+  "metrics": {
+    "trajectories": [
+      {
+        "drive": 0.005,
+        "final_x": 0.02133435418067699,
+        "crossed_midplane": true,
+        "escaped_binding_region": false,
+        "max_energy_increase": 0.0
+      },
+      {
+        "drive": 0.08,
+        "final_x": 0.35565493935310194,
+        "crossed_midplane": true,
+        "escaped_binding_region": false,
+        "max_energy_increase": 0.0
+      }
+    ],
+    "interface_profile_scale": 1.4142135623730951,
+    "absorption": null,
+    "crystallographic_transmission": null,
+    "reflection": null,
+    "residual_burgers_vector": null,
+    "peak_rss_bytes": 81559552
+  },
+  "checks": {
+    "binding_dynamics": true,
+    "driven_potential_decay": true
+  },
+  "limitations": [
+    "Binding and glide across a prescribed diffuse profile are demonstrated.",
+    "Midplane crossing is not crystallographic transmission.",
+    "Absorption, reflection, slip-system selection, residual interfacial Burgers content and their barriers are uncalibrated and disabled."
+  ],
+  "timings": {
+    "initialization_s": 0.0,
+    "solver_s": 0.37380724999820814,
+    "adaptation_s": 0.0,
+    "diagnostics_s": 0.0,
+    "compilation_s": 0.0,
+    "experiment_total_s": 0.37402825002209283,
+    "unclassified_s": 0.00022100002388469875,
+    "array_io_s": 0.0025688339956104755
+  },
+  "status": "partial",
+  "timing_notes": "Unclassified time includes uninstrumented setup/diagnostics. Peak RSS includes interpreter, imports, solver temporaries and diagnostic audit grids, measured before file I/O.",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "architecture": "arm64",
+    "threads": 1,
+    "seed_policy": "fixed per case"
+  },
+  "data_file": "fields.npz",
+  "all_implemented_checks_pass": true
+}

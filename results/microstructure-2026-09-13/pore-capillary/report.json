@@ -1,0 +1,261 @@
+{
+  "rows": [
+    {
+      "n": 128,
+      "h": 0.5,
+      "radius": 6.0,
+      "surface_energy_per_length": 0.2349211939080938,
+      "capillary_potential": 0.03917017376932949,
+      "capillary_expected": 0.03928371006591931,
+      "capillary_relative_error": 0.0028901622682608874,
+      "initial_neutral_potential": 0.04677476042476145,
+      "neutral_expected": 0.047140452079103175,
+      "neutral_relative_error": 0.007757491458250887,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0781478642330913,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.0077574847943154834
+        },
+        {
+          "chemical_potential": 0.09428090415820635,
+          "measured": 2.1106423686853613,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.007757498226385717
+        }
+      ]
+    },
+    {
+      "n": 128,
+      "h": 0.5,
+      "radius": 10.0,
+      "surface_energy_per_length": 0.23495453348332088,
+      "capillary_potential": 0.023499153832421776,
+      "capillary_expected": 0.023570226039551587,
+      "capillary_relative_error": 0.003015338376923138,
+      "initial_neutral_potential": 0.028059443827603284,
+      "neutral_expected": 0.0282842712474619,
+      "neutral_relative_error": 0.007948849658935164,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.077747069048961,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.007948850398480811
+        },
+        {
+          "chemical_potential": 0.0565685424949238,
+          "measured": 2.1110431326148063,
+          "expected": 2.0943951023931944,
+          "relative_error": 0.00794884890753833
+        }
+      ]
+    },
+    {
+      "n": 128,
+      "h": 0.5,
+      "radius": 14.0,
+      "surface_energy_per_length": 0.2349635697667492,
+      "capillary_potential": 0.016784451747796147,
+      "capillary_expected": 0.016835875742536848,
+      "capillary_relative_error": 0.003054429453335561,
+      "initial_neutral_potential": 0.020041425293862894,
+      "neutral_expected": 0.020203050891044218,
+      "neutral_relative_error": 0.008000058904616747,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0776398169310872,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.00800005951263083
+        },
+        {
+          "chemical_potential": 0.040406101782088436,
+          "measured": 2.1111503852879214,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.008000058286796286
+        }
+      ]
+    },
+    {
+      "n": 192,
+      "h": 0.3333333333333333,
+      "radius": 6.0,
+      "surface_energy_per_length": 0.23535324395460294,
+      "capillary_potential": 0.0392324361910987,
+      "capillary_expected": 0.03928371006591931,
+      "capillary_relative_error": 0.0013052197650010866,
+      "initial_neutral_potential": 0.046976450739721086,
+      "neutral_expected": 0.047140452079103175,
+      "neutral_relative_error": 0.0034789937760225653,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0871087307271052,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.0034789862035888852
+        },
+        {
+          "chemical_potential": 0.09428090415820635,
+          "measured": 2.101681505889357,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.0034790014013286186
+        }
+      ]
+    },
+    {
+      "n": 192,
+      "h": 0.3333333333333333,
+      "radius": 10.0,
+      "surface_energy_per_length": 0.235368124285155,
+      "capillary_potential": 0.023538464024632767,
+      "capillary_expected": 0.023570226039551587,
+      "capillary_relative_error": 0.001347548167994761,
+      "initial_neutral_potential": 0.02818344647140236,
+      "neutral_expected": 0.0282842712474619,
+      "neutral_relative_error": 0.0035646941431658474,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.086929224438332,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.0035646941431118906
+        },
+        {
+          "chemical_potential": 0.0565685424949238,
+          "measured": 2.1018609803482855,
+          "expected": 2.0943951023931944,
+          "relative_error": 0.0035646941432208035
+        }
+      ]
+    },
+    {
+      "n": 192,
+      "h": 0.3333333333333333,
+      "radius": 14.0,
+      "surface_energy_per_length": 0.23537215841793233,
+      "capillary_potential": 0.016812895356136122,
+      "capillary_expected": 0.016835875742536848,
+      "capillary_relative_error": 0.001364965312892208,
+      "initial_neutral_potential": 0.0201305698932759,
+      "neutral_expected": 0.020203050891044218,
+      "neutral_relative_error": 0.0035876263520401297,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0868811953322632,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.00358762635204124
+        },
+        {
+          "chemical_potential": 0.040406101782088436,
+          "measured": 2.1019090094541224,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.0035876263520389085
+        }
+      ]
+    },
+    {
+      "n": 256,
+      "h": 0.25,
+      "radius": 6.0,
+      "surface_energy_per_length": 0.23550556690021962,
+      "capillary_potential": 0.039254392652010875,
+      "capillary_expected": 0.03928371006591931,
+      "capillary_relative_error": 0.0007462995185343324,
+      "initial_neutral_potential": 0.047047907072796366,
+      "neutral_expected": 0.047140452079103175,
+      "neutral_relative_error": 0.0019631760457349268,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0902834519046953,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.0019631684985329523
+        },
+        {
+          "chemical_potential": 0.09428090415820635,
+          "measured": 2.0985067845575256,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.0019631836226279287
+        }
+      ]
+    },
+    {
+      "n": 256,
+      "h": 0.25,
+      "radius": 10.0,
+      "surface_energy_per_length": 0.2355139489669623,
+      "capillary_potential": 0.02355232484664722,
+      "capillary_expected": 0.023570226039551587,
+      "capillary_relative_error": 0.000759483293640395,
+      "initial_neutral_potential": 0.028227376975221197,
+      "neutral_expected": 0.0282842712474619,
+      "neutral_relative_error": 0.0020115162856038094,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.0901821925363584,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.0020115162855485202
+        },
+        {
+          "chemical_potential": 0.0565685424949238,
+          "measured": 2.098608012250265,
+          "expected": 2.0943951023931944,
+          "relative_error": 0.0020115162856599866
+        }
+      ]
+    },
+    {
+      "n": 256,
+      "h": 0.25,
+      "radius": 14.0,
+      "surface_energy_per_length": 0.23551622174228684,
+      "capillary_potential": 0.016822924359549598,
+      "capillary_expected": 0.016835875742536848,
+      "capillary_relative_error": 0.0007692729018263789,
+      "initial_neutral_potential": 0.02016215072537908,
+      "neutral_expected": 0.020203050891044218,
+      "neutral_relative_error": 0.0020244549145430613,
+      "initial_area_rates": [
+        {
+          "chemical_potential": 0.0,
+          "measured": -2.090155093935161,
+          "expected": -2.0943951023931953,
+          "relative_error": 0.002024454914542728
+        },
+        {
+          "chemical_potential": 0.040406101782088436,
+          "measured": 2.0986351108512307,
+          "expected": 2.0943951023931953,
+          "relative_error": 0.0020244549145433943
+        }
+      ]
+    }
+  ],
+  "surface_energy_exact": 0.23570226039551587,
+  "mobility": "10*p^2*(1-p)^2",
+  "checks": {
+    "capillary_2_percent": true,
+    "initial_neutral_2_percent": true,
+    "initial_rate_3_percent": true
+  },
+  "timings": {
+    "study_s": 0.015877416939474642,
+    "array_io_s": 0.0007363329641520977
+  },
+  "limits": [
+    "Initial neutral rate is not equilibrium Gibbs-Thomson; its leading value is 6/5 times the energetic potential."
+  ],
+  "all_checks_pass": true,
+  "peak_rss_before_io_bytes": 91422720,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.3",
+    "scipy": "1.18.0",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "threads": 1
+  }
+}

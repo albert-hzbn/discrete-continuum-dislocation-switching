@@ -1,0 +1,24 @@
+{
+  "automated_tests": 76,
+  "benchmark_reports": 10,
+  "numerical_checks": 86,
+  "checkpoint_readback": {
+    "energy-high": true,
+    "sampled": true,
+    "mobility-low": true,
+    "mobility-high": true,
+    "reflected": true,
+    "absorbed": true,
+    "transmitted": true,
+    "incident": true,
+    "energy-low": true
+  },
+  "figure_pairs_visually_inspected": 3,
+  "source_sha256": {
+    "src/bmvr/graphs3d.py": "0563885056ffcd69348f74ecb634b492e5f1b1ad54cdfe4b0b508e77a4875610",
+    "tests/test_graphs3d.py": "e0d132b518f3f4a89e3825f11739cdd981ebf017c2540e2fa2213a927402a3c9",
+    "benchmarks/interface_graphs.py": "a2235ca59dad958ca437d6f184f75952b86add309eb9e4162a6e69f688981c5c",
+    "benchmarks/interface_graphs_report.py": "49c46aa7105f554b37c56adebdb2b39ae937b66eb32bcfe0baddf573b2495a47",
+    "unified_multiscale_defect_framework.md": "c8ec10a42b6f602598a22a0a4f16579cfb55eeddafaccb6c82e4f0cc644547c0"
+  }
+}

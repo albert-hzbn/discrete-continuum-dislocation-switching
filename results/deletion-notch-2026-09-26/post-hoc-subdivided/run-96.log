@@ -1,0 +1,13 @@
+96 t=0.3000 deleted=78 iters=13
+96 t=0.3100 deleted=78 iters=13
+96 t=0.3200 deleted=80 iters=13
+96 t=0.3300 deleted=82 iters=13
+96 t=0.3400 deleted=82 iters=13
+96 t=0.3500 deleted=84 iters=13
+96 t=0.3600 deleted=84 iters=13
+96 t=0.3700 deleted=86 iters=13
+96 t=0.3800 deleted=86 iters=13
+96 t=0.3900 deleted=86 iters=13
+96 t=0.4000 deleted=88 iters=13
+96 done None {'energy_drift': True, 'positive_T': True, 'composition_inventory': True, 'damage_bounds': True, 'damage_irreversibility': True, 'entropy_production': True, 'midpoint_converged': True, 'deletion_ledger': True}
+EXIT 0

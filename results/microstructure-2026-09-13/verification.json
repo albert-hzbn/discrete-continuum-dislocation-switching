@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-13",
+  "automated_tests": {
+    "passed": 80,
+    "failures": 0,
+    "errors": 0,
+    "junit": "test-results.xml"
+  },
+  "selected_final_studies": {
+    "folders": [
+      "junction-64",
+      "junction-96-refined",
+      "junction-128-refined",
+      "grains-long-11",
+      "grains-long-29",
+      "grains-long-47",
+      "precipitate-33",
+      "precipitate-65",
+      "precipitate-97",
+      "precipitate-129",
+      "precipitate-ellipse",
+      "timing-fft-1",
+      "timing-condensed-1",
+      "timing-fft-2",
+      "timing-condensed-2",
+      "timing-fft-3",
+      "timing-condensed-3",
+      "pore-capillary",
+      "pore-time-0.02",
+      "pore-time-0.01",
+      "pore-time-0.005",
+      "pore-time-0.0025"
+    ],
+    "missing": [],
+    "checks_passed": 101,
+    "checks_total": 101,
+    "all_checks_pass": true
+  },
+  "raw_checks": {
+    "passed": 120,
+    "total": 124,
+    "failures": [
+      {
+        "folder": "junction-128",
+        "failed": [
+          "stationary"
+        ]
+      },
+      {
+        "folder": "junction-96",
+        "failed": [
+          "stationary"
+        ]
+      },
+      {
+        "folder": "grains-29",
+        "failed": [
+          "grain_elimination",
+          "finite_time_growth"
+        ]
+      }
+    ]
+  },
+  "cross_study_checks": {
+    "junction_angle_error_decreases": true,
+    "precipitate_contour_error_decreases": true,
+    "pore_time_errors_decrease": true,
+    "timing_initial_states_identical": true
+  },
+  "figures_visually_inspected": [
+    "triple-junctions.png",
+    "grain-statistics.png",
+    "precipitate-convergence.png",
+    "pore-kinetics.png"
+  ],
+  "source_sha256": {
+    "src/bmvr/microstructure.py": "2fbb4e3eeda122fa8d54778f1236a9c712ea9d0ad148e121f19201076b113622",
+    "benchmarks/microstructure.py": "688199530b2a61ff619b52392dd2703a1de7a952238218318f0bd8d5028ae10a",
+    "benchmarks/microstructure_report.py": "c6fefc5b5bb0cd2f5e13228a2bb045294bba4328c677959eaec81400763696ac",
+    "tests/test_microstructure.py": "40ab85b09bed9282f49f6abf34333c828bbba943cb40d911a156b0c51a226021",
+    "unified_multiscale_defect_framework.md": "6a47b5a079dd47a2ca0a9f20979fce83d41a632f69bbb01bc0a95a7cc8c0a1a7",
+    "THEORY_REVIEW.md": "4544e3dbecd8724ab0c09b2b6661f1e6161cf7edf87cdf22ef58c65c9d881724",
+    "MICROSTRUCTURE_RESULTS.md": "dd8cfe542e7c956d680750c01a9d399d89f91c4d5942ab61c5c6a82ca04c92dc"
+  },
+  "local_document_links_checked": true,
+  "full_original_objective_complete": false,
+  "scope": "Restricted quantitative microstructure validation; initial failures retained; exact elastic reduction is not a novelty claim."
+}

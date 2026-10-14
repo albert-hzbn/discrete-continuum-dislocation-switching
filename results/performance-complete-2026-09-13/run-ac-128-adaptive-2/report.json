@@ -1,0 +1,54 @@
+{
+  "case": 1,
+  "name": "Allen-Cahn circular inclusion",
+  "variant": "adaptive",
+  "metrics": {
+    "steps": 150,
+    "dt": 0.08,
+    "end_time": 12.0,
+    "h": 1.0,
+    "length": 128.0,
+    "physical_profile_scale": 1.4142135623730951,
+    "initial_radius": 14.05862572647177,
+    "final_radius": 13.22120204080276,
+    "radius_squared_slope": -1.901015499192465,
+    "curvature_slope_relative_error": 0.04949225040376748,
+    "profile_ansatz_rms": 0.03565416294589326,
+    "max_recorded_energy_increase": 0.0,
+    "initial_dofs": 4900,
+    "final_dofs": 4900,
+    "mean_dofs": 4900.0,
+    "uniform_dofs": 16384,
+    "stored_array_bytes": 160176,
+    "accepted_transfers": 0
+  },
+  "checks": {
+    "energy_decay": true,
+    "curvature_slope": true,
+    "finite_values": true
+  },
+  "limitations": [
+    "The profile ansatz and curvature law have finite-width errors.",
+    "This adaptation is tensor-grid AMR, not the complete BMVR allocation policy."
+  ],
+  "timings": {
+    "initialization_s": 0.0002827920252457261,
+    "solver_s": 0.010145594598725438,
+    "adaptation_s": 0.000642166007310152,
+    "diagnostics_s": 0.00029437593184411526,
+    "compilation_s": 0.0
+  },
+  "status": "partial",
+  "transfers": [
+    {
+      "changed": false,
+      "reason": "audit_rejected",
+      "relative_l2": 1.1260508914012098e-06,
+      "energy_jump": -7.359093956438301e-08,
+      "common_grid_energy_jump": 4.094236771834403e-08,
+      "mass_error": 1.8189894035458565e-12,
+      "old_cells": 4900,
+      "proposed_cells": 4096
+    }
+  ]
+}

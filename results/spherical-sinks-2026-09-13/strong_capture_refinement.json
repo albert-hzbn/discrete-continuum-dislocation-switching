@@ -1,0 +1,48 @@
+{
+  "purpose": "Diagnose retained nonmonotone coarse-grid capture error; original gate and default midpoint scheme unchanged.",
+  "ablation": "Replace only midpoint reaction weights by integrated shell weights; diffusion stencil and unknown locations unchanged.",
+  "rows": [
+    {
+      "n": 32,
+      "signed_capture_relative_error": 0.00010487994154648544,
+      "layer_integral_relative_error": 0.0016035067587915578,
+      "profile_relative_l2": 0.0004963151383768683,
+      "cell_integrated_reaction_capture_relative_error": 0.006063115480958415
+    },
+    {
+      "n": 64,
+      "signed_capture_relative_error": -0.000737697858538005,
+      "layer_integral_relative_error": 0.0003407938585869439,
+      "profile_relative_l2": 0.00025975685109471205,
+      "cell_integrated_reaction_capture_relative_error": 0.0012605641551883726
+    },
+    {
+      "n": 128,
+      "signed_capture_relative_error": -0.00022037089237385974,
+      "layer_integral_relative_error": 8.18175010554654e-05,
+      "profile_relative_l2": 7.221797706754278e-05,
+      "cell_integrated_reaction_capture_relative_error": 0.00030426522683914405
+    },
+    {
+      "n": 256,
+      "signed_capture_relative_error": -5.7264348717473076e-05,
+      "layer_integral_relative_error": 2.024840774271791e-05,
+      "profile_relative_l2": 1.8501013581945892e-05,
+      "cell_integrated_reaction_capture_relative_error": 7.540797473574799e-05
+    },
+    {
+      "n": 512,
+      "signed_capture_relative_error": -1.4450845377311535e-05,
+      "layer_integral_relative_error": 5.049310632309152e-06,
+      "profile_relative_l2": 4.653058324910587e-06,
+      "cell_integrated_reaction_capture_relative_error": 1.8811068024568532e-05
+    },
+    {
+      "n": 1024,
+      "signed_capture_relative_error": -3.6211190185067045e-06,
+      "layer_integral_relative_error": 1.2615294706261552e-06,
+      "profile_relative_l2": 1.1650010019050261e-06,
+      "cell_integrated_reaction_capture_relative_error": 4.7002128156219415e-06
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "automated_tests": 60,
+  "numerical_checks": 34,
+  "feedback_time_checks": 4,
+  "checkpoint_readbacks": {
+    "coupled-moving": true,
+    "coupled-pinned": true,
+    "time-moving": true,
+    "time-pinned": true
+  },
+  "figure_pairs_visually_inspected": 2,
+  "source_sha256": {
+    "src/bmvr/loops3d.py": "cddea42f3f7d909c3a45434e31647ad2d8d40164e1d367936bd6ea200ab56ac8",
+    "src/bmvr/continuum3d.py": "ebd85323316d3c91159799869c7fb1227fb814039cd7712b67173a9eb178a1c1",
+    "tests/test_loops3d.py": "370539e10fa4bf9f322fda9535bcbaf1d43e5ea86397e735af9dc54f156e0b6e",
+    "benchmarks/curved_loops.py": "25763f3ce53d12c110d97bafeb8edd3dbe688f4fbe5c703a6b0d302589221b6b",
+    "benchmarks/curved_loops_report.py": "a0167f844c99ab86072205ae9ac12a7b245c3d927ed8358ecf0610563031a719",
+    "unified_multiscale_defect_framework.md": "3b91493779ac1461ee756e038e377e8a8930df8dadd8843d10aac8ab9f8b7785"
+  }
+}
